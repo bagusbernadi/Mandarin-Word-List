@@ -1,5 +1,7 @@
 # Mandarin Word List
 
+🔗 **Website kamus:** https://bagusbernadi.github.io/Mandarin-Word-List/
+
 Kamus Mandarin pribadi (Indonesia – pinyin – hanzi) untuk bekerja di pabrik PLC Splitter. Website dibuat otomatis dari file Excel dan ditayangkan lewat GitHub Pages.
 
 ## Struktur
