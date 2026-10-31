@@ -9,6 +9,8 @@ Output: docs/index.html (kamus + latihan), docs/data.json (data kamus),
         docs/deck.html + docs/deck-slides.html (Deck Belajar), docs/deck.json (soal latihan)
 
 Kolom dicari berdasarkan nama header, bukan posisi.
+Kolom "Sinonim" (opsional) di sheet Survival 200: baris dengan kode sama (mis. S07) dianggap
+sama artinya, jadi tidak akan muncul bersama sebagai pilihan jawaban di Latihan.
 """
 import collections
 import html as H
@@ -100,7 +102,9 @@ def load_groups(ws):
         if not g("hz") or not g("id"):
             continue
         key = (g("sit"), g("id"))
-        grp = groups.setdefault(key, {"sit": g("sit"), "id": g("id"), "rows": [], "kets": [], "words": g("words")})
+        grp = groups.setdefault(key, {"sit": g("sit"), "id": g("id"), "rows": [], "kets": [], "words": g("words"), "syn": set()})
+        if "Sinonim" in headers:
+            grp["syn"] |= {c.strip() for c in re.split("[;,]", clean(row[headers["Sinonim"]])) if c.strip()}
         grp["rows"].append((g("hz"), g("py")))
         if g("note") and not SKIP_NOTE.search(g("note")):
             grp["kets"].append(g("note"))
@@ -273,7 +277,7 @@ def build_pool(groups):
                 val = v if grp != ANGKA_TAGS[4] else num_value(hz[:-1])
         out.append({"label": "", "id": g["id"], "py": g["rows"][0][1], "hz": hz,
                     "words": g["words"], "note": g["kets"][0] if g["kets"] else "", "warn": False, "ex": [],
-                    "sit": g["sit"], "grp": grp, "val": val})
+                    "sit": g["sit"], "grp": grp, "val": val, "syn": sorted(g["syn"])})
     return out
 
 

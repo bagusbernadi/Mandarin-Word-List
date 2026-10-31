@@ -61,6 +61,8 @@ Cek status build di tab **Actions** di GitHub.
 
 Header yang dibaca: `Situasi`, `Indonesia`, `Pinyin`, `Hanzi`, `Arti per kata`, `Keterangan`. Baris dengan Situasi dan Indonesia yang sama digabung jadi satu baris slide. Baris pertama jadi teks utama, baris berikutnya muncul sebagai label **ALT** (cara lain mengatakan hal yang sama). Kolom `Status` hanya untuk Excel.
 
+Kolom `Sinonim` (opsional) menandai kalimat yang artinya sama: beri kode yang sama (misalnya `S07`) pada barisnya. Kalimat dengan kode sama tidak akan muncul bersama sebagai pilihan jawaban di Latihan. Satu baris boleh punya lebih dari satu kode, dipisah `;` (misalnya `S07;S11`).
+
 Deck dibuat otomatis: 13 situasi dikelompokkan ke 4 tahap, lalu dibagi menjadi 30 hari. Hari Angka & waktu dibagi per sub-topik. Hari dengan lebih dari 12 frasa dibagi jadi 2 slide. Situasi baru (nama belum dikenal) otomatis masuk Tahap 4.
 
 ### Sheet `Kamus`

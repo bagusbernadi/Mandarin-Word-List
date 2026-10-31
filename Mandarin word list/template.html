@@ -273,8 +273,9 @@ function sim(q,d){
 }
 function pickOpts(q){
   var cq=chars(q.hz),tq=toks(q.id);
+  var syn=function(a,b){return (a.syn||[]).some(function(c){return (b.syn||[]).indexOf(c)>-1})};
   /* buang kandidat yang hampir sama artinya dengan soal (bisa ikut benar) */
-  var base=poolOf().filter(function(d){return d!==q&&d.hz!==q.hz&&d.py!==q.py&&!same(d.id,q.id)&&!(q.hz.length>3&&jac(cq,chars(d.hz))>=.7)&&!(Object.keys(tq).length>1&&jac(tq,toks(d.id))>=.7)});
+  var base=poolOf().filter(function(d){return d!==q&&!syn(q,d)&&d.hz!==q.hz&&d.py!==q.py&&!same(d.id,q.id)&&!(q.hz.length>3&&jac(cq,chars(d.hz))>=.7)&&!(Object.keys(tq).length>1&&jac(tq,toks(d.id))>=.7)});
   var ranked;
   if(q.val!=null){
     var nums=base.filter(function(d){return d.val!=null&&d.grp===q.grp});
@@ -289,11 +290,11 @@ function pickOpts(q){
   var opts=[q],seen=[q];
   function dup(s,c){return mode==="a"?same(s.hz,c.hz):same(s.id,c.id)}
   for(var i=0;i<ranked.length&&opts.length<4;i++){
-    if(seen.some(function(s){return dup(s,ranked[i])}))continue;
+    if(seen.some(function(s){return dup(s,ranked[i])||syn(s,ranked[i])}))continue;
     opts.push(ranked[i]);seen.push(ranked[i]);
   }
   if(opts.length<4){ /* cadangan: acak dari pool */
-    shuf(poolOf()).forEach(function(d){if(opts.length<4&&d!==q&&!seen.some(function(s){return dup(s,d)})){opts.push(d);seen.push(d)}});
+    shuf(poolOf()).forEach(function(d){if(opts.length<4&&d!==q&&!seen.some(function(s){return dup(s,d)||syn(s,d)})){opts.push(d);seen.push(d)}});
   }
   return shuf(opts);
 }

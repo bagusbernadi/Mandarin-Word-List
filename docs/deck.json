@@ -10,7 +10,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S08"
+  ]
  },
  {
   "label": "",
@@ -23,7 +26,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S07"
+  ]
  },
  {
   "label": "",
@@ -36,7 +42,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S02"
+  ]
  },
  {
   "label": "",
@@ -49,7 +58,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -62,7 +72,10 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S01"
+  ]
  },
  {
   "label": "",
@@ -75,7 +88,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S08"
+  ]
  },
  {
   "label": "",
@@ -88,7 +104,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 20
+  "val": 20,
+  "syn": []
  },
  {
   "label": "",
@@ -101,7 +118,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 100
+  "val": 100,
+  "syn": []
  },
  {
   "label": "",
@@ -114,7 +132,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -127,7 +146,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -140,7 +160,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -153,7 +174,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -166,7 +188,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -179,7 +202,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -192,7 +216,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -205,7 +230,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 8
+  "val": 8,
+  "syn": []
  },
  {
   "label": "",
@@ -218,7 +244,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 4
+  "val": 4,
+  "syn": []
  },
  {
   "label": "",
@@ -231,7 +258,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -244,7 +272,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -257,7 +286,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 8
+  "val": 8,
+  "syn": []
  },
  {
   "label": "",
@@ -270,7 +300,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 12
+  "val": 12,
+  "syn": []
  },
  {
   "label": "",
@@ -283,7 +314,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 2
+  "val": 2,
+  "syn": []
  },
  {
   "label": "",
@@ -296,7 +328,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 12
+  "val": 12,
+  "syn": []
  },
  {
   "label": "",
@@ -309,7 +342,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 4
+  "val": 4,
+  "syn": []
  },
  {
   "label": "",
@@ -322,7 +356,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 14
+  "val": 14,
+  "syn": []
  },
  {
   "label": "",
@@ -335,7 +370,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 6
+  "val": 6,
+  "syn": []
  },
  {
   "label": "",
@@ -348,7 +384,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 2
+  "val": 2,
+  "syn": []
  },
  {
   "label": "",
@@ -361,7 +398,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -374,7 +412,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 1
+  "val": 1,
+  "syn": []
  },
  {
   "label": "",
@@ -387,7 +426,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 7
+  "val": 7,
+  "syn": []
  },
  {
   "label": "",
@@ -400,7 +440,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -413,7 +454,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 6
+  "val": 6,
+  "syn": []
  },
  {
   "label": "",
@@ -426,7 +468,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -439,7 +482,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -452,7 +496,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 5
+  "val": 5,
+  "syn": []
  },
  {
   "label": "",
@@ -465,7 +510,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 15
+  "val": 15,
+  "syn": []
  },
  {
   "label": "",
@@ -478,7 +524,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -491,7 +538,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 3
+  "val": 3,
+  "syn": []
  },
  {
   "label": "",
@@ -504,7 +552,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 5
+  "val": 5,
+  "syn": []
  },
  {
   "label": "",
@@ -517,7 +566,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -530,7 +580,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -543,7 +594,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 11
+  "val": 11,
+  "syn": []
  },
  {
   "label": "",
@@ -556,7 +608,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 10
+  "val": 10,
+  "syn": []
  },
  {
   "label": "",
@@ -569,7 +622,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -582,7 +636,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -595,7 +650,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 1
+  "val": 1,
+  "syn": []
  },
  {
   "label": "",
@@ -608,7 +664,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 11
+  "val": 11,
+  "syn": []
  },
  {
   "label": "",
@@ -621,7 +678,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -634,7 +692,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -647,7 +706,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -660,7 +720,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 9
+  "val": 9,
+  "syn": []
  },
  {
   "label": "",
@@ -673,7 +734,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -686,7 +748,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Nama bulan",
-  "val": 9
+  "val": 9,
+  "syn": []
  },
  {
   "label": "",
@@ -699,7 +762,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 10
+  "val": 10,
+  "syn": []
  },
  {
   "label": "",
@@ -712,7 +776,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Jam, tanggal, dan kata tanya",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -725,7 +790,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -738,7 +804,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -751,7 +818,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -764,7 +832,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Hari, minggu, dan tahun",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -777,7 +846,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 3
+  "val": 3,
+  "syn": []
  },
  {
   "label": "",
@@ -790,7 +860,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 13
+  "val": 13,
+  "syn": []
  },
  {
   "label": "",
@@ -803,7 +874,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 7
+  "val": 7,
+  "syn": []
  },
  {
   "label": "",
@@ -816,7 +888,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 16
+  "val": 16,
+  "syn": []
  },
  {
   "label": "",
@@ -829,7 +902,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 17
+  "val": 17,
+  "syn": []
  },
  {
   "label": "",
@@ -842,7 +916,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 18
+  "val": 18,
+  "syn": []
  },
  {
   "label": "",
@@ -855,7 +930,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 19
+  "val": 19,
+  "syn": []
  },
  {
   "label": "",
@@ -868,7 +944,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 30
+  "val": 30,
+  "syn": []
  },
  {
   "label": "",
@@ -881,7 +958,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 40
+  "val": 40,
+  "syn": []
  },
  {
   "label": "",
@@ -894,7 +972,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 50
+  "val": 50,
+  "syn": []
  },
  {
   "label": "",
@@ -907,7 +986,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 60
+  "val": 60,
+  "syn": []
  },
  {
   "label": "",
@@ -920,7 +1000,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 70
+  "val": 70,
+  "syn": []
  },
  {
   "label": "",
@@ -933,7 +1014,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 80
+  "val": 80,
+  "syn": []
  },
  {
   "label": "",
@@ -946,7 +1028,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 90
+  "val": 90,
+  "syn": []
  },
  {
   "label": "",
@@ -959,7 +1042,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 200
+  "val": 200,
+  "syn": []
  },
  {
   "label": "",
@@ -972,7 +1056,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 300
+  "val": 300,
+  "syn": []
  },
  {
   "label": "",
@@ -985,7 +1070,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 400
+  "val": 400,
+  "syn": []
  },
  {
   "label": "",
@@ -998,7 +1084,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 500
+  "val": 500,
+  "syn": []
  },
  {
   "label": "",
@@ -1011,7 +1098,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 600
+  "val": 600,
+  "syn": []
  },
  {
   "label": "",
@@ -1024,7 +1112,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 700
+  "val": 700,
+  "syn": []
  },
  {
   "label": "",
@@ -1037,7 +1126,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 800
+  "val": 800,
+  "syn": []
  },
  {
   "label": "",
@@ -1050,7 +1140,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Puluhan dan ratusan",
-  "val": 900
+  "val": 900,
+  "syn": []
  },
  {
   "label": "",
@@ -1063,7 +1154,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 1000
+  "val": 1000,
+  "syn": []
  },
  {
   "label": "",
@@ -1076,7 +1168,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 2000
+  "val": 2000,
+  "syn": []
  },
  {
   "label": "",
@@ -1089,7 +1182,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 5000
+  "val": 5000,
+  "syn": []
  },
  {
   "label": "",
@@ -1102,7 +1196,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 10000
+  "val": 10000,
+  "syn": []
  },
  {
   "label": "",
@@ -1115,7 +1210,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 20000
+  "val": 20000,
+  "syn": []
  },
  {
   "label": "",
@@ -1128,7 +1224,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 50000
+  "val": 50000,
+  "syn": []
  },
  {
   "label": "",
@@ -1141,7 +1238,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 100000
+  "val": 100000,
+  "syn": []
  },
  {
   "label": "",
@@ -1154,7 +1252,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 200000
+  "val": 200000,
+  "syn": []
  },
  {
   "label": "",
@@ -1167,7 +1266,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 500000
+  "val": 500000,
+  "syn": []
  },
  {
   "label": "",
@@ -1180,7 +1280,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Ribuan dan puluhan ribu",
-  "val": 900000
+  "val": 900000,
+  "syn": []
  },
  {
   "label": "",
@@ -1193,7 +1294,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1206,7 +1308,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1219,7 +1322,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1232,7 +1336,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1245,7 +1350,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1258,7 +1364,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1271,7 +1378,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1284,7 +1392,10 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S03"
+  ]
  },
  {
   "label": "",
@@ -1297,7 +1408,10 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S04"
+  ]
  },
  {
   "label": "",
@@ -1310,7 +1424,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1323,7 +1438,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1336,7 +1452,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1349,7 +1466,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1362,7 +1480,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1375,7 +1494,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1388,7 +1508,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1401,7 +1522,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1414,7 +1536,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1427,7 +1550,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1440,7 +1564,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1453,7 +1578,10 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S01"
+  ]
  },
  {
   "label": "",
@@ -1466,7 +1594,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1479,7 +1608,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1492,7 +1622,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1505,7 +1636,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1518,7 +1650,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1531,7 +1664,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1544,7 +1678,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1557,7 +1692,10 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S01"
+  ]
  },
  {
   "label": "",
@@ -1570,7 +1708,10 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S27"
+  ]
  },
  {
   "label": "",
@@ -1583,7 +1724,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1596,7 +1738,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1609,7 +1752,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1622,7 +1766,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1635,7 +1780,10 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S27"
+  ]
  },
  {
   "label": "",
@@ -1648,7 +1796,8 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1661,7 +1810,8 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1674,7 +1824,8 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1687,7 +1838,8 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1700,7 +1852,10 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S26"
+  ]
  },
  {
   "label": "",
@@ -1713,7 +1868,10 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S26"
+  ]
  },
  {
   "label": "",
@@ -1726,7 +1884,8 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1739,7 +1898,8 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1752,7 +1912,8 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1765,7 +1926,8 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1778,7 +1940,8 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1791,7 +1954,8 @@
   "ex": [],
   "sit": "Hotel",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1804,7 +1968,8 @@
   "ex": [],
   "sit": "Hotel",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1817,7 +1982,8 @@
   "ex": [],
   "sit": "Hotel",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1830,7 +1996,8 @@
   "ex": [],
   "sit": "Hotel",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1843,7 +2010,8 @@
   "ex": [],
   "sit": "Hotel",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1856,7 +2024,8 @@
   "ex": [],
   "sit": "Hotel",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1869,7 +2038,8 @@
   "ex": [],
   "sit": "Hotel",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1882,7 +2052,8 @@
   "ex": [],
   "sit": "Hotel",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1895,7 +2066,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1908,7 +2080,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1921,7 +2094,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1934,7 +2108,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1947,7 +2122,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1960,7 +2136,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1973,7 +2150,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1986,7 +2164,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -1999,7 +2178,10 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S05"
+  ]
  },
  {
   "label": "",
@@ -2012,7 +2194,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2025,7 +2208,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2038,7 +2222,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2051,7 +2236,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2064,7 +2250,10 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S06"
+  ]
  },
  {
   "label": "",
@@ -2077,7 +2266,10 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S06"
+  ]
  },
  {
   "label": "",
@@ -2090,7 +2282,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2103,7 +2296,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2116,7 +2310,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2129,7 +2324,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2142,7 +2338,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2155,7 +2352,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2168,7 +2366,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2181,7 +2380,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2194,7 +2394,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2207,7 +2408,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2220,7 +2422,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2233,7 +2436,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2246,7 +2450,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2259,7 +2464,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2272,7 +2478,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2285,7 +2492,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2298,7 +2506,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2311,7 +2520,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2324,7 +2534,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2337,7 +2548,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2350,7 +2562,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2363,7 +2576,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2376,7 +2590,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2389,7 +2604,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2402,7 +2618,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2415,7 +2632,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2428,7 +2646,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2441,7 +2660,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S07"
+  ]
  },
  {
   "label": "",
@@ -2454,7 +2676,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S08"
+  ]
  },
  {
   "label": "",
@@ -2467,7 +2692,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2480,7 +2706,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2493,7 +2720,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2506,7 +2734,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2519,7 +2748,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2532,7 +2762,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2545,7 +2776,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2558,7 +2790,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2571,7 +2804,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2584,7 +2818,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S10"
+  ]
  },
  {
   "label": "",
@@ -2597,7 +2834,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2610,7 +2848,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2623,7 +2862,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2636,7 +2876,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2649,7 +2890,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2662,7 +2904,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2675,7 +2918,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2688,7 +2932,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2701,7 +2946,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2714,7 +2960,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2727,7 +2974,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2740,7 +2988,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S11"
+  ]
  },
  {
   "label": "",
@@ -2753,7 +3004,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2766,7 +3018,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2779,7 +3032,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S12"
+  ]
  },
  {
   "label": "",
@@ -2792,7 +3048,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S12"
+  ]
  },
  {
   "label": "",
@@ -2805,7 +3064,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S12"
+  ]
  },
  {
   "label": "",
@@ -2818,7 +3080,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S12"
+  ]
  },
  {
   "label": "",
@@ -2831,7 +3096,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2844,7 +3110,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2857,7 +3124,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2870,7 +3138,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2883,7 +3152,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2896,7 +3166,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2909,7 +3180,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2922,7 +3194,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2935,7 +3208,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2948,7 +3222,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S14"
+  ]
  },
  {
   "label": "",
@@ -2961,7 +3238,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S14"
+  ]
  },
  {
   "label": "",
@@ -2974,7 +3254,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -2987,7 +3268,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3000,7 +3282,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3013,7 +3296,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3026,7 +3310,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S13"
+  ]
  },
  {
   "label": "",
@@ -3039,7 +3326,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3052,7 +3340,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3065,7 +3354,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3078,7 +3368,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3091,7 +3382,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3104,7 +3396,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3117,7 +3410,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3130,7 +3424,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3143,7 +3438,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3156,7 +3452,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3169,7 +3466,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3182,7 +3480,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3195,7 +3494,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3208,7 +3508,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3221,7 +3522,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3234,7 +3536,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S15"
+  ]
  },
  {
   "label": "",
@@ -3247,7 +3552,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3260,7 +3566,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3273,7 +3580,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3286,7 +3594,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3299,7 +3608,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3312,7 +3622,10 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S13"
+  ]
  },
  {
   "label": "",
@@ -3325,7 +3638,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3338,7 +3652,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3351,7 +3666,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3364,7 +3680,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3377,7 +3694,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3390,7 +3708,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3403,7 +3722,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3416,7 +3736,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3429,7 +3750,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3442,7 +3764,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3455,7 +3778,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3468,7 +3792,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3481,7 +3806,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3494,7 +3820,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3507,7 +3834,10 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S16"
+  ]
  },
  {
   "label": "",
@@ -3520,7 +3850,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3533,7 +3864,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3546,7 +3878,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3559,7 +3892,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3572,7 +3906,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3585,7 +3920,10 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S17"
+  ]
  },
  {
   "label": "",
@@ -3598,7 +3936,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3611,7 +3950,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3624,7 +3964,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3637,7 +3978,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3650,7 +3992,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3663,7 +4006,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3676,7 +4020,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3689,7 +4034,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3702,7 +4048,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3715,7 +4062,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3728,7 +4076,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3741,7 +4090,10 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S16"
+  ]
  },
  {
   "label": "",
@@ -3754,7 +4106,10 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S17"
+  ]
  },
  {
   "label": "",
@@ -3767,7 +4122,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3780,7 +4136,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3793,7 +4150,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3806,7 +4164,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3819,7 +4178,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3832,7 +4192,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3845,7 +4206,10 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S11"
+  ]
  },
  {
   "label": "",
@@ -3858,7 +4222,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3871,7 +4236,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3884,7 +4250,10 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S06"
+  ]
  },
  {
   "label": "",
@@ -3897,7 +4266,10 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S18"
+  ]
  },
  {
   "label": "",
@@ -3910,7 +4282,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3923,7 +4296,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3936,7 +4310,10 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S11"
+  ]
  },
  {
   "label": "",
@@ -3949,7 +4326,10 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S11"
+  ]
  },
  {
   "label": "",
@@ -3962,7 +4342,10 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S19"
+  ]
  },
  {
   "label": "",
@@ -3975,7 +4358,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -3988,7 +4372,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4001,7 +4386,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4014,7 +4400,8 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4027,7 +4414,10 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S11"
+  ]
  },
  {
   "label": "",
@@ -4040,7 +4430,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4053,7 +4444,10 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S11"
+  ]
  },
  {
   "label": "",
@@ -4066,7 +4460,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4079,7 +4474,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4092,7 +4488,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4105,7 +4502,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4118,7 +4516,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4131,7 +4530,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4144,7 +4544,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4157,7 +4558,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4170,7 +4572,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4183,7 +4586,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4196,7 +4600,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4209,7 +4614,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4222,7 +4628,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4235,7 +4642,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4248,7 +4656,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4261,7 +4670,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4274,7 +4684,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4287,7 +4698,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4300,7 +4712,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4313,7 +4726,10 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S11"
+  ]
  },
  {
   "label": "",
@@ -4326,7 +4742,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4339,7 +4756,10 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S18"
+  ]
  },
  {
   "label": "",
@@ -4352,7 +4772,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4365,7 +4786,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4378,7 +4800,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4391,7 +4814,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4404,7 +4828,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4417,7 +4842,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4430,7 +4856,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4443,7 +4870,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4456,7 +4884,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4469,7 +4898,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S09"
+  ]
  },
  {
   "label": "",
@@ -4482,7 +4914,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4495,7 +4928,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4508,7 +4942,11 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S20",
+   "S28"
+  ]
  },
  {
   "label": "",
@@ -4521,7 +4959,11 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S20",
+   "S28"
+  ]
  },
  {
   "label": "",
@@ -4534,7 +4976,11 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S20",
+   "S28"
+  ]
  },
  {
   "label": "",
@@ -4547,7 +4993,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4560,7 +5007,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4573,7 +5021,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4586,7 +5035,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4599,7 +5049,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4612,7 +5063,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4625,7 +5077,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4638,7 +5091,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S07"
+  ]
  },
  {
   "label": "",
@@ -4651,7 +5107,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4664,7 +5121,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S08"
+  ]
  },
  {
   "label": "",
@@ -4677,7 +5137,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4690,7 +5151,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4703,7 +5165,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S15"
+  ]
  },
  {
   "label": "",
@@ -4716,7 +5181,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S07"
+  ]
  },
  {
   "label": "",
@@ -4729,7 +5197,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S07"
+  ]
  },
  {
   "label": "",
@@ -4742,7 +5213,11 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S07",
+   "S11"
+  ]
  },
  {
   "label": "",
@@ -4755,7 +5230,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S07"
+  ]
  },
  {
   "label": "",
@@ -4768,7 +5246,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4781,7 +5260,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S09"
+  ]
  },
  {
   "label": "",
@@ -4794,7 +5276,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S02"
+  ]
  },
  {
   "label": "",
@@ -4807,7 +5292,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4820,7 +5306,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4833,7 +5320,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4846,7 +5334,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4859,7 +5348,10 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S24"
+  ]
  },
  {
   "label": "",
@@ -4872,7 +5364,10 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S25"
+  ]
  },
  {
   "label": "",
@@ -4885,7 +5380,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4898,7 +5394,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4911,7 +5408,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4924,7 +5422,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4937,7 +5436,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4950,7 +5450,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4963,7 +5464,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4976,7 +5478,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -4989,7 +5492,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5002,7 +5506,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5015,7 +5520,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5028,7 +5534,10 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S21"
+  ]
  },
  {
   "label": "",
@@ -5041,7 +5550,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5054,7 +5564,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5067,7 +5578,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5080,7 +5592,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5093,7 +5606,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5106,7 +5620,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5119,7 +5634,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5132,7 +5648,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5145,7 +5662,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5158,7 +5676,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5171,7 +5690,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5184,7 +5704,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5197,7 +5718,10 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S22"
+  ]
  },
  {
   "label": "",
@@ -5210,7 +5734,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5223,7 +5748,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5236,7 +5762,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5249,7 +5776,10 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S23"
+  ]
  },
  {
   "label": "",
@@ -5262,7 +5792,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5275,7 +5806,10 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S23"
+  ]
  },
  {
   "label": "",
@@ -5288,7 +5822,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5301,7 +5836,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5314,7 +5850,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5327,7 +5864,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5340,7 +5878,10 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S23"
+  ]
  },
  {
   "label": "",
@@ -5353,7 +5894,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5366,7 +5908,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5379,7 +5922,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5392,7 +5936,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5405,7 +5950,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5418,7 +5964,10 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S22"
+  ]
  },
  {
   "label": "",
@@ -5431,7 +5980,8 @@
   "ex": [],
   "sit": "Ya, tidak, boleh",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5444,7 +5994,10 @@
   "ex": [],
   "sit": "Salam & sopan santun",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S19"
+  ]
  },
  {
   "label": "",
@@ -5457,7 +6010,8 @@
   "ex": [],
   "sit": "Perkenalan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5470,7 +6024,8 @@
   "ex": [],
   "sit": "Angka & waktu",
   "grp": "Angka 0–20",
-  "val": 0
+  "val": 0,
+  "syn": []
  },
  {
   "label": "",
@@ -5483,7 +6038,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5496,7 +6052,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S21"
+  ]
  },
  {
   "label": "",
@@ -5509,7 +6068,8 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5522,7 +6082,10 @@
   "ex": [],
   "sit": "Tidak mengerti & minta bantuan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S10"
+  ]
  },
  {
   "label": "",
@@ -5535,7 +6098,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5548,7 +6112,10 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S24"
+  ]
  },
  {
   "label": "",
@@ -5561,7 +6128,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5574,7 +6142,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5587,7 +6156,10 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S25"
+  ]
  },
  {
   "label": "",
@@ -5600,7 +6172,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5613,7 +6186,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5626,7 +6200,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5639,7 +6214,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5652,7 +6228,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5665,7 +6242,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5678,7 +6256,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5691,7 +6270,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5704,7 +6284,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5717,7 +6298,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5730,7 +6312,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5743,7 +6326,8 @@
   "ex": [],
   "sit": "Transportasi & arah",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5756,7 +6340,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5769,7 +6354,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5782,7 +6368,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5795,7 +6382,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5808,7 +6396,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5821,7 +6410,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5834,7 +6424,8 @@
   "ex": [],
   "sit": "Makan & minum",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5847,7 +6438,10 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S03"
+  ]
  },
  {
   "label": "",
@@ -5860,7 +6454,10 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S04"
+  ]
  },
  {
   "label": "",
@@ -5873,7 +6470,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5886,7 +6484,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5899,7 +6498,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5912,7 +6512,8 @@
   "ex": [],
   "sit": "Belanja & pembayaran",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5925,7 +6526,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5938,7 +6540,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5951,7 +6554,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5964,7 +6568,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5977,7 +6582,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -5990,7 +6596,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -6003,7 +6610,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -6016,7 +6624,8 @@
   "ex": [],
   "sit": "Pelatihan & kerja",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -6029,7 +6638,8 @@
   "ex": [],
   "sit": "Sosial & penutup",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -6042,7 +6652,8 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": []
  },
  {
   "label": "",
@@ -6055,7 +6666,10 @@
   "ex": [],
   "sit": "Kesehatan",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S05"
+  ]
  },
  {
   "label": "",
@@ -6068,6 +6682,9 @@
   "ex": [],
   "sit": "Darurat",
   "grp": "",
-  "val": null
+  "val": null,
+  "syn": [
+   "S26"
+  ]
  }
 ]
