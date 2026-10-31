@@ -7,7 +7,10 @@
   "words": "我 (wǒ): saya, 听 (tīng): dengar, 不 (bu): tidak, 懂 (dǒng): paham",
   "note": "Kalimat paling penting minggu 1",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -17,7 +20,10 @@
   "words": "听 (tīng): dengar, 懂 (dǒng): paham, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -27,7 +33,10 @@
   "words": "请 (qǐng): tolong, 帮帮 (bāngbang): bantu (bentuk ulang, lebih halus), 我 (wǒ): saya",
   "note": "Lebih sopan: 请帮我 qǐng bāng wǒ",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -37,7 +46,10 @@
   "words": "现在 (xiànzài): sekarang, 几 (jǐ): berapa, 点 (diǎn): jam",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -47,7 +59,10 @@
   "words": "这个 (zhège): ini, 多少 (duōshao): berapa, 钱 (qián): uang / harga",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -57,7 +72,10 @@
   "words": "我 (wǒ): saya, 不 (bù): tidak, 太 (tài): terlalu, 理解 (lǐjiě): mengerti",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -67,7 +85,10 @@
   "words": "二 (èr): dua, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 20
  },
  {
   "label": "",
@@ -77,7 +98,10 @@
   "words": "一 (yī): satu, 百 (bǎi): ratus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 100
  },
  {
   "label": "",
@@ -87,7 +111,10 @@
   "words": "两 (liǎng): dua, 个 (ge): kata penggolong, 人 (rén): orang",
   "note": "Untuk jumlah/penggolong pakai 两, bukan 二",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -97,7 +124,10 @@
   "words": "今天 (jīntiān): hari ini, 星期 (xīngqī): hari dalam minggu, 几 (jǐ): berapa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -107,7 +137,10 @@
   "words": "今天 (jīntiān): hari ini, 几 (jǐ): berapa, 号 (hào): tanggal",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -117,7 +150,10 @@
   "words": "一 (yī): satu, 二 (èr): dua, 三 (sān): tiga, 四 (sì): empat, 五 (wǔ): lima",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": null
  },
  {
   "label": "",
@@ -127,7 +163,10 @@
   "words": "六 (liù): enam, 七 (qī): tujuh, 八 (bā): delapan, 九 (jiǔ): sembilan, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": null
  },
  {
   "label": "",
@@ -137,7 +176,10 @@
   "words": "八 (bā): delapan, 点 (diǎn): jam",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -147,7 +189,10 @@
   "words": "明天 (míngtiān): besok, 九 (jiǔ): sembilan, 点 (diǎn): jam",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -157,7 +202,10 @@
   "words": "八 (bā): delapan, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 8
  },
  {
   "label": "",
@@ -167,7 +215,10 @@
   "words": "四 (sì): empat, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 4
  },
  {
   "label": "",
@@ -177,7 +228,10 @@
   "words": "明 (míng): esok, 天 (tiān): hari, 明天 (míngtiān): besok",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -187,7 +241,10 @@
   "words": "下 (xià): berikutnya, 个 (gè): kata penggolong, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": null
  },
  {
   "label": "",
@@ -197,7 +254,10 @@
   "words": "八 (bā): delapan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 8
  },
  {
   "label": "",
@@ -207,7 +267,10 @@
   "words": "十二 (shí'èr): dua belas, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 12
  },
  {
   "label": "",
@@ -217,7 +280,10 @@
   "words": "二 (èr): dua",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 2
  },
  {
   "label": "",
@@ -227,7 +293,10 @@
   "words": "十 (shí): sepuluh, 二 (èr): dua",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 12
  },
  {
   "label": "",
@@ -237,7 +306,10 @@
   "words": "四 (sì): empat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 4
  },
  {
   "label": "",
@@ -247,7 +319,10 @@
   "words": "十 (shí): sepuluh, 四 (sì): empat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 14
  },
  {
   "label": "",
@@ -257,7 +332,10 @@
   "words": "六 (liù): enam",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 6
  },
  {
   "label": "",
@@ -267,7 +345,10 @@
   "words": "二 (èr): dua, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 2
  },
  {
   "label": "",
@@ -277,7 +358,10 @@
   "words": "今天 (jīntiān): hari ini",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -287,7 +371,10 @@
   "words": "一 (yī): satu, 月 (yuè): bulan",
   "note": "Nama bulan = angka + 月",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 1
  },
  {
   "label": "",
@@ -297,7 +384,10 @@
   "words": "七 (qī): tujuh, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 7
  },
  {
   "label": "",
@@ -307,7 +397,10 @@
   "words": "星期 (xīngqī): minggu / hari, 五 (wǔ): lima",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -317,7 +410,10 @@
   "words": "六 (liù): enam, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 6
  },
  {
   "label": "",
@@ -327,7 +423,10 @@
   "words": "星期 (xīngqī): minggu / hari, 四 (sì): empat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -337,7 +436,10 @@
   "words": "什么 (shénme): apa, 时候 (shíhou): waktu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -347,7 +449,10 @@
   "words": "五 (wǔ): lima",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 5
  },
  {
   "label": "",
@@ -357,7 +462,10 @@
   "words": "十 (shí): sepuluh, 五 (wǔ): lima",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 15
  },
  {
   "label": "",
@@ -367,7 +475,10 @@
   "words": "后 (hòu): setelah, 天 (tiān): hari, 后天 (hòutiān): lusa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -377,7 +488,10 @@
   "words": "三 (sān): tiga, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 3
  },
  {
   "label": "",
@@ -387,7 +501,10 @@
   "words": "五 (wǔ): lima, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 5
  },
  {
   "label": "",
@@ -397,7 +514,10 @@
   "words": "星期 (xīngqī): minggu / hari, 日 (rì) / 天 (tiān): hari / matahari",
   "note": "Bisa juga 周日 (zhōurì), 周 = singkatan 星期",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -407,7 +527,10 @@
   "words": "下 (xià): berikutnya, 个 (gè): kata penggolong, 星期 (xīngqī): minggu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -417,7 +540,10 @@
   "words": "十一 (shíyī): sebelas, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 11
  },
  {
   "label": "",
@@ -427,7 +553,10 @@
   "words": "十 (shí): sepuluh, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 10
  },
  {
   "label": "",
@@ -437,7 +566,10 @@
   "words": "星期 (xīngqī): minggu / hari, 三 (sān): tiga",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -447,7 +579,10 @@
   "words": "星期 (xīngqī): minggu / hari, 六 (liù): enam",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -457,7 +592,10 @@
   "words": "一 (yī): satu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 1
  },
  {
   "label": "",
@@ -467,7 +605,10 @@
   "words": "十 (shí): sepuluh, 一 (yī): satu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 11
  },
  {
   "label": "",
@@ -477,7 +618,10 @@
   "words": "一点 (yìdiǎn): sedikit",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -487,7 +631,10 @@
   "words": "现 (xiàn): kini, 在 (zài): berada, 现在 (xiànzài): sekarang",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -497,7 +644,10 @@
   "words": "星期 (xīngqī): minggu / hari, 二 (èr): dua",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -507,7 +657,10 @@
   "words": "九 (jiǔ): sembilan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 9
  },
  {
   "label": "",
@@ -517,7 +670,10 @@
   "words": "星期 (xīngqī): minggu / hari, 一 (yī): satu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -527,7 +683,10 @@
   "words": "九 (jiǔ): sembilan, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Nama bulan",
+  "val": 9
  },
  {
   "label": "",
@@ -537,7 +696,10 @@
   "words": "十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 10
  },
  {
   "label": "",
@@ -547,7 +709,10 @@
   "words": "哪 (nǎ): yang mana, 一 (yī): satu, 年 (nián): tahun",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Jam, tanggal, dan kata tanya",
+  "val": null
  },
  {
   "label": "",
@@ -557,7 +722,10 @@
   "words": "明 (míng): berikutnya, 年 (nián): tahun",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -567,7 +735,10 @@
   "words": "二 (èr): dua, 零 (líng): nol, 二 (èr): dua, 六 (liù): enam, 年 (nián): tahun",
   "note": "Tahun dibaca per angka",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -577,7 +748,10 @@
   "words": "今 (jīn): ini, 年 (nián): tahun",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -587,7 +761,10 @@
   "words": "去 (qù): lalu, 年 (nián): tahun",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Hari, minggu, dan tahun",
+  "val": null
  },
  {
   "label": "",
@@ -597,7 +774,10 @@
   "words": "三 (sān): tiga",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 3
  },
  {
   "label": "",
@@ -607,7 +787,10 @@
   "words": "十 (shí): sepuluh, 三 (sān): tiga",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 13
  },
  {
   "label": "",
@@ -617,7 +800,10 @@
   "words": "七 (qī): tujuh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 7
  },
  {
   "label": "",
@@ -627,7 +813,10 @@
   "words": "十 (shí): sepuluh, 六 (liù): enam",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 16
  },
  {
   "label": "",
@@ -637,7 +826,10 @@
   "words": "十 (shí): sepuluh, 七 (qī): tujuh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 17
  },
  {
   "label": "",
@@ -647,7 +839,10 @@
   "words": "十 (shí): sepuluh, 八 (bā): delapan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 18
  },
  {
   "label": "",
@@ -657,7 +852,10 @@
   "words": "十 (shí): sepuluh, 九 (jiǔ): sembilan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 19
  },
  {
   "label": "",
@@ -667,7 +865,10 @@
   "words": "三 (sān): tiga, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 30
  },
  {
   "label": "",
@@ -677,7 +878,10 @@
   "words": "四 (sì): empat, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 40
  },
  {
   "label": "",
@@ -687,7 +891,10 @@
   "words": "五 (wǔ): lima, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 50
  },
  {
   "label": "",
@@ -697,7 +904,10 @@
   "words": "六 (liù): enam, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 60
  },
  {
   "label": "",
@@ -707,7 +917,10 @@
   "words": "七 (qī): tujuh, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 70
  },
  {
   "label": "",
@@ -717,7 +930,10 @@
   "words": "八 (bā): delapan, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 80
  },
  {
   "label": "",
@@ -727,7 +943,10 @@
   "words": "九 (jiǔ): sembilan, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 90
  },
  {
   "label": "",
@@ -737,7 +956,10 @@
   "words": "二 (èr): dua, 百 (bǎi): ratus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 200
  },
  {
   "label": "",
@@ -747,7 +969,10 @@
   "words": "三 (sān): tiga, 百 (bǎi): ratus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 300
  },
  {
   "label": "",
@@ -757,7 +982,10 @@
   "words": "四 (sì): empat, 百 (bǎi): ratus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 400
  },
  {
   "label": "",
@@ -767,7 +995,10 @@
   "words": "五 (wǔ): lima, 百 (bǎi): ratus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 500
  },
  {
   "label": "",
@@ -777,7 +1008,10 @@
   "words": "六 (liù): enam, 百 (bǎi): ratus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 600
  },
  {
   "label": "",
@@ -787,7 +1021,10 @@
   "words": "七 (qī): tujuh, 百 (bǎi): ratus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 700
  },
  {
   "label": "",
@@ -797,7 +1034,10 @@
   "words": "八 (bā): delapan, 百 (bǎi): ratus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 800
  },
  {
   "label": "",
@@ -807,7 +1047,10 @@
   "words": "九 (jiǔ): sembilan, 百 (bǎi): ratus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Puluhan dan ratusan",
+  "val": 900
  },
  {
   "label": "",
@@ -817,7 +1060,10 @@
   "words": "一 (yī): satu, 千 (qiān): ribu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 1000
  },
  {
   "label": "",
@@ -827,7 +1073,10 @@
   "words": "二 (èr): dua, 千 (qiān): ribu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 2000
  },
  {
   "label": "",
@@ -837,7 +1086,10 @@
   "words": "五 (wǔ): lima, 千 (qiān): ribu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 5000
  },
  {
   "label": "",
@@ -847,7 +1099,10 @@
   "words": "一 (yī): satu, 万 (wàn): sepuluh ribu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 10000
  },
  {
   "label": "",
@@ -857,7 +1112,10 @@
   "words": "二 (èr): dua, 万 (wàn): sepuluh ribu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 20000
  },
  {
   "label": "",
@@ -867,7 +1125,10 @@
   "words": "五 (wǔ): lima, 万 (wàn): sepuluh ribu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 50000
  },
  {
   "label": "",
@@ -877,7 +1138,10 @@
   "words": "十 (shí): sepuluh, 万 (wàn): sepuluh ribu",
   "note": "Mandarin pakai 万 (sepuluh ribu), bukan 百千",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 100000
  },
  {
   "label": "",
@@ -887,7 +1151,10 @@
   "words": "二十 (èrshí): dua puluh, 万 (wàn): sepuluh ribu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 200000
  },
  {
   "label": "",
@@ -897,7 +1164,10 @@
   "words": "五十 (wǔshí): lima puluh, 万 (wàn): sepuluh ribu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 500000
  },
  {
   "label": "",
@@ -907,7 +1177,10 @@
   "words": "九十 (jiǔshí): sembilan puluh, 万 (wàn): sepuluh ribu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Ribuan dan puluhan ribu",
+  "val": 900000
  },
  {
   "label": "",
@@ -917,7 +1190,10 @@
   "words": "一共 (yígòng): total / seluruhnya, 多少 (duōshao): berapa, 钱 (qián): uang / harga",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -927,7 +1203,10 @@
   "words": "太 (tài): terlalu, 贵 (guì): mahal, 了 (le): partikel penegas",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -937,7 +1216,10 @@
   "words": "可以 (kěyǐ): bisa, 便宜 (piányi): murah, 一点儿 (yìdiǎnr): sedikit, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -947,7 +1229,10 @@
   "words": "我 (wǒ): saya, 买 (mǎi): beli, 这个 (zhège): ini",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -957,7 +1242,10 @@
   "words": "我 (wǒ): saya, 随便 (suíbiàn): santai / tanpa tujuan, 看看 (kànkan): lihat-lihat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -967,7 +1255,10 @@
   "words": "可以 (kěyǐ): boleh, 试 (shì): coba, 一下 (yíxià): sekali, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -977,7 +1268,10 @@
   "words": "有 (yǒu): ada, 别的 (bié de): yang lain, 尺码 (chǐmǎ): ukuran, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -987,7 +1281,10 @@
   "words": "可以 (kěyǐ): bisa, 用 (yòng): pakai, 微信 (Wēixìn): WeChat, 支付 (zhīfù): pembayaran, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -997,7 +1294,10 @@
   "words": "可以 (kěyǐ): bisa, 用 (yòng): pakai, 支付宝 (zhīfùbǎo): Alipay, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1007,7 +1307,10 @@
   "words": "可以 (kěyǐ): bisa, 刷卡 (shuā kǎ): gesek kartu, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1017,7 +1320,10 @@
   "words": "我 (wǒ): saya, 付 (fù): bayar, 现金 (xiànjīn): uang tunai",
   "note": "Banyak tempat tidak menerima tunai",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1027,7 +1333,10 @@
   "words": "哪里 (nǎlǐ): di mana, 有 (yǒu): ada, 便利店 (biànlìdiàn): minimarket",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1037,7 +1346,10 @@
   "words": "哪里 (nǎlǐ): di mana, 有 (yǒu): ada, 药店 (yàodiàn): apotek",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1047,7 +1359,10 @@
   "words": "哪里 (nǎlǐ): di mana, 可以 (kěyǐ): bisa, 换 (huàn): tukar, 钱 (qián): uang",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1057,7 +1372,10 @@
   "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 买 (mǎi): beli, 一 (yì): satu, 张 (zhāng): kata penggolong benda tipis/kartu, 手机卡 (shǒujī kǎ): kartu SIM",
   "note": "Biasanya butuh paspor",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1067,7 +1385,10 @@
   "words": "Wi-Fi (Wi-Fi): Wi-Fi, 密码 (mìmǎ): password, 是 (shì): adalah, 多少 (duōshao): berapa / apa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1077,7 +1398,10 @@
   "words": "多 (duō): banyak",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1087,7 +1411,10 @@
   "words": "新 (xīn): baru",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1097,7 +1424,10 @@
   "words": "二手 (èrshǒu): barang bekas / second-hand",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1107,7 +1437,10 @@
   "words": "大 (dà): besar",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1117,7 +1450,10 @@
   "words": "这 (zhè): ini, 多少 (duōshao): berapa, 钱 (qián): harga / uang",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1127,7 +1463,10 @@
   "words": "就 (jiù): hanya, 这个 (zhè ge): ini, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1137,7 +1476,10 @@
   "words": "小 (xiǎo): kecil",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1147,7 +1489,10 @@
   "words": "旧 (jiù): lama / bekas (untuk barang)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1157,7 +1502,10 @@
   "words": "贵 (guì): mahal",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1167,7 +1515,10 @@
   "words": "便宜 (piányi): murah",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1177,7 +1528,10 @@
   "words": "钱 (qián): uang",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1187,7 +1541,10 @@
   "words": "是的 (shì de): ya, 就 (jiù): hanya, 这个 (zhè ge): ini",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1197,7 +1554,10 @@
   "words": "这个 (zhè ge): ini, 东西 (dōngxi): barang, 多少 (duōshao): berapa, 钱 (qián): uang / harga",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1207,7 +1567,10 @@
   "words": "一 (yī): satu, 块 (kuài): yuan (sehari-hari)",
   "note": "Dipakai sehari-hari. 元 (yuán) untuk tulisan/formal",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1217,7 +1580,10 @@
   "words": "五 (wǔ): lima, 块 (kuài): yuan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1227,7 +1593,10 @@
   "words": "十 (shí): sepuluh, 块 (kuài): yuan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1237,7 +1606,10 @@
   "words": "一 (yī): satu, 毛 (máo): 0,1 yuan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1247,7 +1619,10 @@
   "words": "一 (yī): satu, 分 (fēn): 0,01 yuan (sen)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1257,7 +1632,10 @@
   "words": "一 (yī): satu, 元 (yuán): yuan (formal)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1267,7 +1645,10 @@
   "words": "救命 (jiùmìng): tolong (selamatkan nyawa), 救 (jiù): selamatkan, 命 (mìng): nyawa",
   "note": "Darurat China: polisi 110, ambulans 120, pemadam 119",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1277,7 +1658,10 @@
   "words": "请 (qǐng): tolong, 叫 (jiào): panggil, 救护车 (jiùhùchē): ambulans",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1287,7 +1671,10 @@
   "words": "请 (qǐng): tolong, 报警 (bàojǐng): lapor polisi, 报 (bào): lapor, 警 (jǐng): polisi",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1297,7 +1684,10 @@
   "words": "我 (wǒ): saya, 的 (de): milik, 护照 (hùzhào): paspor, 丢 (diū): hilang, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1307,7 +1697,10 @@
   "words": "我 (wǒ): saya, 的 (de): milik, 手机 (shǒujī): HP, 丢 (diū): hilang, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1317,7 +1710,10 @@
   "words": "我 (wǒ): saya, 的 (de): milik, 钱包 (qiánbāo): dompet, 被 (bèi): penanda pasif, 偷 (tōu): curi, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1327,7 +1723,10 @@
   "words": "我 (wǒ): saya, 的 (de): milik, 东西 (dōngxi): barang, 丢 (diū): hilang, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1337,7 +1736,10 @@
   "words": "着火 (zháohuǒ): kebakaran, 着 (zháo): terkena, 火 (huǒ): api, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1347,7 +1749,10 @@
   "words": "紧急 (jǐnjí): darurat, 出口 (chūkǒu): pintu keluar, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1357,7 +1762,10 @@
   "words": "请 (qǐng): tolong, 联系 (liánxì): menghubungi, 印尼 (Yìnní): Indonesia, 大使馆 (dàshǐguǎn): kedutaan besar",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1367,7 +1775,10 @@
   "words": "我 (wǒ): saya, 需要 (xūyào): perlu, 紧急 (jǐnjí): darurat, 帮助 (bāngzhù): bantuan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1377,7 +1788,10 @@
   "words": "我 (wǒ): saya, 已经 (yǐjīng): sudah, 预订 (yùdìng): reservasi, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Hotel",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1387,7 +1801,10 @@
   "words": "我 (wǒ): saya, 要 (yào): ingin, 办理 (bànlǐ): mengurus, 入住 (rùzhù): check-in / menginap",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Hotel",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1397,7 +1814,10 @@
   "words": "我 (wǒ): saya, 要 (yào): ingin, 退房 (tuìfáng): check-out, 退 (tuì): kembalikan, 房 (fáng): kamar",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Hotel",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1407,7 +1827,10 @@
   "words": "这 (zhè): ini, 是 (shì): adalah, 我 (wǒ): saya, 的 (de): partikel kepemilikan, 护照 (hùzhào): paspor",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Hotel",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1417,7 +1840,10 @@
   "words": "早餐 (zǎocān): sarapan, 几 (jǐ): berapa, 点 (diǎn): jam",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Hotel",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1427,7 +1853,10 @@
   "words": "空调 (kōngtiáo): AC, 坏 (huài): rusak, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Hotel",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1437,7 +1866,10 @@
   "words": "没有 (méiyǒu): tidak ada, 热水 (rèshuǐ): air panas",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Hotel",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1447,7 +1879,10 @@
   "words": "可以 (kěyǐ): bisa, 寄存 (jìcún): menitipkan, 行李 (xíngli): koper / bagasi, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Hotel",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1457,7 +1892,10 @@
   "words": "我 (wǒ): saya, 不 (bù): tidak, 舒服 (shūfu): nyaman / enak badan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1467,7 +1905,10 @@
   "words": "我 (wǒ): saya, 头疼 (tóuténg): sakit kepala, 头 (tóu): kepala, 疼 (téng): sakit",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1477,7 +1918,10 @@
   "words": "我 (wǒ): saya, 肚子 (dùzi): perut, 疼 (téng): sakit",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1487,7 +1931,10 @@
   "words": "我 (wǒ): saya, 发烧 (fāshāo): demam, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1497,7 +1944,10 @@
   "words": "我 (wǒ): saya, 咳嗽 (késou): batuk",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1507,7 +1957,10 @@
   "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 吐 (tù): muntah",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1517,7 +1970,10 @@
   "words": "我 (wǒ): saya, 拉肚子 (lā dùzi): diare, 拉 (lā): mengeluarkan, 肚子 (dùzi): perut",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1527,7 +1983,10 @@
   "words": "我 (wǒ): saya, 需要 (xūyào): perlu, 看 (kàn): periksa / menemui, 医生 (yīshēng): dokter",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1537,7 +1996,10 @@
   "words": "医院 (yīyuàn): rumah sakit, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1547,7 +2009,10 @@
   "words": "有 (yǒu): ada, 感冒药 (gǎnmào yào): obat flu, 感冒 (gǎnmào): flu, 药 (yào): obat, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1557,7 +2022,10 @@
   "words": "我 (wǒ): saya, 对 (duì): terhadap, 某些 (mǒuxiē): tertentu, 药物 (yàowù): obat-obatan, 过敏 (guòmǐn): alergi",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1567,7 +2035,10 @@
   "words": "我 (wǒ): saya, 需要 (xūyào): perlu, 休息 (xiūxi): istirahat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1577,7 +2048,10 @@
   "words": "你 (nǐ): kamu, 没事 (méi shì): tidak apa-apa, 吧 (ba): partikel pelembut kalimat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1587,7 +2061,10 @@
   "words": "我 (wǒ): saya, 没事 (méi shì): tidak apa-apa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1597,7 +2074,10 @@
   "words": "没 (méi): tidak, 事 (shì): urusan / masalah, 没事 (méi shì): tidak apa-apa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1607,7 +2087,10 @@
   "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 吃 (chī): makan, 饭 (fàn): nasi / makanan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1617,7 +2100,10 @@
   "words": "哪里 (nǎlǐ): di mana, 有 (yǒu): ada, 餐厅 (cāntīng): restoran",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1627,7 +2113,10 @@
   "words": "请 (qǐng): tolong, 给 (gěi): beri, 我 (wǒ): saya, 菜单 (càidān): menu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1637,7 +2126,10 @@
   "words": "我 (wǒ): saya, 要 (yào): mau, 米饭 (mǐfàn): nasi",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1647,7 +2139,10 @@
   "words": "我 (wǒ): saya, 要 (yào): mau, 一 (yì): satu, 碗 (wǎn): mangkuk, 面 (miàn): mi",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1657,7 +2152,10 @@
   "words": "有 (yǒu): ada, 什么 (shénme): apa, 推荐 (tuījiàn): rekomendasi, 的 (de): partikel penghubung",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1667,7 +2165,10 @@
   "words": "不 (bú): tidak, 要 (yào): mau, 辣 (là): pedas",
   "note": "Masakan Sichuan/Hunan bisa sangat pedas",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1677,7 +2178,10 @@
   "words": "我 (wǒ): saya, 不 (bù): tidak, 能 (néng): bisa (kondisi), 吃 (chī): makan, 辣 (là): pedas",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1687,7 +2191,10 @@
   "words": "微 (wēi): sedikit / ringan, 辣 (là): pedas",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1697,7 +2204,10 @@
   "words": "我 (wǒ): saya, 不 (bù): tidak, 吃 (chī): makan, 猪肉 (zhūròu): daging babi",
   "note": "Sebut juga 猪油 (zhūyóu, lemak babi) bila perlu",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1707,7 +2217,10 @@
   "words": "这个 (zhège): ini, 有 (yǒu): ada, 肉 (ròu): daging, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1717,7 +2230,10 @@
   "words": "我 (wǒ): saya, 要 (yào): mau, 一 (yì): satu, 杯 (bēi): gelas, 水 (shuǐ): air",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1727,7 +2243,10 @@
   "words": "我 (wǒ): saya, 要 (yào): mau, 热水 (rèshuǐ): air panas",
   "note": "Orang China biasa minum air panas",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1737,7 +2256,10 @@
   "words": "很 (hěn): sangat, 好吃 (hǎochī): enak (dimakan)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1747,7 +2269,10 @@
   "words": "我 (wǒ): saya, 吃 (chī): makan, 饱 (bǎo): kenyang, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1757,7 +2282,10 @@
   "words": "打包 (dǎbāo): membungkus (bawa pulang), 打 (dǎ): melakukan, 包 (bāo): bungkus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1767,7 +2295,10 @@
   "words": "在 (zài): di, 这儿 (zhèr): sini, 吃 (chī): makan, 还是 (háishi): atau (pertanyaan pilihan), 带走 (dàizǒu): bawa pergi",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1777,7 +2308,10 @@
   "words": "请 (qǐng): tolong, 给 (gěi): beri, 我 (wǒ): saya, 一 (yì): satu, 把 (bǎ): kata penggolong benda bergagang, 勺子 (sháozi): sendok",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1787,7 +2321,10 @@
   "words": "请 (qǐng): tolong, 给 (gěi): beri, 我 (wǒ): saya, 纸巾 (zhǐjīn): tisu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1797,7 +2334,10 @@
   "words": "买单 (mǎidān): bayar tagihan, 买 (mǎi): beli, 单 (dān): bon / tagihan",
   "note": "Memanggil pelayan: 服务员 (fúwùyuán)",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1807,7 +2347,10 @@
   "words": "老师 (lǎoshī): guru / trainer, 好 (hǎo): baik",
   "note": "老师 = sapaan sopan untuk trainer",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1817,7 +2360,10 @@
   "words": "我 (wǒ): saya, 是 (shì): adalah, 来自 (láizì): berasal dari, 印尼 (Yìnní): Indonesia, 的 (de): partikel penghubung, 培训 (péixùn): pelatihan, 学员 (xuéyuán): peserta",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1827,7 +2373,10 @@
   "words": "培训室 (péixùnshì): ruang pelatihan, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1837,7 +2386,10 @@
   "words": "车间 (chējiān): workshop / area produksi",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1847,7 +2399,10 @@
   "words": "食堂 (shítáng): kantin",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1857,7 +2412,10 @@
   "words": "上班 (shàngbān): masuk kerja, 时间 (shíjiān): waktu, 是 (shì): adalah, 几 (jǐ): berapa, 点 (diǎn): jam, 到 (dào): sampai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1867,7 +2425,10 @@
   "words": "我 (wǒ): saya, 迟到 (chídào): terlambat, 了 (le): partikel selesai, 对不起 (duìbuqǐ): maaf",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1877,7 +2438,10 @@
   "words": "我 (wǒ): saya, 明白 (míngbai): paham, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1887,7 +2451,10 @@
   "words": "我 (wǒ): saya, 还 (hái): masih, 不 (bù): tidak, 明白 (míngbai): paham",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1897,7 +2464,10 @@
   "words": "可以 (kěyǐ): boleh, 再 (zài): lagi, 解释 (jiěshì): menjelaskan, 一遍 (yí biàn): sekali, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1907,7 +2477,10 @@
   "words": "可以 (kěyǐ): boleh, 示范 (shìfàn): mendemonstrasikan, 一下 (yíxià): sebentar, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1917,7 +2490,10 @@
   "words": "可以 (kěyǐ): boleh, 拍照 (pāizhào): foto, 拍 (pāi): ambil, 照 (zhào): foto, 吗 (ma): partikel tanya",
   "note": "Tanya dulu; banyak area pabrik melarang foto",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1927,7 +2503,10 @@
   "words": "我 (wǒ): saya, 可以 (kěyǐ): boleh, 记 (jì): catat, 笔记 (bǐjì): catatan, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1937,7 +2516,10 @@
   "words": "可以 (kěyǐ): boleh, 进 (jìn): masuk, 这 (zhè): ini, 个 (gè): kata penggolong, 区域 (qūyù): area, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1947,7 +2529,10 @@
   "words": "需要 (xūyào): perlu, 穿 (chuān): memakai, 无尘服 (wúchénfú): baju cleanroom, 无尘 (wúchén): bebas debu, 服 (fú): pakaian, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1957,7 +2542,10 @@
   "words": "请 (qǐng): tolong, 把 (bǎ): partikel objek, 文件 (wénjiàn): file / dokumen, 发 (fā): kirim, 给 (gěi): kepada, 我 (wǒ): saya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1967,7 +2555,10 @@
   "words": "可以 (kěyǐ): boleh, 加 (jiā): tambah, 你 (nǐ): kamu, 的 (de): partikel kepemilikan, 微信 (Wēixìn): WeChat, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1977,7 +2568,10 @@
   "words": "我 (wǒ): saya, 有 (yǒu): punya, 一 (yí): satu, 个 (ge): kata penggolong, 问题 (wèntí): pertanyaan / masalah",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1987,7 +2581,10 @@
   "words": "这 (zhè): ini, 台 (tái): kata penggolong mesin, 机器 (jīqì): mesin, 怎么 (zěnme): bagaimana, 用 (yòng): pakai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -1997,7 +2594,10 @@
   "words": "机器 (jīqì): mesin, 坏 (huài): rusak, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2007,7 +2607,10 @@
   "words": "这个 (zhège): ini, 是 (shì): adalah, 不良品 (bùliángpǐn): produk NG, 不 (bù): tidak, 良 (liáng): baik, 品 (pǐn): barang",
   "note": "不良 = NG/defect",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2017,7 +2620,10 @@
   "words": "这个 (zhège): ini, 合格 (hégé): OK / lolos standar",
   "note": "合格 = OK/lolos",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2027,7 +2633,10 @@
   "words": "原因 (yuányīn): penyebab, 是 (shì): adalah, 什么 (shénme): apa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2037,7 +2646,10 @@
   "words": "怎么 (zěnme): bagaimana, 解决 (jiějué): menyelesaikan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2047,7 +2659,10 @@
   "words": "可以 (kěyǐ): boleh, 给 (gěi): beri, 我 (wǒ): saya, 看 (kàn): lihat, 一下 (yíxià): sebentar, 标准 (biāozhǔn): standar, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2057,7 +2672,10 @@
   "words": "良率 (liánglǜ): yield, 良 (liáng): baik, 率 (lǜ): persentase, 是 (shì): adalah, 多少 (duōshao): berapa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2067,7 +2685,10 @@
   "words": "下 (xià): berikutnya, 一 (yí): satu, 道 (dào): kata penggolong tahapan, 工序 (gōngxù): proses / tahapan kerja, 是 (shì): adalah, 什么 (shénme): apa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2077,7 +2698,10 @@
   "words": "做 (zuò): mengerjakan, 完 (wán): selesai, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2087,7 +2711,10 @@
   "words": "请 (qǐng): tolong, 检查 (jiǎnchá): periksa, 一下 (yíxià): sebentar",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2097,7 +2724,10 @@
   "words": "小心 (xiǎoxīn): hati-hati",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2107,7 +2737,10 @@
   "words": "谢谢 (xièxie): terima kasih, 您 (nín): Anda (sopan), 的 (de): milik, 培训 (péixùn): pelatihan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2117,7 +2750,10 @@
   "words": "差不多 (chàbuduō): hampir sama; 差 (chà): kurang, 不多 (bùduō): tidak banyak",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2127,7 +2763,10 @@
   "words": "3D (sān D): tiga dimensi, 测试 (cèshì): pengujian",
   "note": "Dibaca \"sān D cèshì\"",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2137,7 +2776,10 @@
   "words": "Zhèyàng (这样) = Begini / seperti ini, Zuò (做) = Mengerjakan / membuat, Duì (对) = Benar, Ma (吗) = Partikel tanya di akhir kalimat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2147,7 +2789,10 @@
   "words": "这样 (zhèyàng): seperti ini, 对 (duì): benar, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2157,7 +2802,10 @@
   "words": "是 (shì): adalah, 这样 (zhèyàng): seperti ini, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2167,7 +2815,10 @@
   "words": "是 (shì): adalah, 这个 (zhè ge): yang ini, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2177,7 +2828,10 @@
   "words": "连接器 (liánjiēqì): konektor, 组装 (zǔzhuāng): perakitan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2187,7 +2841,10 @@
   "words": "好的 (hǎo de): baik / oke; Mr. Ben: nama (tidak diterjemahkan)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2197,7 +2854,10 @@
   "words": "打 (dǎ): melakukan, 开 (kāi): buka, 打开 (dǎkāi): membuka",
   "note": "Untuk membuka benda/file/pintu",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2207,7 +2867,10 @@
   "words": "老 (lǎo): tua, 化 (huà): proses menjadi, 老化 (lǎohuà): penuaan / burn-in",
   "note": "Di manufaktur 老化 = aging / burn-in test",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2217,7 +2880,10 @@
   "words": "裁 (cái): potong, 线 (xiàn): kabel / kawat, 裁线 (cáixiàn): pemotongan kabel",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2227,7 +2893,10 @@
   "words": "测 (cè): ukur, 试 (shì): uji, 测试 (cèshì): pengujian",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2237,7 +2906,10 @@
   "words": "耦 (ǒu): berpasangan, 合 (hé): menyatu, 耦合 (ǒuhé): coupling / penyambungan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2247,7 +2919,10 @@
   "words": "固 (gù): keras / padat, 化 (huà): proses menjadi, 固化 (gùhuà): curing / pengerasan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2257,7 +2932,10 @@
   "words": "封 (fēng): segel / tutup rapat, 装 (zhuāng): pasang / kemas, 封装 (fēngzhuāng): encapsulation",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2267,7 +2945,10 @@
   "words": "端面 (duānmiàn): permukaan ujung, 终检 (zhōngjiǎn): inspeksi akhir (终 zhōng: akhir, 检 jiǎn: periksa)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2277,7 +2958,10 @@
   "words": "端面 (duānmiàn): permukaan ujung (end face), 检查 (jiǎnchá): inspeksi",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2287,7 +2971,10 @@
   "words": "分 (fēn): pisah, 纤 (xiān): serat / fiber, 分纤 (fēnxiān): pemisahan fiber",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2297,7 +2984,10 @@
   "words": "剥 (bāo): kupas, 纤 (xiān): serat / fiber, 剥纤 (bāoxiān): pengupasan serat",
   "note": "剥 dibaca bāo (lisan) atau bō (formal); di pabrik umumnya bāo",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2307,7 +2997,10 @@
   "words": "注 (zhù): tuang / injeksi, 胶 (jiāo): lem, 注胶 (zhùjiāo): injeksi lem",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2317,7 +3010,10 @@
   "words": "老 (lǎo): tua / senior, 师 (shī): guru, 老师 (lǎoshī): guru",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2327,7 +3023,10 @@
   "words": "结果 (jiéguǒ): hasil, 都 (dōu): semua, 一样 (yíyàng): sama",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2337,7 +3036,10 @@
   "words": "内 (nèi): dalam, 壳 (ké): selongsong / cangkang, 清洗 (qīngxǐ): pembersihan / cuci",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2347,7 +3049,10 @@
   "words": "关 (guān): mematikan / menutup",
   "note": "Contoh: 关机 (guānjī) matikan mesin, 关灯 (guān dēng) matikan lampu",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2357,7 +3062,10 @@
   "words": "学 (xué): belajar, 生 (shēng): orang yang, 学生 (xuésheng): murid / pelajar",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2367,7 +3075,10 @@
   "words": "各个 (gègè): setiap, 工位 (gōngwèi): stasiun kerja / pos, 的 (de): dari/milik, 名称 (míngchēng): nama",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2377,7 +3088,10 @@
   "words": "不 (bù): tidak, 良 (liáng): baik, 品 (pǐn): barang (barang cacat/reject)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2387,7 +3101,10 @@
   "words": "开 (kāi): menyalakan / membuka",
   "note": "Contoh: 开机 (kāijī) nyalakan mesin, 开灯 (kāi dēng) nyalakan lampu",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2397,7 +3114,10 @@
   "words": "合 (hé): sesuai, 格 (gé): standar (lolos/memenuhi standar)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2407,7 +3127,10 @@
   "words": "进行 (jìnxíng): berlangsung, 中 (zhōng): sedang",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2417,7 +3140,10 @@
   "words": "光学 (guāngxué): optik, 测试 (cèshì): pengujian",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2427,7 +3153,10 @@
   "words": "包装 (bāozhuāng): pengemasan, 数据 (shùjù): data, 报告 (bàogào): laporan, 吸塑盒 (xīsùhé): blister box, 标签 (biāoqiān): label",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2437,7 +3166,10 @@
   "words": "包装 (bāozhuāng): pengemasan, 外箱 (wàixiāng): kotak luar, 标签 (biāoqiān): label",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2447,7 +3179,10 @@
   "words": "包装 (bāozhuāng): pengemasan, 准备 (zhǔnbèi): persiapan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2457,7 +3192,10 @@
   "words": "包装 (bāozhuāng): pengemasan, 产品 (chǎnpǐn): produk, 标签 (biāoqiān): label",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2467,7 +3205,10 @@
   "words": "包装 (bāozhuāng): pengemasan / kemas",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2477,7 +3218,10 @@
   "words": "折 (zhé): patah / lipat, 断 (duàn): putus, 了 (le): partikel selesai",
   "note": "Untuk benda keras yang patah",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2487,7 +3231,10 @@
   "words": "Qǐngwèn (请问) = Mohon tanya / Permisi, Zhè shì (这是) = Ini adalah, Nín (您) = Anda (bentuk sopan), Yìsi (意思) = Maksud / arti, Shùjù (数据) = Data, Suǒ zhǐ de (所指的) = Yang dituju / yang dimaksud",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2497,7 +3244,10 @@
   "words": "研 (yán): gerus, 磨 (mó): gosok, 研磨 (yánmó): pemolesan / grinding",
   "note": "Alternatif untuk polishing halus: 抛光 pāoguāng",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2507,7 +3257,10 @@
   "words": "断 (duàn): putus, 了 (le): partikel selesai",
   "note": "Contoh: 光纤断了 guāngxiān duàn le (fiber putus)",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2517,7 +3270,10 @@
   "words": "坏 (huài): rusak, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2527,7 +3283,10 @@
   "words": "我 (wǒ): saya, 试试 (shìshi): coba (bentuk ulang, lebih ringan)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2537,7 +3296,10 @@
   "words": "筛 (shāi): ayak, 选 (xuǎn): pilih, 筛选 (shāixuǎn): menyortir / screening",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2547,7 +3309,10 @@
   "words": "都 (dōu): semua, 一样 (yíyàng): sama",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2557,7 +3322,10 @@
   "words": "穿 (chuān): memasukkan / menembus, 零件 (língjiàn): komponen / part",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2567,7 +3335,10 @@
   "words": "检 (jiǎn): periksa, 验 (yàn): uji, 工位 (gōngwèi): stasiun",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2577,7 +3348,10 @@
   "words": "包 (bāo): bungkus, 装 (zhuāng): kemas, 工位 (gōngwèi): stasiun",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2587,7 +3361,10 @@
   "words": "测 (cè): ukur, 试 (shì): uji, 工位 (gōngwèi): stasiun",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2597,7 +3374,10 @@
   "words": "组 (zǔ): rakit, 装 (zhuāng): pasang, 工位 (gōngwèi): stasiun",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2607,7 +3387,10 @@
   "words": "已经 (yǐjīng): sudah",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2617,7 +3400,10 @@
   "words": "好 (hǎo): beres, 了 (le): partikel selesai, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2627,7 +3413,10 @@
   "words": "表面 (biǎomiàn): permukaan, 处理 (chǔlǐ): perlakuan / penanganan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2637,7 +3426,10 @@
   "words": "关 (guān): tutup, 上 (shang): penanda hasil tindakan, 关上 (guānshang): menutup",
   "note": "Untuk menutup pintu/penutup",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2647,7 +3439,10 @@
   "words": "什么时候 (shénme shíhou): kapan, 要 (yào): perlu / butuh",
   "note": "Maksud: dibutuhkan kapan (deadline)",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2657,7 +3452,10 @@
   "words": "二次 (èrcì): kedua kali, 曝光 (pùguāng): eksposur / penyinaran",
   "note": "Harfiah \"eksposur kedua\". Padanan literal UV exposure: 紫外曝光 zǐwài pùguāng",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2667,7 +3465,10 @@
   "words": "我 (wǒ): saya, 要 (yào): akan, 去 (qù): pergi, 中国 (Zhōngguó): China, 出差 (chūchāi): dinas / perjalanan bisnis",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2677,7 +3478,10 @@
   "words": "我 (wǒ): saya, 叫 (jiào): bernama / dipanggil, …… (……): isi nama Anda",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2687,7 +3491,10 @@
   "words": "你 (nǐ): kamu, 叫 (jiào): dipanggil, 什么 (shénme): apa, 名字 (míngzi): nama",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2697,7 +3504,10 @@
   "words": "我 (wǒ): saya, 是 (shì): adalah, 工程师 (gōngchéngshī): insinyur",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2707,7 +3517,10 @@
   "words": "很 (hěn): sangat, 高兴 (gāoxìng): senang, 认识 (rènshi): kenal, 你 (nǐ): kamu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2717,7 +3530,10 @@
   "words": "我 (wǒ): saya, 是 (shì): adalah, 印尼 (Yìnní): Indonesia, 人 (rén): orang",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2727,7 +3543,10 @@
   "words": "我 (wǒ): saya, 是 (shì): adalah, 来 (lái): datang, 培训 (péixùn): pelatihan, 的 (de): partikel penegas (pola 是…的)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2737,7 +3556,10 @@
   "words": "我 (wǒ): saya, 在 (zài): di, 这里 (zhèlǐ): sini, 待 (dāi): tinggal, 一 (yí): satu, 个 (ge): kata penggolong, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2747,7 +3569,10 @@
   "words": "这 (zhè): ini, 是 (shì): adalah, 我 (wǒ): saya, 第一次 (dì-yī cì): pertama kali, 来 (lái): datang, 中国 (Zhōngguó): China",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2757,7 +3582,10 @@
   "words": "我 (wǒ): saya, 刚 (gāng): baru saja, 开始 (kāishǐ): mulai, 学 (xué): belajar, 中文 (Zhōngwén): bahasa Mandarin",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2767,7 +3595,10 @@
   "words": "我 (wǒ): saya, 的 (de): partikel kepemilikan, 中文 (Zhōngwén): bahasa Mandarin, 不太 (bú tài): kurang / tidak terlalu, 好 (hǎo): bagus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2777,7 +3608,10 @@
   "words": "我 (wǒ): saya, 会 (huì): bisa, 说 (shuō): berbicara, 一点儿 (yìdiǎnr): sedikit, 中文 (Zhōngwén): bahasa Mandarin",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2787,7 +3621,10 @@
   "words": "你 (nǐ): kamu, 会 (huì): bisa, 说 (shuō): berbicara, 英语 (Yīngyǔ): bahasa Inggris, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2797,7 +3634,10 @@
   "words": "请 (qǐng): tolong, 多 (duō): banyak, 关照 (guānzhào): perhatian / bimbingan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2807,7 +3647,10 @@
   "words": "中文 (Zhōngwén): bahasa Mandarin, 汉语 (Hànyǔ): bahasa Han / Mandarin",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2817,7 +3660,10 @@
   "words": "他 (tā): dia (laki-laki), 她 (tā): dia (perempuan)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2827,7 +3673,10 @@
   "words": "我 (wǒ): saya, 们 (men): penanda jamak",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2837,7 +3686,10 @@
   "words": "你 (nǐ): kamu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2847,7 +3699,10 @@
   "words": "他 (tā): dia (laki-laki), 她 (tā): dia (perempuan), 们 (men): penanda jamak",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2857,7 +3712,10 @@
   "words": "国 (guó): negara, 家 (jiā): rumah / keluarga, 国家 (guójiā): negara",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2867,7 +3725,10 @@
   "words": "我 (wǒ): saya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2877,7 +3738,10 @@
   "words": "我 (wǒ): saya, 是 (shì): adalah, 工艺 (gōngyì): proses / teknologi produksi, 工程师 (gōngchéngshī): insinyur",
   "note": "Sudah sesuai gaya Mainland. (Taiwan: 制程工程师 zhìchéng gōngchéngshī)",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2887,7 +3751,10 @@
   "words": "我 (wǒ): saya, 在 (zài): sedang, 学 (xué): belajar, 中文 (Zhōngwén): bahasa Mandarin",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2897,7 +3764,10 @@
   "words": "谁 (shuí / shéi): siapa, 啊 (a): partikel penegas di akhir kalimat (memperhalus nada bicara)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2907,7 +3777,10 @@
   "words": "谁 (shéi): siapa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2917,7 +3790,10 @@
   "words": "我 (wǒ): saya, 的 (de): milik, 朋友 (péngyou): teman",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2927,7 +3803,10 @@
   "words": "你 (nǐ): kamu, 好 (hǎo): baik",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2937,7 +3816,10 @@
   "words": "早上 (zǎoshang): pagi, 好 (hǎo): baik",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2947,7 +3829,10 @@
   "words": "晚上 (wǎnshang): malam, 好 (hǎo): baik",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2957,7 +3842,10 @@
   "words": "谢谢 (xièxie): terima kasih",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2967,7 +3855,10 @@
   "words": "不 (bú): tidak, 客气 (kèqì): segan / sungkan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2977,7 +3868,10 @@
   "words": "对不起 (duìbuqǐ): maaf",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2987,7 +3881,10 @@
   "words": "没 (méi): tidak ada, 关系 (guānxi): hubungan / masalah",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -2997,7 +3894,10 @@
   "words": "再 (zài): lagi, 见 (jiàn): bertemu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3007,7 +3907,10 @@
   "words": "中午 (zhōngwǔ): siang (tengah hari), 好 (hǎo): baik",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3017,7 +3920,10 @@
   "words": "你 (nǐ): kamu, 好 (hǎo): baik, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3027,7 +3933,10 @@
   "words": "我 (wǒ): saya, 很 (hěn): sangat, 好 (hǎo): baik, 谢谢 (xièxie): terima kasih",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3037,7 +3946,10 @@
   "words": "非常 (fēicháng): sangat, 感谢 (gǎnxiè): berterima kasih",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3047,7 +3959,10 @@
   "words": "借过 (jièguò): permisi, numpang lewat, 借 (jiè): pinjam, 过 (guò): lewat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3057,7 +3972,10 @@
   "words": "请 (qǐng): silakan / tolong",
   "note": "Dipakai di awal kalimat permintaan",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3067,7 +3985,10 @@
   "words": "明天 (míngtiān): besok, 见 (jiàn): bertemu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3077,7 +3998,10 @@
   "words": "好 (hǎo): baik",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3087,7 +4011,10 @@
   "words": "下午 (xiàwǔ): sore / siang, 好 (hǎo): baik",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3097,7 +4024,10 @@
   "words": "谢谢 (xièxie): terima kasih, 您 (nín): Anda, 的 (de): milik, 帮助 (bāngzhù): bantuan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3107,7 +4037,10 @@
   "words": "你 (nǐ): kamu, 吃饭 (chī fàn): makan, 了 (le): partikel selesai, 吗 (ma): partikel tanya",
   "note": "Sapaan akrab, setara \"apa kabar\"",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3117,7 +4050,10 @@
   "words": "辛苦 (xīnkǔ): bekerja keras / jerih payah, 了 (le): partikel penegas",
   "note": "Dipakai ke rekan kerja",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3127,7 +4063,10 @@
   "words": "你 (nǐ): kamu, 做 (zuò): melakukan, 什么 (shénme): apa, 工作 (gōngzuò): pekerjaan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3137,7 +4076,10 @@
   "words": "你 (nǐ): kamu, 是 (shì): adalah, 哪里 (nǎlǐ): mana, 人 (rén): orang",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3147,7 +4089,10 @@
   "words": "今天 (jīntiān): hari ini, 天气 (tiānqì): cuaca, 很 (hěn): sangat, 好 (hǎo): bagus",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3157,7 +4102,10 @@
   "words": "今天 (jīntiān): hari ini, 很 (hěn): sangat, 热 (rè): panas",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3167,7 +4115,10 @@
   "words": "今天 (jīntiān): hari ini, 很 (hěn): sangat, 冷 (lěng): dingin",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3177,7 +4128,10 @@
   "words": "这里 (zhèlǐ): sini, 的 (de): milik, 菜 (cài): masakan, 很 (hěn): sangat, 好吃 (hǎochī): enak",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3187,7 +4141,10 @@
   "words": "请 (qǐng): tolong, 教 (jiāo): mengajar, 我 (wǒ): saya, 中文 (Zhōngwén): bahasa Mandarin",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3197,7 +4154,10 @@
   "words": "我们 (wǒmen): kita, 一起 (yìqǐ): bersama, 吃饭 (chī fàn): makan, 吧 (ba): partikel ajakan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3207,7 +4167,10 @@
   "words": "我 (wǒ): saya, 请客 (qǐngkè): mentraktir",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3217,7 +4180,10 @@
   "words": "我们 (wǒmen): kita, 各 (gè): masing-masing, 付 (fù): bayar, 各 (gè): masing-masing, 的 (de): milik, 吧 (ba): partikel ajakan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3227,7 +4193,10 @@
   "words": "我们 (wǒmen): kita, 一起 (yìqǐ): bersama, 拍照 (pāizhào): foto, 吧 (ba): partikel ajakan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3237,7 +4206,10 @@
   "words": "请 (qǐng): tolong, 帮 (bāng): bantu, 我 (wǒ): saya, 拍 (pāi): ambil, 张 (zhāng): kata penggolong foto, 照片 (zhàopiàn): foto",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3247,7 +4219,10 @@
   "words": "周末 (zhōumò): akhir pekan, 你 (nǐ): kamu, 去 (qù): pergi, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3257,7 +4232,10 @@
   "words": "有 (yǒu): ada, 什么 (shénme): apa, 好玩 (hǎowán): seru / menarik, 的 (de): partikel penghubung, 地方 (dìfang): tempat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3267,7 +4245,10 @@
   "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 买 (mǎi): beli, 纪念品 (jìniànpǐn): oleh-oleh / suvenir",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3277,7 +4258,10 @@
   "words": "我 (wǒ): saya, 想念 (xiǎngniàn): merindukan, 家人 (jiārén): keluarga",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3287,7 +4271,10 @@
   "words": "生日 (shēngrì): ulang tahun, 快乐 (kuàilè): bahagia",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3297,7 +4284,10 @@
   "words": "新年 (xīnnián): tahun baru, 快乐 (kuàilè): bahagia",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3307,7 +4297,10 @@
   "words": "祝 (zhù): mendoakan, 你 (nǐ): kamu, 成功 (chénggōng): sukses",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3317,7 +4310,10 @@
   "words": "谢谢 (xièxie): terima kasih, 你 (nǐ): kamu, 的 (de): milik, 帮助 (bāngzhù): bantuan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3327,7 +4323,10 @@
   "words": "我 (wǒ): saya, 在 (zài): di, 这里 (zhèlǐ): sini, 很 (hěn): sangat, 开心 (kāixīn): senang",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3337,7 +4336,10 @@
   "words": "回头 (huítóu): nanti (harfiah: menoleh), 见 (jiàn): bertemu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3347,7 +4349,10 @@
   "words": "路上 (lùshang): di jalan, 小心 (xiǎoxīn): hati-hati",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3357,7 +4362,10 @@
   "words": "有 (yǒu): ada, 什么 (shénme): apa, 事 (shì): urusan / masalah",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3367,7 +4375,10 @@
   "words": "或 (huò): atau / mungkin, 者 (zhě): hal / penanda, 或者 (huòzhě): atau (digunakan pada kalimat pernyataan)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3377,7 +4388,10 @@
   "words": "还 (hái): masih, 是 (shì): adalah, 还是 (háishì): atau (digunakan pada kalimat pilihan/pertanyaan)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3387,7 +4401,10 @@
   "words": "你 (nǐ): kamu, 真 (zhēn): sungguh, 棒 (bàng): hebat / keren",
   "note": "Pujian santai, sangat umum",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3397,7 +4414,10 @@
   "words": "你 (nǐ): kamu, 很 (hěn): sangat, 厉害 (lìhai): jago / hebat",
   "note": "厉害 = jago / hebat (skill)",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3407,7 +4427,10 @@
   "words": "你 (nǐ): kamu, 很 (hěn): sangat, 有钱 (yǒuqián): kaya / punya uang",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3417,7 +4440,10 @@
   "words": "你 (nǐ): kamu, 很 (hěn): sangat, 能干 (nénggàn): pandai / cakap bekerja",
   "note": "能干 = pandai/cakap dalam bekerja",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3427,7 +4453,10 @@
   "words": "你 (nǐ): kamu, 很 (hěn): sangat, 聪明 (cōngmíng): pintar",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3437,7 +4466,10 @@
   "words": "我 (wǒ): saya, 不 (bù): tidak, 知道 (zhīdào): tahu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3447,7 +4479,10 @@
   "words": "请 (qǐng): tolong, 再 (zài): lagi, 说 (shuō): berbicara, 一遍 (yí biàn): sekali",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3457,7 +4492,10 @@
   "words": "这 (zhè): ini, 是 (shì): adalah, 什么 (shénme): apa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3467,7 +4505,10 @@
   "words": "请 (qǐng): tolong, 等 (děng): tunggu, 一下 (yíxià): sebentar",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3477,7 +4518,10 @@
   "words": "请 (qǐng): mohon, 稍 (shāo): sedikit, 等 (děng): tunggu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3487,7 +4531,10 @@
   "words": "等 (děng): tunggu, 一下 (yíxià): sebentar / sekali",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3497,7 +4544,10 @@
   "words": "请 (qǐng): tolong, 说 (shuō): bicara, 慢 (màn): lambat, 一点儿 (yìdiǎnr): sedikit",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3507,7 +4557,10 @@
   "words": "这 (zhè): ini, 是 (shì): adalah, 什么 (shénme): apa, 意思 (yìsi): arti",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3517,7 +4570,10 @@
   "words": "这个 (zhège): ini, 怎么 (zěnme): bagaimana, 读 (dú): baca / ucapkan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3527,7 +4583,10 @@
   "words": "请 (qǐng): tolong, 写 (xiě): tulis, 下来 (xiàlai): penanda hasil (tertulis dan tersimpan)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3537,7 +4596,10 @@
   "words": "可以 (kěyǐ): bisa / boleh, 在 (zài): di, 手机 (shǒujī): HP, 上 (shàng): pada, 给 (gěi): untuk, 我 (wǒ): saya, 看 (kàn): lihat, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3547,7 +4609,10 @@
   "words": "我 (wǒ): saya, 用 (yòng): pakai, 翻译 (fānyì): terjemahan, 软件 (ruǎnjiàn): software / aplikasi",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3557,7 +4622,10 @@
   "words": "这个 (zhège): ini, 用 (yòng): pakai, 中文 (Zhōngwén): bahasa Mandarin, 怎么 (zěnme): bagaimana, 说 (shuō): berkata",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3567,7 +4635,10 @@
   "words": "好的 (hǎo de): baik / oke, 我 (wǒ): saya, 明白 (míngbái): paham, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3577,7 +4648,10 @@
   "words": "你 (nǐ): kamu, 能 (néng): bisa, 再 (zài): lagi, 说 (shuō): berbicara, 一遍 (yí biàn): sekali, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3587,7 +4661,10 @@
   "words": "还 (hái): masih, 没 (méi): belum, 明白 (míngbái): paham",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3597,7 +4674,10 @@
   "words": "不 (bú): tidak, 太 (tài): terlalu / begitu, 明白 (míngbái): paham",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3607,7 +4687,10 @@
   "words": "懂 (dǒng): mengerti",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3617,7 +4700,10 @@
   "words": "请问 (qǐngwèn): permisi, 这是 (zhè shì): ini adalah, 您 (nín): Anda, 意思 (yìsi): maksud, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3627,7 +4713,10 @@
   "words": "明白 (míngbái): paham, 一点 (yìdiǎn): sedikit, 了 (le): partikel perubahan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3637,7 +4726,10 @@
   "words": "明白 (míngbái): paham, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3647,7 +4739,10 @@
   "words": "明白了 (míngbái le): sudah paham, 谢谢 (xièxie): terima kasih",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3657,7 +4752,10 @@
   "words": "明白 (míngbái): paham, 了 (le): partikel selesai, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3667,7 +4765,10 @@
   "words": "知 (zhī): tahu, 道 (dào): hal / cara, 知道 (zhīdào): tahu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3677,7 +4778,10 @@
   "words": "不 (bù): tidak, 知道 (zhīdào): tahu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3687,7 +4791,10 @@
   "words": "请 (qǐng): tolong / mohon, 帮 (bāng): bantu, 忙 (máng): pekerjaan / sibuk, 帮忙 (bāngmáng): membantu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3697,7 +4804,10 @@
   "words": "那 (nà): itu / sana / Situ, 儿 (r): akhiran tempat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3707,7 +4817,10 @@
   "words": "去 (qù): pergi, 那儿 (nàr): sana/situ",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3717,7 +4830,10 @@
   "words": "厕所 (cèsuǒ): toilet, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3727,7 +4843,10 @@
   "words": "地铁站 (dìtiězhàn): stasiun metro, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3737,7 +4856,10 @@
   "words": "火车站 (huǒchēzhàn): stasiun kereta, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3747,7 +4869,10 @@
   "words": "出口 (chūkǒu): pintu keluar, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3757,7 +4882,10 @@
   "words": "我 (wǒ): saya, 要 (yào): mau, 去 (qù): pergi, 这个 (zhège): ini, 地址 (dìzhǐ): alamat",
   "note": "Tunjukkan alamat Hanzi di HP",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3767,7 +4895,10 @@
   "words": "请 (qǐng): tolong, 送 (sòng): antar, 我 (wǒ): saya, 到 (dào): ke, 这 (zhè): ini, 家 (jiā): kata penggolong tempat usaha, 酒店 (jiǔdiàn): hotel",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3777,7 +4908,10 @@
   "words": "请 (qǐng): tolong, 打表 (dǎ biǎo): menyalakan argo, 打 (dǎ): menyalakan, 表 (biǎo): meter",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3787,7 +4921,10 @@
   "words": "要 (yào): butuh, 多长 (duō cháng): berapa lama, 时间 (shíjiān): waktu",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3797,7 +4934,10 @@
   "words": "离 (lí): berjarak dari, 这儿 (zhèr): sini, 远 (yuǎn): jauh, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3807,7 +4947,10 @@
   "words": "一直 (yìzhí): terus lurus, 走 (zǒu): jalan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3817,7 +4960,10 @@
   "words": "向 (xiàng): ke arah, 左 (zuǒ): kiri, 拐 (guǎi): belok",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3827,7 +4973,10 @@
   "words": "向 (xiàng): ke arah, 右 (yòu): kanan, 拐 (guǎi): belok",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3837,7 +4986,10 @@
   "words": "在 (zài): di, 这儿 (zhèr): sini, 停车 (tíngchē): berhenti (kendaraan), 停 (tíng): berhenti, 车 (chē): kendaraan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3847,7 +4999,10 @@
   "words": "我 (wǒ): saya, 迷路 (mílù): tersesat, 迷 (mí): kehilangan arah, 路 (lù): jalan, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3857,7 +5012,10 @@
   "words": "火车 (huǒchē): kereta, 几 (jǐ): berapa, 点 (diǎn): jam, 出发 (chūfā): berangkat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3867,7 +5025,10 @@
   "words": "在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3877,7 +5038,10 @@
   "words": "这 (zhè): ini, 个 (gè): kata penggolong umum",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3887,7 +5051,10 @@
   "words": "那 (nà): itu, 个 (gè): kata penggolong umum",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3897,7 +5064,10 @@
   "words": "去 (qù): pergi, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3907,7 +5077,10 @@
   "words": "这 (zhè): ini / sini, 儿 (r): akhiran tempat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3917,7 +5090,10 @@
   "words": "来 (lái): datang, 这儿 (zhèr): sini",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3927,7 +5103,10 @@
   "words": "对 (duì): benar",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3937,7 +5116,10 @@
   "words": "不 (bú): tidak, 是 (shì): adalah",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3947,7 +5129,10 @@
   "words": "可以 (kěyǐ): boleh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3957,7 +5142,10 @@
   "words": "不 (bù): tidak, 可以 (kěyǐ): boleh",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3967,7 +5155,10 @@
   "words": "有 (yǒu): ada / punya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3977,7 +5168,10 @@
   "words": "没 (méi): tidak, 有 (yǒu): punya / ada",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3987,7 +5181,10 @@
   "words": "我 (wǒ): saya, 要 (yào): mau, 这个 (zhège): ini",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -3997,7 +5194,10 @@
   "words": "我 (wǒ): saya, 不 (bú): tidak, 要 (yào): mau",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4007,7 +5207,10 @@
   "words": "好 (hǎo): baik, 的 (de): partikel penegas",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4017,7 +5220,10 @@
   "words": "行 (xíng): oke / bisa, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4027,7 +5233,10 @@
   "words": "有 (yǒu): ada, 没有 (méiyǒu): tidak ada",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4037,7 +5246,10 @@
   "words": "有 (yǒu): ada, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4047,7 +5259,10 @@
   "words": "Kěyǐ berarti \"boleh\" atau \"bisa\", dan ma adalah partikel tanya di akhir kalimat",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4057,7 +5272,10 @@
   "words": "hái (还) berarti \"masih\", dan yǒu (有) berarti \"ada\"",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4067,7 +5285,10 @@
   "words": "还 (hái): masih, 没 (méi): belum",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4077,7 +5298,10 @@
   "words": "对 (duì): benar, 的 (de): partikel penegas, 对的 (duì de): benar / iya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4087,7 +5311,10 @@
   "words": "会 (huì): bisa (karena keahlian/pembelajaran), 能 (néng): bisa (karena kemampuan/kondisi)",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4097,7 +5324,10 @@
   "words": "是 (shì): iya / adalah, 对 (duì): benar / iya",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4107,7 +5337,10 @@
   "words": "还 (hái): masih, 有 (yǒu): ada",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4117,7 +5350,10 @@
   "words": "要 (yào): mau / ingin",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4127,7 +5363,10 @@
   "words": "错 (cuò): salah",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4137,7 +5376,10 @@
   "words": "没有了 (méiyǒu le): sudah tidak ada, 没 (méi): tidak, 有 (yǒu): ada, 了 (le): partikel perubahan",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4147,7 +5389,10 @@
   "words": "不 (bù): tidak, 是 (shì): adalah",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4157,7 +5402,10 @@
   "words": "不 (bù): tidak, 会 (huì): bisa, 能 (néng): bisa",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4167,7 +5415,10 @@
   "words": "不 (bù): tidak, 要 (yào): mau",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4177,7 +5428,10 @@
   "words": "不 (bù): tidak, 可 (kě): dapat, 能 (néng): mungkin, 可能 (kěnéng): mungkin",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Ya, tidak, boleh",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4187,7 +5441,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Salam & sopan santun",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4197,7 +5454,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Perkenalan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4207,7 +5467,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Angka & waktu",
+  "grp": "Angka 0–20",
+  "val": 0
  },
  {
   "label": "",
@@ -4217,7 +5480,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4227,7 +5493,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4237,7 +5506,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4247,7 +5519,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Tidak mengerti & minta bantuan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4257,7 +5532,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4267,7 +5545,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4277,7 +5558,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4287,7 +5571,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4297,7 +5584,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4307,7 +5597,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4317,7 +5610,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4327,7 +5623,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4337,7 +5636,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4347,7 +5649,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4357,7 +5662,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4367,7 +5675,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4377,7 +5688,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4387,7 +5701,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4397,7 +5714,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4407,7 +5727,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4417,7 +5740,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Transportasi & arah",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4427,7 +5753,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4437,7 +5766,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4447,7 +5779,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4457,7 +5792,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4467,7 +5805,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4477,7 +5818,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4487,7 +5831,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Makan & minum",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4497,7 +5844,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4507,7 +5857,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4517,7 +5870,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4527,7 +5883,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4537,7 +5896,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4547,7 +5909,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Belanja & pembayaran",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4557,7 +5922,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4567,7 +5935,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4577,7 +5948,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4587,7 +5961,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4597,7 +5974,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4607,7 +5987,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4617,7 +6000,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4627,7 +6013,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Pelatihan & kerja",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4637,7 +6026,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Sosial & penutup",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4647,7 +6039,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4657,7 +6052,10 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Kesehatan",
+  "grp": "",
+  "val": null
  },
  {
   "label": "",
@@ -4667,6 +6065,9 @@
   "words": "",
   "note": "",
   "warn": false,
-  "ex": []
+  "ex": [],
+  "sit": "Darurat",
+  "grp": "",
+  "val": null
  }
 ]

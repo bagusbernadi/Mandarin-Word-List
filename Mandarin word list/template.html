@@ -257,6 +257,46 @@ function setMode(m){
     b.onclick=function(){setMode(k)};box.appendChild(b);
   });
 })();
+/* pilihan jawaban yang mirip dengan soal */
+function chars(s){var o={};String(s||"").replace(/[一-鿿]/g,function(c){o[c]=1});return o}
+function jac(a,b){var i=0,u=0,k;for(k in a){u++;if(b[k])i++}for(k in b)if(!a[k])u++;return u?i/u:0}
+function toks(s){var o={};norm(s).split(/[^a-z0-9]+/).forEach(function(w){if(w.length>2)o[w]=1});return o}
+function sim(q,d){
+  var s=0;
+  if(d.sit&&d.sit===q.sit)s+=2;
+  s+=jac(chars(q.hz),chars(d.hz))*5;
+  s+=jac(toks(q.id),toks(d.id))*4;
+  s+=jac(toks(q.py),toks(d.py))*2;
+  if(/[?？]/.test(q.hz)===/[?？]/.test(d.hz))s+=1;
+  s+=Math.max(0,1-Math.abs(q.hz.length-d.hz.length)/6);
+  return s+Math.random()*0.8;
+}
+function pickOpts(q){
+  var cq=chars(q.hz),tq=toks(q.id);
+  /* buang kandidat yang hampir sama artinya dengan soal (bisa ikut benar) */
+  var base=poolOf().filter(function(d){return d!==q&&d.hz!==q.hz&&d.py!==q.py&&!same(d.id,q.id)&&!(q.hz.length>3&&jac(cq,chars(d.hz))>=.7)&&!(Object.keys(tq).length>1&&jac(tq,toks(d.id))>=.7)});
+  var ranked;
+  if(q.val!=null){
+    var nums=base.filter(function(d){return d.val!=null&&d.grp===q.grp});
+    if(nums.length>=3)ranked=nums.sort(function(a,b){return Math.abs(a.val-q.val)-Math.abs(b.val-q.val)+(Math.random()-.5)*.9}).slice(0,6);
+  }
+  if(!ranked&&q.grp){
+    var same_g=base.filter(function(d){return d.grp===q.grp});
+    if(same_g.length>=6)base=same_g;
+  }
+  if(!ranked)ranked=base.map(function(d){return[sim(q,d),d]}).sort(function(a,b){return b[0]-a[0]}).slice(0,10).map(function(x){return x[1]});
+  ranked=shuf(ranked.slice(0,mode==="a"?8:8));
+  var opts=[q],seen=[q];
+  function dup(s,c){return mode==="a"?same(s.hz,c.hz):same(s.id,c.id)}
+  for(var i=0;i<ranked.length&&opts.length<4;i++){
+    if(seen.some(function(s){return dup(s,ranked[i])}))continue;
+    opts.push(ranked[i]);seen.push(ranked[i]);
+  }
+  if(opts.length<4){ /* cadangan: acak dari pool */
+    shuf(poolOf()).forEach(function(d){if(opts.length<4&&d!==q&&!seen.some(function(s){return dup(s,d)})){opts.push(d);seen.push(d)}});
+  }
+  return shuf(opts);
+}
 function summary(){
   var box=$("quiz");box.textContent="";box._pick=null;score(SES+1);
   box.appendChild(el("div","ask","Sesi selesai"));
@@ -275,13 +315,8 @@ function ask(){
     q.w.forEach(function(w){var c=el("div","w");c.appendChild(el("div","wh",w[0]));c.appendChild(el("div","wp",w[1]));wd.appendChild(c)});
     box.appendChild(wd);
   }else{box.appendChild(el("p","qt hz",q.hz));box.appendChild(el("p","qt py",q.py))}
-  var cand=shuf(poolOf().filter(function(d){return d!==q&&d.hz!==q.hz&&d.py!==q.py&&!same(d.id,q.id)}));
-  var opts=[q],seen=[q];
-  for(var i=0;i<cand.length&&opts.length<4;i++){
-    if(seen.some(function(s){return mode==="a"?same(s.hz,cand[i].hz):same(s.id,cand[i].id)}))continue;
-    opts.push(cand[i]);seen.push(cand[i]);
-  }
-  opts=shuf(opts);
+  var opts=pickOpts(q);
+
   var wrap=el("div","opts"),btns=[],done=false,res=el("div","res");
   opts.forEach(function(o,i){
     var b=el("button","opt "+(mode==="a"?"ap":"id"));b.type="button";

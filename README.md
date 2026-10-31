@@ -11,6 +11,7 @@ Kamus Mandarin pribadi (Indonesia – pinyin – hanzi) untuk bekerja di pabrik 
   - **A:** pertanyaan Indonesia, jawaban Pinyin + Hanzi.
   - **B:** pertanyaan Hanzi per kata + Pinyin, jawaban Indonesia (hanya kosakata yang kolom `Arti per kata`-nya terisi).
   - **C:** pertanyaan Hanzi + Pinyin, jawaban Indonesia.
+  - Pilihan jawaban dipilih yang mirip dengan soal: angka dan bulan memakai angka/bulan terdekat (misalnya 100 → 200, 300, 400), sisanya memakai situasi yang sama, hanzi, dan kata yang mirip. Kandidat yang hampir sama artinya dengan soal dibuang agar tidak ada dua jawaban benar.
 - **Deck Belajar** (`deck.html`): rencana belajar 30 hari dalam bentuk slide, dibuka lewat menu di bagian atas halaman. Di laptop tampil sebagai slide (geser dengan panah keyboard). Di layar HP (lebar ≤ 820 px) tampil sebagai daftar yang bisa di-scroll, dengan tombol nomor hari di atas untuk loncat ke hari tertentu dan tautan "Buka versi slide".
 
 Semua halaman memakai desain yang sama dengan deck (warna Google, font Calibri/Carlito).

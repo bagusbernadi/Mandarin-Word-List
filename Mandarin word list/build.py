@@ -262,9 +262,19 @@ def build_mobile(days, tahap, nrows):
 
 
 def build_pool(groups):
-    return [{"label": "", "id": g["id"], "py": g["rows"][0][1], "hz": g["rows"][0][0],
-             "words": g["words"], "note": g["kets"][0] if g["kets"] else "", "warn": False, "ex": []}
-            for g in groups]
+    out = []
+    for g in groups:
+        hz = g["rows"][0][0]
+        grp, val = "", None
+        if g["sit"] == "Angka & waktu":
+            grp, v = tag_angka(g)
+            if grp in (ANGKA_TAGS[1], ANGKA_TAGS[2], ANGKA_TAGS[3], ANGKA_TAGS[4]) and "、" not in hz and (
+                    hz == "零" or re.fullmatch("[零一二三四五六七八九十百千万两]+|[一二三四五六七八九十]+月", hz)):
+                val = v if grp != ANGKA_TAGS[4] else num_value(hz[:-1])
+        out.append({"label": "", "id": g["id"], "py": g["rows"][0][1], "hz": hz,
+                    "words": g["words"], "note": g["kets"][0] if g["kets"] else "", "warn": False, "ex": [],
+                    "sit": g["sit"], "grp": grp, "val": val})
+    return out
 
 
 def inject(html, marker, data):
