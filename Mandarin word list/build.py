@@ -2,7 +2,8 @@
 Build the Mandarin kamus website from the Excel word list.
 
 Input : Mandarin word list/Catatan_Bahasa_Mandarin.xlsx
-Output: docs/index.html (website) and docs/data.json (raw data)
+Output: docs/index.html (website), docs/data.json (raw data),
+        docs/deck.html + docs/deck-slides.html (halaman Deck Belajar)
 
 Columns are found by header name, not position, so you can add or
 reorder columns in Excel without touching this script.
@@ -17,6 +18,8 @@ import openpyxl
 BASE = Path(__file__).resolve().parent
 XLSX = BASE / "Catatan_Bahasa_Mandarin.xlsx"
 TEMPLATE = BASE / "template.html"
+DECK_SRC = BASE / "Rencana_Belajar_Harian_Mandarin_Gabungan.html"
+DECK_TEMPLATE = BASE / "deck_template.html"
 OUT_DIR = BASE.parent / "docs"
 
 # Header names expected in row 1 of the Excel sheet
@@ -96,6 +99,13 @@ def main():
         "var DATA=[];",
         "var DATA=" + json.dumps(entries, ensure_ascii=False) + ";")
     (OUT_DIR / "index.html").write_text(html, encoding="utf-8")
+
+    if DECK_SRC.exists():
+        (OUT_DIR / "deck-slides.html").write_text(DECK_SRC.read_text(encoding="utf-8"), encoding="utf-8")
+        (OUT_DIR / "deck.html").write_text(DECK_TEMPLATE.read_text(encoding="utf-8"), encoding="utf-8")
+        print("OK: deck disalin ke docs/deck.html")
+    else:
+        print(f"PERINGATAN: deck tidak ditemukan: {DECK_SRC}")
 
     with_ex = sum(1 for e in entries if e["ex"])
     print(f"OK: {len(entries)} entri, {with_ex} dengan contoh kalimat -> {OUT_DIR}")

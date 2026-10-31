@@ -88,9 +88,16 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 .exs[hidden]{display:none}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:15px;color:var(--mute);margin-top:14px}
 .legend b{font-weight:700}
+.nav{background:#202124;position:sticky;top:0;z-index:5}
+.nav div{max-width:860px;margin:0 auto;padding:0 20px;display:flex;gap:4px}
+.nav a{color:#DADCE0;text-decoration:none;font:700 16px var(--font);padding:13px 16px 10px;border-bottom:4px solid transparent}
+.nav a:hover{color:#ffffff}
+.nav a.on{color:#ffffff;border-bottom-color:#4285F4}
+.bar{top:48px}
 </style>
 </head>
 <body>
+<nav class="nav" aria-label="Menu utama"><div><a class="on" href="index.html" aria-current="page">Kamus</a><a href="deck.html">Deck Belajar</a></div></nav>
 <header class="hd"><h1>Kamus Mandarin</h1><div class="legend"><span style="color:#202124"><b>Indonesia</b></span><span style="color:#1A73E8"><b>Pinyin</b></span><span style="color:#202124"><b>Hanzi</b></span></div></header>
 <div class="wrap">
 <div class="tabs" role="tablist">
@@ -99,7 +106,7 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 </div>
 <section id="p1" role="tabpanel" aria-labelledby="t1">
 <div class="bar">
-<input id="q" type="search" placeholder="Cari di semua kolom: Indonesia, pinyin, hanzi, label…" autocomplete="off">
+<input id="q" type="search" placeholder="Cari kata: Indonesia, pinyin, atau hanzi…" autocomplete="off">
 <div id="info"></div>
 </div>
 <div id="list"></div>
@@ -113,7 +120,7 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 <script>
 (function(){
 var DATA=[];
-var rows=DATA.map(function(o){o.hay=norm([o.label,o.id,o.py,o.hz,o.words,o.note].concat((o.ex||[]).map(function(e){return e.join(" ")})).join(" "));return o});
+var rows=DATA.map(function(o){o.hay=norm([o.id,o.py,o.hz].join(" "));return o});
 function $(i){return document.getElementById(i)}
 function norm(s){return String(s==null?"":s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
 function esc(s){return s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}
@@ -167,13 +174,13 @@ function render(){
     var h=line("Hanzi",o.hz,toks,"hz");
     var p=el("div","py");hl(p,o.py,toks);h.firstChild.appendChild(p);
     c.appendChild(h);
-    if(o.words){var w=el("div","meta");hl(w,o.words,toks);c.appendChild(w)}
-    if(o.note){var n=el("div","meta");hl(n,o.note,toks);c.appendChild(n)}
+    if(o.words){var w=el("div","meta");w.textContent=o.words;c.appendChild(w)}
+    if(o.note){var n=el("div","meta");n.textContent=o.note;c.appendChild(n)}
     if(o.ex&&o.ex.length){
       var box=el("div","exs");box.appendChild(el("div","exh","Contoh kalimat"));
       o.ex.forEach(function(e){
         var it=el("div","ex"),a=el("div","ex-id"),b=el("div","ex-py"),z=el("div","ex-hz");
-        hl(a,e[0],toks);hl(b,e[1],toks);hl(z,e[2],toks);
+        a.textContent=e[0];b.textContent=e[1];z.textContent=e[2];
         it.appendChild(a);it.appendChild(b);it.appendChild(z);box.appendChild(it);
       });
       box.hidden=true;

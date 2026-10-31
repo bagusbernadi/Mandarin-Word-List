@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deck Belajar Mandarin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffffff;--card:#F1F3F4;--line:#DADCE0;--ink:#202124;--mute:#5F6368;--blue:#4285F4;--red:#EA4335;--yel:#FBBC05;--grn:#34A853;--pri:#202124;--pri-ink:#ffffff;--link:#1A73E8;--pyc:#1A73E8;--ok:#188038;--ok-bg:#E6F4EA;--err:#C5221F;--err-bg:#FCE8E6;--mark:#FEEFC3;--hz:"Noto Sans SC","Microsoft YaHei","PingFang SC",sans-serif;--font:Calibri,Carlito,"Segoe UI",Arial,sans-serif;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{background:#ffffff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 var(--font);-webkit-font-smoothing:antialiased}
+.hd{max-width:860px;margin:0 auto;padding:28px 20px 16px}
+h1{margin:0;font:700 40px/1.15 var(--font);color:var(--ink)}
+h1 .c0,h1 .c1,h1 .c2,h1 .c3{color:var(--ink)}
+h1::after{content:"";display:block;width:72px;height:6px;border-radius:3px;background:linear-gradient(90deg,#4285F4 25%,#EA4335 0 50%,#FBBC05 0 75%,#34A853 0);margin-top:12px}
+.wrap{max-width:860px;margin:0 auto;padding:8px 20px 48px}
+.tabs{display:inline-flex;gap:6px}
+.tab{font:700 16px var(--font);background:var(--card);color:var(--mute);border:0;border-radius:999px;padding:6px 20px;cursor:pointer}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{background:var(--blue);color:#ffffff}
+button:focus-visible,input:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.bar{position:sticky;top:0;background:#ffffff;padding:14px 0 8px;z-index:2}
+#q{width:100%;font:inherit;padding:11px 16px;border:2px solid var(--line);border-radius:12px;background:#ffffff;color:var(--ink)}
+#q:focus{border-color:var(--blue);outline:none}
+#q::placeholder{color:#80868B}
+#info{color:var(--mute);font-size:15px;margin:8px 2px 0}
+.card{background:var(--card);border-radius:16px;border-left:8px solid var(--blue);padding:16px 20px;margin-top:12px}
+.card:has(.lb.g){border-left-color:var(--grn)}
+.card:has(.lb.b){border-left-color:var(--blue)}
+.card:has(.lb.y){border-left-color:var(--yel)}
+.card:has(.lb.r){border-left-color:var(--red)}
+.row{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;background:#ffffff;border-radius:10px;padding:8px 14px}
+.row+.row{margin-top:6px}
+.id{font-size:18px;font-weight:400;color:var(--ink)}
+.hz{font:700 24px/1.3 var(--hz);color:var(--ink)}
+.py{color:var(--pyc);font-weight:700;font-size:16px}
+.meta{color:var(--mute);font-size:15px;margin-top:8px}
+.lb{display:inline-block;font:700 14px/1 var(--font);border-radius:999px;padding:5px 12px;margin-bottom:10px;color:#ffffff}
+.lb.g{background:var(--grn)}
+.lb.b{background:var(--blue)}
+.lb.y{background:var(--yel);color:var(--ink)}
+.lb.r{background:var(--red)}
+button.cp{flex:none;border:0;background:var(--card);color:var(--ink);border-radius:999px;padding:5px 14px;font:700 14px var(--font);cursor:pointer;min-width:76px}
+button.cp:hover{background:var(--line)}
+button.cp.ok{background:var(--ok-bg);color:var(--ok)}
+mark{background:var(--mark);color:inherit;border-radius:3px;padding:0 1px}
+.empty{color:var(--mute);text-align:center;padding:40px 12px;font-size:16px}
+.score{display:flex;justify-content:space-between;align-items:center;color:var(--mute);font-size:15px;margin-top:12px}
+.pg{height:6px;background:var(--card);border-radius:999px;margin-top:10px;overflow:hidden}
+#pgf{height:100%;width:0;background:linear-gradient(90deg,#4285F4,#34A853);border-radius:999px;transition:width .3s}
+.ask{color:var(--mute);font-size:15px;font-weight:700}
+.qt{margin:6px 0 0;word-break:break-word}
+.qt.hz{font:700 34px/1.3 var(--hz);color:var(--ink)}
+.qt.py{font:700 22px/1.4 var(--font);color:var(--pyc)}
+.qt.id{font:400 22px/1.4 var(--font);color:var(--ink)}
+.opts{display:grid;gap:8px;margin-top:14px}
+.opt{text-align:left;background:#ffffff;color:var(--ink);border:2px solid transparent;border-radius:10px;padding:10px 14px;font:inherit;cursor:pointer;display:flex;gap:12px;align-items:center}
+.opt:hover:not(:disabled){border-color:var(--blue)}
+.opt .k{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font:700 13px var(--font);background:var(--card);color:var(--mute)}
+.opt .t{word-break:break-word}
+.opt.hz .t{font:700 22px/1.35 var(--hz);color:var(--ink)}
+.opt.py .t{color:var(--pyc);font-weight:700}
+.opt.ok{background:var(--ok-bg);border-color:var(--grn)}
+.opt.ok .t{color:var(--ok)}
+.opt.no{background:var(--err-bg);border-color:var(--red)}
+.opt.no .t{color:var(--err)}
+.opt:disabled{cursor:default}
+.res{margin-top:14px;padding-top:14px;border-top:2px solid var(--line)}
+.res .v{font-weight:700;margin-bottom:6px}
+button.next{margin-top:14px;background:var(--blue);color:#ffffff;border:0;border-radius:999px;padding:9px 22px;font:700 16px var(--font);cursor:pointer}
+button.next:hover{background:#1A73E8}
+button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inherit;font-size:15px;font-weight:700}
+@media (max-width:480px){.hd,.wrap{padding-left:16px;padding-right:16px}h1{font-size:32px}.hz{font-size:22px}.qt.hz{font-size:30px}}
+.exs{margin-top:12px;padding-top:12px;border-top:2px dashed var(--line)}
+.exh{font:700 13px var(--font);color:var(--mute);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.ex{padding:8px 14px;margin-top:6px;background:#ffffff;border-radius:10px}
+.ex:last-child{padding-bottom:8px}
+.ex-id{color:var(--ink);font-size:16px}
+.ex-py{color:var(--pyc);font-size:15px;font-weight:700}
+.ex-hz{color:var(--ink);font:700 18px/1.45 var(--hz)}
+.id.tog{cursor:pointer;display:inline-block}
+.id.tog::after{content:" \25BE";color:#80868B;font-size:13px}
+.id.tog.open::after{content:" \25B4"}
+.id.tog:hover{color:var(--link)}
+.exs[hidden]{display:none}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:15px;color:var(--mute);margin-top:14px}
+.legend b{font-weight:700}
+.nav{background:#202124;position:sticky;top:0;z-index:5}
+.nav div{max-width:860px;margin:0 auto;padding:0 20px;display:flex;gap:4px}
+.nav a{color:#DADCE0;text-decoration:none;font:700 16px var(--font);padding:13px 16px 10px;border-bottom:4px solid transparent}
+.nav a:hover{color:#ffffff}
+.nav a.on{color:#ffffff;border-bottom-color:#4285F4}
+.bar{top:48px}
+html,body{height:100%;background:#202124}
+body{display:flex;flex-direction:column}
+iframe{flex:1;width:100%;border:0;display:block}
+</style>
+</head>
+<body>
+<nav class="nav" aria-label="Menu utama"><div><a href="index.html">Kamus</a><a class="on" href="deck.html" aria-current="page">Deck Belajar</a></div></nav>
+<iframe id="deck" src="deck-slides.html" title="Deck Belajar Mandarin" allowfullscreen></iframe>
+<script>document.getElementById("deck").addEventListener("load",function(){try{this.contentWindow.focus()}catch(e){}});</script>
+</body>
+</html>
