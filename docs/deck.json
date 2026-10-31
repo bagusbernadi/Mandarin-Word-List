@@ -1135,7 +1135,7 @@
   "py": "Xiǎo",
   "hz": "小",
   "words": "小 (xiǎo): kecil",
-  "note": "Pinyin dilengkapi tanda nada",
+  "note": "",
   "warn": false,
   "ex": []
  },
@@ -2665,7 +2665,7 @@
   "py": "Wǒ yào qù Zhōngguó chūchāi",
   "hz": "我要去中国出差",
   "words": "我 (wǒ): saya, 要 (yào): akan, 去 (qù): pergi, 中国 (Zhōngguó): China, 出差 (chūchāi): dinas / perjalanan bisnis",
-  "note": "REVIEW: Bisa dipakai, natural. \"Biztrip\" tidak dipakai native; gunakan 出差 (chūchāi). Pakai 去 (qù), bukan 到 (dào = sampai). 中国 (Zhōngguó) lebih umum dari \"Cina\". Untuk menyebut waktu: 我下个月要去中国出差。 (bulan depan)",
+  "note": "",
   "warn": false,
   "ex": []
  },
@@ -2685,7 +2685,7 @@
   "py": "Nǐ jiào shénme míngzi?",
   "hz": "你叫什么名字？",
   "words": "你 (nǐ): kamu, 叫 (jiào): dipanggil, 什么 (shénme): apa, 名字 (míngzi): nama",
-  "note": "Pinyin dilengkapi tanda nada",
+  "note": "",
   "warn": false,
   "ex": []
  },
@@ -2895,7 +2895,7 @@
   "py": "Shuí a?",
   "hz": "谁啊？",
   "words": "谁 (shuí / shéi): siapa, 啊 (a): partikel penegas di akhir kalimat (memperhalus nada bicara)",
-  "note": "Format E diseragamkan (\"=\" → \":\")",
+  "note": "",
   "warn": false,
   "ex": []
  },
@@ -2955,7 +2955,7 @@
   "py": "Xièxie",
   "hz": "谢谢",
   "words": "谢谢 (xièxie): terima kasih",
-  "note": "Arti per kata dirapikan (sebelumnya \"谢 (xiè), 谢 (xie)\")",
+  "note": "",
   "warn": false,
   "ex": []
  },
@@ -3655,7 +3655,7 @@
   "py": "Míngbái le ma?",
   "hz": "明白了吗？",
   "words": "明白 (míngbái): paham, 了 (le): partikel selesai, 吗 (ma): partikel tanya",
-  "note": "D56: tanda tanya diganti full-width (？)",
+  "note": "",
   "warn": false,
   "ex": []
  },
@@ -4055,7 +4055,7 @@
   "py": "Hái yǒu ma?",
   "hz": "还有吗？",
   "words": "hái (还) berarti \"masih\", dan yǒu (有) berarti \"ada\"",
-  "note": "Tanda tanya diganti full-width (？)",
+  "note": "",
   "warn": false,
   "ex": []
  },

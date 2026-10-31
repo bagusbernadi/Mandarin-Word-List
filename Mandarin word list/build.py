@@ -47,7 +47,7 @@ TAHAP = [('Tahap 1 · Dasar', 'b', SIT[:5]), ('Tahap 2 · Perjalanan', 'r', SIT[
          ('Tahap 3 · Makanan dan belanja', 'y', SIT[7:9]),
          ('Tahap 4 · Kerja, sosial, kesehatan, darurat', 'g', SIT[9:])]
 DAYS = 30
-SKIP_NOTE = re.compile("tertulis|dikoreksi|kolom")
+SKIP_NOTE = re.compile("tertulis|dikoreksi|kolom|dirapikan|diganti|diubah|diseragamkan|dilengkapi|^REVIEW|^D\\d+", re.I)
 E = H.escape
 
 
@@ -201,7 +201,8 @@ def row_html(g):
 
 
 def card_html(title, col, items):
-    return (f'<div class="card ac {col}"><h3>{E(title)}</h3><table class="t">'
+    h3 = f'<h3>{E(title)}</h3>' if title else '<h3 style="visibility:hidden" aria-hidden="true">&nbsp;</h3>'
+    return (f'<div class="card ac {col}">{h3}<table class="t">'
             + ''.join(row_html(g) for g in items) + '</table></div>')
 
 
@@ -225,7 +226,7 @@ def build_deck(groups):
             part = f' · bagian {p + 1}/{m}' if m > 1 else ''
             h = (len(it) + 1) // 2
             title = f'Hari {n} · {t}'
-            body = (f'<div class="g2">{card_html(title, col, it[:h])}{card_html(title + " (lanjutan)", col, it[h:])}</div>'
+            body = (f'<div class="g2">{card_html(title, col, it[:h])}{card_html(None, col, it[h:])}</div>'
                     if len(it) > 6 else f'<div class="g1">{card_html(title, col, it)}</div>')
             dense = ' class="dn"' if len(it) >= 8 else ''
             sl.append(f'<section{dense}><div class="hd"><h2>{E(tahap_of[s])}</h2><p class="sub">Hari {n}{part} · {len(it)} frasa</p></div>{body}</section>')
