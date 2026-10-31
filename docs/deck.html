@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Deck Belajar Mandarin</title>
+<title>30H Belajar Mandarin</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
@@ -88,12 +88,7 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 .exs[hidden]{display:none}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:15px;color:var(--mute);margin-top:14px}
 .legend b{font-weight:700}
-.nav{background:#202124;position:sticky;top:0;z-index:5}
-.nav div{max-width:860px;margin:0 auto;padding:0 20px;display:flex;gap:4px}
-.nav a{color:#DADCE0;text-decoration:none;font:700 16px var(--font);padding:13px 16px 10px;border-bottom:4px solid transparent}
-.nav a:hover{color:#ffffff}
-.nav a.on{color:#ffffff;border-bottom-color:#4285F4}
-.bar{top:48px}
+.bar{top:0}
 html,body{height:100%;background:#202124}
 body{display:flex;flex-direction:column}
 iframe{flex:1;width:100%;border:0;display:block}
@@ -101,12 +96,12 @@ iframe{flex:1;width:100%;border:0;display:block}
 .dm-in{max-width:860px;margin:0 auto;padding:12px 16px 40px}
 .dm-top{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:15px;color:var(--mute)}
 .dm-top a{color:var(--link);font-weight:700;text-decoration:none;white-space:nowrap}
-.dm-chips{position:sticky;top:48px;z-index:4;background:#ffffff;display:flex;gap:6px;overflow-x:auto;padding:10px 0;margin:6px 0 0;-webkit-overflow-scrolling:touch}
+.dm-chips{position:sticky;top:0;z-index:4;background:#ffffff;display:flex;gap:6px;overflow-x:auto;padding:10px 0;margin:6px 0 0;-webkit-overflow-scrolling:touch}
 .dm-chips a{flex:none;min-width:40px;text-align:center;font:700 14px var(--font);color:#ffffff;text-decoration:none;border-radius:999px;padding:5px 10px}
 .dm-chips a.b,.dm-t.b{background:#4285F4}.dm-chips a.r,.dm-t.r{background:#EA4335}.dm-chips a.y,.dm-t.y{background:#FBBC05;color:#202124}.dm-chips a.g,.dm-t.g{background:#34A853}
-.dm-t{font:700 18px/1.25 var(--font);color:#ffffff;border-radius:12px;padding:10px 14px;margin:18px 0 4px;scroll-margin-top:110px}
+.dm-t{font:700 18px/1.25 var(--font);color:#ffffff;border-radius:12px;padding:10px 14px;margin:18px 0 4px;scroll-margin-top:64px}
 .dm-t.y{color:#202124}
-.dm-day{background:var(--card);border-radius:16px;border-left:8px solid #4285F4;padding:14px 14px 10px;margin-top:12px;scroll-margin-top:110px}
+.dm-day{background:var(--card);border-radius:16px;border-left:8px solid #4285F4;padding:14px 14px 10px;margin-top:12px;scroll-margin-top:64px}
 .dm-day.r{border-left-color:#EA4335}.dm-day.y{border-left-color:#FBBC05}.dm-day.g{border-left-color:#34A853}
 .dm-day h3{margin:0 0 8px;font:700 19px/1.25 var(--font);color:var(--ink)}
 .dm-day h3 small{display:block;font:400 14px var(--font);color:var(--mute);margin-top:2px}
@@ -123,12 +118,15 @@ iframe{flex:1;width:100%;border:0;display:block}
  iframe{display:none}
  .dm{display:block}
 }
+a.tab{text-decoration:none;display:inline-block}
+.tb{background:#ffffff;padding:10px 20px;flex:none}
+.tb .tabs{max-width:860px;margin:0 auto}
 </style>
 </head>
 <body>
-<nav class="nav" aria-label="Menu utama"><div><a href="index.html">Kamus</a><a class="on" href="deck.html" aria-current="page">Deck Belajar</a></div></nav>
-<iframe id="deck" src="deck-slides.html" title="Deck Belajar Mandarin" allowfullscreen></iframe>
-<main class="dm" aria-label="Deck Belajar versi HP"><div class="dm-in"><div class="dm-top"><span>30 hari · 467 kosakata</span><a href="deck-slides.html">Buka versi slide ↗</a></div>
+<div class="tb"><div class="tabs"><a class="tab" href="index.html">Kamus</a><a class="tab" href="index.html#latihan">Latihan</a><a class="tab" aria-selected="true" aria-current="page" href="deck.html">30H Belajar</a></div></div>
+<iframe id="deck" src="deck-slides.html" title="30H Belajar Mandarin" allowfullscreen></iframe>
+<main class="dm" aria-label="30H Belajar versi HP"><div class="dm-in"><div class="dm-top"><span>30 hari · 467 kosakata</span><a href="deck-slides.html">Buka versi slide ↗</a></div>
 <nav class="dm-chips" aria-label="Pilih hari"><a class="b" href="#h1">1</a><a class="b" href="#h2">2</a><a class="b" href="#h3">3</a><a class="b" href="#h4">4</a><a class="b" href="#h5">5</a><a class="b" href="#h6">6</a><a class="b" href="#h7">7</a><a class="b" href="#h8">8</a><a class="b" href="#h9">9</a><a class="b" href="#h10">10</a><a class="b" href="#h11">11</a><a class="b" href="#h12">12</a><a class="b" href="#h13">13</a><a class="r" href="#h14">14</a><a class="r" href="#h15">15</a><a class="r" href="#h16">16</a><a class="y" href="#h17">17</a><a class="y" href="#h18">18</a><a class="y" href="#h19">19</a><a class="y" href="#h20">20</a><a class="g" href="#h21">21</a><a class="g" href="#h22">22</a><a class="g" href="#h23">23</a><a class="g" href="#h24">24</a><a class="g" href="#h25">25</a><a class="g" href="#h26">26</a><a class="g" href="#h27">27</a><a class="g" href="#h28">28</a><a class="g" href="#h29">29</a><a class="g" href="#h30">30</a></nav>
 <h2 class="dm-t b">Tahap 1 · Dasar</h2>
 <section class="dm-day b" id="h1"><h3>Hari 1 · Salam &amp; sopan santun<small>19 frasa</small></h3><div class="dm-i"><div class="dm-id">Halo</div><div class="dm-hz">你好</div><div class="dm-py">Nǐ hǎo</div></div><div class="dm-i"><div class="dm-id">Selamat pagi</div><div class="dm-hz">早上好</div><div class="dm-py">Zǎoshang hǎo</div></div><div class="dm-i"><div class="dm-id">Selamat malam</div><div class="dm-hz">晚上好</div><div class="dm-py">Wǎnshang hǎo</div></div><div class="dm-i"><div class="dm-id">Terima kasih</div><div class="dm-hz">谢谢</div><div class="dm-py">Xièxie</div></div><div class="dm-i"><div class="dm-id">Sama-sama</div><div class="dm-hz">不客气</div><div class="dm-py">Bú kèqì</div></div><div class="dm-i"><div class="dm-id">Maaf</div><div class="dm-hz">对不起</div><div class="dm-py">Duìbuqǐ</div></div><div class="dm-i"><div class="dm-id">Tidak apa-apa</div><div class="dm-hz">没关系</div><div class="dm-py">Méi guānxi</div></div><div class="dm-i"><div class="dm-id">Sampai jumpa</div><div class="dm-hz">再见</div><div class="dm-py">Zàijiàn</div></div><div class="dm-i"><div class="dm-id">Selamat siang</div><div class="dm-hz">中午好</div><div class="dm-py">Zhōngwǔ hǎo</div></div><div class="dm-i"><div class="dm-id">Apa kabar?</div><div class="dm-hz">你好吗？</div><div class="dm-py">Nǐ hǎo ma?</div></div><div class="dm-i"><div class="dm-id">Saya baik, terima kasih</div><div class="dm-hz">我很好，谢谢</div><div class="dm-py">Wǒ hěn hǎo, xièxie</div></div><div class="dm-i"><div class="dm-id">Terima kasih banyak</div><div class="dm-hz">非常感谢</div><div class="dm-py">Fēicháng gǎnxiè</div></div><div class="dm-i"><div class="dm-id">Permisi (numpang lewat)</div><div class="dm-hz">借过</div><div class="dm-py">Jièguò</div></div><div class="dm-i"><div class="dm-id">Silakan / tolong (awal permintaan sopan)</div><div class="dm-hz">请</div><div class="dm-py">Qǐng</div><span class="dm-note">Dipakai di awal kalimat permintaan</span></div><div class="dm-i"><div class="dm-id">Sampai besok</div><div class="dm-hz">明天见</div><div class="dm-py">Míngtiān jiàn</div></div><div class="dm-i"><div class="dm-id">Baik</div><div class="dm-hz">好</div><div class="dm-py">Hǎo</div></div><div class="dm-i"><div class="dm-id">Selamat sore</div><div class="dm-hz">下午好</div><div class="dm-py">Xiàwǔ hǎo</div></div><div class="dm-i"><div class="dm-id">Terima kasih atas bantuan Anda</div><div class="dm-hz">谢谢您的帮助</div><div class="dm-py">Xièxiè nín de bāngzhù</div></div><div class="dm-i"><div class="dm-id">Permisi / numpang tanya</div><div class="dm-hz">请问</div><div class="dm-py">Qǐngwèn</div></div></section>

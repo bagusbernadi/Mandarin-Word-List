@@ -2,11 +2,11 @@
 Build website kamus + deck belajar + latihan dari satu file Excel.
 
 Input : Mandarin word list/Kosakata_Mandarin.xlsx
-          - sheet "Survival 200" : kosakata (sumber Deck Belajar dan Latihan)
+          - sheet "Survival 200" : kosakata (sumber 30H Belajar dan Latihan)
           - sheet "Kamus"        : kamus (Indonesia, pinyin, hanzi, contoh kalimat)
           - sheet "Progress"     : rekap hafalan (tidak dipakai build)
 Output: docs/index.html (kamus + latihan), docs/data.json (data kamus),
-        docs/deck.html + docs/deck-slides.html (Deck Belajar), docs/deck.json (soal latihan)
+        docs/deck.html + docs/deck-slides.html (30H Belajar), docs/deck.json (soal latihan)
 
 Kolom dicari berdasarkan nama header, bukan posisi.
 Kolom "Sinonim" (opsional) di sheet Survival 200: baris dengan kode sama (mis. S07) dianggap
