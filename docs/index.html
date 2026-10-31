@@ -88,6 +88,22 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 .exs[hidden]{display:none}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:15px;color:var(--mute);margin-top:14px}
 .legend b{font-weight:700}
+.modes{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.mode{text-align:left;background:var(--card);color:var(--ink);border:2px solid transparent;border-radius:12px;padding:10px 12px;font:inherit;cursor:pointer;display:flex;flex-direction:column;gap:2px}
+.mode b{font:700 15px var(--font);color:var(--mute)}
+.mode span{font-size:14px;line-height:1.3}
+.mode[aria-pressed="true"]{background:#E8F0FE;border-color:var(--blue)}
+.mode[aria-pressed="true"] b{color:var(--blue)}
+.opt.ap .t{display:flex;flex-direction:column}
+.opt .oh{font:700 22px/1.35 var(--hz);color:var(--ink)}
+.opt .oy{color:var(--pyc);font-weight:700;font-size:15px}
+.opt.ok .oh,.opt.ok .oy{color:var(--ok)}.opt.no .oh,.opt.no .oy{color:var(--err)}
+.opt.id .t{font-size:17px}
+.wd{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.w{background:#ffffff;border-radius:10px;padding:6px 12px;text-align:center}
+.wh{font:700 28px/1.3 var(--hz);color:var(--ink)}
+.wp{color:var(--pyc);font-weight:700;font-size:15px}
+@media (max-width:560px){.modes{grid-template-columns:1fr}.mode{flex-direction:row;align-items:center;gap:10px}}
 .nav{background:#202124;position:sticky;top:0;z-index:5}
 .nav div{max-width:860px;margin:0 auto;padding:0 20px;display:flex;gap:4px}
 .nav a{color:#DADCE0;text-decoration:none;font:700 16px var(--font);padding:13px 16px 10px;border-bottom:4px solid transparent}
@@ -112,6 +128,7 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 <div id="list"></div>
 </section>
 <section id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+<div class="modes" id="modes" role="group" aria-label="Jenis latihan"></div>
 <div class="score"><span id="sc"></span><button class="lnk" id="rs" type="button">Sesi baru</button></div>
 <div class="pg"><div id="pgf"></div></div>
 <div class="card" id="quiz"></div>
@@ -205,42 +222,73 @@ $("q").addEventListener("input",render);
 render();
 
 /* latihan */
-var TN={hz:"Hanzi",py:"Pinyin",id:"Indonesia"},KEYS=["hz","py","id"];
-var pool=DECK.filter(function(o){return o.id&&o.py&&o.hz});
-var SES=10,deck=[],last="",st={ok:0,all:0};
+var SES=10,deck=[],st={ok:0,all:0},mode="a";
+var MODES={
+  a:{t:"A",d:"Indonesia → Pinyin & Hanzi",ask:"Pilih Pinyin dan Hanzi yang tepat untuk:"},
+  b:{t:"B",d:"Hanzi per kata + Pinyin → Indonesia",ask:"Apa arti dalam bahasa Indonesia? (per kata)"},
+  c:{t:"C",d:"Hanzi & Pinyin → Indonesia",ask:"Apa arti dalam bahasa Indonesia?"}
+};
+function wordsOf(o){
+  var out=[],m,r1=/([一-鿿][一-鿿A-Za-z0-9\/]*)\s*\(([^)]+)\)\s*:/g,r2=/([^,=()]+?)\s*\(([^)]*[一-鿿][^)]*)\)\s*=/g;
+  while((m=r1.exec(o.words||""))){out.push([m[1],m[2].trim()])}
+  if(out.length)return out;
+  while((m=r2.exec(o.words||""))){out.push([m[2].trim(),m[1].trim()])}
+  return out;
+}
+var all=DECK.filter(function(o){return o.id&&o.py&&o.hz});
+all.forEach(function(o){o.w=wordsOf(o)});
+var poolB=all.filter(function(o){return o.w.length>=2});
+function poolOf(){return mode==="b"?poolB:all}
 function shuf(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
 function same(a,b){return norm(a).replace(/\s+/g,"")===norm(b).replace(/\s+/g,"")}
-function nextItem(){if(!deck.length)deck=shuf(pool);return deck.pop()}
+function nextItem(){if(!deck.length)deck=shuf(poolOf());return deck.pop()}
 function score(n){$("sc").textContent=(n>SES?"Sesi selesai":"Soal "+n+" dari "+SES)+" · Benar "+st.ok;$("pgf").style.width=Math.min(st.all,SES)/SES*100+"%"}
-function newSession(){st={ok:0,all:0};ask()}
+function newSession(){st={ok:0,all:0};deck=[];ask()}
+function setMode(m){
+  mode=m;
+  Array.prototype.forEach.call(document.querySelectorAll(".mode"),function(b){b.setAttribute("aria-pressed",b.dataset.m===m)});
+  newSession();
+}
+(function(){
+  var box=$("modes");
+  Object.keys(MODES).forEach(function(k){
+    var b=el("button","mode");b.type="button";b.dataset.m=k;b.setAttribute("aria-pressed",k===mode);
+    b.appendChild(el("b",null,MODES[k].t));b.appendChild(el("span",null,MODES[k].d));
+    b.onclick=function(){setMode(k)};box.appendChild(b);
+  });
+})();
 function summary(){
   var box=$("quiz");box.textContent="";box._pick=null;score(SES+1);
   box.appendChild(el("div","ask","Sesi selesai"));
   box.appendChild(el("p","qt id","Benar "+st.ok+" dari "+SES+" ("+Math.round(st.ok/SES*100)+"%)"));
   var n=el("button","next","Mulai sesi baru");n.type="button";n.onclick=newSession;box.appendChild(n);n.focus();
 }
+function hzpy(h,p,cls){var s=el("span",cls||"hp");s.appendChild(el("span","oh",h));s.appendChild(el("span","oy",p));return s}
 function ask(){
   if(st.all>=SES){summary();return}
   score(st.all+1);
-  var q=nextItem(),pairs=[];
-  KEYS.forEach(function(a){KEYS.forEach(function(b){if(a!==b&&a+b!==last)pairs.push([a,b])})});
-  var pr=pairs[Math.floor(Math.random()*pairs.length)],qt=pr[0],at=pr[1];last=qt+at;
-  var cand=shuf(pool.filter(function(d){return d!==q&&d.hz!==q.hz&&d.py!==q.py&&d.id!==q.id&&!same(d[at],q[at])}));
-  var opts=[q],seen=[q[at]];
+  var q=nextItem(),M=MODES[mode],box=$("quiz");box.textContent="";
+  box.appendChild(el("div","ask",M.ask));
+  if(mode==="a"){box.appendChild(el("p","qt id",q.id))}
+  else if(mode==="b"){
+    var wd=el("div","wd");
+    q.w.forEach(function(w){var c=el("div","w");c.appendChild(el("div","wh",w[0]));c.appendChild(el("div","wp",w[1]));wd.appendChild(c)});
+    box.appendChild(wd);
+  }else{box.appendChild(el("p","qt hz",q.hz));box.appendChild(el("p","qt py",q.py))}
+  var cand=shuf(poolOf().filter(function(d){return d!==q&&d.hz!==q.hz&&d.py!==q.py&&!same(d.id,q.id)}));
+  var opts=[q],seen=[q];
   for(var i=0;i<cand.length&&opts.length<4;i++){
-    if(seen.some(function(s){return same(s,cand[i][at])}))continue;
-    opts.push(cand[i]);seen.push(cand[i][at]);
+    if(seen.some(function(s){return mode==="a"?same(s.hz,cand[i].hz):same(s.id,cand[i].id)}))continue;
+    opts.push(cand[i]);seen.push(cand[i]);
   }
   opts=shuf(opts);
-  var box=$("quiz");box.textContent="";
-  box.appendChild(el("div","ask","Pilih "+TN[at]+" yang tepat untuk "+TN[qt]+":"));
-  box.appendChild(el("p","qt "+qt,q[qt]));
-  var wrap=el("div","opts"),btns=[],done=false;
-  var res=el("div","res");
+  var wrap=el("div","opts"),btns=[],done=false,res=el("div","res");
   opts.forEach(function(o,i){
-    var b=el("button","opt "+at);b.type="button";
-    b.appendChild(el("span","k",String(i+1)));b.appendChild(el("span","t",o[at]));
-    b.onclick=function(){pick(i)};
+    var b=el("button","opt "+(mode==="a"?"ap":"id"));b.type="button";
+    b.appendChild(el("span","k",String(i+1)));
+    var t=el("span","t");
+    if(mode==="a"){t.appendChild(el("span","oh",o.hz));t.appendChild(el("span","oy",o.py))}else t.textContent=o.id;
+    b.appendChild(t);b.onclick=function(){pick(i)};
     btns.push(b);wrap.appendChild(b);
   });
   function pick(i){
@@ -265,7 +313,7 @@ document.addEventListener("keydown",function(e){
   if(n>=1&&n<=4&&$("quiz")._pick){$("quiz")._pick(n-1)}
 });
 $("rs").onclick=newSession;
-if(pool.length>=4){ask()}else $("quiz").appendChild(el("div","empty","Data belum cukup untuk kuis."));
+if(all.length>=4){ask()}else $("quiz").appendChild(el("div","empty","Data belum cukup untuk kuis."));
 })();
 </script>
 </body>

@@ -7,8 +7,11 @@ Kamus Mandarin pribadi (Indonesia – pinyin – hanzi) untuk bekerja di pabrik 
 ## Isi website
 
 - **Kamus** (`index.html`): pencarian kamus. Pencarian hanya mencocokkan kolom Indonesia, pinyin, dan hanzi (contoh kalimat, arti per kata, dan keterangan tidak ikut dicari).
-- **Latihan** (tab di halaman Kamus): kuis 10 soal yang diacak dari seluruh kosakata Deck Belajar.
-- **Deck Belajar** (`deck.html`): rencana belajar 30 hari dalam bentuk slide, dibuka lewat menu di bagian atas halaman. Geser dengan panah keyboard atau tombol panah di layar.
+- **Latihan** (tab di halaman Kamus): kuis 10 soal yang diacak dari seluruh kosakata Deck Belajar. Ada 3 jenis latihan:
+  - **A:** pertanyaan Indonesia, jawaban Pinyin + Hanzi.
+  - **B:** pertanyaan Hanzi per kata + Pinyin, jawaban Indonesia (hanya kosakata yang kolom `Arti per kata`-nya terisi).
+  - **C:** pertanyaan Hanzi + Pinyin, jawaban Indonesia.
+- **Deck Belajar** (`deck.html`): rencana belajar 30 hari dalam bentuk slide, dibuka lewat menu di bagian atas halaman. Di laptop tampil sebagai slide (geser dengan panah keyboard). Di layar HP (lebar ≤ 820 px) tampil sebagai daftar yang bisa di-scroll, dengan tombol nomor hari di atas untuk loncat ke hari tertentu dan tautan "Buka versi slide".
 
 Semua halaman memakai desain yang sama dengan deck (warna Google, font Calibri/Carlito).
 
@@ -99,5 +102,5 @@ Di Settings → Actions → General, pastikan **Workflow permissions** diset ke 
 - Repo harus **public** agar GitHub Pages gratis. Isi kamus akan terlihat siapa saja yang punya link.
 - Riwayat perubahan Excel tersimpan di git, jadi versi lama bisa dikembalikan.
 - Jangan mengedit `docs/` secara manual. File itu akan ditimpa setiap build.
-- Untuk mengubah tampilan kamus dan latihan, edit `Mandarin word list/template.html`. Untuk desain slide, edit `deck_shell.html`. Untuk menu atas halaman deck, edit `deck_template.html`. Lalu commit.
+- Untuk mengubah tampilan kamus dan latihan, edit `Mandarin word list/template.html`. Untuk desain slide, edit `deck_shell.html`. Untuk menu atas dan tampilan HP halaman deck, edit `deck_template.html`. Lalu commit.
 - Menu atas ("Kamus" dan "Deck Belajar") ada di `template.html` dan `deck_template.html`. Ubah keduanya jika menu berubah.

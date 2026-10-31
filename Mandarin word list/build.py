@@ -233,7 +233,31 @@ def build_deck(groups):
     shell = DECK_SHELL.read_text(encoding="utf-8")
     if shell.count("<!--SLIDES-->") != 1:
         sys.exit("deck_shell.html harus memuat tepat satu penanda <!--SLIDES-->")
-    return shell.replace("<!--SLIDES-->", "\n".join(sl)), len(days)
+    return shell.replace("<!--SLIDES-->", "\n".join(sl)), len(days), build_mobile(days, tahap, nrows)
+
+
+def build_mobile(days, tahap, nrows):
+    col_of = {s: c for _, c, l in tahap for s in l}
+    tahap_of = {s: t for t, _, l in tahap for s in l}
+    chips = ''.join(f'<a class="{col_of[s]}" href="#h{n}">{n}</a>' for n, (s, t, l) in enumerate(days, 1))
+    out = [f'<div class="dm-top"><span>{len(days)} hari · {nrows} kosakata</span><a href="deck-slides.html">Buka versi slide ↗</a></div>',
+           f'<nav class="dm-chips" aria-label="Pilih hari">{chips}</nav>']
+    last = None
+    for n, (s, t, l) in enumerate(days, 1):
+        if tahap_of[s] != last:
+            last = tahap_of[s]
+            out.append(f'<h2 class="dm-t {col_of[s]}">{E(last)}</h2>')
+        items = ''
+        for g in l:
+            main = g["rows"][0]
+            items += f'<div class="dm-i"><div class="dm-id">{E(g["id"])}</div><div class="dm-hz">{E(main[0])}</div><div class="dm-py">{E(main[1])}</div>'
+            for a, p in g["rows"][1:]:
+                items += f'<span class="dm-alt"><i>alt</i> {E(a)} · {E(p)}</span>'
+            for k in g["kets"][:1]:
+                items += f'<span class="dm-note">{E(k)}</span>'
+            items += '</div>'
+        out.append(f'<section class="dm-day {col_of[s]}" id="h{n}"><h3>Hari {n} · {E(t)}<small>{len(l)} frasa</small></h3>{items}</section>')
+    return "\n".join(out)
 
 
 def build_pool(groups):
@@ -258,7 +282,7 @@ def main():
     entries = build_kamus(wb["Kamus"])
     groups = load_groups(wb["Survival 200"])
     pool = build_pool(groups)
-    deck_html, ndays = build_deck(groups)
+    deck_html, ndays, mobile = build_deck(groups)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_DIR / "data.json").write_text(json.dumps(entries, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -268,7 +292,10 @@ def main():
     html = inject(html, "var DECK=[];", pool)
     (OUT_DIR / "index.html").write_text(html, encoding="utf-8")
     (OUT_DIR / "deck-slides.html").write_text(deck_html, encoding="utf-8")
-    (OUT_DIR / "deck.html").write_text(DECK_TEMPLATE.read_text(encoding="utf-8"), encoding="utf-8")
+    dt = DECK_TEMPLATE.read_text(encoding="utf-8")
+    if dt.count("<!--MOBILE-->") != 1:
+        sys.exit("deck_template.html harus memuat tepat satu penanda <!--MOBILE-->")
+    (OUT_DIR / "deck.html").write_text(dt.replace("<!--MOBILE-->", mobile), encoding="utf-8")
     print(f"OK: kamus {len(entries)} entri | deck {len(groups)} kosakata, {ndays} hari | latihan {len(pool)} soal -> {OUT_DIR}")
 
 
