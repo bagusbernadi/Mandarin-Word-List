@@ -120,6 +120,7 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 <script>
 (function(){
 var DATA=[];
+var DECK=[];
 var rows=DATA.map(function(o){o.hay=norm([o.id,o.py,o.hz].join(" "));return o});
 function $(i){return document.getElementById(i)}
 function norm(s){return String(s==null?"":s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
@@ -205,7 +206,7 @@ render();
 
 /* latihan */
 var TN={hz:"Hanzi",py:"Pinyin",id:"Indonesia"},KEYS=["hz","py","id"];
-var pool=rows.filter(function(o){return o.id&&o.py&&o.hz&&o.label!=="Bukan kalimat"});
+var pool=DECK.filter(function(o){return o.id&&o.py&&o.hz});
 var SES=10,deck=[],last="",st={ok:0,all:0};
 function shuf(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
 function same(a,b){return norm(a).replace(/\s+/g,"")===norm(b).replace(/\s+/g,"")}
