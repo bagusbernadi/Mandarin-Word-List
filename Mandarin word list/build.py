@@ -6,7 +6,7 @@ Input : Mandarin word list/Kosakata_Mandarin.xlsx
           - sheet "Kamus"        : kamus (Indonesia, pinyin, hanzi, contoh kalimat)
           - sheet "Progress"     : rekap hafalan (tidak dipakai build)
 Output: docs/index.html (kamus + latihan), docs/data.json (data kamus),
-        docs/deck.html + docs/deck-slides.html (30H Belajar), docs/deck.json (soal latihan)
+        docs/deck.html (30H Belajar: latihan per hari), docs/deck-slides.html (slide, tidak ditautkan), docs/deck.json (soal latihan)
 
 Kolom dicari berdasarkan nama header, bukan posisi.
 Kolom "Sinonim" (opsional) di sheet Survival 200: baris dengan kode sama (mis. S07) dianggap
@@ -220,6 +220,8 @@ def build_deck(groups):
     rng = {}
     for n, (s, t, l) in enumerate(days, 1):
         a = tahap_of[s]; rng.setdefault(a, [n, n]); rng[a][1] = n
+        for g in l:
+            g["day"] = n
     chain = ''.join(f'<div><b>{t.split(" · ")[0]}</b><br>{t.split(" · ")[1]}<br><small>Hari {rng[t][0]}–{rng[t][1]}</small></div>'
                     for t, _, _ in tahap if t in rng)
     sl.append(f'<section><div class="hd"><h2>Peta 4 tahap</h2><p class="sub">Dari dasar hingga situasi kerja dan darurat</p></div><div class="chain">{chain}</div></section>')
@@ -238,31 +240,14 @@ def build_deck(groups):
     shell = DECK_SHELL.read_text(encoding="utf-8")
     if shell.count("<!--SLIDES-->") != 1:
         sys.exit("deck_shell.html harus memuat tepat satu penanda <!--SLIDES-->")
-    return shell.replace("<!--SLIDES-->", "\n".join(sl)), len(days), build_mobile(days, tahap, nrows)
+    return shell.replace("<!--SLIDES-->", "\n".join(sl)), len(days), build_days_meta(days, tahap)
 
 
-def build_mobile(days, tahap, nrows):
+def build_days_meta(days, tahap):
     col_of = {s: c for _, c, l in tahap for s in l}
     tahap_of = {s: t for t, _, l in tahap for s in l}
-    chips = ''.join(f'<a class="{col_of[s]}" href="#h{n}">{n}</a>' for n, (s, t, l) in enumerate(days, 1))
-    out = [f'<div class="dm-top"><span>{len(days)} hari · {nrows} kosakata</span><a href="deck-slides.html">Buka versi slide ↗</a></div>',
-           f'<nav class="dm-chips" aria-label="Pilih hari">{chips}</nav>']
-    last = None
-    for n, (s, t, l) in enumerate(days, 1):
-        if tahap_of[s] != last:
-            last = tahap_of[s]
-            out.append(f'<h2 class="dm-t {col_of[s]}">{E(last)}</h2>')
-        items = ''
-        for g in l:
-            main = g["rows"][0]
-            items += f'<div class="dm-i"><div class="dm-id">{E(g["id"])}</div><div class="dm-hz">{E(main[0])}</div><div class="dm-py">{E(main[1])}</div>'
-            for a, p in g["rows"][1:]:
-                items += f'<span class="dm-alt"><i>alt</i> {E(a)} · {E(p)}</span>'
-            for k in g["kets"][:1]:
-                items += f'<span class="dm-note">{E(k)}</span>'
-            items += '</div>'
-        out.append(f'<section class="dm-day {col_of[s]}" id="h{n}"><h3>Hari {n} · {E(t)}<small>{len(l)} frasa</small></h3>{items}</section>')
-    return "\n".join(out)
+    return [{"n": n, "t": t, "col": col_of[s], "tahap": tahap_of[s].split(" · ")[0], "count": len(l)}
+            for n, (s, t, l) in enumerate(days, 1)]
 
 
 def build_pool(groups):
@@ -277,7 +262,7 @@ def build_pool(groups):
                 val = v if grp != ANGKA_TAGS[4] else num_value(hz[:-1])
         out.append({"label": "", "id": g["id"], "py": g["rows"][0][1], "hz": hz,
                     "words": g["words"], "note": g["kets"][0] if g["kets"] else "", "warn": False, "ex": [],
-                    "sit": g["sit"], "grp": grp, "val": val, "syn": sorted(g["syn"])})
+                    "sit": g["sit"], "grp": grp, "val": val, "syn": sorted(g["syn"]), "day": g.get("day")})
     return out
 
 
@@ -296,8 +281,8 @@ def main():
             sys.exit(f'Sheet "{name}" tidak ditemukan di {XLSX.name}')
     entries = build_kamus(wb["Kamus"])
     groups = load_groups(wb["Survival 200"])
+    deck_html, ndays, dmeta = build_deck(groups)  # mengisi g["day"]
     pool = build_pool(groups)
-    deck_html, ndays, mobile = build_deck(groups)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_DIR / "data.json").write_text(json.dumps(entries, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -308,9 +293,13 @@ def main():
     (OUT_DIR / "index.html").write_text(html, encoding="utf-8")
     (OUT_DIR / "deck-slides.html").write_text(deck_html, encoding="utf-8")
     dt = DECK_TEMPLATE.read_text(encoding="utf-8")
-    if dt.count("<!--MOBILE-->") != 1:
-        sys.exit("deck_template.html harus memuat tepat satu penanda <!--MOBILE-->")
-    (OUT_DIR / "deck.html").write_text(dt.replace("<!--MOBILE-->", mobile), encoding="utf-8")
+    style = re.search(r"<style>.*?</style>", html, re.S).group(0)
+    if dt.count("<!--STYLE-->") != 1:
+        sys.exit("deck_template.html harus memuat tepat satu penanda <!--STYLE-->")
+    dt = dt.replace("<!--STYLE-->", style)
+    dt = inject(dt, "var DECK=[];", pool)
+    dt = inject(dt, "var DAYS=[];", dmeta)
+    (OUT_DIR / "deck.html").write_text(dt, encoding="utf-8")
     print(f"OK: kamus {len(entries)} entri | deck {len(groups)} kosakata, {ndays} hari | latihan {len(pool)} soal -> {OUT_DIR}")
 
 

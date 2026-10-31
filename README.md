@@ -12,7 +12,7 @@ Kamus Mandarin pribadi (Indonesia – pinyin – hanzi) untuk bekerja di pabrik 
   - **B:** pertanyaan Hanzi per kata + Pinyin, jawaban Indonesia (hanya kosakata yang kolom `Arti per kata`-nya terisi).
   - **C:** pertanyaan Hanzi + Pinyin, jawaban Indonesia.
   - Pilihan jawaban dipilih yang mirip dengan soal: angka dan bulan memakai angka/bulan terdekat (misalnya 100 → 200, 300, 400), sisanya memakai situasi yang sama, hanzi, dan kata yang mirip. Kandidat yang hampir sama artinya dengan soal dibuang agar tidak ada dua jawaban benar.
-- **30H Belajar** (`deck.html`): rencana belajar 30 hari dalam bentuk slide, dibuka lewat tombol "30H Belajar" di sebelah tombol "Latihan". Di laptop tampil sebagai slide (geser dengan panah keyboard). Di layar HP (lebar ≤ 820 px) tampil sebagai daftar yang bisa di-scroll, dengan tombol nomor hari di atas untuk loncat ke hari tertentu dan tautan "Buka versi slide".
+- **30H Belajar** (`deck.html`, tombol di sebelah "Latihan"): latihan per hari, Indonesia → Pinyin & Hanzi. Pilih Hari 1–30, lalu semua kosakata hari itu diuji satu kali (soal dan pilihan jawaban hanya dari hari itu). Warna tombol hari mengikuti tahap. Di akhir sesi ada tombol "Ulangi hari ini" dan "Hari berikutnya".
 
 Semua halaman memakai desain yang sama dengan deck (warna Google, font Calibri/Carlito).
 
@@ -22,7 +22,7 @@ Semua isi website berasal dari satu file: `Mandarin word list/Kosakata_Mandarin.
 
 | Sheet | Dipakai untuk |
 |---|---|
-| `Survival 200` | 30H Belajar (slide) dan soal Latihan |
+| `Survival 200` | 30H Belajar (pembagian 30 hari) dan soal Latihan |
 | `Kamus` | Halaman Kamus (pencarian dan contoh kalimat) |
 | `Progress` | Rekap hafalan di Excel (kolom Status). Tidak dipakai website |
 
@@ -36,14 +36,14 @@ Semua isi website berasal dari satu file: `Mandarin word list/Kosakata_Mandarin.
 │   ├── index.html                ← kamus + latihan
 │   ├── data.json                 ← data kamus
 │   ├── deck.json                 ← data soal latihan
-│   ├── deck.html                 ← halaman 30H Belajar (menu + slide)
-│   └── deck-slides.html          ← slide deck
+│   ├── deck.html                 ← halaman 30H Belajar (latihan per hari)
+│   └── deck-slides.html          ← slide deck lama (tidak ditautkan, masih bisa dibuka langsung)
 └── Mandarin word list/
     ├── Kosakata_Mandarin.xlsx    ← sumber data (edit file ini)
     ├── build.py                  ← program: Excel → website
     ├── template.html             ← kerangka halaman kamus + latihan
-    ├── deck_shell.html           ← desain dan mesin slide deck
-    └── deck_template.html        ← kerangka halaman 30H Belajar
+    ├── deck_shell.html           ← desain dan mesin slide (deck-slides.html)
+    └── deck_template.html        ← kerangka halaman 30H Belajar (latihan per hari)
 ```
 
 `.github/` harus berada di root repo, karena GitHub hanya membaca workflow dari sana.
@@ -63,7 +63,7 @@ Header yang dibaca: `Situasi`, `Indonesia`, `Pinyin`, `Hanzi`, `Arti per kata`, 
 
 Kolom `Sinonim` (opsional) menandai kalimat yang artinya sama: beri kode yang sama (misalnya `S07`) pada barisnya. Kalimat dengan kode sama tidak akan muncul bersama sebagai pilihan jawaban di Latihan. Satu baris boleh punya lebih dari satu kode, dipisah `;` (misalnya `S07;S11`).
 
-Deck dibuat otomatis: 13 situasi dikelompokkan ke 4 tahap, lalu dibagi menjadi 30 hari. Hari Angka & waktu dibagi per sub-topik. Hari dengan lebih dari 12 frasa dibagi jadi 2 slide. Situasi baru (nama belum dikenal) otomatis masuk Tahap 4.
+Pembagian hari dibuat otomatis: 13 situasi dikelompokkan ke 4 tahap, lalu dibagi menjadi 30 hari. Hari Angka & waktu dibagi per sub-topik. Hari dengan lebih dari 12 frasa dibagi jadi 2 slide (di deck-slides.html). Situasi baru (nama belum dikenal) otomatis masuk Tahap 4.
 
 ### Sheet `Kamus`
 
@@ -105,5 +105,5 @@ Di Settings → Actions → General, pastikan **Workflow permissions** diset ke 
 - Repo harus **public** agar GitHub Pages gratis. Isi kamus akan terlihat siapa saja yang punya link.
 - Riwayat perubahan Excel tersimpan di git, jadi versi lama bisa dikembalikan.
 - Jangan mengedit `docs/` secara manual. File itu akan ditimpa setiap build.
-- Untuk mengubah tampilan kamus dan latihan, edit `Mandarin word list/template.html`. Untuk desain slide, edit `deck_shell.html`. Untuk tombol menu dan tampilan HP halaman deck, edit `deck_template.html`. Lalu commit.
+- Untuk mengubah tampilan kamus dan latihan, edit `Mandarin word list/template.html`. Untuk desain slide, edit `deck_shell.html`. Untuk halaman 30H Belajar, edit `deck_template.html` (CSS-nya mengikuti `template.html`). Lalu commit.
 - Tombol menu ("Kamus", "Latihan", "30H Belajar") ada di `template.html` dan `deck_template.html`. Ubah keduanya jika menu berubah.
