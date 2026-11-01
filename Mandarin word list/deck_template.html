@@ -147,7 +147,7 @@ function ask(){
   function pick(i){
     if(done)return;done=true;st.all++;
     var good=opts[i]===q;if(good)st.ok++;
-    btns.forEach(function(b,k){b.disabled=true;if(opts[k]===q)b.classList.add("ok");else if(k===i)b.classList.add("no")});
+    btns.forEach(function(b,k){b.disabled=true;if(opts[k]===q)b.classList.add("ok");else if(k===i)b.classList.add("no");if(true)b.appendChild(el("span","oi",opts[k].id))});
     res.appendChild(el("div","v",good?"Benar.":"Belum tepat."));
     var rh=el("div","rh");rh.appendChild(el("div","hz",q.hz));var rb=spBtn(q.hz,q.au);if(rb)rh.appendChild(rb);res.appendChild(rh);res.appendChild(el("div","py",q.py));res.appendChild(el("div","id",q.id));
     if(q.words)res.appendChild(el("div","meta",q.words));

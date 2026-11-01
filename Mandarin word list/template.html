@@ -104,6 +104,8 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 .opt .oy{color:var(--pyc);font-weight:700;font-size:15px}
 .opt.ok .oh,.opt.ok .oy{color:var(--ok)}.opt.no .oh,.opt.no .oy{color:var(--err)}
 .opt.id .t{font-size:17px}
+.opt .oi{margin-left:auto;text-align:right;font-size:14px;line-height:1.3;color:var(--mute);max-width:42%;word-break:break-word}
+.opt.ok .oi{color:var(--ok)}.opt.no .oi{color:var(--err)}
 .wd{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .w{background:#ffffff;border-radius:10px;padding:6px 12px;text-align:center}
 .wh{font:700 28px/1.3 var(--hz);color:var(--ink)}
@@ -403,7 +405,7 @@ function ask(){
   function pick(i){
     if(done)return;done=true;st.all++;
     var good=opts[i]===q;if(good)st.ok++;
-    btns.forEach(function(b,k){b.disabled=true;if(opts[k]===q)b.classList.add("ok");else if(k===i)b.classList.add("no")});
+    btns.forEach(function(b,k){b.disabled=true;if(opts[k]===q)b.classList.add("ok");else if(k===i)b.classList.add("no");if(mode==="a")b.appendChild(el("span","oi",opts[k].id))});
     res.appendChild(el("div","v",good?"Benar.":"Belum tepat."));
     var rh=el("div","rh");rh.appendChild(el("div","hz",q.hz));var rb=spBtn(q.hz,q.au);if(rb)rh.appendChild(rb);res.appendChild(rh);
     res.appendChild(el("div","py",q.py));
