@@ -21,7 +21,7 @@
    ],
    [
     "Laporan ini bisa selesai besok, apakah oke?",
-    "Zhè fèn bàogào míngtiān néng wán, xíng ma?",
+    "Zhè fèn bàogào míngtiān néng wánchéng, xíng ma?",
     "这份报告明天能完成，行吗？"
    ]
   ]
@@ -232,7 +232,7 @@
    ],
    [
     "Masih ada stok, ada?",
-    "Hái yǒu huòcún ma?",
+    "Hái yǒu kùcún ma?",
     "还有库存吗？"
    ],
    [
@@ -475,7 +475,7 @@
    ],
    [
     "Tadi kamu jatuh, kamu tidak apa-apa?",
-    "Nǐ gānggāng shuāidǎo le, nǐ méi shì ba?",
+    "Nǐ gāngcái shuāidǎo le, nǐ méi shì ba?",
     "你刚才摔倒了，你没事吧？"
    ],
    [
@@ -1135,7 +1135,7 @@
    ],
    [
     "Panjang kabel harus benar saat cable cutting.",
-    "Cáixiàn shí xiànchǎng yào zhèngquè.",
+    "Cáixiàn shí xiàncháng yào zhèngquè.",
     "裁线时线长要正确。"
    ],
    [
@@ -1481,7 +1481,7 @@
   "ex": [
    [
     "Proses encapsulation dilakukan di ruang bersih.",
-    "Fēngzhuāng gōngxù zài jiégànjìng shì jìnxíng.",
+    "Fēngzhuāng gōngxù zài jiéjìngshì jìnxíng.",
     "封装工序在洁净室进行。"
    ],
    [
@@ -1783,7 +1783,7 @@
    ],
    [
     "Dicek dua kali atau sekali, hasilnya sama saja.",
-    "Jiǎnchá liǎng cì huòzhě yí cì, jiéguǒ dōu yíyàng.",
+    "Jiǎnchá liǎng cì huò yí cì, jiéguǒ dōu yíyàng.",
     "检查两次或一次，结果都一样。"
    ],
    [
@@ -2253,7 +2253,7 @@
    ],
    [
     "Presentasimu hebat sekali.",
-    "Nǐ de bàogào zuò de zhēn bàng.",
+    "Nǐ bàogào zuò de zhēn bàng.",
     "你报告做得真棒。"
    ]
   ]
@@ -2621,7 +2621,7 @@
   "ex": [
    [
     "Kontrak diperpanjang sampai Maret.",
-    "Hétóng yánchí dào sānyuè.",
+    "Hétóng yáncháng dào sānyuè.",
     "合同延长到三月。"
    ],
    [
@@ -4177,7 +4177,7 @@
    ],
    [
     "Hari Selasa ada pengiriman besar.",
-    "Xīngqī'èr yǒu dà pīliàng fāhuò.",
+    "Xīngqī'èr yǒu dàpī fāhuò.",
     "星期二有大批发货。"
    ],
    [
@@ -4366,7 +4366,7 @@
    ],
    [
     "Tadi ada yang ketuk pintu, siapa orangnya?",
-    "Gānggāng yǒu rén qiāo mén, shuí a?",
+    "Gāngcái yǒu rén qiāo mén, shuí a?",
     "刚才有人敲门，谁啊？"
    ],
    [
@@ -4506,7 +4506,7 @@
    ],
    [
     "Stasiun pengujian nomor tiga rusak.",
-    "Dì sān hào cèshì gōngwèi huài le.",
+    "Sān hào cèshì gōngwèi huài le.",
     "三号测试工位坏了。"
    ]
   ]
@@ -4582,7 +4582,7 @@
    ],
    [
     "Sudah agak paham, tapi masih ada yang bingung.",
-    "Míngbái yìdiǎn le, dàn hái yǒu yìxiē bù qīngchu.",
+    "Míngbái yìdiǎn le, dàn hái yǒuxiē bù qīngchu.",
     "明白一点了，但还有些不清楚。"
    ],
    [
@@ -4663,7 +4663,7 @@
    ],
    [
     "Sudah paham, terima kasih banyak.",
-    "Míngbái le, duō xièxie.",
+    "Míngbái le, duōxiè.",
     "明白了，多谢。"
    ],
    [
@@ -4852,7 +4852,7 @@
    ],
    [
     "Tahun dua ribu dua puluh enam, target kita naik.",
-    "Èr líng èr liù nián, wǒmen mùbiāo shì zēngzhǎng.",
+    "Èr líng èr liù nián, wǒmen de mùbiāo shì zēngzhǎng.",
     "二零二六年，我们的目标是增长。"
    ],
    [
@@ -4906,7 +4906,7 @@
    ],
    [
     "Tahun lalu pabrik ini baru dibuka.",
-    "Qùnián zhè jiā gōngchǎng gānggāng kāi zhāng.",
+    "Qùnián zhè jiā gōngchǎng gāng kāizhāng.",
     "去年这家工厂刚开张。"
    ],
    [
@@ -5073,7 +5073,7 @@
    ],
    [
     "Tidak ada stok hari ini.",
-    "Jīntiān méiyǒu huòcún.",
+    "Jīntiān méiyǒu kùcún.",
     "今天没有库存。"
    ]
   ]
@@ -5262,7 +5262,7 @@
    ],
    [
     "Kami tidak punya stok.",
-    "Wǒmen méiyǒu huòcún.",
+    "Wǒmen méiyǒu kùcún.",
     "我们没有库存。"
    ]
   ]
@@ -5397,7 +5397,7 @@
    ],
    [
     "Tolong bantu saya membawa ini ke gudang.",
-    "Bāng wǒ bǎ zhè ge názǒu dào cāngkù.",
+    "Bāng wǒ bǎ zhè ge ná dào cāngkù.",
     "帮我把这个拿到仓库。"
    ]
   ],
@@ -5841,7 +5841,7 @@
    ],
    [
     "Tadi saya lihat dia di situ.",
-    "Gānggāng wǒ zài nàbiān kàn jiàn tā le.",
+    "Gāngcái wǒ zài nàbiān kàn jiàn tā le.",
     "刚才我在那边看见他了。"
    ]
   ]
@@ -5895,7 +5895,7 @@
    ],
    [
     "Kenapa kamu tadi tidak kesini?",
-    "Nǐ gānggāng wèishénme méi lái zhèr?",
+    "Nǐ gāngcái wèishénme méi lái zhèr?",
     "你刚才为什么没来这儿？"
    ]
   ]
@@ -5917,7 +5917,7 @@
    ],
    [
     "Dia pergi kesitu tadi.",
-    "Tā gānggāng qù nàr le.",
+    "Tā gāngcái qù nàr le.",
     "他刚才去那儿了。"
    ],
    [
@@ -6795,7 +6795,7 @@
   "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "dua puluh ribu (20.000)",
-  "py": "èrwàn",
+  "py": "liǎngwàn",
   "hz": "二万",
   "words": "二 (èr): dua, 万 (wàn): sepuluh ribu",
   "note": "",
@@ -6803,17 +6803,17 @@
   "ex": [
    [
     "Harganya dua puluh ribu kuai.",
-    "Jiàgé shì èrwàn kuài.",
+    "Jiàgé shì liǎngwàn kuài.",
     "价格是两万块。"
    ],
    [
     "Ada dua puluh ribu pcs.",
-    "Yǒu èrwàn jiàn.",
+    "Yǒu liǎngwàn jiàn.",
     "有两万件。"
    ],
    [
     "Gajinya dua puluh ribu yuan.",
-    "Gōngzī shì èrwàn yuán.",
+    "Gōngzī shì liǎngwàn yuán.",
     "工资是两万元。"
    ]
   ]
