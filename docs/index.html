@@ -17,7 +17,9 @@ h1{margin:0;font:700 40px/1.15 var(--font);color:var(--ink)}
 h1 .c0,h1 .c1,h1 .c2,h1 .c3{color:var(--ink)}
 h1::after{content:"";display:block;width:72px;height:6px;border-radius:3px;background:linear-gradient(90deg,#4285F4 25%,#EA4335 0 50%,#FBBC05 0 75%,#34A853 0);margin-top:12px}
 .wrap{max-width:860px;margin:0 auto;padding:8px 20px 48px}
-.tabs{display:inline-flex;gap:6px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px}
+#tc{border:2px solid var(--line);background:#ffffff;padding:4px 16px}
+#tc.on{border-color:var(--blue);color:var(--blue)}
 .tab{font:700 16px var(--font);background:var(--card);color:var(--mute);border:0;border-radius:999px;padding:6px 20px;cursor:pointer}
 .tab:hover{color:var(--ink)}
 .tab[aria-selected="true"]{background:var(--blue);color:#ffffff}
@@ -29,7 +31,8 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--blue);outline-o
 #info{color:var(--mute);font-size:15px;margin:8px 2px 0}
 .card{background:var(--card);border-radius:16px;border-left:8px solid var(--blue);padding:16px 20px;margin-top:12px}
 .card.cb{border-left-color:var(--blue)}.card.cr{border-left-color:var(--red)}.card.cy{border-left-color:var(--yel)}.card.cg{border-left-color:var(--grn)}
-.cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.cats[hidden]{display:none}
 .ct{font:700 15px var(--font);color:#ffffff;border:3px solid transparent;border-radius:999px;padding:6px 14px;cursor:pointer;background:var(--pri)}
 .ct.b{background:var(--blue)}.ct.r{background:var(--red)}.ct.y{background:var(--yel);color:var(--ink)}.ct.g{background:var(--grn)}
 .ct small{font-weight:400;opacity:.9;margin-left:4px}
@@ -107,22 +110,24 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 .wp{color:var(--pyc);font-weight:700;font-size:15px}
 @media (max-width:560px){.modes{grid-template-columns:1fr}.mode{flex-direction:row;align-items:center;gap:10px}}
 a.tab{text-decoration:none;display:inline-block}
+@media (max-width:400px){.tab{font-size:14px;padding:6px 11px}.tabs{gap:4px}#tc{padding:4px 8px!important;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
 </style>
 </head>
 <body>
-<header class="hd"><h1>Kamus Mandarin</h1><div class="legend"><span style="color:#202124"><b>Indonesia</b></span><span style="color:#1A73E8"><b>Pinyin</b></span><span style="color:#202124"><b>Hanzi</b></span></div></header>
+<header class="hd"><h1>Kamus Mandarin</h1></header>
 <div class="wrap">
 <div class="tabs" role="tablist">
 <button class="tab" role="tab" id="t1" aria-selected="true" aria-controls="p1">Kamus</button>
 <button class="tab" role="tab" id="t2" aria-selected="false" aria-controls="p2">Latihan</button>
 <a class="tab" href="deck.html">30H Belajar</a>
+<button class="tab" id="tc" type="button" aria-expanded="false" aria-controls="cats">Kategori ▾</button>
 </div>
+<div class="cats" id="cats" role="group" aria-label="Kategori" hidden></div>
 <section id="p1" role="tabpanel" aria-labelledby="t1">
 <div class="bar">
 <input id="q" type="search" placeholder="Cari kata: Indonesia, pinyin, atau hanzi…" autocomplete="off">
 <div id="info"></div>
 </div>
-<div class="cats" id="cats" role="group" aria-label="Kategori"></div>
 <div id="list"></div>
 </section>
 <section id="p2" role="tabpanel" aria-labelledby="t2" hidden>
@@ -148,7 +153,7 @@ function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=c
 /* tabs */
 [["t1","p1"],["t2","p2"]].forEach(function(p){
   $(p[0]).onclick=function(){
-    [["t1","p1"],["t2","p2"]].forEach(function(x){var on=x[0]===p[0];$(x[0]).setAttribute("aria-selected",on);$(x[1]).hidden=!on});
+    [["t1","p1"],["t2","p2"]].forEach(function(x){var on=x[0]===p[0];$(x[0]).setAttribute("aria-selected",on);$(x[1]).hidden=!on;if(x[0]==="t1"){$("tc").style.display=on?"":"none";if(!on)$("cats").hidden=true}});
   };
 });
 
@@ -227,9 +232,10 @@ $("q").addEventListener("input",render);
 function catBtn(name,col,n){
   var b=el("button","ct "+col);b.type="button";b.dataset.c=name;b.setAttribute("aria-pressed",String(name===cat));
   b.appendChild(document.createTextNode(name||"Semua"));b.appendChild(el("small",null,String(n)));
-  b.onclick=function(){cat=name;Array.prototype.forEach.call($("cats").children,function(x){x.setAttribute("aria-pressed",String(x.dataset.c===cat))});render()};
+  b.onclick=function(){cat=name;Array.prototype.forEach.call($("cats").children,function(x){x.setAttribute("aria-pressed",String(x.dataset.c===cat))});$("tc").classList.toggle("on",!!cat);$("cats").hidden=true;$("tc").setAttribute("aria-expanded","false");render()};
   $("cats").appendChild(b);
 }
+$("tc").onclick=function(){var h=$("cats").hidden;$("cats").hidden=!h;$("tc").setAttribute("aria-expanded",String(h))};
 catBtn("","",rows.length);
 CATS.forEach(function(c){catBtn(c.name,c.col,c.n)});
 (function(){var h=document.querySelector("h1"),t=h.textContent,k=0;h.setAttribute("aria-label",t);h.textContent="";for(var i=0;i<t.length;i++){if(t[i]===" "){h.appendChild(document.createTextNode(" "));continue}var c=el("span","c"+(k++%4),t[i]);c.setAttribute("aria-hidden","true");h.appendChild(c)}})();
