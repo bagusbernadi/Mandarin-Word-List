@@ -168,7 +168,7 @@ DAYS.forEach(function(d){
 /* pop-up panduan pinyin */
 (function(){var m=$("pm"),body=$("pmb");if(!m)return;
 PG.forEach(function(s,si){var d=el("div","gs "+["b","r","y","g"][si%4]);d.appendChild(el("h2","",s.t));if(s.d)d.appendChild(el("p","gd",s.d));
-  s.items.forEach(function(it){var r=el("div","gi");r.appendChild(el("span","gp",it[0]));r.appendChild(el("span","gh",it[1]));r.appendChild(el("span","gt",it[2]));var b=spBtn(it[1],it[3]);if(b)r.appendChild(b);d.appendChild(r)});body.appendChild(d)});
+  s.items.forEach(function(it){var r=el("div","gi");r.appendChild(el("span","gp",it[0]));if(it[1]){r.appendChild(el("span","gh",it[1]))}else r.classList.add("gn");r.appendChild(el("span","gt",it[2]));var b=it[1]?spBtn(it[1],it[3]):null;if(b)r.appendChild(b);d.appendChild(r)});body.appendChild(d)});
 function open(){m.hidden=false;$("t3").setAttribute("aria-expanded","true");body.scrollTop=0;$("pmx").focus()}
 function close(){m.hidden=true;$("t3").setAttribute("aria-expanded","false");$("t3").focus()}
 $("t3").onclick=function(e){e.preventDefault();open()};
