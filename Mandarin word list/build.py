@@ -250,6 +250,35 @@ def build_days_meta(days, tahap):
             for n, (s, t, l) in enumerate(days, 1)]
 
 
+def norm_hz(h):
+    return re.sub(r"[\s。，,．.？?！!…、/·]", "", h)
+
+
+def merge_into_kamus(entries, groups):
+    """Tambahkan kosakata 30H Belajar yang belum ada di kamus (hanzi sama persis dianggap duplikat).
+    Variasi ALT digabung di entri utamanya dan tetap bisa dicari (field "alt")."""
+    by_hz = {}
+    for e in entries:
+        by_hz.setdefault(norm_hz(e["hz"]), e)
+    added = attached = 0
+    for g in groups:
+        match = next((by_hz[norm_hz(h)] for h, _ in g["rows"] if norm_hz(h) in by_hz), None)
+        if match is None:
+            main = g["rows"][0]
+            match = {"label": "", "id": g["id"], "py": main[1], "hz": main[0], "words": g["words"],
+                     "note": g["kets"][0] if g["kets"] else "", "warn": False, "ex": [], "alt": [[main[0], main[1]]][:0]}
+            entries.append(match)
+            by_hz[norm_hz(main[0])] = match
+            added += 1
+        for h, p in g["rows"]:
+            if norm_hz(h) in by_hz and by_hz[norm_hz(h)] is match:
+                continue
+            match.setdefault("alt", []).append([h, p])
+            by_hz[norm_hz(h)] = match
+            attached += 1
+    return added, attached
+
+
 def build_pool(groups):
     out = []
     for g in groups:
@@ -281,6 +310,7 @@ def main():
             sys.exit(f'Sheet "{name}" tidak ditemukan di {XLSX.name}')
     entries = build_kamus(wb["Kamus"])
     groups = load_groups(wb["Survival 200"])
+    n_add, n_alt = merge_into_kamus(entries, groups)
     deck_html, ndays, dmeta = build_deck(groups)  # mengisi g["day"]
     pool = build_pool(groups)
 
@@ -300,7 +330,7 @@ def main():
     dt = inject(dt, "var DECK=[];", pool)
     dt = inject(dt, "var DAYS=[];", dmeta)
     (OUT_DIR / "deck.html").write_text(dt, encoding="utf-8")
-    print(f"OK: kamus {len(entries)} entri | deck {len(groups)} kosakata, {ndays} hari | latihan {len(pool)} soal -> {OUT_DIR}")
+    print(f"OK: kamus {len(entries)} entri (+{n_add} dari 30H, {n_alt} ALT digabung) | deck {len(groups)} kosakata, {ndays} hari | latihan {len(pool)} soal -> {OUT_DIR}")
 
 
 if __name__ == "__main__":

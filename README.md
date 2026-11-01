@@ -6,7 +6,7 @@ Kamus Mandarin pribadi (Indonesia – pinyin – hanzi) untuk bekerja di pabrik 
 
 ## Isi website
 
-- **Kamus** (`index.html`): pencarian kamus. Pencarian hanya mencocokkan kolom Indonesia, pinyin, dan hanzi (contoh kalimat, arti per kata, dan keterangan tidak ikut dicari).
+- **Kamus** (`index.html`): pencarian kamus. Isinya entri sheet `Kamus` ditambah kosakata dari 30H Belajar yang belum ada di kamus (hanzi sama persis dianggap duplikat; saat build otomatis, Excel tidak diubah). Variasi ALT digabung di entri utamanya sebagai baris "Alternatif" dan tetap bisa dicari. Pencarian hanya mencocokkan kolom Indonesia, pinyin, dan hanzi (contoh kalimat, arti per kata, dan keterangan tidak ikut dicari).
 - **Latihan** (tab di halaman Kamus): kuis 10 soal yang diacak dari seluruh kosakata 30H Belajar. Ada 3 jenis latihan:
   - **A:** pertanyaan Indonesia, jawaban Pinyin + Hanzi.
   - **B:** pertanyaan Hanzi per kata + Pinyin, jawaban Indonesia (hanya kosakata yang kolom `Arti per kata`-nya terisi).

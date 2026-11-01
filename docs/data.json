@@ -777,6 +777,12 @@
     "Nà hěn duì.",
     "那很对。"
    ]
+  ],
+  "alt": [
+   [
+    "是",
+    "Shì"
+   ]
   ]
  },
  {
@@ -828,6 +834,12 @@
     "Tolong beritahu saya berapa harganya.",
     "Qǐng gàosu wǒ duōshao qián.",
     "请告诉我多少钱。"
+   ]
+  ],
+  "alt": [
+   [
+    "这个多少钱？",
+    "Zhège duōshao qián?"
    ]
   ]
  },
@@ -1946,6 +1958,12 @@
     "Jam berapa sekarang? Rapat mulai jam tiga.",
     "Xiànzài jǐ diǎn le? Huìyì sān diǎn kāishǐ.",
     "现在几点了？会议三点开始。"
+   ]
+  ],
+  "alt": [
+   [
+    "现在几点？",
+    "Xiànzài jǐ diǎn?"
    ]
   ]
  },
@@ -3715,6 +3733,12 @@
     "Wǒ dǒng cāozuò guīchéng le.",
     "我懂操作规程了。"
    ]
+  ],
+  "alt": [
+   [
+    "我听懂了",
+    "Wǒ tīng dǒng le"
+   ]
   ]
  },
  {
@@ -3766,6 +3790,12 @@
     "Saya tidak mengerti, tolong jelaskan.",
     "Wǒ bù dǒng, qǐng jiěshì yíxià.",
     "我不懂，请解释一下。"
+   ]
+  ],
+  "alt": [
+   [
+    "我听不懂",
+    "Wǒ tīng bu dǒng"
    ]
   ]
  },
@@ -5171,6 +5201,12 @@
     "Bāng wǒ bǎ zhè ge názǒu dào cāngkù.",
     "帮我把这个拿到仓库。"
    ]
+  ],
+  "alt": [
+   [
+    "请帮帮我",
+    "Qǐng bāngbang wǒ"
+   ]
   ]
  },
  {
@@ -5430,6 +5466,12 @@
     "Saya kurang begitu paham, mohon dijelaskan lagi.",
     "Wǒ bù tài lǐjiě, qǐng zài jiěshì yí cì.",
     "我不太理解，请再解释一次。"
+   ]
+  ],
+  "alt": [
+   [
+    "我不太明白",
+    "Wǒ bú tài míngbái"
    ]
   ]
  },
@@ -6654,5 +6696,2499 @@
     "预算是九十万。"
    ]
   ]
+ },
+ {
+  "label": "",
+  "id": "Satu, dua, tiga, empat, lima",
+  "py": "Yī, èr, sān, sì, wǔ",
+  "hz": "一、二、三、四、五",
+  "words": "一 (yī): satu, 二 (èr): dua, 三 (sān): tiga, 四 (sì): empat, 五 (wǔ): lima",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Enam, tujuh, delapan, sembilan, sepuluh",
+  "py": "Liù, qī, bā, jiǔ, shí",
+  "hz": "六、七、八、九、十",
+  "words": "六 (liù): enam, 七 (qī): tujuh, 八 (bā): delapan, 九 (jiǔ): sembilan, 十 (shí): sepuluh",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Jam delapan",
+  "py": "Bā diǎn",
+  "hz": "八点",
+  "words": "八 (bā): delapan, 点 (diǎn): jam",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Besok jam sembilan",
+  "py": "Míngtiān jiǔ diǎn",
+  "hz": "明天九点",
+  "words": "明天 (míngtiān): besok, 九 (jiǔ): sembilan, 点 (diǎn): jam",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Berapa totalnya?",
+  "py": "Yígòng duōshao qián?",
+  "hz": "一共多少钱？",
+  "words": "一共 (yígòng): total / seluruhnya, 多少 (duōshao): berapa, 钱 (qián): uang / harga",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Terlalu mahal",
+  "py": "Tài guì le",
+  "hz": "太贵了",
+  "words": "太 (tài): terlalu, 贵 (guì): mahal, 了 (le): partikel penegas",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisa lebih murah?",
+  "py": "Kěyǐ piányi yìdiǎnr ma?",
+  "hz": "可以便宜一点儿吗？",
+  "words": "可以 (kěyǐ): bisa, 便宜 (piányi): murah, 一点儿 (yìdiǎnr): sedikit, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "便宜一点可以吗？",
+    "Piányi yìdiǎn kěyǐ ma?"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Saya beli ini",
+  "py": "Wǒ mǎi zhège",
+  "hz": "我买这个",
+  "words": "我 (wǒ): saya, 买 (mǎi): beli, 这个 (zhège): ini",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "我要买这个",
+    "Wǒ yào mǎi zhège"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Saya hanya melihat-lihat",
+  "py": "Wǒ suíbiàn kànkan",
+  "hz": "我随便看看",
+  "words": "我 (wǒ): saya, 随便 (suíbiàn): santai / tanpa tujuan, 看看 (kànkan): lihat-lihat",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Boleh saya coba?",
+  "py": "Kěyǐ shì yíxià ma?",
+  "hz": "可以试一下吗？",
+  "words": "可以 (kěyǐ): boleh, 试 (shì): coba, 一下 (yíxià): sekali, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Apakah ada ukuran lain?",
+  "py": "Yǒu bié de chǐmǎ ma?",
+  "hz": "有别的尺码吗？",
+  "words": "有 (yǒu): ada, 别的 (bié de): yang lain, 尺码 (chǐmǎ): ukuran, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisa bayar pakai WeChat Pay?",
+  "py": "Kěyǐ yòng Wēixìn zhīfù ma?",
+  "hz": "可以用微信支付吗？",
+  "words": "可以 (kěyǐ): bisa, 用 (yòng): pakai, 微信 (Wēixìn): WeChat, 支付 (zhīfù): pembayaran, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisa bayar pakai Alipay?",
+  "py": "Kěyǐ yòng zhīfùbǎo ma?",
+  "hz": "可以用支付宝吗？",
+  "words": "可以 (kěyǐ): bisa, 用 (yòng): pakai, 支付宝 (zhīfùbǎo): Alipay, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisa pakai kartu?",
+  "py": "Kěyǐ shuā kǎ ma?",
+  "hz": "可以刷卡吗？",
+  "words": "可以 (kěyǐ): bisa, 刷卡 (shuā kǎ): gesek kartu, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya bayar tunai",
+  "py": "Wǒ fù xiànjīn",
+  "hz": "我付现金",
+  "words": "我 (wǒ): saya, 付 (fù): bayar, 现金 (xiànjīn): uang tunai",
+  "note": "Banyak tempat tidak menerima tunai",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "支付现金",
+    "Zhīfù xiànjīn"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Di mana ada minimarket?",
+  "py": "Nǎlǐ yǒu biànlìdiàn?",
+  "hz": "哪里有便利店？",
+  "words": "哪里 (nǎlǐ): di mana, 有 (yǒu): ada, 便利店 (biànlìdiàn): minimarket",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana ada apotek?",
+  "py": "Nǎlǐ yǒu yàodiàn?",
+  "hz": "哪里有药店？",
+  "words": "哪里 (nǎlǐ): di mana, 有 (yǒu): ada, 药店 (yàodiàn): apotek",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana tempat tukar uang?",
+  "py": "Nǎlǐ kěyǐ huàn qián?",
+  "hz": "哪里可以换钱？",
+  "words": "哪里 (nǎlǐ): di mana, 可以 (kěyǐ): bisa, 换 (huàn): tukar, 钱 (qián): uang",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya mau beli kartu SIM",
+  "py": "Wǒ xiǎng mǎi yì zhāng shǒujī kǎ",
+  "hz": "我想买一张手机卡",
+  "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 买 (mǎi): beli, 一 (yì): satu, 张 (zhāng): kata penggolong benda tipis/kartu, 手机卡 (shǒujī kǎ): kartu SIM",
+  "note": "Biasanya butuh paspor",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Apa password Wi-Fi?",
+  "py": "Wi-Fi mìmǎ shì duōshao?",
+  "hz": "Wi-Fi密码是多少？",
+  "words": "Wi-Fi (Wi-Fi): Wi-Fi, 密码 (mìmǎ): password, 是 (shì): adalah, 多少 (duōshao): berapa / apa",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "Wi-Fi密码是什么？",
+    "Wi-Fi mìmǎ shì shénme?"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Tolong!",
+  "py": "Jiùmìng!",
+  "hz": "救命！",
+  "words": "救命 (jiùmìng): tolong (selamatkan nyawa), 救 (jiù): selamatkan, 命 (mìng): nyawa",
+  "note": "Darurat China: polisi 110, ambulans 120, pemadam 119",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "救命啊！",
+    "Jiùmìng a!"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Panggil ambulans!",
+  "py": "Qǐng jiào jiùhùchē!",
+  "hz": "请叫救护车！",
+  "words": "请 (qǐng): tolong, 叫 (jiào): panggil, 救护车 (jiùhùchē): ambulans",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong panggil polisi",
+  "py": "Qǐng bàojǐng",
+  "hz": "请报警",
+  "words": "请 (qǐng): tolong, 报警 (bàojǐng): lapor polisi, 报 (bào): lapor, 警 (jǐng): polisi",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "报警",
+    "Bàojǐng"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Paspor saya hilang",
+  "py": "Wǒ de hùzhào diū le",
+  "hz": "我的护照丢了",
+  "words": "我 (wǒ): saya, 的 (de): milik, 护照 (hùzhào): paspor, 丢 (diū): hilang, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "HP saya hilang",
+  "py": "Wǒ de shǒujī diū le",
+  "hz": "我的手机丢了",
+  "words": "我 (wǒ): saya, 的 (de): milik, 手机 (shǒujī): HP, 丢 (diū): hilang, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Dompet saya dicuri",
+  "py": "Wǒ de qiánbāo bèi tōu le",
+  "hz": "我的钱包被偷了",
+  "words": "我 (wǒ): saya, 的 (de): milik, 钱包 (qiánbāo): dompet, 被 (bèi): penanda pasif, 偷 (tōu): curi, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Barang saya hilang",
+  "py": "Wǒ de dōngxi diū le",
+  "hz": "我的东西丢了",
+  "words": "我 (wǒ): saya, 的 (de): milik, 东西 (dōngxi): barang, 丢 (diū): hilang, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Kebakaran!",
+  "py": "Zháohuǒ le!",
+  "hz": "着火了！",
+  "words": "着火 (zháohuǒ): kebakaran, 着 (zháo): terkena, 火 (huǒ): api, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana pintu darurat?",
+  "py": "Jǐnjí chūkǒu zài nǎr?",
+  "hz": "紧急出口在哪儿？",
+  "words": "紧急 (jǐnjí): darurat, 出口 (chūkǒu): pintu keluar, 在 (zài): di, 哪儿 (nǎr): mana",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong hubungi kedutaan Indonesia",
+  "py": "Qǐng liánxì Yìnní dàshǐguǎn",
+  "hz": "请联系印尼大使馆",
+  "words": "请 (qǐng): tolong, 联系 (liánxì): menghubungi, 印尼 (Yìnní): Indonesia, 大使馆 (dàshǐguǎn): kedutaan besar",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya butuh bantuan segera",
+  "py": "Wǒ xūyào jǐnjí bāngzhù",
+  "hz": "我需要紧急帮助",
+  "words": "我 (wǒ): saya, 需要 (xūyào): perlu, 紧急 (jǐnjí): darurat, 帮助 (bāngzhù): bantuan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya sudah reservasi",
+  "py": "Wǒ yǐjīng yùdìng le",
+  "hz": "我已经预订了",
+  "words": "我 (wǒ): saya, 已经 (yǐjīng): sudah, 预订 (yùdìng): reservasi, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya mau check-in",
+  "py": "Wǒ yào bànlǐ rùzhù",
+  "hz": "我要办理入住",
+  "words": "我 (wǒ): saya, 要 (yào): ingin, 办理 (bànlǐ): mengurus, 入住 (rùzhù): check-in / menginap",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya mau check-out",
+  "py": "Wǒ yào tuìfáng",
+  "hz": "我要退房",
+  "words": "我 (wǒ): saya, 要 (yào): ingin, 退房 (tuìfáng): check-out, 退 (tuì): kembalikan, 房 (fáng): kamar",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ini paspor saya",
+  "py": "Zhè shì wǒ de hùzhào",
+  "hz": "这是我的护照",
+  "words": "这 (zhè): ini, 是 (shì): adalah, 我 (wǒ): saya, 的 (de): partikel kepemilikan, 护照 (hùzhào): paspor",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Jam berapa sarapan?",
+  "py": "Zǎocān jǐ diǎn?",
+  "hz": "早餐几点？",
+  "words": "早餐 (zǎocān): sarapan, 几 (jǐ): berapa, 点 (diǎn): jam",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "AC tidak berfungsi",
+  "py": "Kōngtiáo huài le",
+  "hz": "空调坏了",
+  "words": "空调 (kōngtiáo): AC, 坏 (huài): rusak, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tidak ada air panas",
+  "py": "Méiyǒu rèshuǐ",
+  "hz": "没有热水",
+  "words": "没有 (méiyǒu): tidak ada, 热水 (rèshuǐ): air panas",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisa titip koper?",
+  "py": "Kěyǐ jìcún xíngli ma?",
+  "hz": "可以寄存行李吗？",
+  "words": "可以 (kěyǐ): bisa, 寄存 (jìcún): menitipkan, 行李 (xíngli): koper / bagasi, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya tidak enak badan",
+  "py": "Wǒ bù shūfu",
+  "hz": "我不舒服",
+  "words": "我 (wǒ): saya, 不 (bù): tidak, 舒服 (shūfu): nyaman / enak badan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Kepala saya sakit",
+  "py": "Wǒ tóuténg",
+  "hz": "我头疼",
+  "words": "我 (wǒ): saya, 头疼 (tóuténg): sakit kepala, 头 (tóu): kepala, 疼 (téng): sakit",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Perut saya sakit",
+  "py": "Wǒ dùzi téng",
+  "hz": "我肚子疼",
+  "words": "我 (wǒ): saya, 肚子 (dùzi): perut, 疼 (téng): sakit",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya demam",
+  "py": "Wǒ fāshāo le",
+  "hz": "我发烧了",
+  "words": "我 (wǒ): saya, 发烧 (fāshāo): demam, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya batuk",
+  "py": "Wǒ késou",
+  "hz": "我咳嗽",
+  "words": "我 (wǒ): saya, 咳嗽 (késou): batuk",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya mual",
+  "py": "Wǒ xiǎng tù",
+  "hz": "我想吐",
+  "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 吐 (tù): muntah",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya diare",
+  "py": "Wǒ lā dùzi",
+  "hz": "我拉肚子",
+  "words": "我 (wǒ): saya, 拉肚子 (lā dùzi): diare, 拉 (lā): mengeluarkan, 肚子 (dùzi): perut",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya perlu ke dokter",
+  "py": "Wǒ xūyào kàn yīshēng",
+  "hz": "我需要看医生",
+  "words": "我 (wǒ): saya, 需要 (xūyào): perlu, 看 (kàn): periksa / menemui, 医生 (yīshēng): dokter",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana rumah sakit?",
+  "py": "Yīyuàn zài nǎr?",
+  "hz": "医院在哪儿？",
+  "words": "医院 (yīyuàn): rumah sakit, 在 (zài): di, 哪儿 (nǎr): mana",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ada obat flu?",
+  "py": "Yǒu gǎnmào yào ma?",
+  "hz": "有感冒药吗？",
+  "words": "有 (yǒu): ada, 感冒药 (gǎnmào yào): obat flu, 感冒 (gǎnmào): flu, 药 (yào): obat, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya alergi obat tertentu",
+  "py": "Wǒ duì mǒuxiē yàowù guòmǐn",
+  "hz": "我对某些药物过敏",
+  "words": "我 (wǒ): saya, 对 (duì): terhadap, 某些 (mǒuxiē): tertentu, 药物 (yàowù): obat-obatan, 过敏 (guòmǐn): alergi",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya perlu istirahat",
+  "py": "Wǒ xūyào xiūxi",
+  "hz": "我需要休息",
+  "words": "我 (wǒ): saya, 需要 (xūyào): perlu, 休息 (xiūxi): istirahat",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya mau makan",
+  "py": "Wǒ xiǎng chī fàn",
+  "hz": "我想吃饭",
+  "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 吃 (chī): makan, 饭 (fàn): nasi / makanan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana ada restoran?",
+  "py": "Nǎlǐ yǒu cāntīng?",
+  "hz": "哪里有餐厅？",
+  "words": "哪里 (nǎlǐ): di mana, 有 (yǒu): ada, 餐厅 (cāntīng): restoran",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Minta menu",
+  "py": "Qǐng gěi wǒ càidān",
+  "hz": "请给我菜单",
+  "words": "请 (qǐng): tolong, 给 (gěi): beri, 我 (wǒ): saya, 菜单 (càidān): menu",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya mau nasi",
+  "py": "Wǒ yào mǐfàn",
+  "hz": "我要米饭",
+  "words": "我 (wǒ): saya, 要 (yào): mau, 米饭 (mǐfàn): nasi",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "米饭",
+    "Mǐfàn"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Saya mau semangkuk mi",
+  "py": "Wǒ yào yì wǎn miàn",
+  "hz": "我要一碗面",
+  "words": "我 (wǒ): saya, 要 (yào): mau, 一 (yì): satu, 碗 (wǎn): mangkuk, 面 (miàn): mi",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "面条",
+    "Miàntiáo"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Ada rekomendasi?",
+  "py": "Yǒu shénme tuījiàn de?",
+  "hz": "有什么推荐的？",
+  "words": "有 (yǒu): ada, 什么 (shénme): apa, 推荐 (tuījiàn): rekomendasi, 的 (de): partikel penghubung",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Jangan pakai cabai",
+  "py": "Bú yào là",
+  "hz": "不要辣",
+  "words": "不 (bú): tidak, 要 (yào): mau, 辣 (là): pedas",
+  "note": "Masakan Sichuan/Hunan bisa sangat pedas",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya tidak bisa makan pedas",
+  "py": "Wǒ bù néng chī là",
+  "hz": "我不能吃辣",
+  "words": "我 (wǒ): saya, 不 (bù): tidak, 能 (néng): bisa (kondisi), 吃 (chī): makan, 辣 (là): pedas",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Sedikit pedas saja",
+  "py": "Wēi là",
+  "hz": "微辣",
+  "words": "微 (wēi): sedikit / ringan, 辣 (là): pedas",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya tidak makan babi",
+  "py": "Wǒ bù chī zhūròu",
+  "hz": "我不吃猪肉",
+  "words": "我 (wǒ): saya, 不 (bù): tidak, 吃 (chī): makan, 猪肉 (zhūròu): daging babi",
+  "note": "Sebut juga 猪油 (zhūyóu, lemak babi) bila perlu",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Apakah ini mengandung daging?",
+  "py": "Zhège yǒu ròu ma?",
+  "hz": "这个有肉吗？",
+  "words": "这个 (zhège): ini, 有 (yǒu): ada, 肉 (ròu): daging, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Minta segelas air putih",
+  "py": "Wǒ yào yì bēi shuǐ",
+  "hz": "我要一杯水",
+  "words": "我 (wǒ): saya, 要 (yào): mau, 一 (yì): satu, 杯 (bēi): gelas, 水 (shuǐ): air",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Minta air panas",
+  "py": "Wǒ yào rèshuǐ",
+  "hz": "我要热水",
+  "words": "我 (wǒ): saya, 要 (yào): mau, 热水 (rèshuǐ): air panas",
+  "note": "Orang China biasa minum air panas",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "热水",
+    "Rè shuǐ"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Enak sekali!",
+  "py": "Hěn hǎochī!",
+  "hz": "很好吃！",
+  "words": "很 (hěn): sangat, 好吃 (hǎochī): enak (dimakan)",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya sudah kenyang",
+  "py": "Wǒ chī bǎo le",
+  "hz": "我吃饱了",
+  "words": "我 (wǒ): saya, 吃 (chī): makan, 饱 (bǎo): kenyang, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Dibungkus",
+  "py": "Dǎbāo",
+  "hz": "打包",
+  "words": "打包 (dǎbāo): membungkus (bawa pulang), 打 (dǎ): melakukan, 包 (bāo): bungkus",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Makan di sini atau dibawa pulang?",
+  "py": "Zài zhèr chī háishi dàizǒu?",
+  "hz": "在这儿吃还是带走？",
+  "words": "在 (zài): di, 这儿 (zhèr): sini, 吃 (chī): makan, 还是 (háishi): atau (pertanyaan pilihan), 带走 (dàizǒu): bawa pergi",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Minta sendok",
+  "py": "Qǐng gěi wǒ yì bǎ sháozi",
+  "hz": "请给我一把勺子",
+  "words": "请 (qǐng): tolong, 给 (gěi): beri, 我 (wǒ): saya, 一 (yì): satu, 把 (bǎ): kata penggolong benda bergagang, 勺子 (sháozi): sendok",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Minta tisu",
+  "py": "Qǐng gěi wǒ zhǐjīn",
+  "hz": "请给我纸巾",
+  "words": "请 (qǐng): tolong, 给 (gěi): beri, 我 (wǒ): saya, 纸巾 (zhǐjīn): tisu",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Minta bayar",
+  "py": "Mǎidān",
+  "hz": "买单",
+  "words": "买单 (mǎidān): bayar tagihan, 买 (mǎi): beli, 单 (dān): bon / tagihan",
+  "note": "Memanggil pelayan: 服务员 (fúwùyuán)",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Selamat pagi, Pak/Bu (guru/trainer)",
+  "py": "Lǎoshī hǎo",
+  "hz": "老师好",
+  "words": "老师 (lǎoshī): guru / trainer, 好 (hǎo): baik",
+  "note": "老师 = sapaan sopan untuk trainer",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya peserta pelatihan dari Indonesia",
+  "py": "Wǒ shì láizì Yìnní de péixùn xuéyuán",
+  "hz": "我是来自印尼的培训学员",
+  "words": "我 (wǒ): saya, 是 (shì): adalah, 来自 (láizì): berasal dari, 印尼 (Yìnní): Indonesia, 的 (de): partikel penghubung, 培训 (péixùn): pelatihan, 学员 (xuéyuán): peserta",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana ruang pelatihan?",
+  "py": "Péixùnshì zài nǎr?",
+  "hz": "培训室在哪儿？",
+  "words": "培训室 (péixùnshì): ruang pelatihan, 在 (zài): di, 哪儿 (nǎr): mana",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana area produksi (workshop)?",
+  "py": "Chējiān zài nǎr?",
+  "hz": "车间在哪儿？",
+  "words": "车间 (chējiān): workshop / area produksi",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana kantin?",
+  "py": "Shítáng zài nǎr?",
+  "hz": "食堂在哪儿？",
+  "words": "食堂 (shítáng): kantin",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Jam kerja dari jam berapa sampai jam berapa?",
+  "py": "Shàngbān shíjiān shì jǐ diǎn dào jǐ diǎn?",
+  "hz": "上班时间是几点到几点？",
+  "words": "上班 (shàngbān): masuk kerja, 时间 (shíjiān): waktu, 是 (shì): adalah, 几 (jǐ): berapa, 点 (diǎn): jam, 到 (dào): sampai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya terlambat, maaf",
+  "py": "Wǒ chídào le, duìbuqǐ",
+  "hz": "我迟到了，对不起",
+  "words": "我 (wǒ): saya, 迟到 (chídào): terlambat, 了 (le): partikel selesai, 对不起 (duìbuqǐ): maaf",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya sudah paham",
+  "py": "Wǒ míngbai le",
+  "hz": "我明白了",
+  "words": "我 (wǒ): saya, 明白 (míngbai): paham, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya belum paham",
+  "py": "Wǒ hái bù míngbai",
+  "hz": "我还不明白",
+  "words": "我 (wǒ): saya, 还 (hái): masih, 不 (bù): tidak, 明白 (míngbai): paham",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "我还不懂",
+    "Wǒ hái bù dǒng"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Bisa dijelaskan sekali lagi?",
+  "py": "Kěyǐ zài jiěshì yí biàn ma?",
+  "hz": "可以再解释一遍吗？",
+  "words": "可以 (kěyǐ): boleh, 再 (zài): lagi, 解释 (jiěshì): menjelaskan, 一遍 (yí biàn): sekali, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisa tolong didemonstrasikan?",
+  "py": "Kěyǐ shìfàn yíxià ma?",
+  "hz": "可以示范一下吗？",
+  "words": "可以 (kěyǐ): boleh, 示范 (shìfàn): mendemonstrasikan, 一下 (yíxià): sebentar, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Boleh saya foto?",
+  "py": "Kěyǐ pāizhào ma?",
+  "hz": "可以拍照吗？",
+  "words": "可以 (kěyǐ): boleh, 拍照 (pāizhào): foto, 拍 (pāi): ambil, 照 (zhào): foto, 吗 (ma): partikel tanya",
+  "note": "Tanya dulu; banyak area pabrik melarang foto",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Boleh saya mencatat?",
+  "py": "Wǒ kěyǐ jì bǐjì ma?",
+  "hz": "我可以记笔记吗？",
+  "words": "我 (wǒ): saya, 可以 (kěyǐ): boleh, 记 (jì): catat, 笔记 (bǐjì): catatan, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Boleh masuk ke area ini?",
+  "py": "Kěyǐ jìn zhège qūyù ma?",
+  "hz": "可以进这个区域吗？",
+  "words": "可以 (kěyǐ): boleh, 进 (jìn): masuk, 这 (zhè): ini, 个 (gè): kata penggolong, 区域 (qūyù): area, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Apakah harus memakai baju cleanroom?",
+  "py": "Xūyào chuān wúchénfú ma?",
+  "hz": "需要穿无尘服吗？",
+  "words": "需要 (xūyào): perlu, 穿 (chuān): memakai, 无尘服 (wúchénfú): baju cleanroom, 无尘 (wúchén): bebas debu, 服 (fú): pakaian, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong kirim filenya ke saya",
+  "py": "Qǐng bǎ wénjiàn fā gěi wǒ",
+  "hz": "请把文件发给我",
+  "words": "请 (qǐng): tolong, 把 (bǎ): partikel objek, 文件 (wénjiàn): file / dokumen, 发 (fā): kirim, 给 (gěi): kepada, 我 (wǒ): saya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Boleh saya tambah WeChat Anda?",
+  "py": "Kěyǐ jiā nǐ de Wēixìn ma?",
+  "hz": "可以加你的微信吗？",
+  "words": "可以 (kěyǐ): boleh, 加 (jiā): tambah, 你 (nǐ): kamu, 的 (de): partikel kepemilikan, 微信 (Wēixìn): WeChat, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya punya satu pertanyaan",
+  "py": "Wǒ yǒu yí ge wèntí",
+  "hz": "我有一个问题",
+  "words": "我 (wǒ): saya, 有 (yǒu): punya, 一 (yí): satu, 个 (ge): kata penggolong, 问题 (wèntí): pertanyaan / masalah",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Cara memakai mesin ini bagaimana?",
+  "py": "Zhè tái jīqì zěnme yòng?",
+  "hz": "这台机器怎么用？",
+  "words": "这 (zhè): ini, 台 (tái): kata penggolong mesin, 机器 (jīqì): mesin, 怎么 (zěnme): bagaimana, 用 (yòng): pakai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Mesinnya rusak",
+  "py": "Jīqì huài le",
+  "hz": "机器坏了",
+  "words": "机器 (jīqì): mesin, 坏 (huài): rusak, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ini produk NG",
+  "py": "Zhège shì bùliángpǐn",
+  "hz": "这个是不良品",
+  "words": "这个 (zhège): ini, 是 (shì): adalah, 不良品 (bùliángpǐn): produk NG, 不 (bù): tidak, 良 (liáng): baik, 品 (pǐn): barang",
+  "note": "不良 = NG/defect",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ini produk OK",
+  "py": "Zhège hégé",
+  "hz": "这个合格",
+  "words": "这个 (zhège): ini, 合格 (hégé): OK / lolos standar",
+  "note": "合格 = OK/lolos",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Apa penyebabnya?",
+  "py": "Yuányīn shì shénme?",
+  "hz": "原因是什么？",
+  "words": "原因 (yuányīn): penyebab, 是 (shì): adalah, 什么 (shénme): apa",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bagaimana cara mengatasinya?",
+  "py": "Zěnme jiějué?",
+  "hz": "怎么解决？",
+  "words": "怎么 (zěnme): bagaimana, 解决 (jiějué): menyelesaikan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisa tunjukkan standarnya?",
+  "py": "Kěyǐ gěi wǒ kàn yíxià biāozhǔn ma?",
+  "hz": "可以给我看一下标准吗？",
+  "words": "可以 (kěyǐ): boleh, 给 (gěi): beri, 我 (wǒ): saya, 看 (kàn): lihat, 一下 (yíxià): sebentar, 标准 (biāozhǔn): standar, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Berapa yield-nya?",
+  "py": "Liánglǜ shì duōshao?",
+  "hz": "良率是多少？",
+  "words": "良率 (liánglǜ): yield, 良 (liáng): baik, 率 (lǜ): persentase, 是 (shì): adalah, 多少 (duōshao): berapa",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Proses selanjutnya apa?",
+  "py": "Xià yí dào gōngxù shì shénme?",
+  "hz": "下一道工序是什么？",
+  "words": "下 (xià): berikutnya, 一 (yí): satu, 道 (dào): kata penggolong tahapan, 工序 (gōngxù): proses / tahapan kerja, 是 (shì): adalah, 什么 (shénme): apa",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Sudah selesai",
+  "py": "Zuò wán le",
+  "hz": "做完了",
+  "words": "做 (zuò): mengerjakan, 完 (wán): selesai, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong periksa",
+  "py": "Qǐng jiǎnchá yíxià",
+  "hz": "请检查一下",
+  "words": "请 (qǐng): tolong, 检查 (jiǎnchá): periksa, 一下 (yíxià): sebentar",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Hati-hati!",
+  "py": "Xiǎoxīn!",
+  "hz": "小心！",
+  "words": "小心 (xiǎoxīn): hati-hati",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Terima kasih atas pelatihannya",
+  "py": "Xièxie nín de péixùn",
+  "hz": "谢谢您的培训",
+  "words": "谢谢 (xièxie): terima kasih, 您 (nín): Anda (sopan), 的 (de): milik, 培训 (péixùn): pelatihan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Senang bertemu Anda",
+  "py": "Hěn gāoxìng rènshi nǐ",
+  "hz": "很高兴认识你",
+  "words": "很 (hěn): sangat, 高兴 (gāoxìng): senang, 认识 (rènshi): kenal, 你 (nǐ): kamu",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya orang Indonesia",
+  "py": "Wǒ shì Yìnní rén",
+  "hz": "我是印尼人",
+  "words": "我 (wǒ): saya, 是 (shì): adalah, 印尼 (Yìnní): Indonesia, 人 (rén): orang",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya datang untuk pelatihan",
+  "py": "Wǒ shì lái péixùn de",
+  "hz": "我是来培训的",
+  "words": "我 (wǒ): saya, 是 (shì): adalah, 来 (lái): datang, 培训 (péixùn): pelatihan, 的 (de): partikel penegas (pola 是…的)",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya di sini selama satu bulan",
+  "py": "Wǒ zài zhèlǐ dāi yí ge yuè",
+  "hz": "我在这里待一个月",
+  "words": "我 (wǒ): saya, 在 (zài): di, 这里 (zhèlǐ): sini, 待 (dāi): tinggal, 一 (yí): satu, 个 (ge): kata penggolong, 月 (yuè): bulan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ini pertama kalinya saya ke China",
+  "py": "Zhè shì wǒ dì-yī cì lái Zhōngguó",
+  "hz": "这是我第一次来中国",
+  "words": "这 (zhè): ini, 是 (shì): adalah, 我 (wǒ): saya, 第一次 (dì-yī cì): pertama kali, 来 (lái): datang, 中国 (Zhōngguó): China",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya baru belajar Mandarin",
+  "py": "Wǒ gāng kāishǐ xué Zhōngwén",
+  "hz": "我刚开始学中文",
+  "words": "我 (wǒ): saya, 刚 (gāng): baru saja, 开始 (kāishǐ): mulai, 学 (xué): belajar, 中文 (Zhōngwén): bahasa Mandarin",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Mandarin saya belum bagus",
+  "py": "Wǒ de Zhōngwén bú tài hǎo",
+  "hz": "我的中文不太好",
+  "words": "我 (wǒ): saya, 的 (de): partikel kepemilikan, 中文 (Zhōngwén): bahasa Mandarin, 不太 (bú tài): kurang / tidak terlalu, 好 (hǎo): bagus",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya bisa sedikit Mandarin",
+  "py": "Wǒ huì shuō yìdiǎnr Zhōngwén",
+  "hz": "我会说一点儿中文",
+  "words": "我 (wǒ): saya, 会 (huì): bisa, 说 (shuō): berbicara, 一点儿 (yìdiǎnr): sedikit, 中文 (Zhōngwén): bahasa Mandarin",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisakah Anda berbahasa Inggris?",
+  "py": "Nǐ huì shuō Yīngyǔ ma?",
+  "hz": "你会说英语吗？",
+  "words": "你 (nǐ): kamu, 会 (huì): bisa, 说 (shuō): berbicara, 英语 (Yīngyǔ): bahasa Inggris, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Mohon bimbingannya",
+  "py": "Qǐng duō guānzhào",
+  "hz": "请多关照",
+  "words": "请 (qǐng): tolong, 多 (duō): banyak, 关照 (guānzhào): perhatian / bimbingan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Selamat siang",
+  "py": "Zhōngwǔ hǎo",
+  "hz": "中午好",
+  "words": "中午 (zhōngwǔ): siang (tengah hari), 好 (hǎo): baik",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Apa kabar?",
+  "py": "Nǐ hǎo ma?",
+  "hz": "你好吗？",
+  "words": "你 (nǐ): kamu, 好 (hǎo): baik, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya baik, terima kasih",
+  "py": "Wǒ hěn hǎo, xièxie",
+  "hz": "我很好，谢谢",
+  "words": "我 (wǒ): saya, 很 (hěn): sangat, 好 (hǎo): baik, 谢谢 (xièxie): terima kasih",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Terima kasih banyak",
+  "py": "Fēicháng gǎnxiè",
+  "hz": "非常感谢",
+  "words": "非常 (fēicháng): sangat, 感谢 (gǎnxiè): berterima kasih",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Permisi (numpang lewat)",
+  "py": "Jièguò",
+  "hz": "借过",
+  "words": "借过 (jièguò): permisi, numpang lewat, 借 (jiè): pinjam, 过 (guò): lewat",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Silakan / tolong (awal permintaan sopan)",
+  "py": "Qǐng",
+  "hz": "请",
+  "words": "请 (qǐng): silakan / tolong",
+  "note": "Dipakai di awal kalimat permintaan",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Sampai besok",
+  "py": "Míngtiān jiàn",
+  "hz": "明天见",
+  "words": "明天 (míngtiān): besok, 见 (jiàn): bertemu",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Anda sudah makan?",
+  "py": "Nǐ chī fàn le ma?",
+  "hz": "你吃饭了吗？",
+  "words": "你 (nǐ): kamu, 吃饭 (chī fàn): makan, 了 (le): partikel selesai, 吗 (ma): partikel tanya",
+  "note": "Sapaan akrab, setara \"apa kabar\"",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Terima kasih atas kerja kerasnya",
+  "py": "Xīnkǔ le",
+  "hz": "辛苦了",
+  "words": "辛苦 (xīnkǔ): bekerja keras / jerih payah, 了 (le): partikel penegas",
+  "note": "Dipakai ke rekan kerja",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Anda bekerja sebagai apa?",
+  "py": "Nǐ zuò shénme gōngzuò?",
+  "hz": "你做什么工作？",
+  "words": "你 (nǐ): kamu, 做 (zuò): melakukan, 什么 (shénme): apa, 工作 (gōngzuò): pekerjaan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Anda orang mana?",
+  "py": "Nǐ shì nǎlǐ rén?",
+  "hz": "你是哪里人？",
+  "words": "你 (nǐ): kamu, 是 (shì): adalah, 哪里 (nǎlǐ): mana, 人 (rén): orang",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Cuaca hari ini bagus",
+  "py": "Jīntiān tiānqì hěn hǎo",
+  "hz": "今天天气很好",
+  "words": "今天 (jīntiān): hari ini, 天气 (tiānqì): cuaca, 很 (hěn): sangat, 好 (hǎo): bagus",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Hari ini panas",
+  "py": "Jīntiān hěn rè",
+  "hz": "今天很热",
+  "words": "今天 (jīntiān): hari ini, 很 (hěn): sangat, 热 (rè): panas",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Hari ini dingin",
+  "py": "Jīntiān hěn lěng",
+  "hz": "今天很冷",
+  "words": "今天 (jīntiān): hari ini, 很 (hěn): sangat, 冷 (lěng): dingin",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Makanan di sini enak",
+  "py": "Zhèlǐ de cài hěn hǎochī",
+  "hz": "这里的菜很好吃",
+  "words": "这里 (zhèlǐ): sini, 的 (de): milik, 菜 (cài): masakan, 很 (hěn): sangat, 好吃 (hǎochī): enak",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong ajari saya Mandarin",
+  "py": "Qǐng jiāo wǒ Zhōngwén",
+  "hz": "请教我中文",
+  "words": "请 (qǐng): tolong, 教 (jiāo): mengajar, 我 (wǒ): saya, 中文 (Zhōngwén): bahasa Mandarin",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "请教我",
+    "Qǐng jiāo wǒ"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Ayo makan bersama",
+  "py": "Wǒmen yìqǐ chī fàn ba",
+  "hz": "我们一起吃饭吧",
+  "words": "我们 (wǒmen): kita, 一起 (yìqǐ): bersama, 吃饭 (chī fàn): makan, 吧 (ba): partikel ajakan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya yang traktir",
+  "py": "Wǒ qǐngkè",
+  "hz": "我请客",
+  "words": "我 (wǒ): saya, 请客 (qǐngkè): mentraktir",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bayar masing-masing saja",
+  "py": "Wǒmen gè fù gè de ba",
+  "hz": "我们各付各的吧",
+  "words": "我们 (wǒmen): kita, 各 (gè): masing-masing, 付 (fù): bayar, 各 (gè): masing-masing, 的 (de): milik, 吧 (ba): partikel ajakan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ayo foto bersama",
+  "py": "Wǒmen yìqǐ pāizhào ba",
+  "hz": "我们一起拍照吧",
+  "words": "我们 (wǒmen): kita, 一起 (yìqǐ): bersama, 拍照 (pāizhào): foto, 吧 (ba): partikel ajakan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong fotokan saya",
+  "py": "Qǐng bāng wǒ pāi zhāng zhàopiàn",
+  "hz": "请帮我拍张照片",
+  "words": "请 (qǐng): tolong, 帮 (bāng): bantu, 我 (wǒ): saya, 拍 (pāi): ambil, 张 (zhāng): kata penggolong foto, 照片 (zhàopiàn): foto",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Akhir pekan Anda ke mana?",
+  "py": "Zhōumò nǐ qù nǎr?",
+  "hz": "周末你去哪儿？",
+  "words": "周末 (zhōumò): akhir pekan, 你 (nǐ): kamu, 去 (qù): pergi, 哪儿 (nǎr): mana",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ada tempat wisata yang bagus?",
+  "py": "Yǒu shénme hǎowán de dìfang?",
+  "hz": "有什么好玩的地方？",
+  "words": "有 (yǒu): ada, 什么 (shénme): apa, 好玩 (hǎowán): seru / menarik, 的 (de): partikel penghubung, 地方 (dìfang): tempat",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya ingin beli oleh-oleh",
+  "py": "Wǒ xiǎng mǎi jìniànpǐn",
+  "hz": "我想买纪念品",
+  "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 买 (mǎi): beli, 纪念品 (jìniànpǐn): oleh-oleh / suvenir",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya rindu keluarga",
+  "py": "Wǒ xiǎngniàn jiārén",
+  "hz": "我想念家人",
+  "words": "我 (wǒ): saya, 想念 (xiǎngniàn): merindukan, 家人 (jiārén): keluarga",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Selamat ulang tahun",
+  "py": "Shēngrì kuàilè",
+  "hz": "生日快乐",
+  "words": "生日 (shēngrì): ulang tahun, 快乐 (kuàilè): bahagia",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Selamat tahun baru",
+  "py": "Xīnnián kuàilè",
+  "hz": "新年快乐",
+  "words": "新年 (xīnnián): tahun baru, 快乐 (kuàilè): bahagia",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Semoga sukses",
+  "py": "Zhù nǐ chénggōng",
+  "hz": "祝你成功",
+  "words": "祝 (zhù): mendoakan, 你 (nǐ): kamu, 成功 (chénggōng): sukses",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Terima kasih atas bantuannya",
+  "py": "Xièxie nǐ de bāngzhù",
+  "hz": "谢谢你的帮助",
+  "words": "谢谢 (xièxie): terima kasih, 你 (nǐ): kamu, 的 (de): milik, 帮助 (bāngzhù): bantuan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya senang di sini",
+  "py": "Wǒ zài zhèlǐ hěn kāixīn",
+  "hz": "我在这里很开心",
+  "words": "我 (wǒ): saya, 在 (zài): di, 这里 (zhèlǐ): sini, 很 (hěn): sangat, 开心 (kāixīn): senang",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Sampai jumpa lagi",
+  "py": "Huítóu jiàn",
+  "hz": "回头见",
+  "words": "回头 (huítóu): nanti (harfiah: menoleh), 见 (jiàn): bertemu",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Hati-hati di jalan",
+  "py": "Lùshang xiǎoxīn",
+  "hz": "路上小心",
+  "words": "路上 (lùshang): di jalan, 小心 (xiǎoxīn): hati-hati",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tunggu sebentar",
+  "py": "Qǐng děng yíxià",
+  "hz": "请等一下",
+  "words": "请 (qǐng): tolong, 等 (děng): tunggu, 一下 (yíxià): sebentar",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong bicara pelan-pelan",
+  "py": "Qǐng shuō màn yìdiǎnr",
+  "hz": "请说慢一点儿",
+  "words": "请 (qǐng): tolong, 说 (shuō): bicara, 慢 (màn): lambat, 一点儿 (yìdiǎnr): sedikit",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "请说慢一点",
+    "Qǐng shuō màn yìdiǎn"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Apa artinya?",
+  "py": "Zhè shì shénme yìsi?",
+  "hz": "这是什么意思？",
+  "words": "这 (zhè): ini, 是 (shì): adalah, 什么 (shénme): apa, 意思 (yìsi): arti",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bagaimana cara mengucapkannya?",
+  "py": "Zhège zěnme dú?",
+  "hz": "这个怎么读？",
+  "words": "这个 (zhège): ini, 怎么 (zěnme): bagaimana, 读 (dú): baca / ucapkan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong tuliskan",
+  "py": "Qǐng xiě xiàlai",
+  "hz": "请写下来",
+  "words": "请 (qǐng): tolong, 写 (xiě): tulis, 下来 (xiàlai): penanda hasil (tertulis dan tersimpan)",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisa tunjukkan di HP?",
+  "py": "Kěyǐ zài shǒujī shàng gěi wǒ kàn ma?",
+  "hz": "可以在手机上给我看吗？",
+  "words": "可以 (kěyǐ): bisa / boleh, 在 (zài): di, 手机 (shǒujī): HP, 上 (shàng): pada, 给 (gěi): untuk, 我 (wǒ): saya, 看 (kàn): lihat, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya pakai aplikasi penerjemah",
+  "py": "Wǒ yòng fānyì ruǎnjiàn",
+  "hz": "我用翻译软件",
+  "words": "我 (wǒ): saya, 用 (yòng): pakai, 翻译 (fānyì): terjemahan, 软件 (ruǎnjiàn): software / aplikasi",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ini bahasa Mandarinnya apa?",
+  "py": "Zhège yòng Zhōngwén zěnme shuō?",
+  "hz": "这个用中文怎么说？",
+  "words": "这个 (zhège): ini, 用 (yòng): pakai, 中文 (Zhōngwén): bahasa Mandarin, 怎么 (zěnme): bagaimana, 说 (shuō): berkata",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana toilet?",
+  "py": "Cèsuǒ zài nǎr?",
+  "hz": "厕所在哪儿？",
+  "words": "厕所 (cèsuǒ): toilet, 在 (zài): di, 哪儿 (nǎr): mana",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "洗手间在哪儿？",
+    "Xǐshǒujiān zài nǎr?"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Di mana stasiun metro?",
+  "py": "Dìtiězhàn zài nǎr?",
+  "hz": "地铁站在哪儿？",
+  "words": "地铁站 (dìtiězhàn): stasiun metro, 在 (zài): di, 哪儿 (nǎr): mana",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana stasiun kereta?",
+  "py": "Huǒchēzhàn zài nǎr?",
+  "hz": "火车站在哪儿？",
+  "words": "火车站 (huǒchēzhàn): stasiun kereta, 在 (zài): di, 哪儿 (nǎr): mana",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana pintu keluar?",
+  "py": "Chūkǒu zài nǎr?",
+  "hz": "出口在哪儿？",
+  "words": "出口 (chūkǒu): pintu keluar, 在 (zài): di, 哪儿 (nǎr): mana",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya mau ke alamat ini",
+  "py": "Wǒ yào qù zhège dìzhǐ",
+  "hz": "我要去这个地址",
+  "words": "我 (wǒ): saya, 要 (yào): mau, 去 (qù): pergi, 这个 (zhège): ini, 地址 (dìzhǐ): alamat",
+  "note": "Tunjukkan alamat Hanzi di HP",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "请去这个地址",
+    "Qǐng qù zhège dìzhǐ"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Tolong antar ke hotel ini",
+  "py": "Qǐng sòng wǒ dào zhè jiā jiǔdiàn",
+  "hz": "请送我到这家酒店",
+  "words": "请 (qǐng): tolong, 送 (sòng): antar, 我 (wǒ): saya, 到 (dào): ke, 这 (zhè): ini, 家 (jiā): kata penggolong tempat usaha, 酒店 (jiǔdiàn): hotel",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong pakai argo",
+  "py": "Qǐng dǎ biǎo",
+  "hz": "请打表",
+  "words": "请 (qǐng): tolong, 打表 (dǎ biǎo): menyalakan argo, 打 (dǎ): menyalakan, 表 (biǎo): meter",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Berapa lama sampai?",
+  "py": "Yào duō cháng shíjiān?",
+  "hz": "要多长时间？",
+  "words": "要 (yào): butuh, 多长 (duō cháng): berapa lama, 时间 (shíjiān): waktu",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Apakah jauh dari sini?",
+  "py": "Lí zhèr yuǎn ma?",
+  "hz": "离这儿远吗？",
+  "words": "离 (lí): berjarak dari, 这儿 (zhèr): sini, 远 (yuǎn): jauh, 吗 (ma): partikel tanya",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Lurus saja",
+  "py": "Yìzhí zǒu",
+  "hz": "一直走",
+  "words": "一直 (yìzhí): terus lurus, 走 (zǒu): jalan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Belok kiri",
+  "py": "Xiàng zuǒ guǎi",
+  "hz": "向左拐",
+  "words": "向 (xiàng): ke arah, 左 (zuǒ): kiri, 拐 (guǎi): belok",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "左转",
+    "Zuǒ zhuǎn"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Belok kanan",
+  "py": "Xiàng yòu guǎi",
+  "hz": "向右拐",
+  "words": "向 (xiàng): ke arah, 右 (yòu): kanan, 拐 (guǎi): belok",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "右转",
+    "Yòu zhuǎn"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Berhenti di sini",
+  "py": "Zài zhèr tíngchē",
+  "hz": "在这儿停车",
+  "words": "在 (zài): di, 这儿 (zhèr): sini, 停车 (tíngchē): berhenti (kendaraan), 停 (tíng): berhenti, 车 (chē): kendaraan",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": [
+   [
+    "停在这里",
+    "Tíng zài zhèlǐ"
+   ]
+  ]
+ },
+ {
+  "label": "",
+  "id": "Saya tersesat",
+  "py": "Wǒ mílù le",
+  "hz": "我迷路了",
+  "words": "我 (wǒ): saya, 迷路 (mílù): tersesat, 迷 (mí): kehilangan arah, 路 (lù): jalan, 了 (le): partikel selesai",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Kereta berangkat jam berapa?",
+  "py": "Huǒchē jǐ diǎn chūfā?",
+  "hz": "火车几点出发？",
+  "words": "火车 (huǒchē): kereta, 几 (jǐ): berapa, 点 (diǎn): jam, 出发 (chūfā): berangkat",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya mau ini",
+  "py": "Wǒ yào zhège",
+  "hz": "我要这个",
+  "words": "我 (wǒ): saya, 要 (yào): mau, 这个 (zhège): ini",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya tidak mau",
+  "py": "Wǒ bú yào",
+  "hz": "我不要",
+  "words": "我 (wǒ): saya, 不 (bú): tidak, 要 (yào): mau",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Oke / baik",
+  "py": "Hǎo de",
+  "hz": "好的",
+  "words": "好 (hǎo): baik, 的 (de): partikel penegas",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Permisi / numpang tanya",
+  "py": "Qǐngwèn",
+  "hz": "请问",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya tidak bisa bahasa Mandarin",
+  "py": "Wǒ bú huì shuō Hànyǔ",
+  "hz": "我不会说汉语",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Nol",
+  "py": "Líng",
+  "hz": "零",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Apa?",
+  "py": "Shénme?",
+  "hz": "什么？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana?",
+  "py": "Nǎr?",
+  "hz": "哪儿？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Mengapa?",
+  "py": "Wèishénme?",
+  "hz": "为什么？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bagaimana cara pakai ini?",
+  "py": "Zhège zěnme yòng?",
+  "hz": "这个怎么用？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bandara",
+  "py": "Fēijīchǎng",
+  "hz": "飞机场",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Stasiun kereta",
+  "py": "Huǒchēzhàn",
+  "hz": "火车站",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Hotel",
+  "py": "Jiǔdiàn",
+  "hz": "酒店",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Toilet",
+  "py": "Xǐshǒujiān",
+  "hz": "洗手间",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Pintu keluar",
+  "py": "Chūkǒu",
+  "hz": "出口",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Pintu masuk",
+  "py": "Rùkǒu",
+  "hz": "入口",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Apakah dekat dari sini?",
+  "py": "Lí zhèlǐ jìn ma?",
+  "hz": "离这里近吗？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Jauh · dekat",
+  "py": "Yuǎn · Jìn",
+  "hz": "远 · 近",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya ingin pergi ke…",
+  "py": "Wǒ yào qù…",
+  "hz": "我要去……",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di depan",
+  "py": "Qiánmiàn",
+  "hz": "前面",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di belakang",
+  "py": "Hòumiàn",
+  "hz": "后面",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tolong tunjukkan peta",
+  "py": "Qǐng gěi wǒ kàn dìtú",
+  "hz": "请给我看地图",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bisakah Anda antar saya?",
+  "py": "Néng dài wǒ qù ma?",
+  "hz": "能带我去吗？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Naik bus",
+  "py": "Zuò gōngjiāochē",
+  "hz": "坐公交车",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Naik MRT",
+  "py": "Zuò dìtiě",
+  "hz": "坐地铁",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Beli tiket",
+  "py": "Mǎi piào",
+  "hz": "买票",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Jalur berapa?",
+  "py": "Jǐ hào xiàn?",
+  "hz": "几号线？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ada menu bahasa Inggris?",
+  "py": "Yǒu Yīngwén càidān ma?",
+  "hz": "有英文菜单吗？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Makan di sini",
+  "py": "Tángshí",
+  "hz": "堂食",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Air dingin",
+  "py": "Bīng shuǐ",
+  "hz": "冰水",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ayam",
+  "py": "Jīròu",
+  "hz": "鸡肉",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Sapi",
+  "py": "Niúròu",
+  "hz": "牛肉",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Teh",
+  "py": "Chá",
+  "hz": "茶",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Kopi",
+  "py": "Kāfēi",
+  "hz": "咖啡",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bayar pakai WeChat",
+  "py": "Wēixìn zhīfù",
+  "hz": "微信支付",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bayar pakai Alipay",
+  "py": "Zhīfùbǎo",
+  "hz": "支付宝",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Pindai QR Code saya",
+  "py": "Sǎo wǒ de mǎ",
+  "hz": "扫我的码",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Ada kantong plastik?",
+  "py": "Yǒu sùliào dài ma?",
+  "hz": "有塑料袋吗？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Kuitansi / struk",
+  "py": "Fāpiào",
+  "hz": "发票",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Air mineral",
+  "py": "Kuàngquánshuǐ",
+  "hz": "矿泉水",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana ruang rapat?",
+  "py": "Huìyìshì zài nǎr?",
+  "hz": "会议室在哪儿？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Hari ini jam berapa selesai kerja?",
+  "py": "Jīntiān jǐ diǎn xiàbān?",
+  "hz": "今天几点下班？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Besok kita mulai jam berapa?",
+  "py": "Míngtiān jǐ diǎn kāishǐ?",
+  "hz": "明天几点开始？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Mari kita pergi bersama",
+  "py": "Wǒmen yìqǐ qù ba",
+  "hz": "我们一起去吧",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Di mana isi ulang air?",
+  "py": "Yǐnyòngshuǐ zài nǎr?",
+  "hz": "饮用水在哪儿？",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Selamat bekerja / semangat!",
+  "py": "Jiāyóu!",
+  "hz": "加油！",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Bagus sekali / mantap",
+  "py": "Hěn hǎo! / Bàng!",
+  "hz": "很好！/ 棒！",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Tidak masalah / OK",
+  "py": "Méi wèntí",
+  "hz": "没问题",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Senang bekerja sama dengan Anda",
+  "py": "Hěn gāoxìng gēn nǐ hézuò",
+  "hz": "很高兴跟你合作",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya butuh obat",
+  "py": "Wǒ xūyào yào",
+  "hz": "我需要药",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Rumah sakit",
+  "py": "Yīyuàn",
+  "hz": "医院",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
+ },
+ {
+  "label": "",
+  "id": "Saya kehilangan dompet / HP",
+  "py": "Wǒ de qiánbāo / shǒujī diū le",
+  "hz": "我的钱包 / 手机丢了",
+  "words": "",
+  "note": "",
+  "warn": false,
+  "ex": [],
+  "alt": []
  }
 ]
