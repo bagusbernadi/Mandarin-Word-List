@@ -37,6 +37,27 @@ var DAYS=[];
 function $(i){return document.getElementById(i)}
 function norm(s){return String(s==null?"":s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
 function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e}
+/* suara (Web Speech API, zh-CN) */
+var SYN=window.speechSynthesis,SPV=null;
+function spVoice(){if(!SYN)return null;var v=SYN.getVoices()||[];for(var i=0;i<v.length;i++){if(/^zh[-_]CN|^cmn/i.test(v[i].lang))return v[i]}for(var j=0;j<v.length;j++){if(/^zh/i.test(v[j].lang))return v[j]}return null}
+if(SYN&&SYN.addEventListener)SYN.addEventListener("voiceschanged",function(){SPV=spVoice()});
+function speak(text,btn){
+  if(!SYN)return;
+  var t=String(text).replace(/…+|\.{2,}/g,"，").replace(/\s*[\/·]\s*/g,"，").replace(/[「」"]/g,"");
+  SYN.cancel();
+  var u=new SpeechSynthesisUtterance(t);u.lang="zh-CN";u.rate=.9;
+  var v=SPV||spVoice();if(v)u.voice=v;
+  Array.prototype.forEach.call(document.querySelectorAll(".sp.on"),function(x){x.classList.remove("on")});
+  if(btn){btn.classList.add("on");var off=function(){btn.classList.remove("on")};u.onend=off;u.onerror=off}
+  SYN.speak(u);
+}
+function spBtn(text){
+  if(!SYN)return null;
+  var b=el("button","sp");b.type="button";b.setAttribute("aria-label","Dengarkan: "+text);
+  b.innerHTML='<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>';
+  b.onclick=function(e){e.stopPropagation();speak(text,b)};
+  return b;
+}
 function shuf(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
 function same(a,b){return norm(a).replace(/\s+/g,"")===norm(b).replace(/\s+/g,"")}
 function chars(s){var o={};String(s||"").replace(/[\u4e00-\u9fff]/g,function(c){o[c]=1});return o}
@@ -102,7 +123,7 @@ function ask(){
     var good=opts[i]===q;if(good)st.ok++;
     btns.forEach(function(b,k){b.disabled=true;if(opts[k]===q)b.classList.add("ok");else if(k===i)b.classList.add("no")});
     res.appendChild(el("div","v",good?"Benar.":"Belum tepat."));
-    res.appendChild(el("div","hz",q.hz));res.appendChild(el("div","py",q.py));res.appendChild(el("div","id",q.id));
+    var rh=el("div","rh");rh.appendChild(el("div","hz",q.hz));var rb=spBtn(q.hz);if(rb)rh.appendChild(rb);res.appendChild(rh);res.appendChild(el("div","py",q.py));res.appendChild(el("div","id",q.id));
     if(q.words)res.appendChild(el("div","meta",q.words));
     if(q.note)res.appendChild(el("div","meta",q.note));
     var n=el("button","next",st.all>=total?"Lihat hasil":"Soal berikutnya");n.type="button";n.onclick=ask;res.appendChild(n);
