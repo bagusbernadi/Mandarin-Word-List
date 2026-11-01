@@ -6,7 +6,7 @@ Kamus Mandarin pribadi (Indonesia – pinyin – hanzi) untuk bekerja di pabrik 
 
 ## Isi website
 
-- **Kamus** (`index.html`): pencarian kamus. Isinya 475 entri sheet `Kamus` (semua lengkap: arti per kata, label, 3 contoh kalimat, kategori). Kosakata 30H Belajar yang belum ada di kamus tetap ditambahkan otomatis saat build (hanzi sama persis dianggap duplikat; Excel tidak diubah). Tombol kategori (13 Situasi, warna mengikuti tahap seperti tombol hari di 30H Belajar) menyaring daftar dan bisa digabung dengan pencarian. Variasi ALT digabung di entri utamanya sebagai baris "Alternatif" dan tetap bisa dicari. Pencarian hanya mencocokkan kolom Indonesia, pinyin, dan hanzi (contoh kalimat, arti per kata, dan keterangan tidak ikut dicari).
+- **Kamus** (`index.html`): pencarian kamus. Isinya semua baris sheet `Kosakata` (467 entri: arti per kata, label, 3 contoh kalimat, kategori). Tombol kategori (13 Situasi, warna mengikuti tahap seperti tombol hari di 30H Belajar) menyaring daftar dan bisa digabung dengan pencarian. Variasi ALT tampil di entri utamanya sebagai baris "Alternatif" dan tetap bisa dicari. Pencarian hanya mencocokkan kolom Indonesia, pinyin, dan hanzi (contoh kalimat, arti per kata, dan keterangan tidak ikut dicari).
 - **Latihan** (tab di halaman Kamus): kuis 10 soal yang diacak dari seluruh kosakata 30H Belajar. Ada 3 jenis latihan:
   - **A:** pertanyaan Indonesia, jawaban Pinyin + Hanzi.
   - **B:** pertanyaan Hanzi per kata + Pinyin, jawaban Indonesia (hanya kosakata yang kolom `Arti per kata`-nya terisi).
@@ -22,8 +22,7 @@ Semua isi website berasal dari satu file: `Mandarin word list/Kosakata_Mandarin.
 
 | Sheet | Dipakai untuk |
 |---|---|
-| `Survival 200` | 30H Belajar (pembagian 30 hari) dan soal Latihan |
-| `Kamus` | Halaman Kamus (pencarian dan contoh kalimat) |
+| `Kosakata` | Kamus (pencarian, kategori, contoh kalimat), 30H Belajar (pembagian 30 hari), dan soal Latihan |
 | `Progress` | Rekap hafalan di Excel (kolom Status). Tidak dipakai website |
 
 ## Struktur
@@ -57,31 +56,27 @@ Semua isi website berasal dari satu file: `Mandarin word list/Kosakata_Mandarin.
 
 Cek status build di tab **Actions** di GitHub.
 
-### Sheet `Survival 200` (deck dan latihan)
+### Sheet `Kosakata` (satu-satunya sheet data)
 
-Header yang dibaca: `Situasi`, `Indonesia`, `Pinyin`, `Hanzi`, `Arti per kata`, `Keterangan`. Baris dengan Situasi dan Indonesia yang sama digabung jadi satu baris slide. Baris pertama jadi teks utama, baris berikutnya muncul sebagai label **ALT** (cara lain mengatakan hal yang sama). Kolom `Status` hanya untuk Excel.
-
-Kolom `Sinonim` (opsional) menandai kalimat yang artinya sama: beri kode yang sama (misalnya `S07`) pada barisnya. Kalimat dengan kode sama tidak akan muncul bersama sebagai pilihan jawaban di Latihan. Satu baris boleh punya lebih dari satu kode, dipisah `;` (misalnya `S07;S11`).
-
-Pembagian hari dibuat otomatis: 13 situasi dikelompokkan ke 4 tahap, lalu dibagi menjadi 30 hari. Hari Angka & waktu dibagi per sub-topik. Hari dengan lebih dari 12 frasa dibagi jadi 2 slide (di deck-slides.html). Situasi baru (nama belum dikenal) otomatis masuk Tahap 4.
-
-### Sheet `Kamus`
-
-Baris pertama berisi header berikut (urutan kolom bebas, nama harus persis):
+Satu baris = satu kosakata. Dipakai untuk Kamus, 30H Belajar, dan Latihan. Header (nama harus persis, urutan bebas):
 
 | Header | Isi |
 |---|---|
-| `No.` | nomor urut |
-| `Kalimat dalam bahasa Indonesia` | kalimat / kata Indonesia (wajib diisi) |
-| `arti kalimat atau kata dalam pinyin` | pinyin dengan tanda nada |
-| `arti kalimat atau kata dalam hanzi` | hanzi |
-| `arti perkata dalam Bahasa Indonesia` | arti per kata |
-| `Keterangan` | catatan |
-| `label` | tingkat penggunaan, misalnya Umum / Kurang umum (ditampilkan kecil di kartu bila bukan label standar) |
-| `Kategori` | salah satu dari 13 nama Situasi (mis. `Makan & minum`); jadi label warna dan tombol filter di Kamus. Kolom opsional, tetapi nama harus sama persis dengan Situasi di sheet Survival 200 |
+| `No` | nomor urut (hanya untuk Excel) |
+| `Situasi` | salah satu dari 13 kategori (mis. `Makan & minum`); jadi kategori/tombol filter di Kamus dan penentu hari di 30H Belajar |
+| `Indonesia`, `Pinyin`, `Hanzi` | kosakata utama (wajib) |
+| `Arti per kata` | format `我 (wǒ): saya, 要 (yào): mau` |
+| `Keterangan` | catatan yang tampil di kartu |
+| `Status` | Belum / Sedang / Hafal (hanya untuk Excel; direkap sheet `Progress`) |
+| `Sinonim` | (opsional) kode yang sama (mis. `S07`) = artinya sama, tidak muncul bersama sebagai pilihan di Latihan. Beberapa kode dipisah `;` |
+| `Label` | tingkat penggunaan (Umum / Kurang umum, dll.); tampil kecil di kartu bila bukan label standar |
+| `ALT 1 Hanzi`, `ALT 1 Pinyin` | (opsional) cara lain mengatakan hal yang sama; tampil sebagai "Alternatif" dan tetap bisa dicari. Perlu lebih banyak? Tambah kolom `ALT 2 Hanzi` dan `ALT 2 Pinyin`, dst. |
 | `Contoh 1 - Indonesia`, `Contoh 1 - Pinyin`, `Contoh 1 - Hanzi` | contoh kalimat 1 (sama untuk Contoh 2 dan 3) |
+| `Catatan edit` | catatan pribadi, tidak dibaca website |
 
-Baris yang kolom Indonesianya kosong akan dilewati. Contoh kalimat yang kosong juga dilewati.
+Baris yang kolom Indonesia atau Hanzi-nya kosong dilewati. Format lama (beberapa baris dengan Situasi + Indonesia sama = ALT) juga masih dibaca.
+
+Pembagian hari dibuat otomatis: 13 situasi dikelompokkan ke 4 tahap, lalu dibagi menjadi 30 hari. Hari Angka & waktu dibagi per sub-topik. Hari dengan lebih dari 12 frasa dibagi jadi 2 slide (di deck-slides.html). Situasi baru (nama belum dikenal) ditolak saat build agar tidak salah ketik; tambahkan dulu di `build.py` (`SIT`).
 
 ## Menjalankan build di komputer sendiri
 

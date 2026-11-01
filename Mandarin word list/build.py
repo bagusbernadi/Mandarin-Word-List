@@ -2,14 +2,13 @@
 Build website kamus + deck belajar + latihan dari satu file Excel.
 
 Input : Mandarin word list/Kosakata_Mandarin.xlsx
-          - sheet "Survival 200" : kosakata (sumber 30H Belajar dan Latihan)
-          - sheet "Kamus"        : kamus (Indonesia, pinyin, hanzi, contoh kalimat)
-          - sheet "Progress"     : rekap hafalan (tidak dipakai build)
+          - sheet "Kosakata" : satu baris per kosakata (sumber Kamus, 30H Belajar, dan Latihan)
+          - sheet "Progress" : rekap hafalan (tidak dipakai build)
 Output: docs/index.html (kamus + latihan), docs/data.json (data kamus),
         docs/deck.html (30H Belajar: latihan per hari), docs/deck-slides.html (slide, tidak ditautkan), docs/deck.json (soal latihan)
 
 Kolom dicari berdasarkan nama header, bukan posisi.
-Kolom "Sinonim" (opsional) di sheet Survival 200: baris dengan kode sama (mis. S07) dianggap
+Kolom "Sinonim" (opsional) di sheet Kosakata: baris dengan kode sama (mis. S07) dianggap
 sama artinya, jadi tidak akan muncul bersama sebagai pilihan jawaban di Latihan.
 """
 import collections
@@ -28,21 +27,10 @@ DECK_SHELL = BASE / "deck_shell.html"
 DECK_TEMPLATE = BASE / "deck_template.html"
 OUT_DIR = BASE.parent / "docs"
 
-# ---------- Kamus (sheet "Kamus") ----------
-COL = {
-    "no": "No.",
-    "id": "Kalimat dalam bahasa Indonesia",
-    "py": "arti kalimat atau kata dalam pinyin",
-    "hz": "arti kalimat atau kata dalam hanzi",
-    "words": "arti perkata dalam Bahasa Indonesia",
-    "note": "Keterangan",
-    "label": "label",
-}
-CAT_COL = "Kategori"  # opsional; isi = salah satu nama Situasi (13 kategori)
 DEFAULT_LABEL = "Umum: sering dipakai native dalam percakapan sehari-hari."
 EX_TEMPLATE = ("Contoh {k} - Indonesia", "Contoh {k} - Pinyin", "Contoh {k} - Hanzi")
 
-# ---------- Deck (sheet "Survival 200") ----------
+# ---------- Kosakata (sheet "Kosakata") ----------
 VCOL = {"sit": "Situasi", "id": "Indonesia", "py": "Pinyin", "hz": "Hanzi", "words": "Arti per kata", "note": "Keterangan"}
 SIT = ['Salam & sopan santun', 'Perkenalan', 'Tidak mengerti & minta bantuan', 'Ya, tidak, boleh', 'Angka & waktu',
        'Transportasi & arah', 'Hotel', 'Makan & minum', 'Belanja & pembayaran',
@@ -63,55 +51,57 @@ def headers_of(ws):
     return {clean(c.value): i for i, c in enumerate(ws[1])}
 
 
-# ================= KAMUS =================
-def build_kamus(ws):
-    headers = headers_of(ws)
-    missing = [v for v in COL.values() if v not in headers]
-    if missing:
-        sys.exit("Header sheet Kamus tidak ditemukan:\n  - " + "\n  - ".join(missing))
-    ex_cols = []
-    for k in (1, 2, 3):
-        ex_cols.append([headers.get(t.format(k=k)) for t in EX_TEMPLATE])
-    entries = []
-    for row in ws.iter_rows(min_row=2, values_only=True):
-        get = lambda key: clean(row[headers[COL[key]]])
-        ident = get("id")
-        if not ident:
-            continue
-        examples = []
-        for i_id, i_py, i_hz in ex_cols:
-            if i_id is None:
-                continue
-            e = [clean(row[i_id]), clean(row[i_py]), clean(row[i_hz])]
-            if any(e):
-                examples.append(e)
-        cat = clean(row[headers[CAT_COL]]) if CAT_COL in headers else ""
-        entries.append({"cat": cat, "label": get("label"), "id": ident, "py": get("py"), "hz": get("hz"),
-                        "words": get("words"), "note": get("note"), "warn": False, "ex": examples})
-    if not entries:
-        sys.exit("Sheet Kamus kosong.")
-    return entries
-
-
 # ================= KOSAKATA / DECK =================
 def load_groups(ws):
+    """Satu baris = satu kosakata. Baris dengan Situasi + Indonesia yang sama (format lama)
+    tetap digabung: baris pertama utama, baris berikutnya jadi ALT."""
     headers = headers_of(ws)
     missing = [v for v in VCOL.values() if v not in headers]
     if missing:
-        sys.exit("Header sheet Survival 200 tidak ditemukan:\n  - " + "\n  - ".join(missing))
+        sys.exit("Header sheet Kosakata tidak ditemukan:\n  - " + "\n  - ".join(missing))
+    alt_cols = []
+    for h, i in headers.items():
+        m = re.fullmatch(r"ALT (\d+) Hanzi", h)
+        if m and f"ALT {m.group(1)} Pinyin" in headers:
+            alt_cols.append((i, headers[f"ALT {m.group(1)} Pinyin"]))
+    ex_cols = [[headers.get(t.format(k=k)) for t in EX_TEMPLATE] for k in (1, 2, 3)]
     groups = collections.OrderedDict()
     for row in ws.iter_rows(min_row=2, values_only=True):
         g = lambda k: clean(row[headers[VCOL[k]]])
+        opt = lambda name: clean(row[headers[name]]) if name in headers else ""
         if not g("hz") or not g("id"):
             continue
         key = (g("sit"), g("id"))
-        grp = groups.setdefault(key, {"sit": g("sit"), "id": g("id"), "rows": [], "kets": [], "words": g("words"), "syn": set()})
-        if "Sinonim" in headers:
-            grp["syn"] |= {c.strip() for c in re.split("[;,]", clean(row[headers["Sinonim"]])) if c.strip()}
+        grp = groups.setdefault(key, {"sit": g("sit"), "id": g("id"), "rows": [], "kets": [], "words": g("words"),
+                                      "syn": set(), "label": opt("Label"), "ex": []})
+        grp["syn"] |= {c.strip() for c in re.split("[;,]", opt("Sinonim")) if c.strip()}
         grp["rows"].append((g("hz"), g("py")))
+        for ih, ip in alt_cols:
+            if clean(row[ih]):
+                grp["rows"].append((clean(row[ih]), clean(row[ip])))
         if g("note") and not SKIP_NOTE.search(g("note")):
             grp["kets"].append(g("note"))
+        if not grp["label"]:
+            grp["label"] = opt("Label")
+        if not grp["ex"]:
+            for i_id, i_py, i_hz in ex_cols:
+                if i_id is None:
+                    continue
+                e = [clean(row[i_id]), clean(row[i_py]), clean(row[i_hz])]
+                if any(e):
+                    grp["ex"].append(e)
     return list(groups.values())
+
+
+def build_kamus(groups):
+    """Entri kamus = satu per kosakata; kategori = Situasi; ALT jadi baris "Alternatif"."""
+    entries = []
+    for g in groups:
+        main = g["rows"][0]
+        entries.append({"cat": g["sit"], "label": g["label"], "id": g["id"], "py": main[1], "hz": main[0],
+                        "words": g["words"], "note": g["kets"][0] if g["kets"] else "", "warn": False,
+                        "ex": g["ex"], "alt": [list(r) for r in g["rows"][1:]]})
+    return entries
 
 
 def num_value(h):
@@ -253,37 +243,6 @@ def build_days_meta(days, tahap):
             for n, (s, t, l) in enumerate(days, 1)]
 
 
-def norm_hz(h):
-    return re.sub(r"[\s。，,．.？?！!…、/·]", "", h)
-
-
-def merge_into_kamus(entries, groups):
-    """Tambahkan kosakata 30H Belajar yang belum ada di kamus (hanzi sama persis dianggap duplikat).
-    Variasi ALT digabung di entri utamanya dan tetap bisa dicari (field "alt")."""
-    by_hz = {}
-    for e in entries:
-        by_hz.setdefault(norm_hz(e["hz"]), e)
-    added = attached = 0
-    for g in groups:
-        match = next((by_hz[norm_hz(h)] for h, _ in g["rows"] if norm_hz(h) in by_hz), None)
-        if match is None:
-            main = g["rows"][0]
-            match = {"cat": g["sit"], "label": "", "id": g["id"], "py": main[1], "hz": main[0], "words": g["words"],
-                     "note": g["kets"][0] if g["kets"] else "", "warn": False, "ex": [], "alt": [[main[0], main[1]]][:0]}
-            entries.append(match)
-            by_hz[norm_hz(main[0])] = match
-            added += 1
-        if not match.get("cat"):
-            match["cat"] = g["sit"]
-        for h, p in g["rows"]:
-            if norm_hz(h) in by_hz and by_hz[norm_hz(h)] is match:
-                continue
-            match.setdefault("alt", []).append([h, p])
-            by_hz[norm_hz(h)] = match
-            attached += 1
-    return added, attached
-
-
 def build_cats(entries):
     """Daftar kategori kamus (urutan = urutan Situasi, warna = warna tahap) + jumlah entri."""
     col = {s: c for _, c, sits in TAHAP for s in sits}
@@ -320,12 +279,10 @@ def main():
     if not XLSX.exists():
         sys.exit(f"File tidak ditemukan: {XLSX}")
     wb = openpyxl.load_workbook(XLSX, data_only=True)
-    for name in ("Survival 200", "Kamus"):
-        if name not in wb.sheetnames:
-            sys.exit(f'Sheet "{name}" tidak ditemukan di {XLSX.name}')
-    entries = build_kamus(wb["Kamus"])
-    groups = load_groups(wb["Survival 200"])
-    n_add, n_alt = merge_into_kamus(entries, groups)
+    if "Kosakata" not in wb.sheetnames:
+        sys.exit(f'Sheet "Kosakata" tidak ditemukan di {XLSX.name}')
+    groups = load_groups(wb["Kosakata"])
+    entries = build_kamus(groups)
     deck_html, ndays, dmeta = build_deck(groups)  # mengisi g["day"]
     pool = build_pool(groups)
 
@@ -347,7 +304,7 @@ def main():
     dt = inject(dt, "var DECK=[];", pool)
     dt = inject(dt, "var DAYS=[];", dmeta)
     (OUT_DIR / "deck.html").write_text(dt, encoding="utf-8")
-    print(f"OK: kamus {len(entries)} entri (+{n_add} dari 30H, {n_alt} ALT digabung) | deck {len(groups)} kosakata, {ndays} hari | latihan {len(pool)} soal -> {OUT_DIR}")
+    print(f"OK: kamus {len(entries)} entri | deck {len(groups)} kosakata, {ndays} hari | latihan {len(pool)} soal -> {OUT_DIR}")
 
 
 if __name__ == "__main__":
