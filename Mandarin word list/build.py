@@ -43,6 +43,23 @@ SKIP_NOTE = re.compile("tertulis|dikoreksi|kolom|dirapikan|diganti|diubah|disera
 E = H.escape
 
 
+AUDIO_DIR = OUT_DIR / "audio"
+
+
+def tts_text(hz):
+    """Teks yang dibacakan (sama untuk pembuatan audio dan penamaan file)."""
+    t = re.sub(r"…+|\.{2,}", "，", hz)
+    t = re.sub(r"\s*[/·]\s*", "，", t)
+    return re.sub(r"[「」\"]", "", t).strip()
+
+
+def au_id(hz):
+    """Nama file audio (tanpa .mp3) untuk hanzi tertentu; None bila belum dibuat."""
+    import hashlib
+    h = hashlib.sha1(tts_text(hz).encode("utf-8")).hexdigest()[:12]
+    return h if (AUDIO_DIR / (h + ".mp3")).exists() else None
+
+
 def clean(v):
     return "" if v is None else str(v).strip()
 
@@ -100,7 +117,8 @@ def build_kamus(groups):
         main = g["rows"][0]
         entries.append({"cat": g["sit"], "label": g["label"], "id": g["id"], "py": main[1], "hz": main[0],
                         "words": g["words"], "note": g["kets"][0] if g["kets"] else "", "warn": False,
-                        "ex": g["ex"], "alt": [list(r) for r in g["rows"][1:]]})
+                        "ex": [e + [au_id(e[2]) or ""] for e in g["ex"]],
+                        "au": au_id(g["rows"][0][0]) or "", "alt": [list(r) for r in g["rows"][1:]]})
     return entries
 
 
@@ -265,7 +283,7 @@ def build_pool(groups):
                 val = v if grp != ANGKA_TAGS[4] else num_value(hz[:-1])
         out.append({"label": "", "id": g["id"], "py": g["rows"][0][1], "hz": hz,
                     "words": g["words"], "note": g["kets"][0] if g["kets"] else "", "warn": False, "ex": [],
-                    "sit": g["sit"], "grp": grp, "val": val, "syn": sorted(g["syn"]), "day": g.get("day")})
+                    "sit": g["sit"], "au": au_id(hz) or "", "grp": grp, "val": val, "syn": sorted(g["syn"]), "day": g.get("day")})
     return out
 
 

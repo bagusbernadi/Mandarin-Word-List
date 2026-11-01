@@ -58,17 +58,30 @@ function spTry(t,btn,n){
   SYN.speak(u);
   setTimeout(function(){if(!started&&!SYN.speaking&&!SYN.pending&&SPU===u)spTry(t,btn,n+1)},1500);
 }
-function speak(text,btn){
+var AUD=null;
+function playAu(au,btn,fb){
+  Array.prototype.forEach.call(document.querySelectorAll(".sp.on"),function(x){x.classList.remove("on")});
+  try{if(SYN)SYN.cancel()}catch(x){}
+  if(!AUD)AUD=new Audio();
+  AUD.pause();
+  var off=function(){if(btn)btn.classList.remove("on")};
+  AUD.onended=off;AUD.onerror=function(){off();fb()};
+  AUD.src="audio/"+au+".mp3";
+  if(btn)btn.classList.add("on");
+  var p=AUD.play();if(p&&p.catch)p.catch(function(){off();fb()});
+}
+function speak(text,btn,au){
+  if(au){playAu(au,btn,function(){speak(text,btn)});return}
   if(!SYN){toast("Browser ini tidak mendukung suara");return}
   var t=String(text).replace(/…+|\.{2,}/g,"，").replace(/\s*[\/·]\s*/g,"，").replace(/[「」"]/g,"");
   Array.prototype.forEach.call(document.querySelectorAll(".sp.on"),function(x){x.classList.remove("on")});
   if(SYN.speaking||SYN.pending){SYN.cancel();setTimeout(function(){spTry(t,btn,0)},120)}else spTry(t,btn,0);
 }
-function spBtn(text){
-  if(!SYN)return null;
+function spBtn(text,au){
+  if(!SYN&&!au)return null;
   var b=el("button","sp");b.type="button";b.setAttribute("aria-label","Dengarkan: "+text);
   b.innerHTML='<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>';
-  b.onclick=function(e){e.stopPropagation();speak(text,b)};
+  b.onclick=function(e){e.stopPropagation();speak(text,b,au)};
   return b;
 }
 function shuf(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
@@ -136,7 +149,7 @@ function ask(){
     var good=opts[i]===q;if(good)st.ok++;
     btns.forEach(function(b,k){b.disabled=true;if(opts[k]===q)b.classList.add("ok");else if(k===i)b.classList.add("no")});
     res.appendChild(el("div","v",good?"Benar.":"Belum tepat."));
-    var rh=el("div","rh");rh.appendChild(el("div","hz",q.hz));var rb=spBtn(q.hz);if(rb)rh.appendChild(rb);res.appendChild(rh);res.appendChild(el("div","py",q.py));res.appendChild(el("div","id",q.id));
+    var rh=el("div","rh");rh.appendChild(el("div","hz",q.hz));var rb=spBtn(q.hz,q.au);if(rb)rh.appendChild(rb);res.appendChild(rh);res.appendChild(el("div","py",q.py));res.appendChild(el("div","id",q.id));
     if(q.words)res.appendChild(el("div","meta",q.words));
     if(q.note)res.appendChild(el("div","meta",q.note));
     var n=el("button","next",st.all>=total?"Lihat hasil":"Soal berikutnya");n.type="button";n.onclick=ask;res.appendChild(n);
