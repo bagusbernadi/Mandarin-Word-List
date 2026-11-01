@@ -28,10 +28,12 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--blue);outline-o
 #q::placeholder{color:#80868B}
 #info{color:var(--mute);font-size:15px;margin:8px 2px 0}
 .card{background:var(--card);border-radius:16px;border-left:8px solid var(--blue);padding:16px 20px;margin-top:12px}
-.card:has(.lb.g){border-left-color:var(--grn)}
-.card:has(.lb.b){border-left-color:var(--blue)}
-.card:has(.lb.y){border-left-color:var(--yel)}
-.card:has(.lb.r){border-left-color:var(--red)}
+.card.cb{border-left-color:var(--blue)}.card.cr{border-left-color:var(--red)}.card.cy{border-left-color:var(--yel)}.card.cg{border-left-color:var(--grn)}
+.cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.ct{font:700 15px var(--font);color:#ffffff;border:3px solid transparent;border-radius:999px;padding:6px 14px;cursor:pointer;background:var(--pri)}
+.ct.b{background:var(--blue)}.ct.r{background:var(--red)}.ct.y{background:var(--yel);color:var(--ink)}.ct.g{background:var(--grn)}
+.ct small{font-weight:400;opacity:.9;margin-left:4px}
+.ct[aria-pressed="true"]{border-color:var(--ink);box-shadow:0 0 0 2px #ffffff inset}
 .row{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;background:#ffffff;border-radius:10px;padding:8px 14px}
 .row+.row{margin-top:6px}
 .id{font-size:18px;font-weight:400;color:var(--ink)}
@@ -120,6 +122,7 @@ a.tab{text-decoration:none;display:inline-block}
 <input id="q" type="search" placeholder="Cari kata: Indonesia, pinyin, atau hanzi…" autocomplete="off">
 <div id="info"></div>
 </div>
+<div class="cats" id="cats" role="group" aria-label="Kategori"></div>
 <div id="list"></div>
 </section>
 <section id="p2" role="tabpanel" aria-labelledby="t2" hidden>
@@ -133,6 +136,9 @@ a.tab{text-decoration:none;display:inline-block}
 (function(){
 var DATA=[];
 var DECK=[];
+var CATS=[];
+var DEFLB="Umum: sering dipakai native dalam percakapan sehari-hari.";
+var catCol={},cat="";CATS.forEach(function(c){catCol[c.name]=c.col});
 var rows=DATA.map(function(o){o.hay=norm([o.id,o.py,o.hz].concat((o.alt||[]).map(function(a){return a.join(" ")})).join(" "));return o});
 function $(i){return document.getElementById(i)}
 function norm(s){return String(s==null?"":s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
@@ -175,14 +181,16 @@ function line(label,text,toks,cls){
 }
 function render(){
   var toks=norm($("q").value).split(/\s+/).filter(Boolean);
-  var res=rows.filter(function(o){return toks.every(function(t){return o.hay.indexOf(t)>-1})});
-  $("info").textContent=res.length+" dari "+rows.length+" entri";
+  var pool=cat?rows.filter(function(o){return o.cat===cat}):rows;
+  var res=pool.filter(function(o){return toks.every(function(t){return o.hay.indexOf(t)>-1})});
+  $("info").textContent=res.length+" dari "+pool.length+" entri"+(cat?" · "+cat:"");
   var L=$("list");L.textContent="";
   if(!res.length){L.appendChild(el("div","empty","Tidak ada hasil. Coba kata kunci lain."));return}
   var frag=document.createDocumentFragment();
   res.slice(0,100).forEach(function(o){
-    var c=el("div","card");
-    if(o.label)c.appendChild(el("div","lb "+tone(o.label),o.label));
+    var k=catCol[o.cat]||"b";
+    var c=el("div","card c"+k);
+    if(o.cat)c.appendChild(el("div","lb "+k,o.cat));
     c.appendChild(line("Indonesia",o.id,toks,"id"));
     var h=line("Hanzi",o.hz,toks,"hz");
     var p=el("div","py");hl(p,o.py,toks);h.firstChild.appendChild(p);
@@ -191,6 +199,7 @@ function render(){
       o.alt.forEach(function(a,i){if(i)al.appendChild(document.createTextNode(" · "));var s=el("span");hl(s,a[0]+" ("+a[1]+")",toks);al.appendChild(s)});c.appendChild(al)}
     if(o.words){var w=el("div","meta");w.textContent=o.words;c.appendChild(w)}
     if(o.note){var n=el("div","meta");n.textContent=o.note;c.appendChild(n)}
+    if(o.label&&o.label!==DEFLB){var lm=el("div","meta");lm.textContent=o.label;c.appendChild(lm)}
     if(o.ex&&o.ex.length){
       var box=el("div","exs");box.appendChild(el("div","exh","Contoh kalimat"));
       o.ex.forEach(function(e){
@@ -215,6 +224,14 @@ function render(){
   if(res.length>100)L.appendChild(el("div","empty","Menampilkan 100 pertama. Persempit pencarian untuk hasil lain."));
 }
 $("q").addEventListener("input",render);
+function catBtn(name,col,n){
+  var b=el("button","ct "+col);b.type="button";b.dataset.c=name;b.setAttribute("aria-pressed",String(name===cat));
+  b.appendChild(document.createTextNode(name||"Semua"));b.appendChild(el("small",null,String(n)));
+  b.onclick=function(){cat=name;Array.prototype.forEach.call($("cats").children,function(x){x.setAttribute("aria-pressed",String(x.dataset.c===cat))});render()};
+  $("cats").appendChild(b);
+}
+catBtn("","",rows.length);
+CATS.forEach(function(c){catBtn(c.name,c.col,c.n)});
 (function(){var h=document.querySelector("h1"),t=h.textContent,k=0;h.setAttribute("aria-label",t);h.textContent="";for(var i=0;i<t.length;i++){if(t[i]===" "){h.appendChild(document.createTextNode(" "));continue}var c=el("span","c"+(k++%4),t[i]);c.setAttribute("aria-hidden","true");h.appendChild(c)}})();
 render();
 

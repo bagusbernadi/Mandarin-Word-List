@@ -6,7 +6,7 @@ Kamus Mandarin pribadi (Indonesia – pinyin – hanzi) untuk bekerja di pabrik 
 
 ## Isi website
 
-- **Kamus** (`index.html`): pencarian kamus. Isinya entri sheet `Kamus` ditambah kosakata dari 30H Belajar yang belum ada di kamus (hanzi sama persis dianggap duplikat; saat build otomatis, Excel tidak diubah). Variasi ALT digabung di entri utamanya sebagai baris "Alternatif" dan tetap bisa dicari. Pencarian hanya mencocokkan kolom Indonesia, pinyin, dan hanzi (contoh kalimat, arti per kata, dan keterangan tidak ikut dicari).
+- **Kamus** (`index.html`): pencarian kamus. Isinya 475 entri sheet `Kamus` (semua lengkap: arti per kata, label, 3 contoh kalimat, kategori). Kosakata 30H Belajar yang belum ada di kamus tetap ditambahkan otomatis saat build (hanzi sama persis dianggap duplikat; Excel tidak diubah). Tombol kategori (13 Situasi, warna mengikuti tahap seperti tombol hari di 30H Belajar) menyaring daftar dan bisa digabung dengan pencarian. Variasi ALT digabung di entri utamanya sebagai baris "Alternatif" dan tetap bisa dicari. Pencarian hanya mencocokkan kolom Indonesia, pinyin, dan hanzi (contoh kalimat, arti per kata, dan keterangan tidak ikut dicari).
 - **Latihan** (tab di halaman Kamus): kuis 10 soal yang diacak dari seluruh kosakata 30H Belajar. Ada 3 jenis latihan:
   - **A:** pertanyaan Indonesia, jawaban Pinyin + Hanzi.
   - **B:** pertanyaan Hanzi per kata + Pinyin, jawaban Indonesia (hanya kosakata yang kolom `Arti per kata`-nya terisi).
@@ -77,7 +77,8 @@ Baris pertama berisi header berikut (urutan kolom bebas, nama harus persis):
 | `arti kalimat atau kata dalam hanzi` | hanzi |
 | `arti perkata dalam Bahasa Indonesia` | arti per kata |
 | `Keterangan` | catatan |
-| `label` | kategori penggunaan, misalnya Umum / Kurang umum |
+| `label` | tingkat penggunaan, misalnya Umum / Kurang umum (ditampilkan kecil di kartu bila bukan label standar) |
+| `Kategori` | salah satu dari 13 nama Situasi (mis. `Makan & minum`); jadi label warna dan tombol filter di Kamus. Kolom opsional, tetapi nama harus sama persis dengan Situasi di sheet Survival 200 |
 | `Contoh 1 - Indonesia`, `Contoh 1 - Pinyin`, `Contoh 1 - Hanzi` | contoh kalimat 1 (sama untuk Contoh 2 dan 3) |
 
 Baris yang kolom Indonesianya kosong akan dilewati. Contoh kalimat yang kosong juga dilewati.

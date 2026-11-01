@@ -28,10 +28,12 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--blue);outline-o
 #q::placeholder{color:#80868B}
 #info{color:var(--mute);font-size:15px;margin:8px 2px 0}
 .card{background:var(--card);border-radius:16px;border-left:8px solid var(--blue);padding:16px 20px;margin-top:12px}
-.card:has(.lb.g){border-left-color:var(--grn)}
-.card:has(.lb.b){border-left-color:var(--blue)}
-.card:has(.lb.y){border-left-color:var(--yel)}
-.card:has(.lb.r){border-left-color:var(--red)}
+.card.cb{border-left-color:var(--blue)}.card.cr{border-left-color:var(--red)}.card.cy{border-left-color:var(--yel)}.card.cg{border-left-color:var(--grn)}
+.cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.ct{font:700 15px var(--font);color:#ffffff;border:3px solid transparent;border-radius:999px;padding:6px 14px;cursor:pointer;background:var(--pri)}
+.ct.b{background:var(--blue)}.ct.r{background:var(--red)}.ct.y{background:var(--yel);color:var(--ink)}.ct.g{background:var(--grn)}
+.ct small{font-weight:400;opacity:.9;margin-left:4px}
+.ct[aria-pressed="true"]{border-color:var(--ink);box-shadow:0 0 0 2px #ffffff inset}
 .row{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;background:#ffffff;border-radius:10px;padding:8px 14px}
 .row+.row{margin-top:6px}
 .id{font-size:18px;font-weight:400;color:var(--ink)}

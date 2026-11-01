@@ -1,5 +1,6 @@
 [
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "\"apakah oke?\" atau \"apakah bisa?\"",
   "py": "Xíng ma?",
@@ -26,6 +27,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "\"Hampir sama\" atau \"Kurang lebih sama\"",
   "py": "Chàbuduō",
@@ -52,6 +54,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "2 Orang",
   "py": "liǎng gè rén",
@@ -78,6 +81,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Dibaca \"sān D cèshì\"; dipakai di komunikasi kerja.",
   "id": "3D Test/Pengujian 3D",
   "py": "3D cèshì",
@@ -104,6 +108,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "ada",
   "py": "yǒu",
@@ -130,6 +135,7 @@
   ]
  },
  {
+  "cat": "Sosial & penutup",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "ada apa?",
   "py": "yǒu shénme shì?",
@@ -156,6 +162,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "ada tidak?",
   "py": "yǒu méiyǒu?",
@@ -182,6 +189,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "ada tidak?",
   "py": "yǒu méiyǒu?",
@@ -208,6 +216,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "ada?",
   "py": "yǒu ma?",
@@ -234,6 +243,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Agustus",
   "py": "bāyuè",
@@ -260,6 +270,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "apakah boleh?",
   "py": "Kěyǐ ma?",
@@ -286,6 +297,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Kurang umum: Kalimat panjang; native biasanya cukup 这样做对吗？",
   "id": "Apakah cara mengerjakannya seperti ini sudah benar?",
   "py": "Zhèyàng zuò duì ma?",
@@ -312,6 +324,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apakah ini benar?",
   "py": "zhèyàng duì ma?",
@@ -338,6 +351,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apakah masih ada?",
   "py": "Hái yǒu ma?",
@@ -364,6 +378,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "apakah seperti ini?",
   "py": "shì zhèyàng ma?",
@@ -390,6 +405,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apakah yang ini?",
   "py": "shì zhè ge ma?",
@@ -416,6 +432,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "April",
   "py": "sìyuè",
@@ -442,6 +459,7 @@
   ]
  },
  {
+  "cat": "Kesehatan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Are you Okay/kamu tidak apa-apa?",
   "py": "nǐ méi shì ba?",
@@ -468,6 +486,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik untuk perakitan konektor.",
   "id": "Assembly Housing/Perakitan Konektor",
   "py": "liánjiēqì zǔzhuāng",
@@ -494,6 +513,7 @@
   ]
  },
  {
+  "cat": "Sosial & penutup",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "atau (kalimat pernyataan)",
   "py": "huòzhě",
@@ -520,6 +540,7 @@
   ]
  },
  {
+  "cat": "Sosial & penutup",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "atau (kalimat tanya)",
   "py": "háishì",
@@ -546,6 +567,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bahasa Mandarin",
   "py": "Zhōngwén / Hànyǔ",
@@ -572,6 +594,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Baik",
   "py": "hǎo",
@@ -598,6 +621,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Baik, Mr. Ben",
   "py": "Hǎo de, Mr. Ben",
@@ -624,6 +648,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "baik, saya paham",
   "py": "hǎo de, wǒ míngbái le",
@@ -650,6 +675,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "banyak",
   "py": "duō",
@@ -676,6 +702,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "baru",
   "py": "xīn",
@@ -702,6 +729,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "bekas",
   "py": "èrshǒu",
@@ -728,6 +756,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Belum",
   "py": "hái méi",
@@ -754,6 +783,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "benar",
   "py": "duì",
@@ -786,6 +816,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "benar / iya benar",
   "py": "duì de",
@@ -812,6 +843,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "berapa harganya?",
   "py": "duōshao qián?",
@@ -844,6 +876,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Besar",
   "py": "dà",
@@ -870,6 +903,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Besok",
   "py": "míngtiān",
@@ -896,6 +930,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "bisa",
   "py": "huì / néng",
@@ -922,6 +957,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "bisakah kamu ulangi?",
   "py": "nǐ néng zài shuō yí biàn ma?",
@@ -948,6 +984,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "boleh",
   "py": "kěyǐ",
@@ -974,6 +1011,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "buka",
   "py": "dǎkāi",
@@ -1000,6 +1038,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: Umum dalam percakapan.",
   "id": "bukan",
   "py": "bú shì",
@@ -1026,6 +1065,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "bulan depan",
   "py": "xià ge yuè",
@@ -1052,6 +1092,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: 老化 dipakai di industri untuk aging/burn-in.",
   "id": "Burn-in Process/Proses Burn-in",
   "py": "lǎohuà",
@@ -1078,6 +1119,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Cable Cutting/Pemotongan Kabel",
   "py": "cáixiàn",
@@ -1104,6 +1146,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: 测试 bersifat umum; native biasanya menyebut nama proses yang spesifik.",
   "id": "Core Test/Pengujian Core",
   "py": "cèshì",
@@ -1130,6 +1173,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah optik/industri, wajar dipakai di lingkungan kerja.",
   "id": "Coupling/Penyambungan",
   "py": "ǒuhé",
@@ -1156,6 +1200,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Curing/Pengerasan Lem",
   "py": "gùhuà",
@@ -1182,6 +1227,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "delapan",
   "py": "bā",
@@ -1208,6 +1254,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Desember",
   "py": "shí'èryuè",
@@ -1234,6 +1281,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana?",
   "py": "zài nǎr?",
@@ -1260,6 +1308,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "dia",
   "py": "tā",
@@ -1286,6 +1335,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "dua",
   "py": "èr",
@@ -1312,6 +1362,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "dua belas",
   "py": "shí'èr",
@@ -1338,6 +1389,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "empat",
   "py": "sì",
@@ -1364,6 +1416,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "empat belas",
   "py": "shísì",
@@ -1390,6 +1443,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "enam",
   "py": "liù",
@@ -1416,6 +1470,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: 封装 adalah istilah standar di industri.",
   "id": "Encapsulation/Pengemasan Komponen",
   "py": "fēngzhuāng",
@@ -1442,6 +1497,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; dipakai di dokumen/komunikasi kerja.",
   "id": "End Face Final Inspection/Inspeksi Akhir Permukaan Ujung Serat",
   "py": "duānmiàn zhōngjiǎn",
@@ -1468,6 +1524,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "End Face Inspection/Inspeksi Permukaan Ujung Serat",
   "py": "duānmiàn jiǎnchá",
@@ -1494,6 +1551,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Februari",
   "py": "èryuè",
@@ -1520,6 +1578,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Fiber splitting/Pemisahan Fiber",
   "py": "fēnxiān",
@@ -1546,6 +1605,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Fiber Stripping/Pengupasan Serat",
   "py": "bāoxiān",
@@ -1572,6 +1632,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Glue Injection/Injeksi Lem",
   "py": "zhùjiāo",
@@ -1598,6 +1659,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Guru",
   "py": "lǎoshī",
@@ -1624,6 +1686,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Halo",
   "py": "nǐ hǎo",
@@ -1650,6 +1713,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Hari apa?",
   "py": "jīntiān xīngqī jǐ?",
@@ -1676,6 +1740,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "hari ini",
   "py": "jīntiān",
@@ -1702,6 +1767,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Hasilnya sama saja",
   "py": "Jiéguǒ dōu yíyàng",
@@ -1728,6 +1794,7 @@
   ]
  },
  {
+  "cat": "Kesehatan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "I am okay/saya tidak apa-apa",
   "py": "wǒ méi shì",
@@ -1754,6 +1821,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "ini",
   "py": "zhè / zhè gè",
@@ -1780,6 +1848,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "ini apa?",
   "py": "zhè shì shénme?",
@@ -1806,6 +1875,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ini berapa? (menanyakan harga)",
   "py": "zhè duōshao qián?",
@@ -1832,6 +1902,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ini saja?",
   "py": "jiù zhè ge ma?",
@@ -1858,6 +1929,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Kurang umum: Istilah ini tidak baku di pabrik; cek istilah yang dipakai tim.",
   "id": "Inner shell cleaning/Pembersihan Selongsong Dalam",
   "py": "nèiké qīngxǐ",
@@ -1884,6 +1956,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "itu",
   "py": "nà / nà gè",
@@ -1910,6 +1983,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "iya",
   "py": "shì / duì",
@@ -1936,6 +2010,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Jam berapa sekarang?",
   "py": "xiànzài jǐ diǎn le?",
@@ -1968,6 +2043,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum (tulisan): Dipakai di tulisan/kalender; lisan sehari-hari lebih sering 一月 (sama) tapi tanggal biasanya dibaca 号.",
   "id": "Januari",
   "py": "yīyuè",
@@ -1994,6 +2070,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Juli",
   "py": "qīyuè",
@@ -2020,6 +2097,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Jumat",
   "py": "xīngqīwǔ",
@@ -2046,6 +2124,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Juni",
   "py": "liùyuè",
@@ -2072,6 +2151,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "kami",
   "py": "wǒmen",
@@ -2098,6 +2178,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Kamis",
   "py": "xīngqīsì",
@@ -2124,6 +2205,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "kamu",
   "py": "nǐ",
@@ -2150,6 +2232,7 @@
   ]
  },
  {
+  "cat": "Sosial & penutup",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "kamu hebat",
   "py": "nǐ zhēn bàng",
@@ -2176,6 +2259,7 @@
   ]
  },
  {
+  "cat": "Sosial & penutup",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "kamu Jago",
   "py": "nǐ hěn lìhai",
@@ -2202,6 +2286,7 @@
   ]
  },
  {
+  "cat": "Sosial & penutup",
   "label": "Umum (hati-hati): Bisa dipakai, tetapi terdengar seperti sindiran atau pertanyaan pribadi; hindari di percakapan biasa.",
   "id": "Kamu kaya",
   "py": "nǐ hěn yǒuqián",
@@ -2228,6 +2313,7 @@
   ]
  },
  {
+  "cat": "Sosial & penutup",
   "label": "Cukup umum: Dipakai untuk memuji kemampuan kerja; lebih lazim 你很厉害 atau 你很能干.",
   "id": "kamu pandai",
   "py": "nǐ hěn nénggàn",
@@ -2254,6 +2340,7 @@
   ]
  },
  {
+  "cat": "Sosial & penutup",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "kamu pintar",
   "py": "nǐ hěn cōngmíng",
@@ -2280,6 +2367,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Kapan?",
   "py": "shénme shíhou?",
@@ -2306,6 +2394,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "ke mana?",
   "py": "qù nǎr?",
@@ -2332,6 +2421,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Kecil",
   "py": "xiǎo",
@@ -2358,6 +2448,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum (barang): Untuk barang, 旧 wajar. Untuk durasi (\"sudah lama\"), native pakai 很久 (hěn jiǔ) atau 长时间.",
   "id": "lama",
   "py": "jiù",
@@ -2384,6 +2475,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "lima",
   "py": "wǔ",
@@ -2410,6 +2502,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "lima belas",
   "py": "shíwǔ",
@@ -2436,6 +2529,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Lusa",
   "py": "hòutiān",
@@ -2462,6 +2556,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "maaf",
   "py": "duìbùqǐ",
@@ -2488,6 +2583,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Mahal",
   "py": "guì",
@@ -2514,6 +2610,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Maret",
   "py": "sānyuè",
@@ -2540,6 +2637,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "masih ada",
   "py": "Hái yǒu",
@@ -2566,6 +2664,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Masih belum paham",
   "py": "hái méi míngbái",
@@ -2592,6 +2691,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "masih kurang begitu paham",
   "py": "bú tài míngbái",
@@ -2618,6 +2718,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "mati",
   "py": "guān",
@@ -2644,6 +2745,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "mau",
   "py": "yào",
@@ -2670,6 +2772,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Mei",
   "py": "wǔyuè",
@@ -2696,6 +2799,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "mengerti",
   "py": "dǒng",
@@ -2722,6 +2826,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "mereka",
   "py": "tāmen",
@@ -2748,6 +2853,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: 星期天 lebih lazim diucapkan daripada 星期日 (tulisan/formal).",
   "id": "Minggu",
   "py": "xīngqīrì / xīngqītiān",
@@ -2774,6 +2880,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "minggu depan",
   "py": "xià ge xīngqī",
@@ -2800,6 +2907,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum (sopan): Sopan, sering dipakai di layanan/kantor. Di percakapan biasa cukup 等一下.",
   "id": "Mohon tunggu sebentar",
   "py": "Qǐng shāo děng",
@@ -2826,6 +2934,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Murah",
   "py": "piányi",
@@ -2852,6 +2961,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Murid",
   "py": "xuésheng",
@@ -2878,6 +2988,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Nama saya",
   "py": "wǒ jiào ……",
@@ -2904,6 +3015,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Kurang umum: Kata \"station\" dan \"PIC\" bukan istilah native; lebih wajar 各工位名称 (nama tiap stasiun kerja).",
   "id": "nama setiap station di PIC",
   "py": "gègè gōngwèi de míngchēng",
@@ -2930,6 +3042,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Negara",
   "py": "guójiā",
@@ -2956,6 +3069,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: 不良品 dipakai di pabrik untuk NG/reject.",
   "id": "NG/reject",
   "py": "bùliángpǐn",
@@ -2982,6 +3096,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "November",
   "py": "shíyīyuè",
@@ -3008,6 +3123,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "nyala",
   "py": "kāi",
@@ -3034,6 +3150,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: 合格 dipakai di pabrik untuk pass/lolos.",
   "id": "OK/pass/lolos",
   "py": "hégé",
@@ -3060,6 +3177,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Oktober",
   "py": "shíyuè",
@@ -3086,6 +3204,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Kurang umum: Native lebih sering 在进行 atau 进行中 dalam tulisan; lisan biasanya 在做.",
   "id": "on progress",
   "py": "jìnxíng zhōng",
@@ -3112,6 +3231,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Optic Test/Pengujian Optik",
   "py": "guāngxué cèshì",
@@ -3138,6 +3258,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; kalimat panjang seperti ini biasanya ditulis di dokumen, bukan diucapkan.",
   "id": "Packaging - Data Report & Blister Box Labeling/Pengemasan - Pelaporan Data & Penempelan Label pada Blister Box",
   "py": "bāozhuāng - shùjù bàogào, xīsùhé biāoqiān",
@@ -3164,6 +3285,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; kalimat panjang seperti ini biasanya ditulis di dokumen, bukan diucapkan.",
   "id": "Packaging - Outer box Labeling/Pengemasan - Penempelan Label pada Box Luar",
   "py": "bāozhuāng - wàixiāng biāoqiān",
@@ -3190,6 +3312,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; kalimat panjang seperti ini biasanya ditulis di dokumen, bukan diucapkan.",
   "id": "Packaging - Preparation Step/Pengemasan - Tahap Persiapan",
   "py": "bāozhuāng - bāozhuāng zhǔnbèi",
@@ -3216,6 +3339,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; kalimat panjang seperti ini biasanya ditulis di dokumen, bukan diucapkan.",
   "id": "Packaging - Product Labeling/Pengemasan - Penempelan Label Produk",
   "py": "bāozhuāng - chǎnpǐn biāoqiān",
@@ -3242,6 +3366,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; kalimat panjang seperti ini biasanya ditulis di dokumen, bukan diucapkan.",
   "id": "Packaging Process/Proses Pengemasan",
   "py": "bāozhuāng",
@@ -3268,6 +3393,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Patah",
   "py": "zhéduàn le",
@@ -3294,6 +3420,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Formal: Sopan dan formal; lisan sehari-hari lebih lazim 你是这个意思吗？",
   "id": "Permisi / Boleh tanya, apakah ini maksud Anda?",
   "py": "Qǐngwèn, zhè shì nín de yìsi ma?",
@@ -3320,6 +3447,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Permisi, apakah ini data yang Anda maksud?",
   "py": "Qǐngwèn, zhè shì nín suǒ zhǐ de shùjù ma?",
@@ -3346,6 +3474,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Kurang umum: 研磨 berarti grinding. Untuk polishing halus lebih lazim 抛光 (pāoguāng).",
   "id": "Polishing/Pemolesan",
   "py": "yánmó",
@@ -3372,6 +3501,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "punya",
   "py": "yǒu",
@@ -3398,6 +3528,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Putus",
   "py": "duàn le",
@@ -3424,6 +3555,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Rabu",
   "py": "xīngqīsān",
@@ -3450,6 +3582,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "rusak",
   "py": "huài le",
@@ -3476,6 +3609,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sabtu",
   "py": "xīngqīliù",
@@ -3502,6 +3636,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "salah",
   "py": "cuò",
@@ -3528,6 +3663,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sama-sama",
   "py": "bú kèqì",
@@ -3554,6 +3690,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sampai Jumpa",
   "py": "zàijiàn",
@@ -3580,6 +3717,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "satu",
   "py": "yī",
@@ -3606,6 +3744,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "saya",
   "py": "wǒ",
@@ -3632,6 +3771,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya adalah Engineer",
   "py": "wǒ shì gōngchéngshī",
@@ -3658,6 +3798,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Kurang umum: Lebih sering dipakai 工艺工程师 (Mainland) atau 制程工程师 (Taiwan). Kalimat ini jarang diucapkan dalam percakapan umum.",
   "id": "Saya adalah Process Engineer",
   "py": "wǒ shì gōngyì gōngchéngshī",
@@ -3684,6 +3825,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "saya coba",
   "py": "wǒ shì shì",
@@ -3710,6 +3852,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mengerti",
   "py": "wǒ dǒng le",
@@ -3742,6 +3885,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya sedang belajar bahasa mandarin",
   "py": "wǒ zài xué Zhōngwén",
@@ -3768,6 +3912,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya tidak mengerti",
   "py": "wǒ bù dǒng",
@@ -3800,6 +3945,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "saya tidak tahu",
   "py": "wǒ bù zhīdào",
@@ -3826,6 +3972,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Screening/Penyortiran",
   "py": "shāixuǎn",
@@ -3852,6 +3999,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sebelas",
   "py": "shíyī",
@@ -3878,6 +4026,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sedikit",
   "py": "yìdiǎn",
@@ -3904,6 +4053,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sekarang",
   "py": "xiànzài",
@@ -3930,6 +4080,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Selamat Malam",
   "py": "wǎnshang hǎo",
@@ -3956,6 +4107,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Selamat Pagi",
   "py": "zǎoshang hǎo",
@@ -3982,6 +4134,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Selamat Sore",
   "py": "xiàwǔ hǎo",
@@ -4008,6 +4161,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Selasa",
   "py": "xīngqī'èr",
@@ -4034,6 +4188,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sembilan",
   "py": "jiǔ",
@@ -4060,6 +4215,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Semuanya sama saja",
   "py": "Dōu yíyàng",
@@ -4086,6 +4242,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Senin",
   "py": "xīngqīyī",
@@ -4112,6 +4269,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "September",
   "py": "jiǔyuè",
@@ -4138,6 +4296,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sepuluh",
   "py": "shí",
@@ -4164,6 +4323,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: Umum; untuk sopan dengan orang yang lebih tua/baru kenal, native pakai 您贵姓?",
   "id": "Siapa nama kamu?",
   "py": "Nǐ jiào shénme míngzi?",
@@ -4190,6 +4350,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Siapa orangnya?",
   "py": "Shuí a?",
@@ -4216,6 +4377,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "siapa?",
   "py": "shéi?",
@@ -4242,6 +4404,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Kurang umum: 穿 kurang tepat untuk \"pasang komponen\"; lebih lazim 装零件 (zhuāng língjiàn).",
   "id": "Slide Parts/Pemasangan Komponen",
   "py": "chuān língjiàn",
@@ -4268,6 +4431,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; wajar dipakai di lingkungan kerja, tidak di percakapan umum.",
   "id": "Stasiun Pemeriksaan",
   "py": "jiǎnyàn gōngwèi",
@@ -4294,6 +4458,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; wajar dipakai di lingkungan kerja, tidak di percakapan umum.",
   "id": "Stasiun Pengemasan",
   "py": "bāozhuāng gōngwèi",
@@ -4320,6 +4485,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; wajar dipakai di lingkungan kerja, tidak di percakapan umum.",
   "id": "Stasiun Pengujian",
   "py": "cèshì gōngwèi",
@@ -4346,6 +4512,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah pabrik; wajar dipakai di lingkungan kerja, tidak di percakapan umum.",
   "id": "Stasiun Perakitan",
   "py": "zǔzhuāng gōngwèi",
@@ -4372,6 +4539,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Kurang umum: 已经 bisa dipakai, tetapi native lebih sering memakai 了 atau 好了 untuk menyatakan sudah selesai.",
   "id": "Sudah",
   "py": "yǐjīng",
@@ -4398,6 +4566,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sudah agak paham",
   "py": "míngbái yìdiǎn le",
@@ -4424,6 +4593,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sudah belum?",
   "py": "hǎo le ma?",
@@ -4450,6 +4620,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sudah paham",
   "py": "míngbái le",
@@ -4476,6 +4647,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sudah paham, terima kasih",
   "py": "míngbái le, xièxie",
@@ -4502,6 +4674,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: Umum, tetapi lebih lazim 懂了吗？ dalam percakapan.",
   "id": "Sudah Paham?",
   "py": "míngbái le ma?",
@@ -4528,6 +4701,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sudah tidak ada",
   "py": "Méiyǒu le",
@@ -4554,6 +4728,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum di pabrik: Istilah industri, dipakai di lingkungan kerja.",
   "id": "Surface Treatment/Perawatan Permukaan",
   "py": "biǎomiàn chǔlǐ",
@@ -4580,6 +4755,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tahu",
   "py": "zhīdào",
@@ -4606,6 +4782,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Kurang umum: 哪一年 bisa dipakai, tetapi native lebih sering bertanya dengan 哪年 atau 什么时候.",
   "id": "Tahun berapa?",
   "py": "nǎ yī nián?",
@@ -4632,6 +4809,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tahun depan",
   "py": "míngnián",
@@ -4658,6 +4836,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tahun dua ribu dua puluh enam",
   "py": "èr líng èr liù nián",
@@ -4684,6 +4863,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tahun ini",
   "py": "jīnnián",
@@ -4710,6 +4890,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tahun lalu",
   "py": "qùnián",
@@ -4736,6 +4917,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tanggal berapa?",
   "py": "jīntiān jǐ hào?",
@@ -4762,6 +4944,7 @@
   ]
  },
  {
+  "cat": "Perkenalan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Teman Saya",
   "py": "wǒ de péngyou",
@@ -4788,6 +4971,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Formal: Formal/tulisan. Lisan sehari-hari: 谢谢你的帮助.",
   "id": "terima kasih atas bantuan Anda",
   "py": "Xièxiè nín de bāngzhù.",
@@ -4814,6 +4998,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Terima kasih",
   "py": "xièxie",
@@ -4840,6 +5025,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak",
   "py": "bù / bú shì",
@@ -4866,6 +5052,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak ada",
   "py": "méi yǒu",
@@ -4892,6 +5079,7 @@
   ]
  },
  {
+  "cat": "Salam & sopan santun",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak apa-apa",
   "py": "méi guānxi",
@@ -4918,6 +5106,7 @@
   ]
  },
  {
+  "cat": "Kesehatan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak apa-apa?",
   "py": "méi shì?",
@@ -4944,6 +5133,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak bisa",
   "py": "bù huì / bù néng",
@@ -4970,6 +5160,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak boleh",
   "py": "bù kěyǐ",
@@ -4996,6 +5187,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak mau",
   "py": "bú yào",
@@ -5022,6 +5214,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak mungkin",
   "py": "bù kěnéng",
@@ -5048,6 +5241,7 @@
   ]
  },
  {
+  "cat": "Ya, tidak, boleh",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak punya",
   "py": "méi yǒu",
@@ -5074,6 +5268,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tidak tahu",
   "py": "bù zhīdào",
@@ -5100,6 +5295,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tiga",
   "py": "sān",
@@ -5126,6 +5322,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tiga belas",
   "py": "shísān",
@@ -5152,6 +5349,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong bantu",
   "py": "qǐng bāngmáng",
@@ -5178,6 +5376,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong bantu saya",
   "py": "bāng wǒ",
@@ -5210,6 +5409,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tolong ulangi",
   "py": "qǐng zài shuō yí biàn",
@@ -5236,6 +5436,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tujuh",
   "py": "qī",
@@ -5262,6 +5463,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tunggu dulu",
   "py": "děng yíxià",
@@ -5288,6 +5490,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tunggu sebentar",
   "py": "qǐng shāo děng",
@@ -5314,6 +5517,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tunggu sebentar",
   "py": "Děng yíxià",
@@ -5340,6 +5544,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tutup",
   "py": "guānshang",
@@ -5366,6 +5571,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Uang",
   "py": "qián",
@@ -5392,6 +5598,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Untuk kapan?",
   "py": "shénme shíhou yào?",
@@ -5418,6 +5625,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Kurang umum: Native pabrik lebih sering 紫外曝光 (zǐwài pùguāng). 二次曝光 berarti \"eksposur kedua\".",
   "id": "UV Exposure/Paparan UV",
   "py": "èrcì pùguāng",
@@ -5444,6 +5652,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Bukan kalimat: Ini penjelasan, bukan kalimat yang dipakai dalam percakapan. Sebaiknya diganti kalimat aslinya.",
   "id": "Wǒ berarti \"saya\", bù tài berarti \"kurang begitu\" atau \"tidak begitu\", dan lǐjiě / míngbái berarti \"paham\" atau \"mengerti\"",
   "py": "Wǒ bù tài lǐjiě.",
@@ -5476,6 +5685,7 @@
   ]
  },
  {
+  "cat": "Tidak mengerti & minta bantuan",
   "label": "Bukan kalimat: Ini penjelasan, bukan kalimat yang dipakai dalam percakapan. Sebaiknya diganti kalimat aslinya.",
   "id": "Wǒ berarti \"saya\", bù tài berarti \"kurang begitu\" atau \"tidak begitu\", dan lǐjiě / míngbái berarti \"paham\" atau \"mengerti\"",
   "py": "Wǒ bú tài míngbái",
@@ -5502,6 +5712,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ya, ini saja",
   "py": "shì de, jiù zhè ge",
@@ -5528,6 +5739,7 @@
   ]
  },
  {
+  "cat": "Pelatihan & kerja",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya akan pergi biztrip ke China",
   "py": "wǒ yào qù Zhōngguó chūchāi",
@@ -5554,6 +5766,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: Mandarin tidak membedakan sana dan situ; keduanya 那儿.",
   "id": "sana",
   "py": "nàbiān / nàr",
@@ -5580,6 +5793,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sini",
   "py": "zhèbiān / zhèr",
@@ -5606,6 +5820,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: Mandarin tidak membedakan sana dan situ; keduanya 那儿.",
   "id": "situ",
   "py": "nàbiān / nàr",
@@ -5632,6 +5847,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: Sama dengan kesitu; Mandarin 去那儿.",
   "id": "kesana",
   "py": "qù nàr",
@@ -5658,6 +5874,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "kesini",
   "py": "lái zhèr",
@@ -5684,6 +5901,7 @@
   ]
  },
  {
+  "cat": "Transportasi & arah",
   "label": "Umum: Sama dengan kesana; Mandarin 去那儿.",
   "id": "kesitu",
   "py": "qù nàr",
@@ -5710,6 +5928,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: Wajar. Di percakapan sehari-hari lebih lazim 这个多少钱？",
   "id": "Berapa harga barang ini?",
   "py": "zhè ge dōngxi duōshao qián?",
@@ -5736,6 +5955,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Satu kuai (yuan)",
   "py": "yī kuài",
@@ -5762,6 +5982,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Lima kuai",
   "py": "wǔ kuài",
@@ -5788,6 +6009,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sepuluh kuai",
   "py": "shí kuài",
@@ -5814,6 +6036,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Umum (sehari-hari): 毛 sering dipakai dalam percakapan sehari-hari (1 mao = 0,1 yuan).",
   "id": "Satu mao (10 fen)",
   "py": "yī máo",
@@ -5840,6 +6063,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Jarang: Fen hampir tidak dipakai dalam transaksi sehari-hari.",
   "id": "Satu fen",
   "py": "yī fēn",
@@ -5866,6 +6090,7 @@
   ]
  },
  {
+  "cat": "Belanja & pembayaran",
   "label": "Formal: Formal/tulisan. Sehari-hari native pakai 块.",
   "id": "Satu yuan (formal)",
   "py": "yī yuán",
@@ -5892,6 +6117,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "enam belas (16)",
   "py": "shíliù",
@@ -5918,6 +6144,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tujuh belas (17)",
   "py": "shíqī",
@@ -5944,6 +6171,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "delapan belas (18)",
   "py": "shíbā",
@@ -5970,6 +6198,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sembilan belas (19)",
   "py": "shíjiǔ",
@@ -5996,6 +6225,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "dua puluh (20)",
   "py": "èrshí",
@@ -6022,6 +6252,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tiga puluh (30)",
   "py": "sānshí",
@@ -6048,6 +6279,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "empat puluh (40)",
   "py": "sìshí",
@@ -6074,6 +6306,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "lima puluh (50)",
   "py": "wǔshí",
@@ -6100,6 +6333,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "enam puluh (60)",
   "py": "liùshí",
@@ -6126,6 +6360,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tujuh puluh (70)",
   "py": "qīshí",
@@ -6152,6 +6387,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "delapan puluh (80)",
   "py": "bāshí",
@@ -6178,6 +6414,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sembilan puluh (90)",
   "py": "jiǔshí",
@@ -6204,6 +6441,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "seratus (100)",
   "py": "yìbǎi",
@@ -6230,6 +6468,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "dua ratus (200)",
   "py": "èrbǎi",
@@ -6256,6 +6495,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tiga ratus (300)",
   "py": "sānbǎi",
@@ -6282,6 +6522,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "empat ratus (400)",
   "py": "sìbǎi",
@@ -6308,6 +6549,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "lima ratus (500)",
   "py": "wǔbǎi",
@@ -6334,6 +6576,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "enam ratus (600)",
   "py": "liùbǎi",
@@ -6360,6 +6603,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "tujuh ratus (700)",
   "py": "qībǎi",
@@ -6386,6 +6630,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "delapan ratus (800)",
   "py": "bābǎi",
@@ -6412,6 +6657,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sembilan ratus (900)",
   "py": "jiǔbǎi",
@@ -6438,6 +6684,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "seribu (1.000)",
   "py": "yìqiān",
@@ -6464,6 +6711,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "dua ribu (2.000)",
   "py": "èrqiān",
@@ -6490,6 +6738,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "lima ribu (5.000)",
   "py": "wǔqiān",
@@ -6516,6 +6765,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "sepuluh ribu (10.000)",
   "py": "yíwàn",
@@ -6542,6 +6792,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "dua puluh ribu (20.000)",
   "py": "èrwàn",
@@ -6568,6 +6819,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "lima puluh ribu (50.000)",
   "py": "wǔwàn",
@@ -6594,6 +6846,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "seratus ribu (100.000)",
   "py": "shíwàn",
@@ -6620,6 +6873,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "dua ratus ribu (200.000)",
   "py": "èrshíwàn",
@@ -6646,6 +6900,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "lima ratus ribu (500.000)",
   "py": "wǔshíwàn",
@@ -6672,6 +6927,7 @@
   ]
  },
  {
+  "cat": "Angka & waktu",
   "label": "Umum: Umum dipakai untuk angka besar; ditulis 九十万.",
   "id": "sembilan ratus ribu (900.000)",
   "py": "jiǔshíwàn",
@@ -6698,80 +6954,193 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Angka & waktu",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Satu, dua, tiga, empat, lima",
   "py": "Yī, èr, sān, sì, wǔ",
   "hz": "一、二、三、四、五",
   "words": "一 (yī): satu, 二 (èr): dua, 三 (sān): tiga, 四 (sì): empat, 五 (wǔ): lima",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Angka satu sampai lima dipakai untuk menghitung.",
+    "Yī, èr, sān, sì, wǔ, wǒ huì shǔshù le.",
+    "一、二、三、四、五，我会数数了。"
+   ],
+   [
+    "Saya menghitung dari satu sampai lima.",
+    "Wǒ cóng yī shù dào wǔ.",
+    "我从一数到五。"
+   ],
+   [
+    "Tolong ulangi: satu, dua, tiga.",
+    "Qǐng zài shuō yí biàn: yī, èr, sān.",
+    "请再说一遍：一、二、三。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Angka & waktu",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Enam, tujuh, delapan, sembilan, sepuluh",
   "py": "Liù, qī, bā, jiǔ, shí",
   "hz": "六、七、八、九、十",
   "words": "六 (liù): enam, 七 (qī): tujuh, 八 (bā): delapan, 九 (jiǔ): sembilan, 十 (shí): sepuluh",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Enam sampai sepuluh lebih sulit dihafal.",
+    "Liù, qī, bā, jiǔ, shí bǐjiào nánjì.",
+    "六、七、八、九、十比较难记。"
+   ],
+   [
+    "Saya menghitung dari enam sampai sepuluh.",
+    "Wǒ cóng liù shù dào shí.",
+    "我从六数到十。"
+   ],
+   [
+    "Tolong baca: enam, tujuh, delapan.",
+    "Qǐng dú: liù, qī, bā.",
+    "请读：六、七、八。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Angka & waktu",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Jam delapan",
   "py": "Bā diǎn",
   "hz": "八点",
   "words": "八 (bā): delapan, 点 (diǎn): jam",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Kita bertemu jam delapan.",
+    "Wǒmen bā diǎn jiànmiàn.",
+    "我们八点见面。"
+   ],
+   [
+    "Sekarang jam delapan.",
+    "Xiànzài bā diǎn.",
+    "现在八点。"
+   ],
+   [
+    "Kerja mulai jam delapan.",
+    "Bā diǎn kāishǐ shàngbān.",
+    "八点开始上班。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Angka & waktu",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Besok jam sembilan",
   "py": "Míngtiān jiǔ diǎn",
   "hz": "明天九点",
   "words": "明天 (míngtiān): besok, 九 (jiǔ): sembilan, 点 (diǎn): jam",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Besok jam sembilan ada pelatihan.",
+    "Míngtiān jiǔ diǎn yǒu péixùn.",
+    "明天九点有培训。"
+   ],
+   [
+    "Besok jam sembilan kita berangkat.",
+    "Míngtiān jiǔ diǎn wǒmen chūfā.",
+    "明天九点我们出发。"
+   ],
+   [
+    "Besok jam sembilan saya ada rapat.",
+    "Míngtiān jiǔ diǎn wǒ yǒu huì.",
+    "明天九点我有会。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Berapa totalnya?",
   "py": "Yígòng duōshao qián?",
   "hz": "一共多少钱？",
   "words": "一共 (yígòng): total / seluruhnya, 多少 (duōshao): berapa, 钱 (qián): uang / harga",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Berapa totalnya untuk semua ini?",
+    "Zhè xiē yígòng duōshǎoqián?",
+    "这些一共多少钱？"
+   ],
+   [
+    "Totalnya seratus yuan.",
+    "Yígòng yì bǎi kuài.",
+    "一共一百块。"
+   ],
+   [
+    "Totalnya berapa, bisa dihitung?",
+    "Yígòng duōshǎoqián, néng suàn yíxià ma?",
+    "一共多少钱，能算一下吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Terlalu mahal",
   "py": "Tài guì le",
   "hz": "太贵了",
   "words": "太 (tài): terlalu, 贵 (guì): mahal, 了 (le): partikel penegas",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Terlalu mahal, bisa kurang?",
+    "Tài guì le, néng piányi diǎn ma?",
+    "太贵了，能便宜点吗？"
+   ],
+   [
+    "Baju ini terlalu mahal.",
+    "Zhè jiàn yīfú tài guì le.",
+    "这件衣服太贵了。"
+   ],
+   [
+    "Hotelnya terlalu mahal.",
+    "Zhège jiǔdiàn tài guì le.",
+    "这个酒店太贵了。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisa lebih murah?",
   "py": "Kěyǐ piányi yìdiǎnr ma?",
   "hz": "可以便宜一点儿吗？",
   "words": "可以 (kěyǐ): bisa, 便宜 (piányi): murah, 一点儿 (yìdiǎnr): sedikit, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Bisa lebih murah sedikit?",
+    "Kěyǐ piányi yìdiǎn ma?",
+    "可以便宜一点吗？"
+   ],
+   [
+    "Kalau beli dua, bisa lebih murah?",
+    "Mǎi liǎng ge kěyǐ piányi yìdiǎn ma?",
+    "买两个可以便宜一点吗？"
+   ],
+   [
+    "Lebih murah sedikit, saya beli sekarang.",
+    "Piányi yìdiǎn, wǒ xiànzài jiù mǎi.",
+    "便宜一点，我现在就买。"
+   ]
+  ],
   "alt": [
    [
     "便宜一点可以吗？",
@@ -6780,14 +7149,31 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya beli ini",
   "py": "Wǒ mǎi zhège",
   "hz": "我买这个",
   "words": "我 (wǒ): saya, 买 (mǎi): beli, 这个 (zhège): ini",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Saya beli ini.",
+    "Wǒ mǎi zhège.",
+    "我买这个。"
+   ],
+   [
+    "Saya beli dua yang ini.",
+    "Wǒ mǎi liǎng ge zhège.",
+    "我买两个这个。"
+   ],
+   [
+    "Saya beli ini, tolong bungkus.",
+    "Wǒ mǎi zhège, qǐng bāo qǐlái.",
+    "我买这个，请包起来。"
+   ]
+  ],
   "alt": [
    [
     "我要买这个",
@@ -6796,80 +7182,193 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya hanya melihat-lihat",
   "py": "Wǒ suíbiàn kànkan",
   "hz": "我随便看看",
   "words": "我 (wǒ): saya, 随便 (suíbiàn): santai / tanpa tujuan, 看看 (kànkan): lihat-lihat",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya hanya melihat-lihat.",
+    "Wǒ suíbiàn kànkàn.",
+    "我随便看看。"
+   ],
+   [
+    "Terima kasih, saya hanya melihat-lihat.",
+    "Xièxie, wǒ suíbiàn kànkàn.",
+    "谢谢，我随便看看。"
+   ],
+   [
+    "Saya melihat-lihat dulu.",
+    "Wǒ xiān suíbiàn kànkàn.",
+    "我先随便看看。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Boleh saya coba?",
   "py": "Kěyǐ shì yíxià ma?",
   "hz": "可以试一下吗？",
   "words": "可以 (kěyǐ): boleh, 试 (shì): coba, 一下 (yíxià): sekali, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Boleh saya coba baju ini?",
+    "Wǒ kěyǐ shìyíxià zhè jiàn yīfú ma?",
+    "我可以试一下这件衣服吗？"
+   ],
+   [
+    "Boleh saya coba sepatu ini?",
+    "Kěyǐ shìyíxià zhè shuāng xié ma?",
+    "可以试一下这双鞋吗？"
+   ],
+   [
+    "Boleh coba dulu?",
+    "Kěyǐ xiān shìyíxià ma?",
+    "可以先试一下吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apakah ada ukuran lain?",
   "py": "Yǒu bié de chǐmǎ ma?",
   "hz": "有别的尺码吗？",
   "words": "有 (yǒu): ada, 别的 (bié de): yang lain, 尺码 (chǐmǎ): ukuran, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Apakah ada ukuran lain?",
+    "Yǒu bié de chǐmǎ ma?",
+    "有别的尺码吗？"
+   ],
+   [
+    "Apakah ada ukuran yang lebih besar?",
+    "Yǒu dà yìdiǎn de chǐmǎ ma?",
+    "有大一点的尺码吗？"
+   ],
+   [
+    "Ukuran ini terlalu kecil, ada yang lain?",
+    "Zhège chǐmǎ tài xiǎo le, yǒu bié de ma?",
+    "这个尺码太小了，有别的吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisa bayar pakai WeChat Pay?",
   "py": "Kěyǐ yòng Wēixìn zhīfù ma?",
   "hz": "可以用微信支付吗？",
   "words": "可以 (kěyǐ): bisa, 用 (yòng): pakai, 微信 (Wēixìn): WeChat, 支付 (zhīfù): pembayaran, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisa bayar pakai WeChat Pay di sini?",
+    "Zhèlǐ kěyǐ yòng Wēixìn zhīfù ma?",
+    "这里可以用微信支付吗？"
+   ],
+   [
+    "Toko ini bisa pakai WeChat Pay?",
+    "Zhè jiā diàn kěyǐ yòng Wēixìn zhīfù ma?",
+    "这家店可以用微信支付吗？"
+   ],
+   [
+    "Di kasir ini bisa bayar pakai WeChat Pay?",
+    "Shōuyíntái kěyǐ yòng Wēixìn zhīfù ma?",
+    "收银台可以用微信支付吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisa bayar pakai Alipay?",
   "py": "Kěyǐ yòng zhīfùbǎo ma?",
   "hz": "可以用支付宝吗？",
   "words": "可以 (kěyǐ): bisa, 用 (yòng): pakai, 支付宝 (zhīfùbǎo): Alipay, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisa bayar pakai Alipay di sini?",
+    "Zhèlǐ kěyǐ yòng Zhīfùbǎo ma?",
+    "这里可以用支付宝吗？"
+   ],
+   [
+    "Warung ini bisa pakai Alipay?",
+    "Zhè jiā xiǎodiàn kěyǐ yòng Zhīfùbǎo ma?",
+    "这家小店可以用支付宝吗？"
+   ],
+   [
+    "Bisa pakai Alipay, tidak?",
+    "Kěyǐ yòng Zhīfùbǎo ma?",
+    "可以用支付宝吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisa pakai kartu?",
   "py": "Kěyǐ shuā kǎ ma?",
   "hz": "可以刷卡吗？",
   "words": "可以 (kěyǐ): bisa, 刷卡 (shuā kǎ): gesek kartu, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisa pakai kartu di sini?",
+    "Zhèlǐ kěyǐ shuākǎ ma?",
+    "这里可以刷卡吗？"
+   ],
+   [
+    "Bisa gesek kartu kredit?",
+    "Kěyǐ shuā xìnyòngkǎ ma?",
+    "可以刷信用卡吗？"
+   ],
+   [
+    "Kalau pakai kartu, bisa?",
+    "Yòng kǎ kěyǐ ma?",
+    "用卡可以吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya bayar tunai",
   "py": "Wǒ fù xiànjīn",
   "hz": "我付现金",
   "words": "我 (wǒ): saya, 付 (fù): bayar, 现金 (xiànjīn): uang tunai",
   "note": "Banyak tempat tidak menerima tunai",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Saya bayar tunai.",
+    "Wǒ fùxiànjīn.",
+    "我付现金。"
+   ],
+   [
+    "Boleh saya bayar tunai?",
+    "Wǒ kěyǐ fùxiànjīn ma?",
+    "我可以付现金吗？"
+   ],
+   [
+    "Saya hanya punya uang tunai.",
+    "Wǒ zhǐyǒu xiànjīn.",
+    "我只有现金。"
+   ]
+  ],
   "alt": [
    [
     "支付现金",
@@ -6878,58 +7377,139 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana ada minimarket?",
   "py": "Nǎlǐ yǒu biànlìdiàn?",
   "hz": "哪里有便利店？",
   "words": "哪里 (nǎlǐ): di mana, 有 (yǒu): ada, 便利店 (biànlìdiàn): minimarket",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana ada minimarket di dekat sini?",
+    "Zhè fùjìn nǎlǐ yǒu biànlìdiàn?",
+    "这附近哪里有便利店？"
+   ],
+   [
+    "Di mana ada minimarket yang buka 24 jam?",
+    "Nǎlǐ yǒu èr shí sì xiǎoshí biànlìdiàn?",
+    "哪里有二十四小时便利店？"
+   ],
+   [
+    "Maaf, di mana ada minimarket?",
+    "Qǐngwèn, nǎlǐ yǒu biànlìdiàn?",
+    "请问，哪里有便利店？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana ada apotek?",
   "py": "Nǎlǐ yǒu yàodiàn?",
   "hz": "哪里有药店？",
   "words": "哪里 (nǎlǐ): di mana, 有 (yǒu): ada, 药店 (yàodiàn): apotek",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana ada apotek di dekat sini?",
+    "Zhè fùjìn nǎlǐ yǒu yàodiàn?",
+    "这附近哪里有药店？"
+   ],
+   [
+    "Di mana ada apotek yang masih buka?",
+    "Nǎlǐ yǒu hái kāi zhe de yàodiàn?",
+    "哪里有还开着的药店？"
+   ],
+   [
+    "Maaf, di mana ada apotek?",
+    "Qǐngwèn, nǎlǐ yǒu yàodiàn?",
+    "请问，哪里有药店？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana tempat tukar uang?",
   "py": "Nǎlǐ kěyǐ huàn qián?",
   "hz": "哪里可以换钱？",
   "words": "哪里 (nǎlǐ): di mana, 可以 (kěyǐ): bisa, 换 (huàn): tukar, 钱 (qián): uang",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana tempat tukar uang?",
+    "Nǎlǐ kěyǐ huànqián?",
+    "哪里可以换钱？"
+   ],
+   [
+    "Di mana bisa tukar rupiah ke yuan?",
+    "Nǎlǐ kěyǐ bǎ yìnnídùn huànchéng rénmínbì?",
+    "哪里可以把印尼盾换成人民币？"
+   ],
+   [
+    "Maaf, di mana bisa tukar uang?",
+    "Qǐngwèn, nǎlǐ kěyǐ huànqián?",
+    "请问，哪里可以换钱？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mau beli kartu SIM",
   "py": "Wǒ xiǎng mǎi yì zhāng shǒujī kǎ",
   "hz": "我想买一张手机卡",
   "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 买 (mǎi): beli, 一 (yì): satu, 张 (zhāng): kata penggolong benda tipis/kartu, 手机卡 (shǒujī kǎ): kartu SIM",
   "note": "Biasanya butuh paspor",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau beli kartu SIM.",
+    "Wǒ xiǎng mǎi yì zhāng shǒujīkǎ.",
+    "我想买一张手机卡。"
+   ],
+   [
+    "Saya mau beli kartu SIM untuk sebulan.",
+    "Wǒ xiǎng mǎi yì zhāng yòng yí ge yuè de shǒujīkǎ.",
+    "我想买一张用一个月的手机卡。"
+   ],
+   [
+    "Di mana saya bisa beli kartu SIM?",
+    "Zài nǎlǐ kěyǐ mǎi shǒujīkǎ?",
+    "在哪里可以买手机卡？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apa password Wi-Fi?",
   "py": "Wi-Fi mìmǎ shì duōshao?",
   "hz": "Wi-Fi密码是多少？",
   "words": "Wi-Fi (Wi-Fi): Wi-Fi, 密码 (mìmǎ): password, 是 (shì): adalah, 多少 (duōshao): berapa / apa",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Apa password Wi-Fi di sini?",
+    "Zhèlǐ de Wi - Fi mìmǎ shì duōshǎo?",
+    "这里的Wi-Fi密码是多少？"
+   ],
+   [
+    "Apa password Wi-Fi hotel ini?",
+    "Zhège jiǔdiàn de Wi - Fi mìmǎ shì duōshǎo?",
+    "这个酒店的Wi-Fi密码是多少？"
+   ],
+   [
+    "Maaf, apa password Wi-Fi-nya?",
+    "Qǐngwèn, Wi - Fi mìmǎ shì duōshǎo?",
+    "请问，Wi-Fi密码是多少？"
+   ]
+  ],
   "alt": [
    [
     "Wi-Fi密码是什么？",
@@ -6938,14 +7518,31 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong!",
   "py": "Jiùmìng!",
   "hz": "救命！",
   "words": "救命 (jiùmìng): tolong (selamatkan nyawa), 救 (jiù): selamatkan, 命 (mìng): nyawa",
   "note": "Darurat China: polisi 110, ambulans 120, pemadam 119",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Tolong! Ada orang jatuh!",
+    "Jiùmìng! Yǒurén shuāidǎo le!",
+    "救命！有人摔倒了！"
+   ],
+   [
+    "Tolong! Tolong saya!",
+    "Jiùmìng! Kuài lái bāng wǒ!",
+    "救命！快来帮我！"
+   ],
+   [
+    "Tolong, ada kecelakaan!",
+    "Jiùmìng, chū shìgù le!",
+    "救命，出事故了！"
+   ]
+  ],
   "alt": [
    [
     "救命啊！",
@@ -6954,25 +7551,58 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Panggil ambulans!",
   "py": "Qǐng jiào jiùhùchē!",
   "hz": "请叫救护车！",
   "words": "请 (qǐng): tolong, 叫 (jiào): panggil, 救护车 (jiùhùchē): ambulans",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Panggil ambulans, cepat!",
+    "Qǐng kuài jiào jiùhùchē!",
+    "请快叫救护车！"
+   ],
+   [
+    "Tolong panggil ambulans, dia pingsan.",
+    "Qǐng jiào jiùhùchē, tā yūndǎo le.",
+    "请叫救护车，他晕倒了。"
+   ],
+   [
+    "Panggil ambulans, ada yang terluka!",
+    "Jiào jiùhùchē, yǒurén shòushāng le!",
+    "叫救护车，有人受伤了！"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong panggil polisi",
   "py": "Qǐng bàojǐng",
   "hz": "请报警",
   "words": "请 (qǐng): tolong, 报警 (bàojǐng): lapor polisi, 报 (bào): lapor, 警 (jǐng): polisi",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Tolong panggil polisi.",
+    "Qǐng bàojǐng.",
+    "请报警。"
+   ],
+   [
+    "Tolong panggil polisi, dompet saya dicuri.",
+    "Qǐng bàojǐng, wǒ de qiánbāo bèi tōu le.",
+    "请报警，我的钱包被偷了。"
+   ],
+   [
+    "Kami perlu memanggil polisi.",
+    "Wǒmen xūyào bàojǐng.",
+    "我们需要报警。"
+   ]
+  ],
   "alt": [
    [
     "报警",
@@ -6981,355 +7611,868 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Paspor saya hilang",
   "py": "Wǒ de hùzhào diū le",
   "hz": "我的护照丢了",
   "words": "我 (wǒ): saya, 的 (de): milik, 护照 (hùzhào): paspor, 丢 (diū): hilang, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Paspor saya hilang.",
+    "Wǒ de hùzhào diū le.",
+    "我的护照丢了。"
+   ],
+   [
+    "Paspor saya hilang di taksi.",
+    "Wǒ de hùzhào diū zài chūzūchē shàng le.",
+    "我的护照丢在出租车上了。"
+   ],
+   [
+    "Paspor saya hilang, saya harus ke mana?",
+    "Wǒ de hùzhào diū le, wǒ gāi qù nǎlǐ?",
+    "我的护照丢了，我该去哪里？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "HP saya hilang",
   "py": "Wǒ de shǒujī diū le",
   "hz": "我的手机丢了",
   "words": "我 (wǒ): saya, 的 (de): milik, 手机 (shǒujī): HP, 丢 (diū): hilang, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "HP saya hilang.",
+    "Wǒ de shǒujī diū le.",
+    "我的手机丢了。"
+   ],
+   [
+    "HP saya hilang di stasiun.",
+    "Wǒ de shǒujī diū zài chēzhàn le.",
+    "我的手机丢在车站了。"
+   ],
+   [
+    "HP saya hilang, bisa pinjam telepon?",
+    "Wǒ de shǒujī diū le, kěyǐ jièyòng yíxià diànhuà ma?",
+    "我的手机丢了，可以借用一下电话吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Dompet saya dicuri",
   "py": "Wǒ de qiánbāo bèi tōu le",
   "hz": "我的钱包被偷了",
   "words": "我 (wǒ): saya, 的 (de): milik, 钱包 (qiánbāo): dompet, 被 (bèi): penanda pasif, 偷 (tōu): curi, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Dompet saya dicuri.",
+    "Wǒ de qiánbāo bèi tōu le.",
+    "我的钱包被偷了。"
+   ],
+   [
+    "Dompet saya dicuri di bus.",
+    "Wǒ de qiánbāo zài gōngjiāochē shàng bèi tōu le.",
+    "我的钱包在公交车上被偷了。"
+   ],
+   [
+    "Dompet saya dicuri, tolong panggil polisi.",
+    "Wǒ de qiánbāo bèi tōu le, qǐng bàojǐng.",
+    "我的钱包被偷了，请报警。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Barang saya hilang",
   "py": "Wǒ de dōngxi diū le",
   "hz": "我的东西丢了",
   "words": "我 (wǒ): saya, 的 (de): milik, 东西 (dōngxi): barang, 丢 (diū): hilang, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Barang saya hilang.",
+    "Wǒ de dōngxi diū le.",
+    "我的东西丢了。"
+   ],
+   [
+    "Barang saya hilang di kantin.",
+    "Wǒ de dōngxi diū zài shítáng le.",
+    "我的东西丢在食堂了。"
+   ],
+   [
+    "Barang saya hilang, bisa bantu cari?",
+    "Wǒ de dōngxi diū le, néng bāng wǒ zhǎo ma?",
+    "我的东西丢了，能帮我找吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Kebakaran!",
   "py": "Zháohuǒ le!",
   "hz": "着火了！",
   "words": "着火 (zháohuǒ): kebakaran, 着 (zháo): terkena, 火 (huǒ): api, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Kebakaran! Cepat keluar!",
+    "Zháohuǒ le! Kuài chūqù!",
+    "着火了！快出去！"
+   ],
+   [
+    "Ada kebakaran di lantai dua!",
+    "Èr lóu zháohuǒ le!",
+    "二楼着火了！"
+   ],
+   [
+    "Kebakaran! Panggil pemadam kebakaran!",
+    "Zháohuǒ le! Kuài jiào xiāofángduì!",
+    "着火了！快叫消防队！"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana pintu darurat?",
   "py": "Jǐnjí chūkǒu zài nǎr?",
   "hz": "紧急出口在哪儿？",
   "words": "紧急 (jǐnjí): darurat, 出口 (chūkǒu): pintu keluar, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana pintu darurat?",
+    "Jǐnjí chūkǒu zài nǎr?",
+    "紧急出口在哪儿？"
+   ],
+   [
+    "Maaf, di mana pintu darurat di gedung ini?",
+    "Qǐngwèn, zhè dòng lóu de jǐnjí chūkǒu zài nǎr?",
+    "请问，这栋楼的紧急出口在哪儿？"
+   ],
+   [
+    "Pintu darurat ada di sebelah kiri.",
+    "Jǐnjí chūkǒu zài zuǒbiān.",
+    "紧急出口在左边。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong hubungi kedutaan Indonesia",
   "py": "Qǐng liánxì Yìnní dàshǐguǎn",
   "hz": "请联系印尼大使馆",
   "words": "请 (qǐng): tolong, 联系 (liánxì): menghubungi, 印尼 (Yìnní): Indonesia, 大使馆 (dàshǐguǎn): kedutaan besar",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong hubungi Kedutaan Indonesia.",
+    "Qǐng liánxì Yìnní dàshǐguǎn.",
+    "请联系印尼大使馆。"
+   ],
+   [
+    "Paspor saya hilang, tolong hubungi Kedutaan Indonesia.",
+    "Wǒ de hùzhào diū le, qǐng liánxì Yìnní dàshǐguǎn.",
+    "我的护照丢了，请联系印尼大使馆。"
+   ],
+   [
+    "Kami perlu menghubungi Kedutaan Indonesia.",
+    "Wǒmen xūyào liánxì Yìnní dàshǐguǎn.",
+    "我们需要联系印尼大使馆。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya butuh bantuan segera",
   "py": "Wǒ xūyào jǐnjí bāngzhù",
   "hz": "我需要紧急帮助",
   "words": "我 (wǒ): saya, 需要 (xūyào): perlu, 紧急 (jǐnjí): darurat, 帮助 (bāngzhù): bantuan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya butuh bantuan segera.",
+    "Wǒ xūyào jǐnjí bāngzhù.",
+    "我需要紧急帮助。"
+   ],
+   [
+    "Teman saya sakit, saya butuh bantuan segera.",
+    "Wǒ de péngyou shēngbìng le, wǒ xūyào jǐnjí bāngzhù.",
+    "我的朋友生病了，我需要紧急帮助。"
+   ],
+   [
+    "Tolong, saya butuh bantuan segera!",
+    "Bàituō, wǒ xūyào jǐnjí bāngzhù!",
+    "拜托，我需要紧急帮助！"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Hotel",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya sudah reservasi",
   "py": "Wǒ yǐjīng yùdìng le",
   "hz": "我已经预订了",
   "words": "我 (wǒ): saya, 已经 (yǐjīng): sudah, 预订 (yùdìng): reservasi, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya sudah reservasi kamar.",
+    "Wǒ yǐjīng yùdìng le fángjiān.",
+    "我已经预订了房间。"
+   ],
+   [
+    "Saya sudah reservasi atas nama Budi.",
+    "Wǒ yǐjīng yòng Budi de míngzì yùdìng le.",
+    "我已经用Budi的名字预订了。"
+   ],
+   [
+    "Saya sudah reservasi untuk tiga malam.",
+    "Wǒ yǐjīng yùdìng le sān ge wǎnshàng.",
+    "我已经预订了三个晚上。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Hotel",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mau check-in",
   "py": "Wǒ yào bànlǐ rùzhù",
   "hz": "我要办理入住",
   "words": "我 (wǒ): saya, 要 (yào): ingin, 办理 (bànlǐ): mengurus, 入住 (rùzhù): check-in / menginap",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau check-in.",
+    "Wǒ yào bànlǐ rùzhù.",
+    "我要办理入住。"
+   ],
+   [
+    "Saya mau check-in sekarang, bisa?",
+    "Wǒ xiànzài yào bànlǐ rùzhù, kěyǐ ma?",
+    "我现在要办理入住，可以吗？"
+   ],
+   [
+    "Saya mau check-in, ini paspor saya.",
+    "Wǒ yào bànlǐ rùzhù, zhè shì wǒ de hùzhào.",
+    "我要办理入住，这是我的护照。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Hotel",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mau check-out",
   "py": "Wǒ yào tuìfáng",
   "hz": "我要退房",
   "words": "我 (wǒ): saya, 要 (yào): ingin, 退房 (tuìfáng): check-out, 退 (tuì): kembalikan, 房 (fáng): kamar",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau check-out.",
+    "Wǒ yào tuìfáng.",
+    "我要退房。"
+   ],
+   [
+    "Saya mau check-out jam sepuluh.",
+    "Wǒ shí diǎn yào tuìfáng.",
+    "我十点要退房。"
+   ],
+   [
+    "Saya mau check-out, tolong hitungkan.",
+    "Wǒ yào tuìfáng, qǐng jiézhàng.",
+    "我要退房，请结账。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Hotel",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ini paspor saya",
   "py": "Zhè shì wǒ de hùzhào",
   "hz": "这是我的护照",
   "words": "这 (zhè): ini, 是 (shì): adalah, 我 (wǒ): saya, 的 (de): partikel kepemilikan, 护照 (hùzhào): paspor",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ini paspor saya.",
+    "Zhè shì wǒ de hùzhào.",
+    "这是我的护照。"
+   ],
+   [
+    "Ini paspor saya, silakan dicek.",
+    "Zhè shì wǒ de hùzhào, qǐng chákàn.",
+    "这是我的护照，请查看。"
+   ],
+   [
+    "Ini paspor dan visa saya.",
+    "Zhè shì wǒ de hùzhào hé qiānzhèng.",
+    "这是我的护照和签证。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Hotel",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Jam berapa sarapan?",
   "py": "Zǎocān jǐ diǎn?",
   "hz": "早餐几点？",
   "words": "早餐 (zǎocān): sarapan, 几 (jǐ): berapa, 点 (diǎn): jam",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Jam berapa sarapan?",
+    "Zǎocān jǐ diǎn?",
+    "早餐几点？"
+   ],
+   [
+    "Sarapan mulai jam berapa?",
+    "Zǎocān jǐ diǎn kāishǐ?",
+    "早餐几点开始？"
+   ],
+   [
+    "Jam berapa sarapan selesai?",
+    "Zǎocān jǐ diǎn jiéshù?",
+    "早餐几点结束？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Hotel",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "AC tidak berfungsi",
   "py": "Kōngtiáo huài le",
   "hz": "空调坏了",
   "words": "空调 (kōngtiáo): AC, 坏 (huài): rusak, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "AC tidak berfungsi.",
+    "Kōngtiáo huài le.",
+    "空调坏了。"
+   ],
+   [
+    "AC di kamar saya tidak berfungsi.",
+    "Wǒ fángjiān de kōngtiáo huài le.",
+    "我房间的空调坏了。"
+   ],
+   [
+    "AC tidak berfungsi, bisa diperbaiki?",
+    "Kōngtiáo huài le, néng xiū yíxià ma?",
+    "空调坏了，能修一下吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Hotel",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tidak ada air panas",
   "py": "Méiyǒu rèshuǐ",
   "hz": "没有热水",
   "words": "没有 (méiyǒu): tidak ada, 热水 (rèshuǐ): air panas",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tidak ada air panas.",
+    "Méiyǒu rèshuǐ.",
+    "没有热水。"
+   ],
+   [
+    "Kamar mandi saya tidak ada air panas.",
+    "Wǒ de yùshì méiyǒu rèshuǐ.",
+    "我的浴室没有热水。"
+   ],
+   [
+    "Tidak ada air panas, tolong periksa.",
+    "Méiyǒu rèshuǐ, qǐng jiǎnchá yíxià.",
+    "没有热水，请检查一下。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Hotel",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisa titip koper?",
   "py": "Kěyǐ jìcún xíngli ma?",
   "hz": "可以寄存行李吗？",
   "words": "可以 (kěyǐ): bisa, 寄存 (jìcún): menitipkan, 行李 (xíngli): koper / bagasi, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisa titip koper?",
+    "Kěyǐ jìcún xínglǐ ma?",
+    "可以寄存行李吗？"
+   ],
+   [
+    "Setelah check-out, bisa titip koper?",
+    "Tuìfáng yǐhòu kěyǐ jìcún xínglǐ ma?",
+    "退房以后可以寄存行李吗？"
+   ],
+   [
+    "Saya mau titip koper sampai sore.",
+    "Wǒ xiǎng bǎ xínglǐ jìcún dào xiàwǔ.",
+    "我想把行李寄存到下午。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya tidak enak badan",
   "py": "Wǒ bù shūfu",
   "hz": "我不舒服",
   "words": "我 (wǒ): saya, 不 (bù): tidak, 舒服 (shūfu): nyaman / enak badan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya tidak enak badan.",
+    "Wǒ bù shūfú.",
+    "我不舒服。"
+   ],
+   [
+    "Hari ini saya tidak enak badan.",
+    "Wǒ jīntiān bù shūfú.",
+    "我今天不舒服。"
+   ],
+   [
+    "Saya tidak enak badan, boleh pulang?",
+    "Wǒ bù shūfú, kěyǐ huíqù ma?",
+    "我不舒服，可以回去吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Kepala saya sakit",
   "py": "Wǒ tóuténg",
   "hz": "我头疼",
   "words": "我 (wǒ): saya, 头疼 (tóuténg): sakit kepala, 头 (tóu): kepala, 疼 (téng): sakit",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Kepala saya sakit.",
+    "Wǒ tóuténg.",
+    "我头疼。"
+   ],
+   [
+    "Sejak pagi kepala saya sakit.",
+    "Wǒ cóng zǎoshàng jiù tóuténg.",
+    "我从早上就头疼。"
+   ],
+   [
+    "Kepala saya sakit, ada obat?",
+    "Wǒ tóuténg, yǒu yào ma?",
+    "我头疼，有药吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Perut saya sakit",
   "py": "Wǒ dùzi téng",
   "hz": "我肚子疼",
   "words": "我 (wǒ): saya, 肚子 (dùzi): perut, 疼 (téng): sakit",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Perut saya sakit.",
+    "Wǒ dǔziténg.",
+    "我肚子疼。"
+   ],
+   [
+    "Perut saya sakit sejak semalam.",
+    "Wǒ cóng zuówǎn kāishǐ dǔziténg.",
+    "我从昨晚开始肚子疼。"
+   ],
+   [
+    "Perut saya sakit, saya perlu ke toilet.",
+    "Wǒ dǔziténg, xūyào qù xǐshǒujiān.",
+    "我肚子疼，需要去洗手间。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya demam",
   "py": "Wǒ fāshāo le",
   "hz": "我发烧了",
   "words": "我 (wǒ): saya, 发烧 (fāshāo): demam, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya demam.",
+    "Wǒ fāshāo le.",
+    "我发烧了。"
+   ],
+   [
+    "Saya demam sejak kemarin.",
+    "Wǒ cóng zuótiān kāishǐ fāshāo.",
+    "我从昨天开始发烧。"
+   ],
+   [
+    "Saya demam, boleh istirahat?",
+    "Wǒ fāshāo le, kěyǐ xiūxī ma?",
+    "我发烧了，可以休息吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya batuk",
   "py": "Wǒ késou",
   "hz": "我咳嗽",
   "words": "我 (wǒ): saya, 咳嗽 (késou): batuk",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya batuk.",
+    "Wǒ késòu.",
+    "我咳嗽。"
+   ],
+   [
+    "Saya batuk sudah tiga hari.",
+    "Wǒ késòu sān tiān le.",
+    "我咳嗽三天了。"
+   ],
+   [
+    "Saya batuk, ada obat batuk?",
+    "Wǒ késòu, yǒu késòuyào ma?",
+    "我咳嗽，有咳嗽药吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mual",
   "py": "Wǒ xiǎng tù",
   "hz": "我想吐",
   "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 吐 (tù): muntah",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mual.",
+    "Wǒ xiǎng tǔ.",
+    "我想吐。"
+   ],
+   [
+    "Setelah makan, saya mual.",
+    "Chīwánfàn yǐhòu wǒ xiǎng tǔ.",
+    "吃完饭以后我想吐。"
+   ],
+   [
+    "Saya mual, tolong ambilkan air.",
+    "Wǒ xiǎng tǔ, qǐng gěi wǒ yì bēi shuǐ.",
+    "我想吐，请给我一杯水。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya diare",
   "py": "Wǒ lā dùzi",
   "hz": "我拉肚子",
   "words": "我 (wǒ): saya, 拉肚子 (lā dùzi): diare, 拉 (lā): mengeluarkan, 肚子 (dùzi): perut",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya diare.",
+    "Wǒ lādùzi.",
+    "我拉肚子。"
+   ],
+   [
+    "Saya diare sejak tadi malam.",
+    "Wǒ cóng zuówǎn kāishǐ lādùzi.",
+    "我从昨晚开始拉肚子。"
+   ],
+   [
+    "Saya diare, ada obatnya?",
+    "Wǒ lādùzi, yǒu yào ma?",
+    "我拉肚子，有药吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya perlu ke dokter",
   "py": "Wǒ xūyào kàn yīshēng",
   "hz": "我需要看医生",
   "words": "我 (wǒ): saya, 需要 (xūyào): perlu, 看 (kàn): periksa / menemui, 医生 (yīshēng): dokter",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya perlu ke dokter.",
+    "Wǒ xūyào kàn yīshēng.",
+    "我需要看医生。"
+   ],
+   [
+    "Saya perlu ke dokter hari ini.",
+    "Wǒ jīntiān xūyào kàn yīshēng.",
+    "我今天需要看医生。"
+   ],
+   [
+    "Di mana saya bisa ke dokter?",
+    "Wǒ kěyǐ qù nǎlǐ kàn yīshēng?",
+    "我可以去哪里看医生？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana rumah sakit?",
   "py": "Yīyuàn zài nǎr?",
   "hz": "医院在哪儿？",
   "words": "医院 (yīyuàn): rumah sakit, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana rumah sakit?",
+    "Yīyuàn zài nǎr?",
+    "医院在哪儿？"
+   ],
+   [
+    "Maaf, di mana rumah sakit terdekat?",
+    "Qǐngwèn, zuìjìn de yīyuàn zài nǎr?",
+    "请问，最近的医院在哪儿？"
+   ],
+   [
+    "Rumah sakit ada di seberang jalan.",
+    "Yīyuàn zài mǎlù duìmiàn.",
+    "医院在马路对面。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ada obat flu?",
   "py": "Yǒu gǎnmào yào ma?",
   "hz": "有感冒药吗？",
   "words": "有 (yǒu): ada, 感冒药 (gǎnmào yào): obat flu, 感冒 (gǎnmào): flu, 药 (yào): obat, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ada obat flu?",
+    "Yǒu gǎnmàoyào ma?",
+    "有感冒药吗？"
+   ],
+   [
+    "Ada obat flu yang tidak membuat ngantuk?",
+    "Yǒu bú huì fànkùn de gǎnmàoyào ma?",
+    "有不会犯困的感冒药吗？"
+   ],
+   [
+    "Saya pilek, ada obat flu?",
+    "Wǒ gǎnmào le, yǒu gǎnmàoyào ma?",
+    "我感冒了，有感冒药吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya alergi obat tertentu",
   "py": "Wǒ duì mǒuxiē yàowù guòmǐn",
   "hz": "我对某些药物过敏",
   "words": "我 (wǒ): saya, 对 (duì): terhadap, 某些 (mǒuxiē): tertentu, 药物 (yàowù): obat-obatan, 过敏 (guòmǐn): alergi",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya alergi obat tertentu.",
+    "Wǒ duì mǒuxiē yàowù guòmǐn.",
+    "我对某些药物过敏。"
+   ],
+   [
+    "Saya alergi obat tertentu, tolong hati-hati.",
+    "Wǒ duì mǒuxiē yàowù guòmǐn, qǐng xiǎoxīn.",
+    "我对某些药物过敏，请小心。"
+   ],
+   [
+    "Dokter, saya alergi obat tertentu.",
+    "Yīshēng, wǒ duì mǒuxiē yàowù guòmǐn.",
+    "医生，我对某些药物过敏。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya perlu istirahat",
   "py": "Wǒ xūyào xiūxi",
   "hz": "我需要休息",
   "words": "我 (wǒ): saya, 需要 (xūyào): perlu, 休息 (xiūxi): istirahat",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya perlu istirahat.",
+    "Wǒ xūyào xiūxī.",
+    "我需要休息。"
+   ],
+   [
+    "Saya perlu istirahat sebentar.",
+    "Wǒ xūyào xiūxī yíhuìr.",
+    "我需要休息一会儿。"
+   ],
+   [
+    "Hari ini saya perlu istirahat di hotel.",
+    "Wǒ jīntiān xūyào zài jiǔdiàn xiūxī.",
+    "我今天需要在酒店休息。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mau makan",
   "py": "Wǒ xiǎng chī fàn",
   "hz": "我想吃饭",
   "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 吃 (chī): makan, 饭 (fàn): nasi / makanan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau makan.",
+    "Wǒ xiǎng chīfàn.",
+    "我想吃饭。"
+   ],
+   [
+    "Saya mau makan sekarang.",
+    "Wǒ xiànzài xiǎng chīfàn.",
+    "我现在想吃饭。"
+   ],
+   [
+    "Saya lapar, saya mau makan.",
+    "Wǒ è le, wǒ xiǎng chīfàn.",
+    "我饿了，我想吃饭。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana ada restoran?",
   "py": "Nǎlǐ yǒu cāntīng?",
   "hz": "哪里有餐厅？",
   "words": "哪里 (nǎlǐ): di mana, 有 (yǒu): ada, 餐厅 (cāntīng): restoran",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana ada restoran?",
+    "Nǎlǐ yǒu cāntīng?",
+    "哪里有餐厅？"
+   ],
+   [
+    "Di mana ada restoran yang enak?",
+    "Nǎlǐ yǒu hǎochī de cāntīng?",
+    "哪里有好吃的餐厅？"
+   ],
+   [
+    "Maaf, di dekat sini ada restoran?",
+    "Qǐngwèn, zhè fùjìn yǒu cāntīng ma?",
+    "请问，这附近有餐厅吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Minta menu",
   "py": "Qǐng gěi wǒ càidān",
   "hz": "请给我菜单",
   "words": "请 (qǐng): tolong, 给 (gěi): beri, 我 (wǒ): saya, 菜单 (càidān): menu",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Minta menu.",
+    "Qǐng gěi wǒ càidān.",
+    "请给我菜单。"
+   ],
+   [
+    "Minta menu, tolong.",
+    "Qǐng gěi wǒ càidān. Xièxie.",
+    "请给我菜单。谢谢。"
+   ],
+   [
+    "Minta menu dan segelas air.",
+    "Qǐng gěi wǒ càidān hé yì bēi shuǐ.",
+    "请给我菜单和一杯水。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mau nasi",
   "py": "Wǒ yào mǐfàn",
   "hz": "我要米饭",
   "words": "我 (wǒ): saya, 要 (yào): mau, 米饭 (mǐfàn): nasi",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Saya mau nasi.",
+    "Wǒ yào mǐfàn.",
+    "我要米饭。"
+   ],
+   [
+    "Saya mau satu mangkuk nasi.",
+    "Wǒ yào yì wǎn mǐfàn.",
+    "我要一碗米饭。"
+   ],
+   [
+    "Saya mau nasi dan sayur.",
+    "Wǒ yào mǐfàn hé qīngcài.",
+    "我要米饭和青菜。"
+   ]
+  ],
   "alt": [
    [
     "米饭",
@@ -7338,14 +8481,31 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mau semangkuk mi",
   "py": "Wǒ yào yì wǎn miàn",
   "hz": "我要一碗面",
   "words": "我 (wǒ): saya, 要 (yào): mau, 一 (yì): satu, 碗 (wǎn): mangkuk, 面 (miàn): mi",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Saya mau semangkuk mi.",
+    "Wǒ yào yì wǎn miàn.",
+    "我要一碗面。"
+   ],
+   [
+    "Saya mau semangkuk mi sapi.",
+    "Wǒ yào yì wǎn niúròumiàn.",
+    "我要一碗牛肉面。"
+   ],
+   [
+    "Saya mau semangkuk mi, tidak pedas.",
+    "Wǒ yào yì wǎn miàn, bú yào là.",
+    "我要一碗面，不要辣。"
+   ]
+  ],
   "alt": [
    [
     "面条",
@@ -7354,91 +8514,220 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ada rekomendasi?",
   "py": "Yǒu shénme tuījiàn de?",
   "hz": "有什么推荐的？",
   "words": "有 (yǒu): ada, 什么 (shénme): apa, 推荐 (tuījiàn): rekomendasi, 的 (de): partikel penghubung",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ada rekomendasi?",
+    "Yǒu shénme tuījiàn de?",
+    "有什么推荐的？"
+   ],
+   [
+    "Di sini ada rekomendasi makanan?",
+    "Zhèlǐ yǒu shénme tuījiàn de cài?",
+    "这里有什么推荐的菜？"
+   ],
+   [
+    "Ada rekomendasi yang tidak pedas?",
+    "Yǒu shénme bú là de tuījiàn ma?",
+    "有什么不辣的推荐吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Jangan pakai cabai",
   "py": "Bú yào là",
   "hz": "不要辣",
   "words": "不 (bú): tidak, 要 (yào): mau, 辣 (là): pedas",
   "note": "Masakan Sichuan/Hunan bisa sangat pedas",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Jangan pakai cabai.",
+    "Bú yào là.",
+    "不要辣。"
+   ],
+   [
+    "Tolong jangan pakai cabai.",
+    "Qǐng bú yào fàng làjiāo.",
+    "请不要放辣椒。"
+   ],
+   [
+    "Mi ini jangan pakai cabai.",
+    "Zhè wǎnmiàn bú yào là.",
+    "这碗面不要辣。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya tidak bisa makan pedas",
   "py": "Wǒ bù néng chī là",
   "hz": "我不能吃辣",
   "words": "我 (wǒ): saya, 不 (bù): tidak, 能 (néng): bisa (kondisi), 吃 (chī): makan, 辣 (là): pedas",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya tidak bisa makan pedas.",
+    "Wǒ bù néng chī là.",
+    "我不能吃辣。"
+   ],
+   [
+    "Maaf, saya tidak bisa makan pedas.",
+    "Bù hǎoyìsi, wǒ bù néng chī là.",
+    "不好意思，我不能吃辣。"
+   ],
+   [
+    "Saya tidak bisa makan pedas, ada yang lain?",
+    "Wǒ bù néng chī là, yǒu bié de ma?",
+    "我不能吃辣，有别的吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sedikit pedas saja",
   "py": "Wēi là",
   "hz": "微辣",
   "words": "微 (wēi): sedikit / ringan, 辣 (là): pedas",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Sedikit pedas saja.",
+    "Wēi là.",
+    "微辣。"
+   ],
+   [
+    "Sedikit pedas saja, tolong.",
+    "Qǐng zuò wēi là.",
+    "请做微辣。"
+   ],
+   [
+    "Saya pesan mi, sedikit pedas saja.",
+    "Wǒ yào yì wǎn miàn, wēi là.",
+    "我要一碗面，微辣。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya tidak makan babi",
   "py": "Wǒ bù chī zhūròu",
   "hz": "我不吃猪肉",
   "words": "我 (wǒ): saya, 不 (bù): tidak, 吃 (chī): makan, 猪肉 (zhūròu): daging babi",
   "note": "Sebut juga 猪油 (zhūyóu, lemak babi) bila perlu",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya tidak makan babi.",
+    "Wǒ bù chī zhūròu.",
+    "我不吃猪肉。"
+   ],
+   [
+    "Maaf, saya tidak makan babi.",
+    "Bù hǎoyìsi, wǒ bù chī zhūròu.",
+    "不好意思，我不吃猪肉。"
+   ],
+   [
+    "Saya tidak makan babi, ada ayam?",
+    "Wǒ bù chī zhūròu, yǒu jīròu ma?",
+    "我不吃猪肉，有鸡肉吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apakah ini mengandung daging?",
   "py": "Zhège yǒu ròu ma?",
   "hz": "这个有肉吗？",
   "words": "这个 (zhège): ini, 有 (yǒu): ada, 肉 (ròu): daging, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Apakah ini mengandung daging?",
+    "Zhège yǒu ròu ma?",
+    "这个有肉吗？"
+   ],
+   [
+    "Apakah sup ini mengandung daging?",
+    "Zhège tāng lǐ yǒu ròu ma?",
+    "这个汤里有肉吗？"
+   ],
+   [
+    "Apakah makanan ini mengandung daging babi?",
+    "Zhège cài lǐ yǒu zhūròu ma?",
+    "这个菜里有猪肉吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Minta segelas air putih",
   "py": "Wǒ yào yì bēi shuǐ",
   "hz": "我要一杯水",
   "words": "我 (wǒ): saya, 要 (yào): mau, 一 (yì): satu, 杯 (bēi): gelas, 水 (shuǐ): air",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Minta segelas air putih.",
+    "Wǒ yào yì bēi shuǐ.",
+    "我要一杯水。"
+   ],
+   [
+    "Minta segelas air putih, tolong.",
+    "Qǐng gěi wǒ yì bēi shuǐ.",
+    "请给我一杯水。"
+   ],
+   [
+    "Saya haus, minta segelas air putih.",
+    "Wǒ kě le, wǒ yào yì bēi shuǐ.",
+    "我渴了，我要一杯水。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Minta air panas",
   "py": "Wǒ yào rèshuǐ",
   "hz": "我要热水",
   "words": "我 (wǒ): saya, 要 (yào): mau, 热水 (rèshuǐ): air panas",
   "note": "Orang China biasa minum air panas",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Minta air panas.",
+    "Wǒ yào rèshuǐ.",
+    "我要热水。"
+   ],
+   [
+    "Minta air panas untuk minum obat.",
+    "Wǒ yào rèshuǐ chīyào.",
+    "我要热水吃药。"
+   ],
+   [
+    "Minta air panas, tolong.",
+    "Qǐng gěi wǒ rèshuǐ.",
+    "请给我热水。"
+   ]
+  ],
   "alt": [
    [
     "热水",
@@ -7447,179 +8736,436 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Enak sekali!",
   "py": "Hěn hǎochī!",
   "hz": "很好吃！",
   "words": "很 (hěn): sangat, 好吃 (hǎochī): enak (dimakan)",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Enak sekali!",
+    "Hěn hǎochī!",
+    "很好吃！"
+   ],
+   [
+    "Makanan ini enak sekali!",
+    "Zhège cài hěn hǎochī!",
+    "这个菜很好吃！"
+   ],
+   [
+    "Mi buatan Anda enak sekali!",
+    "Nǐ zuò de miàn hěn hǎochī!",
+    "你做的面很好吃！"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya sudah kenyang",
   "py": "Wǒ chī bǎo le",
   "hz": "我吃饱了",
   "words": "我 (wǒ): saya, 吃 (chī): makan, 饱 (bǎo): kenyang, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya sudah kenyang.",
+    "Wǒ chībǎo le.",
+    "我吃饱了。"
+   ],
+   [
+    "Terima kasih, saya sudah kenyang.",
+    "Xièxie, wǒ chībǎo le.",
+    "谢谢，我吃饱了。"
+   ],
+   [
+    "Saya sudah kenyang, tidak perlu tambah.",
+    "Wǒ chībǎo le, búyòng zài jiā le.",
+    "我吃饱了，不用再加了。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Dibungkus",
   "py": "Dǎbāo",
   "hz": "打包",
   "words": "打包 (dǎbāo): membungkus (bawa pulang), 打 (dǎ): melakukan, 包 (bāo): bungkus",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong dibungkus.",
+    "Qǐng dǎbāo.",
+    "请打包。"
+   ],
+   [
+    "Sisanya tolong dibungkus.",
+    "Shèngxià de qǐng dǎbāo.",
+    "剩下的请打包。"
+   ],
+   [
+    "Nasinya dibungkus, ya.",
+    "Mǐfàn qǐng dǎbāo.",
+    "米饭请打包。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Makan di sini atau dibawa pulang?",
   "py": "Zài zhèr chī háishi dàizǒu?",
   "hz": "在这儿吃还是带走？",
   "words": "在 (zài): di, 这儿 (zhèr): sini, 吃 (chī): makan, 还是 (háishi): atau (pertanyaan pilihan), 带走 (dàizǒu): bawa pergi",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Makan di sini atau dibawa pulang?",
+    "Zài zhèr chī háishì dàizǒu?",
+    "在这儿吃还是带走？"
+   ],
+   [
+    "Anda mau makan di sini atau dibawa pulang?",
+    "Nǐ shì zài zhèr chī háishì dàizǒu?",
+    "你是在这儿吃还是带走？"
+   ],
+   [
+    "Saya mau dibawa pulang.",
+    "Wǒ yào dàizǒu.",
+    "我要带走。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Minta sendok",
   "py": "Qǐng gěi wǒ yì bǎ sháozi",
   "hz": "请给我一把勺子",
   "words": "请 (qǐng): tolong, 给 (gěi): beri, 我 (wǒ): saya, 一 (yì): satu, 把 (bǎ): kata penggolong benda bergagang, 勺子 (sháozi): sendok",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Minta sendok.",
+    "Qǐng gěi wǒ yì bǎ sháozi.",
+    "请给我一把勺子。"
+   ],
+   [
+    "Minta sendok dan garpu.",
+    "Qǐng gěi wǒ sháozi hé chāzi.",
+    "请给我勺子和叉子。"
+   ],
+   [
+    "Minta sendok, saya makan sup.",
+    "Qǐng gěi wǒ yì bǎ sháozi, wǒ yào hētāng.",
+    "请给我一把勺子，我要喝汤。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Minta tisu",
   "py": "Qǐng gěi wǒ zhǐjīn",
   "hz": "请给我纸巾",
   "words": "请 (qǐng): tolong, 给 (gěi): beri, 我 (wǒ): saya, 纸巾 (zhǐjīn): tisu",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Minta tisu.",
+    "Qǐng gěi wǒ zhǐjīn.",
+    "请给我纸巾。"
+   ],
+   [
+    "Minta tisu, tolong.",
+    "Máfán gěi wǒ zhǐjīn.",
+    "麻烦给我纸巾。"
+   ],
+   [
+    "Minta tisu, minumannya tumpah.",
+    "Qǐng gěi wǒ zhǐjīn, yǐnliào sǎ le.",
+    "请给我纸巾，饮料洒了。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Minta bayar",
   "py": "Mǎidān",
   "hz": "买单",
   "words": "买单 (mǎidān): bayar tagihan, 买 (mǎi): beli, 单 (dān): bon / tagihan",
   "note": "Memanggil pelayan: 服务员 (fúwùyuán)",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Minta bayar.",
+    "Mǎidān.",
+    "买单。"
+   ],
+   [
+    "Tolong, minta bayar.",
+    "Fúwùyuán, mǎidān.",
+    "服务员，买单。"
+   ],
+   [
+    "Minta bayar, kami mau pulang.",
+    "Mǎidān, wǒmen yào zǒu le.",
+    "买单，我们要走了。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Selamat pagi, Pak/Bu (guru/trainer)",
   "py": "Lǎoshī hǎo",
   "hz": "老师好",
   "words": "老师 (lǎoshī): guru / trainer, 好 (hǎo): baik",
   "note": "老师 = sapaan sopan untuk trainer",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Selamat pagi, guru.",
+    "Lǎoshī zǎo, lǎoshī hǎo.",
+    "老师早，老师好。"
+   ],
+   [
+    "Selamat siang, guru.",
+    "Lǎoshī hǎo, xiàwǔ hǎo.",
+    "老师好，下午好。"
+   ],
+   [
+    "Selamat pagi, guru, saya datang.",
+    "Lǎoshī hǎo, wǒ lái le.",
+    "老师好，我来了。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya peserta pelatihan dari Indonesia",
   "py": "Wǒ shì láizì Yìnní de péixùn xuéyuán",
   "hz": "我是来自印尼的培训学员",
   "words": "我 (wǒ): saya, 是 (shì): adalah, 来自 (láizì): berasal dari, 印尼 (Yìnní): Indonesia, 的 (de): partikel penghubung, 培训 (péixùn): pelatihan, 学员 (xuéyuán): peserta",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya peserta pelatihan dari Indonesia.",
+    "Wǒ shì láizì Yìnní de péixùn xuéyuán.",
+    "我是来自印尼的培训学员。"
+   ],
+   [
+    "Saya peserta pelatihan dari Indonesia, nama saya Budi.",
+    "Wǒ shì láizì Yìnní de péixùn xuéyuán, wǒ jiào Budi.",
+    "我是来自印尼的培训学员，我叫Budi。"
+   ],
+   [
+    "Kami peserta pelatihan dari Indonesia.",
+    "Wǒmen shì láizì Yìnní de péixùn xuéyuán.",
+    "我们是来自印尼的培训学员。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana ruang pelatihan?",
   "py": "Péixùnshì zài nǎr?",
   "hz": "培训室在哪儿？",
   "words": "培训室 (péixùnshì): ruang pelatihan, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana ruang pelatihan?",
+    "Péixùnshì zài nǎr?",
+    "培训室在哪儿？"
+   ],
+   [
+    "Maaf, di mana ruang pelatihan?",
+    "Qǐngwèn, péixùnshì zài nǎr?",
+    "请问，培训室在哪儿？"
+   ],
+   [
+    "Ruang pelatihan ada di lantai dua.",
+    "Péixùnshì zài èr lóu.",
+    "培训室在二楼。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana area produksi (workshop)?",
   "py": "Chējiān zài nǎr?",
   "hz": "车间在哪儿？",
   "words": "车间 (chējiān): workshop / area produksi",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana area produksi?",
+    "Chējiān zài nǎr?",
+    "车间在哪儿？"
+   ],
+   [
+    "Maaf, di mana area produksi?",
+    "Qǐngwèn, chējiān zài nǎr?",
+    "请问，车间在哪儿？"
+   ],
+   [
+    "Area produksi ada di lantai satu.",
+    "Chējiān zài yī lóu.",
+    "车间在一楼。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana kantin?",
   "py": "Shítáng zài nǎr?",
   "hz": "食堂在哪儿？",
   "words": "食堂 (shítáng): kantin",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana kantin?",
+    "Shítáng zài nǎr?",
+    "食堂在哪儿？"
+   ],
+   [
+    "Maaf, di mana kantin?",
+    "Qǐngwèn, shítáng zài nǎr?",
+    "请问，食堂在哪儿？"
+   ],
+   [
+    "Kantin ada di sebelah kanan.",
+    "Shítáng zài yòubiān.",
+    "食堂在右边。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Jam kerja dari jam berapa sampai jam berapa?",
   "py": "Shàngbān shíjiān shì jǐ diǎn dào jǐ diǎn?",
   "hz": "上班时间是几点到几点？",
   "words": "上班 (shàngbān): masuk kerja, 时间 (shíjiān): waktu, 是 (shì): adalah, 几 (jǐ): berapa, 点 (diǎn): jam, 到 (dào): sampai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Jam kerja dari jam berapa sampai jam berapa?",
+    "Shàngbān shíjiān shì jǐ diǎn dào jǐ diǎn?",
+    "上班时间是几点到几点？"
+   ],
+   [
+    "Maaf, jam kerja dari jam berapa sampai jam berapa?",
+    "Qǐngwèn, shàngbān shíjiān shì jǐ diǎn dào jǐ diǎn?",
+    "请问，上班时间是几点到几点？"
+   ],
+   [
+    "Jam kerja dari jam delapan sampai jam lima.",
+    "Shàngbān shíjiān shì bā diǎn dào wǔ diǎn.",
+    "上班时间是八点到五点。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya terlambat, maaf",
   "py": "Wǒ chídào le, duìbuqǐ",
   "hz": "我迟到了，对不起",
   "words": "我 (wǒ): saya, 迟到 (chídào): terlambat, 了 (le): partikel selesai, 对不起 (duìbuqǐ): maaf",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya terlambat, maaf.",
+    "Wǒ chídào le, duìbùqǐ.",
+    "我迟到了，对不起。"
+   ],
+   [
+    "Maaf, saya terlambat karena macet.",
+    "Duìbùqǐ, wǒ yīnwèi dǔchē chídào le.",
+    "对不起，我因为堵车迟到了。"
+   ],
+   [
+    "Saya terlambat lima menit, maaf.",
+    "Wǒ chídào le wǔ fēnzhōng, duìbùqǐ.",
+    "我迟到了五分钟，对不起。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya sudah paham",
   "py": "Wǒ míngbai le",
   "hz": "我明白了",
   "words": "我 (wǒ): saya, 明白 (míngbai): paham, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya sudah paham.",
+    "Wǒ míngbai le.",
+    "我明白了。"
+   ],
+   [
+    "Terima kasih, saya sudah paham.",
+    "Xièxie, wǒ míngbai le.",
+    "谢谢，我明白了。"
+   ],
+   [
+    "Saya sudah paham, kita lanjut.",
+    "Wǒ míngbai le, wǒmen jìxù ba.",
+    "我明白了，我们继续吧。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya belum paham",
   "py": "Wǒ hái bù míngbai",
   "hz": "我还不明白",
   "words": "我 (wǒ): saya, 还 (hái): masih, 不 (bù): tidak, 明白 (míngbai): paham",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Saya belum paham.",
+    "Wǒ hái bù míngbai.",
+    "我还不明白。"
+   ],
+   [
+    "Maaf, saya belum paham.",
+    "Bù hǎoyìsi, wǒ hái bù míngbai.",
+    "不好意思，我还不明白。"
+   ],
+   [
+    "Saya belum paham bagian ini.",
+    "Zhè yí bùfèn wǒ hái bù míngbai.",
+    "这一部分我还不明白。"
+   ]
+  ],
   "alt": [
    [
     "我还不懂",
@@ -7628,531 +9174,1300 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisa dijelaskan sekali lagi?",
   "py": "Kěyǐ zài jiěshì yí biàn ma?",
   "hz": "可以再解释一遍吗？",
   "words": "可以 (kěyǐ): boleh, 再 (zài): lagi, 解释 (jiěshì): menjelaskan, 一遍 (yí biàn): sekali, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisa dijelaskan sekali lagi?",
+    "Kěyǐ zài jiěshì yí biàn ma?",
+    "可以再解释一遍吗？"
+   ],
+   [
+    "Maaf, bisa dijelaskan sekali lagi?",
+    "Bù hǎoyìsi, kěyǐ zài jiěshì yí biàn ma?",
+    "不好意思，可以再解释一遍吗？"
+   ],
+   [
+    "Bisa dijelaskan sekali lagi pelan-pelan?",
+    "Kěyǐ zài mànmàn jiěshì yí biàn ma?",
+    "可以再慢慢解释一遍吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisa tolong didemonstrasikan?",
   "py": "Kěyǐ shìfàn yíxià ma?",
   "hz": "可以示范一下吗？",
   "words": "可以 (kěyǐ): boleh, 示范 (shìfàn): mendemonstrasikan, 一下 (yíxià): sebentar, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisa tolong didemonstrasikan?",
+    "Kěyǐ shìfàn yíxià ma?",
+    "可以示范一下吗？"
+   ],
+   [
+    "Bisa tolong didemonstrasikan sekali?",
+    "Kěyǐ shìfàn yí cì ma?",
+    "可以示范一次吗？"
+   ],
+   [
+    "Maaf, bisa didemonstrasikan dulu?",
+    "Bù hǎoyìsi, kěyǐ xiān shìfàn yíxià ma?",
+    "不好意思，可以先示范一下吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Boleh saya foto?",
   "py": "Kěyǐ pāizhào ma?",
   "hz": "可以拍照吗？",
   "words": "可以 (kěyǐ): boleh, 拍照 (pāizhào): foto, 拍 (pāi): ambil, 照 (zhào): foto, 吗 (ma): partikel tanya",
   "note": "Tanya dulu; banyak area pabrik melarang foto",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Boleh saya foto?",
+    "Kěyǐ pāizhào ma?",
+    "可以拍照吗？"
+   ],
+   [
+    "Boleh saya foto mesin ini?",
+    "Kěyǐ pāi yíxià zhè tái jīqì ma?",
+    "可以拍一下这台机器吗？"
+   ],
+   [
+    "Boleh saya foto untuk catatan?",
+    "Kěyǐ pāizhào zuò jìlù ma?",
+    "可以拍照做记录吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Boleh saya mencatat?",
   "py": "Wǒ kěyǐ jì bǐjì ma?",
   "hz": "我可以记笔记吗？",
   "words": "我 (wǒ): saya, 可以 (kěyǐ): boleh, 记 (jì): catat, 笔记 (bǐjì): catatan, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Boleh saya mencatat?",
+    "Wǒ kěyǐ jìbǐjì ma?",
+    "我可以记笔记吗？"
+   ],
+   [
+    "Boleh saya mencatat penjelasan ini?",
+    "Wǒ kěyǐ jì yíxià zhège shuōmíng ma?",
+    "我可以记一下这个说明吗？"
+   ],
+   [
+    "Boleh saya mencatat di buku?",
+    "Wǒ kěyǐ jì zài běnzi shàng ma?",
+    "我可以记在本子上吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Boleh masuk ke area ini?",
   "py": "Kěyǐ jìn zhège qūyù ma?",
   "hz": "可以进这个区域吗？",
   "words": "可以 (kěyǐ): boleh, 进 (jìn): masuk, 这 (zhè): ini, 个 (gè): kata penggolong, 区域 (qūyù): area, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Boleh masuk ke area ini?",
+    "Kěyǐ jìn zhège qūyù ma?",
+    "可以进这个区域吗？"
+   ],
+   [
+    "Maaf, boleh masuk ke area ini?",
+    "Qǐngwèn, kěyǐ jìn zhège qūyù ma?",
+    "请问，可以进这个区域吗？"
+   ],
+   [
+    "Boleh masuk ke area ini sekarang?",
+    "Xiànzài kěyǐ jìn zhège qūyù ma?",
+    "现在可以进这个区域吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum di pabrik: Istilah pabrik; wajar dipakai di lingkungan kerja.",
   "id": "Apakah harus memakai baju cleanroom?",
   "py": "Xūyào chuān wúchénfú ma?",
   "hz": "需要穿无尘服吗？",
   "words": "需要 (xūyào): perlu, 穿 (chuān): memakai, 无尘服 (wúchénfú): baju cleanroom, 无尘 (wúchén): bebas debu, 服 (fú): pakaian, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Apakah harus memakai baju cleanroom?",
+    "Xūyào chuān wúchén fú ma?",
+    "需要穿无尘服吗？"
+   ],
+   [
+    "Masuk ke sana apakah harus memakai baju cleanroom?",
+    "Jìnqù xūyào chuān wúchén fú ma?",
+    "进去需要穿无尘服吗？"
+   ],
+   [
+    "Di mana saya bisa ambil baju cleanroom?",
+    "Zài nǎlǐ kěyǐ ná wúchén fú?",
+    "在哪里可以拿无尘服？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong kirim filenya ke saya",
   "py": "Qǐng bǎ wénjiàn fā gěi wǒ",
   "hz": "请把文件发给我",
   "words": "请 (qǐng): tolong, 把 (bǎ): partikel objek, 文件 (wénjiàn): file / dokumen, 发 (fā): kirim, 给 (gěi): kepada, 我 (wǒ): saya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong kirim filenya ke saya.",
+    "Qǐng bǎ wénjiàn fāgěi wǒ.",
+    "请把文件发给我。"
+   ],
+   [
+    "Tolong kirim filenya lewat WeChat.",
+    "Qǐng bǎ wénjiàn tōngguò Wēixìn fāgěi wǒ.",
+    "请把文件通过微信发给我。"
+   ],
+   [
+    "Tolong kirim filenya hari ini.",
+    "Qǐng jīntiān bǎ wénjiàn fāgěi wǒ.",
+    "请今天把文件发给我。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Boleh saya tambah WeChat Anda?",
   "py": "Kěyǐ jiā nǐ de Wēixìn ma?",
   "hz": "可以加你的微信吗？",
   "words": "可以 (kěyǐ): boleh, 加 (jiā): tambah, 你 (nǐ): kamu, 的 (de): partikel kepemilikan, 微信 (Wēixìn): WeChat, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Boleh saya tambah WeChat Anda?",
+    "Kěyǐ jiā nǐ de Wēixìn ma?",
+    "可以加你的微信吗？"
+   ],
+   [
+    "Boleh saya tambah WeChat Anda untuk bertanya?",
+    "Kěyǐ jiā nǐ de Wēixìn fāngbiàn wèn wèntí ma?",
+    "可以加你的微信方便问问题吗？"
+   ],
+   [
+    "Ini QR WeChat saya, silakan.",
+    "Zhè shì wǒ de Wēixìn èr wéimǎ, qǐng sǎo.",
+    "这是我的微信二维码，请扫。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya punya satu pertanyaan",
   "py": "Wǒ yǒu yí ge wèntí",
   "hz": "我有一个问题",
   "words": "我 (wǒ): saya, 有 (yǒu): punya, 一 (yí): satu, 个 (ge): kata penggolong, 问题 (wèntí): pertanyaan / masalah",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya punya satu pertanyaan.",
+    "Wǒ yǒu yí ge wèntí.",
+    "我有一个问题。"
+   ],
+   [
+    "Saya punya satu pertanyaan tentang mesin ini.",
+    "Wǒ yǒu yí ge guānyú zhè tái jīqì de wèntí.",
+    "我有一个关于这台机器的问题。"
+   ],
+   [
+    "Maaf, saya punya satu pertanyaan.",
+    "Bù hǎoyìsi, wǒ yǒu yí ge wèntí.",
+    "不好意思，我有一个问题。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Cara memakai mesin ini bagaimana?",
   "py": "Zhè tái jīqì zěnme yòng?",
   "hz": "这台机器怎么用？",
   "words": "这 (zhè): ini, 台 (tái): kata penggolong mesin, 机器 (jīqì): mesin, 怎么 (zěnme): bagaimana, 用 (yòng): pakai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Cara memakai mesin ini bagaimana?",
+    "Zhè tái jīqì zěnme yòng?",
+    "这台机器怎么用？"
+   ],
+   [
+    "Maaf, cara memakai mesin ini bagaimana?",
+    "Qǐngwèn, zhè tái jīqì zěnme yòng?",
+    "请问，这台机器怎么用？"
+   ],
+   [
+    "Cara memakai mesin ini, tolong ajari saya.",
+    "Zhè tái jīqì zěnme yòng, qǐng jiào jiào wǒ.",
+    "这台机器怎么用，请教教我。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Mesinnya rusak",
   "py": "Jīqì huài le",
   "hz": "机器坏了",
   "words": "机器 (jīqì): mesin, 坏 (huài): rusak, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Mesinnya rusak.",
+    "Jīqì huài le.",
+    "机器坏了。"
+   ],
+   [
+    "Mesin ini rusak sejak pagi.",
+    "Zhè tái jīqì cóng zǎoshàng jiù huài le.",
+    "这台机器从早上就坏了。"
+   ],
+   [
+    "Mesinnya rusak, tolong panggil teknisi.",
+    "Jīqì huài le, qǐng jiào wéixiū rényuán.",
+    "机器坏了，请叫维修人员。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum di pabrik: Istilah pabrik; wajar dipakai di lingkungan kerja.",
   "id": "Ini produk NG",
   "py": "Zhège shì bùliángpǐn",
   "hz": "这个是不良品",
   "words": "这个 (zhège): ini, 是 (shì): adalah, 不良品 (bùliángpǐn): produk NG, 不 (bù): tidak, 良 (liáng): baik, 品 (pǐn): barang",
   "note": "不良 = NG/defect",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ini produk NG.",
+    "Zhège shì bù liángpǐn.",
+    "这个是不良品。"
+   ],
+   [
+    "Produk ini NG, tolong pisahkan.",
+    "Zhège shì bù liángpǐn, qǐng fēn kāifàng.",
+    "这个是不良品，请分开放。"
+   ],
+   [
+    "Ada tiga produk NG hari ini.",
+    "Jīntiān yǒu sān ge bù liángpǐn.",
+    "今天有三个不良品。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum di pabrik: Istilah pabrik; wajar dipakai di lingkungan kerja.",
   "id": "Ini produk OK",
   "py": "Zhège hégé",
   "hz": "这个合格",
   "words": "这个 (zhège): ini, 合格 (hégé): OK / lolos standar",
   "note": "合格 = OK/lolos",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ini produk OK.",
+    "Zhège hégé.",
+    "这个合格。"
+   ],
+   [
+    "Produk ini OK, boleh lanjut.",
+    "Zhège hégé, kěyǐ jìxù.",
+    "这个合格，可以继续。"
+   ],
+   [
+    "Semua produk ini OK.",
+    "Zhè xiē chǎnpǐn dōu hégé.",
+    "这些产品都合格。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apa penyebabnya?",
   "py": "Yuányīn shì shénme?",
   "hz": "原因是什么？",
   "words": "原因 (yuányīn): penyebab, 是 (shì): adalah, 什么 (shénme): apa",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Apa penyebabnya?",
+    "Yuányīn shì shénme?",
+    "原因是什么？"
+   ],
+   [
+    "Apa penyebab masalah ini?",
+    "Zhège wèntí de yuányīn shì shénme?",
+    "这个问题的原因是什么？"
+   ],
+   [
+    "Apa penyebab produk NG ini?",
+    "Zhège bù liángpǐn de yuányīn shì shénme?",
+    "这个不良品的原因是什么？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bagaimana cara mengatasinya?",
   "py": "Zěnme jiějué?",
   "hz": "怎么解决？",
   "words": "怎么 (zěnme): bagaimana, 解决 (jiějué): menyelesaikan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bagaimana cara mengatasinya?",
+    "Zěnme jiějué?",
+    "怎么解决？"
+   ],
+   [
+    "Bagaimana cara mengatasi masalah ini?",
+    "Zhège wèntí zěnme jiějué?",
+    "这个问题怎么解决？"
+   ],
+   [
+    "Bagaimana cara mengatasinya, ada standarnya?",
+    "Zěnme jiějué, yǒu biāozhǔn ma?",
+    "怎么解决，有标准吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisa tunjukkan standarnya?",
   "py": "Kěyǐ gěi wǒ kàn yíxià biāozhǔn ma?",
   "hz": "可以给我看一下标准吗？",
   "words": "可以 (kěyǐ): boleh, 给 (gěi): beri, 我 (wǒ): saya, 看 (kàn): lihat, 一下 (yíxià): sebentar, 标准 (biāozhǔn): standar, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisa tunjukkan standarnya?",
+    "Kěyǐ gěi wǒ kàn yíxià biāozhǔn ma?",
+    "可以给我看一下标准吗？"
+   ],
+   [
+    "Bisa tunjukkan standar proses ini?",
+    "Kěyǐ gěi wǒ kàn yíxià zhège gōngxù de biāozhǔn ma?",
+    "可以给我看一下这个工序的标准吗？"
+   ],
+   [
+    "Bisa tunjukkan standarnya di komputer?",
+    "Kěyǐ zài diànnǎo shàng gěi wǒ kàn biāozhǔn ma?",
+    "可以在电脑上给我看标准吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum di pabrik: Istilah pabrik; wajar dipakai di lingkungan kerja.",
   "id": "Berapa yield-nya?",
   "py": "Liánglǜ shì duōshao?",
   "hz": "良率是多少？",
   "words": "良率 (liánglǜ): yield, 良 (liáng): baik, 率 (lǜ): persentase, 是 (shì): adalah, 多少 (duōshao): berapa",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Berapa yield-nya?",
+    "Liánglǜ shì duōshǎo?",
+    "良率是多少？"
+   ],
+   [
+    "Berapa yield hari ini?",
+    "Jīntiān de liánglǜ shì duōshǎo?",
+    "今天的良率是多少？"
+   ],
+   [
+    "Berapa yield proses ini?",
+    "Zhège gōngxù de liánglǜ shì duōshǎo?",
+    "这个工序的良率是多少？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum di pabrik: Istilah pabrik; wajar dipakai di lingkungan kerja.",
   "id": "Proses selanjutnya apa?",
   "py": "Xià yí dào gōngxù shì shénme?",
   "hz": "下一道工序是什么？",
   "words": "下 (xià): berikutnya, 一 (yí): satu, 道 (dào): kata penggolong tahapan, 工序 (gōngxù): proses / tahapan kerja, 是 (shì): adalah, 什么 (shénme): apa",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Proses selanjutnya apa?",
+    "Xià yí dào gōngxù shì shénme?",
+    "下一道工序是什么？"
+   ],
+   [
+    "Setelah ini, proses selanjutnya apa?",
+    "Zhège zuò wán, xià yí dào gōngxù shì shénme?",
+    "这个做完，下一道工序是什么？"
+   ],
+   [
+    "Maaf, proses selanjutnya apa?",
+    "Qǐngwèn, xià yí dào gōngxù shì shénme?",
+    "请问，下一道工序是什么？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sudah selesai",
   "py": "Zuò wán le",
   "hz": "做完了",
   "words": "做 (zuò): mengerjakan, 完 (wán): selesai, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Sudah selesai.",
+    "Zuò wán le.",
+    "做完了。"
+   ],
+   [
+    "Pekerjaan saya sudah selesai.",
+    "Wǒ de gōngzuò zuò wán le.",
+    "我的工作做完了。"
+   ],
+   [
+    "Sudah selesai, boleh saya periksa?",
+    "Zuò wán le, kěyǐ jiǎnchá ma?",
+    "做完了，可以检查吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong periksa",
   "py": "Qǐng jiǎnchá yíxià",
   "hz": "请检查一下",
   "words": "请 (qǐng): tolong, 检查 (jiǎnchá): periksa, 一下 (yíxià): sebentar",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong periksa.",
+    "Qǐng jiǎnchá yíxià.",
+    "请检查一下。"
+   ],
+   [
+    "Tolong periksa hasil ini.",
+    "Qǐng jiǎnchá yíxià zhège jiéguǒ.",
+    "请检查一下这个结果。"
+   ],
+   [
+    "Tolong periksa apakah sudah benar.",
+    "Qǐng jiǎnchá yíxià duì bú duì.",
+    "请检查一下对不对。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Hati-hati!",
   "py": "Xiǎoxīn!",
   "hz": "小心！",
   "words": "小心 (xiǎoxīn): hati-hati",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Hati-hati!",
+    "Xiǎoxīn!",
+    "小心！"
+   ],
+   [
+    "Hati-hati, lantainya licin!",
+    "Xiǎoxīn, dìshàng hěn huá!",
+    "小心，地上很滑！"
+   ],
+   [
+    "Hati-hati, mesinnya panas!",
+    "Xiǎoxīn, jīqì hěn tàng!",
+    "小心，机器很烫！"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Terima kasih atas pelatihannya",
   "py": "Xièxie nín de péixùn",
   "hz": "谢谢您的培训",
   "words": "谢谢 (xièxie): terima kasih, 您 (nín): Anda (sopan), 的 (de): milik, 培训 (péixùn): pelatihan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Terima kasih atas pelatihannya.",
+    "Xièxie nín de péixùn.",
+    "谢谢您的培训。"
+   ],
+   [
+    "Terima kasih atas pelatihannya hari ini.",
+    "Xièxie nín jīntiān de péixùn.",
+    "谢谢您今天的培训。"
+   ],
+   [
+    "Terima kasih atas pelatihannya, saya belajar banyak.",
+    "Xièxie nín de péixùn, wǒ xuédào le hěn duō.",
+    "谢谢您的培训，我学到了很多。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Senang bertemu Anda",
   "py": "Hěn gāoxìng rènshi nǐ",
   "hz": "很高兴认识你",
   "words": "很 (hěn): sangat, 高兴 (gāoxìng): senang, 认识 (rènshi): kenal, 你 (nǐ): kamu",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Senang bertemu Anda.",
+    "Hěn gāoxìng rènshí nǐ.",
+    "很高兴认识你。"
+   ],
+   [
+    "Senang bertemu Anda, nama saya Budi.",
+    "Hěn gāoxìng rènshí nǐ, wǒ jiào Budi.",
+    "很高兴认识你，我叫Budi。"
+   ],
+   [
+    "Senang bertemu Anda hari ini.",
+    "Hěn gāoxìng jīntiān rènshí nǐ.",
+    "很高兴今天认识你。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya orang Indonesia",
   "py": "Wǒ shì Yìnní rén",
   "hz": "我是印尼人",
   "words": "我 (wǒ): saya, 是 (shì): adalah, 印尼 (Yìnní): Indonesia, 人 (rén): orang",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya orang Indonesia.",
+    "Wǒ shì Yìnní rén.",
+    "我是印尼人。"
+   ],
+   [
+    "Saya orang Indonesia, dari Jakarta.",
+    "Wǒ shì Yìnní rén, láizì yǎjiādá.",
+    "我是印尼人，来自雅加达。"
+   ],
+   [
+    "Anda orang Indonesia juga?",
+    "Nǐ yě shì Yìnní rén ma?",
+    "你也是印尼人吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya datang untuk pelatihan",
   "py": "Wǒ shì lái péixùn de",
   "hz": "我是来培训的",
   "words": "我 (wǒ): saya, 是 (shì): adalah, 来 (lái): datang, 培训 (péixùn): pelatihan, 的 (de): partikel penegas (pola 是…的)",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya datang untuk pelatihan.",
+    "Wǒ shì lái péixùn de.",
+    "我是来培训的。"
+   ],
+   [
+    "Saya datang untuk pelatihan satu bulan.",
+    "Wǒ shì lái péixùn yí ge yuè de.",
+    "我是来培训一个月的。"
+   ],
+   [
+    "Saya datang untuk pelatihan di pabrik ini.",
+    "Wǒ shì lái zhège gōngchǎng péixùn de.",
+    "我是来这个工厂培训的。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya di sini selama satu bulan",
   "py": "Wǒ zài zhèlǐ dāi yí ge yuè",
   "hz": "我在这里待一个月",
   "words": "我 (wǒ): saya, 在 (zài): di, 这里 (zhèlǐ): sini, 待 (dāi): tinggal, 一 (yí): satu, 个 (ge): kata penggolong, 月 (yuè): bulan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya di sini selama satu bulan.",
+    "Wǒ zài zhèlǐ dài yí ge yuè.",
+    "我在这里待一个月。"
+   ],
+   [
+    "Saya di sini selama satu bulan untuk bekerja.",
+    "Wǒ zài zhèlǐ dài yí ge yuè gōngzuò.",
+    "我在这里待一个月工作。"
+   ],
+   [
+    "Saya hanya di sini selama satu bulan.",
+    "Wǒ zhǐ zài zhèlǐ dài yí ge yuè.",
+    "我只在这里待一个月。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ini pertama kalinya saya ke China",
   "py": "Zhè shì wǒ dì-yī cì lái Zhōngguó",
   "hz": "这是我第一次来中国",
   "words": "这 (zhè): ini, 是 (shì): adalah, 我 (wǒ): saya, 第一次 (dì-yī cì): pertama kali, 来 (lái): datang, 中国 (Zhōngguó): China",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ini pertama kalinya saya ke China.",
+    "Zhè shì wǒ dì yī cì lái Zhōngguó.",
+    "这是我第一次来中国。"
+   ],
+   [
+    "Ini pertama kalinya saya naik kereta cepat.",
+    "Zhè shì wǒ dì yī cì zuò gāotiě.",
+    "这是我第一次坐高铁。"
+   ],
+   [
+    "Ini pertama kalinya saya makan hot pot.",
+    "Zhè shì wǒ dì yī cì chīhuǒguō.",
+    "这是我第一次吃火锅。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya baru belajar Mandarin",
   "py": "Wǒ gāng kāishǐ xué Zhōngwén",
   "hz": "我刚开始学中文",
   "words": "我 (wǒ): saya, 刚 (gāng): baru saja, 开始 (kāishǐ): mulai, 学 (xué): belajar, 中文 (Zhōngwén): bahasa Mandarin",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya baru belajar Mandarin.",
+    "Wǒ gāng kāishǐ xué Zhōngwén.",
+    "我刚开始学中文。"
+   ],
+   [
+    "Saya baru belajar Mandarin sebulan.",
+    "Wǒ gāng xué le yí ge yuè Zhōngwén.",
+    "我刚学了一个月中文。"
+   ],
+   [
+    "Saya baru belajar Mandarin, mohon sabar.",
+    "Wǒ gāng kāishǐ xué Zhōngwén, qǐng duō bāohán.",
+    "我刚开始学中文，请多包涵。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Mandarin saya belum bagus",
   "py": "Wǒ de Zhōngwén bú tài hǎo",
   "hz": "我的中文不太好",
   "words": "我 (wǒ): saya, 的 (de): partikel kepemilikan, 中文 (Zhōngwén): bahasa Mandarin, 不太 (bú tài): kurang / tidak terlalu, 好 (hǎo): bagus",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Mandarin saya belum bagus.",
+    "Wǒ de Zhōngwén bú tài hǎo.",
+    "我的中文不太好。"
+   ],
+   [
+    "Maaf, Mandarin saya belum bagus.",
+    "Bù hǎoyìsi, wǒ de Zhōngwén bú tài hǎo.",
+    "不好意思，我的中文不太好。"
+   ],
+   [
+    "Mandarin saya belum bagus, tolong bicara pelan.",
+    "Wǒ de Zhōngwén bú tài hǎo, qǐng shuō màn yìdiǎn.",
+    "我的中文不太好，请说慢一点。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya bisa sedikit Mandarin",
   "py": "Wǒ huì shuō yìdiǎnr Zhōngwén",
   "hz": "我会说一点儿中文",
   "words": "我 (wǒ): saya, 会 (huì): bisa, 说 (shuō): berbicara, 一点儿 (yìdiǎnr): sedikit, 中文 (Zhōngwén): bahasa Mandarin",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya bisa sedikit Mandarin.",
+    "Wǒ huì shuō yìdiǎn Zhōngwén.",
+    "我会说一点中文。"
+   ],
+   [
+    "Saya bisa sedikit Mandarin, bukan banyak.",
+    "Wǒ zhǐ huì shuō yìdiǎn Zhōngwén.",
+    "我只会说一点中文。"
+   ],
+   [
+    "Saya bisa sedikit Mandarin dan Inggris.",
+    "Wǒ huì shuō yìdiǎn Zhōngwén hé Yīngyǔ.",
+    "我会说一点中文和英语。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisakah Anda berbahasa Inggris?",
   "py": "Nǐ huì shuō Yīngyǔ ma?",
   "hz": "你会说英语吗？",
   "words": "你 (nǐ): kamu, 会 (huì): bisa, 说 (shuō): berbicara, 英语 (Yīngyǔ): bahasa Inggris, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisakah Anda berbahasa Inggris?",
+    "Nǐ huì shuō Yīngyǔ ma?",
+    "你会说英语吗？"
+   ],
+   [
+    "Maaf, bisakah Anda berbahasa Inggris?",
+    "Bù hǎoyìsi, nǐ huì shuō Yīngyǔ ma?",
+    "不好意思，你会说英语吗？"
+   ],
+   [
+    "Apakah di sini ada yang bisa berbahasa Inggris?",
+    "Zhèlǐ yǒurén huì shuō Yīngyǔ ma?",
+    "这里有人会说英语吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Mohon bimbingannya",
   "py": "Qǐng duō guānzhào",
   "hz": "请多关照",
   "words": "请 (qǐng): tolong, 多 (duō): banyak, 关照 (guānzhào): perhatian / bimbingan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Selamat pagi, guru!",
+    "Lǎoshī hǎo, zǎoshànghǎo!",
+    "老师好，早上好！"
+   ],
+   [
+    "Guru, saya datang untuk pelatihan.",
+    "Lǎoshī hǎo, wǒ lái cānjiā péixùn.",
+    "老师好，我来参加培训。"
+   ],
+   [
+    "Selamat sore, guru.",
+    "Lǎoshī hǎo, xiàwǔ hǎo.",
+    "老师好，下午好。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Selamat siang",
   "py": "Zhōngwǔ hǎo",
   "hz": "中午好",
   "words": "中午 (zhōngwǔ): siang (tengah hari), 好 (hǎo): baik",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Selamat siang, semuanya.",
+    "Dàjiā zhōngwǔ hǎo.",
+    "大家中午好。"
+   ],
+   [
+    "Selamat siang, Pak Wang.",
+    "Wáng xiānsheng, zhōngwǔ hǎo.",
+    "王先生，中午好。"
+   ],
+   [
+    "Selamat siang, sudah makan?",
+    "Zhōngwǔ hǎo, chīfàn le ma?",
+    "中午好，吃饭了吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apa kabar?",
   "py": "Nǐ hǎo ma?",
   "hz": "你好吗？",
   "words": "你 (nǐ): kamu, 好 (hǎo): baik, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Apa kabar? Lama tidak bertemu.",
+    "Nǐ hǎo ma? Hǎojiǔ bú jiàn.",
+    "你好吗？好久不见。"
+   ],
+   [
+    "Apa kabar hari ini?",
+    "Nǐ jīntiān hǎo ma?",
+    "你今天好吗？"
+   ],
+   [
+    "Halo, apa kabar?",
+    "Nǐ hǎo, nǐ hǎo ma?",
+    "你好，你好吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya baik, terima kasih",
   "py": "Wǒ hěn hǎo, xièxie",
   "hz": "我很好，谢谢",
   "words": "我 (wǒ): saya, 很 (hěn): sangat, 好 (hǎo): baik, 谢谢 (xièxie): terima kasih",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya baik, terima kasih. Anda bagaimana?",
+    "Wǒ hěn hǎo, xièxie. Nǐ ne?",
+    "我很好，谢谢。你呢？"
+   ],
+   [
+    "Saya baik, terima kasih, sudah makan?",
+    "Wǒ hěn hǎo, xièxie, nǐ chīfàn le ma?",
+    "我很好，谢谢，你吃饭了吗？"
+   ],
+   [
+    "Saya baik, terima kasih atas perhatiannya.",
+    "Wǒ hěn hǎo, xièxie guānxīn.",
+    "我很好，谢谢关心。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Terima kasih banyak",
   "py": "Fēicháng gǎnxiè",
   "hz": "非常感谢",
   "words": "非常 (fēicháng): sangat, 感谢 (gǎnxiè): berterima kasih",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Terima kasih banyak atas bantuan Anda.",
+    "Fēicháng gǎnxiè nǐ de bāngzhù.",
+    "非常感谢你的帮助。"
+   ],
+   [
+    "Terima kasih banyak, Anda baik sekali.",
+    "Fēicháng gǎnxiè, nǐ rén zhēn hǎo.",
+    "非常感谢，你人真好。"
+   ],
+   [
+    "Terima kasih banyak untuk hari ini.",
+    "Fēicháng gǎnxiè nǐ jīntiān de bāngzhù.",
+    "非常感谢你今天的帮助。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Permisi (numpang lewat)",
   "py": "Jièguò",
   "hz": "借过",
   "words": "借过 (jièguò): permisi, numpang lewat, 借 (jiè): pinjam, 过 (guò): lewat",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Permisi, numpang lewat.",
+    "Jièguò yíxià.",
+    "借过一下。"
+   ],
+   [
+    "Permisi, saya mau lewat.",
+    "Jièguò, wǒ xiǎng guòqù.",
+    "借过，我想过去。"
+   ],
+   [
+    "Permisi, numpang lewat, terima kasih.",
+    "Jièguò yíxià, xièxie.",
+    "借过一下，谢谢。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Silakan / tolong (awal permintaan sopan)",
   "py": "Qǐng",
   "hz": "请",
   "words": "请 (qǐng): silakan / tolong",
   "note": "Dipakai di awal kalimat permintaan",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Silakan duduk.",
+    "Qǐng zuò.",
+    "请坐。"
+   ],
+   [
+    "Silakan masuk.",
+    "Qǐng jìn.",
+    "请进。"
+   ],
+   [
+    "Silakan minum teh.",
+    "Qǐng hēchá.",
+    "请喝茶。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sampai besok",
   "py": "Míngtiān jiàn",
   "hz": "明天见",
   "words": "明天 (míngtiān): besok, 见 (jiàn): bertemu",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Sampai besok.",
+    "Míngtiān jiàn.",
+    "明天见。"
+   ],
+   [
+    "Terima kasih hari ini, sampai besok.",
+    "Jīntiān xièxie nǐ, míngtiān jiàn.",
+    "今天谢谢你，明天见。"
+   ],
+   [
+    "Sampai besok jam delapan.",
+    "Míngtiān bā diǎn jiàn.",
+    "明天八点见。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Anda sudah makan?",
   "py": "Nǐ chī fàn le ma?",
   "hz": "你吃饭了吗？",
   "words": "你 (nǐ): kamu, 吃饭 (chī fàn): makan, 了 (le): partikel selesai, 吗 (ma): partikel tanya",
   "note": "Sapaan akrab, setara \"apa kabar\"",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Anda sudah makan?",
+    "Nǐ chīfàn le ma?",
+    "你吃饭了吗？"
+   ],
+   [
+    "Sudah makan siang?",
+    "Chī wǔfàn le ma?",
+    "吃午饭了吗？"
+   ],
+   [
+    "Kami sudah makan, terima kasih.",
+    "Wǒmen yǐjīng chī guò le, xièxie.",
+    "我们已经吃过了，谢谢。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Terima kasih atas kerja kerasnya",
   "py": "Xīnkǔ le",
   "hz": "辛苦了",
   "words": "辛苦 (xīnkǔ): bekerja keras / jerih payah, 了 (le): partikel penegas",
   "note": "Dipakai ke rekan kerja",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Terima kasih atas kerja kerasnya.",
+    "Xīnkǔ le.",
+    "辛苦了。"
+   ],
+   [
+    "Terima kasih atas kerja kerasnya hari ini.",
+    "Jīntiān xīnkǔ le.",
+    "今天辛苦了。"
+   ],
+   [
+    "Semuanya, terima kasih atas kerja kerasnya.",
+    "Dàjiā xīnkǔ le.",
+    "大家辛苦了。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Anda bekerja sebagai apa?",
   "py": "Nǐ zuò shénme gōngzuò?",
   "hz": "你做什么工作？",
   "words": "你 (nǐ): kamu, 做 (zuò): melakukan, 什么 (shénme): apa, 工作 (gōngzuò): pekerjaan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Anda bekerja sebagai apa?",
+    "Nǐ zuò shénme gōngzuò?",
+    "你做什么工作？"
+   ],
+   [
+    "Anda bekerja sebagai apa di pabrik ini?",
+    "Nǐ zài zhège gōngchǎng zuò shénme gōngzuò?",
+    "你在这个工厂做什么工作？"
+   ],
+   [
+    "Saya bekerja sebagai engineer.",
+    "Wǒ shì zuò gōngchéngshī de.",
+    "我是做工程师的。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Anda orang mana?",
   "py": "Nǐ shì nǎlǐ rén?",
   "hz": "你是哪里人？",
   "words": "你 (nǐ): kamu, 是 (shì): adalah, 哪里 (nǎlǐ): mana, 人 (rén): orang",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Anda orang mana?",
+    "Nǐ shì nǎlǐ rén?",
+    "你是哪里人？"
+   ],
+   [
+    "Anda orang mana, dari kota apa?",
+    "Nǐ shì nǎlǐ rén, nǎ ge chéngshì de?",
+    "你是哪里人，哪个城市的？"
+   ],
+   [
+    "Saya orang Indonesia, dari Jawa.",
+    "Wǒ shì Yìnní rén, láizì Zhǎowā.",
+    "我是印尼人，来自爪哇。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Cuaca hari ini bagus",
   "py": "Jīntiān tiānqì hěn hǎo",
   "hz": "今天天气很好",
   "words": "今天 (jīntiān): hari ini, 天气 (tiānqì): cuaca, 很 (hěn): sangat, 好 (hǎo): bagus",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Cuaca hari ini bagus.",
+    "Jīntiān tiānqì hěn hǎo.",
+    "今天天气很好。"
+   ],
+   [
+    "Cuaca hari ini bagus, ayo jalan-jalan.",
+    "Jīntiān tiānqì hěn hǎo, wǒmen chūqù zǒuzǒu ba.",
+    "今天天气很好，我们出去走走吧。"
+   ],
+   [
+    "Cuaca hari ini bagus sekali.",
+    "Jīntiān tiānqì zhēn hǎo.",
+    "今天天气真好。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Hari ini panas",
   "py": "Jīntiān hěn rè",
   "hz": "今天很热",
   "words": "今天 (jīntiān): hari ini, 很 (hěn): sangat, 热 (rè): panas",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Hari ini panas.",
+    "Jīntiān hěn rè.",
+    "今天很热。"
+   ],
+   [
+    "Hari ini panas sekali.",
+    "Jīntiān tèbié rè.",
+    "今天特别热。"
+   ],
+   [
+    "Hari ini panas, minum yang banyak.",
+    "Jīntiān hěn rè, duōhēshuǐ.",
+    "今天很热，多喝水。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Hari ini dingin",
   "py": "Jīntiān hěn lěng",
   "hz": "今天很冷",
   "words": "今天 (jīntiān): hari ini, 很 (hěn): sangat, 冷 (lěng): dingin",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Hari ini dingin.",
+    "Jīntiān hěn lěng.",
+    "今天很冷。"
+   ],
+   [
+    "Hari ini dingin, pakai jaket.",
+    "Jīntiān hěn lěng, chuān jiàn wàitào ba.",
+    "今天很冷，穿件外套吧。"
+   ],
+   [
+    "Hari ini dingin sekali.",
+    "Jīntiān tèbié lěng.",
+    "今天特别冷。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Makanan di sini enak",
   "py": "Zhèlǐ de cài hěn hǎochī",
   "hz": "这里的菜很好吃",
   "words": "这里 (zhèlǐ): sini, 的 (de): milik, 菜 (cài): masakan, 很 (hěn): sangat, 好吃 (hǎochī): enak",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Makanan di sini enak.",
+    "Zhèlǐ de cài hěn hǎochī.",
+    "这里的菜很好吃。"
+   ],
+   [
+    "Makanan di kantin ini enak.",
+    "Zhège shítáng de cài hěn hǎochī.",
+    "这个食堂的菜很好吃。"
+   ],
+   [
+    "Makanan di sini enak dan murah.",
+    "Zhèlǐ de cài yòu hǎochī yòu piányi.",
+    "这里的菜又好吃又便宜。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong ajari saya Mandarin",
   "py": "Qǐng jiāo wǒ Zhōngwén",
   "hz": "请教我中文",
   "words": "请 (qǐng): tolong, 教 (jiāo): mengajar, 我 (wǒ): saya, 中文 (Zhōngwén): bahasa Mandarin",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Tolong ajari saya Mandarin.",
+    "Qǐng jiào wǒ Zhōngwén.",
+    "请教我中文。"
+   ],
+   [
+    "Tolong ajari saya Mandarin, sedikit saja.",
+    "Qǐng jiào wǒ yìdiǎn Zhōngwén.",
+    "请教我一点中文。"
+   ],
+   [
+    "Tolong ajari saya Mandarin setiap hari.",
+    "Qǐng měitiān jiào wǒ Zhōngwén.",
+    "请每天教我中文。"
+   ]
+  ],
   "alt": [
    [
     "请教我",
@@ -8161,201 +10476,490 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ayo makan bersama",
   "py": "Wǒmen yìqǐ chī fàn ba",
   "hz": "我们一起吃饭吧",
   "words": "我们 (wǒmen): kita, 一起 (yìqǐ): bersama, 吃饭 (chī fàn): makan, 吧 (ba): partikel ajakan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ayo makan bersama.",
+    "Wǒmen yìqǐ chīfàn ba.",
+    "我们一起吃饭吧。"
+   ],
+   [
+    "Ayo makan siang bersama.",
+    "Wǒmen yìqǐ chī wǔfàn ba.",
+    "我们一起吃午饭吧。"
+   ],
+   [
+    "Ayo makan bersama di kantin.",
+    "Wǒmen yìqǐ qù shítáng chīfàn ba.",
+    "我们一起去食堂吃饭吧。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya yang traktir",
   "py": "Wǒ qǐngkè",
   "hz": "我请客",
   "words": "我 (wǒ): saya, 请客 (qǐngkè): mentraktir",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya yang traktir.",
+    "Wǒ qǐngkè.",
+    "我请客。"
+   ],
+   [
+    "Hari ini saya yang traktir.",
+    "Jīntiān wǒ qǐngkè.",
+    "今天我请客。"
+   ],
+   [
+    "Jangan sungkan, saya yang traktir.",
+    "Bié kèqi, wǒ qǐngkè.",
+    "别客气，我请客。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bayar masing-masing saja",
   "py": "Wǒmen gè fù gè de ba",
   "hz": "我们各付各的吧",
   "words": "我们 (wǒmen): kita, 各 (gè): masing-masing, 付 (fù): bayar, 各 (gè): masing-masing, 的 (de): milik, 吧 (ba): partikel ajakan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bayar masing-masing saja.",
+    "Wǒmen gè fù gè de ba.",
+    "我们各付各的吧。"
+   ],
+   [
+    "Kita bayar masing-masing saja, ya.",
+    "Wǒmen gè fù gè de, hǎo ma?",
+    "我们各付各的，好吗？"
+   ],
+   [
+    "Bayar masing-masing, supaya adil.",
+    "Gè fù gè de, bǐjiào gōngpíng.",
+    "各付各的，比较公平。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ayo foto bersama",
   "py": "Wǒmen yìqǐ pāizhào ba",
   "hz": "我们一起拍照吧",
   "words": "我们 (wǒmen): kita, 一起 (yìqǐ): bersama, 拍照 (pāizhào): foto, 吧 (ba): partikel ajakan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ayo foto bersama.",
+    "Wǒmen yìqǐ pāizhào ba.",
+    "我们一起拍照吧。"
+   ],
+   [
+    "Ayo foto bersama di depan pabrik.",
+    "Wǒmen zài gōngchǎng ménkǒu yìqǐ pāizhào ba.",
+    "我们在工厂门口一起拍照吧。"
+   ],
+   [
+    "Ayo foto bersama sebelum pulang.",
+    "Huíqù zhīqián wǒmen yìqǐ pāizhào ba.",
+    "回去之前我们一起拍照吧。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong fotokan saya",
   "py": "Qǐng bāng wǒ pāi zhāng zhàopiàn",
   "hz": "请帮我拍张照片",
   "words": "请 (qǐng): tolong, 帮 (bāng): bantu, 我 (wǒ): saya, 拍 (pāi): ambil, 张 (zhāng): kata penggolong foto, 照片 (zhàopiàn): foto",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong fotokan saya.",
+    "Qǐng bāng wǒ pāi zhāng zhàopiān.",
+    "请帮我拍张照片。"
+   ],
+   [
+    "Tolong fotokan saya di sini.",
+    "Qǐng zài zhèlǐ bāng wǒ pāi zhāng zhàopiān.",
+    "请在这里帮我拍张照片。"
+   ],
+   [
+    "Tolong fotokan kami berdua.",
+    "Qǐng bāng wǒmen liǎng ge rén pāi zhāng zhàopiān.",
+    "请帮我们两个人拍张照片。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Akhir pekan Anda ke mana?",
   "py": "Zhōumò nǐ qù nǎr?",
   "hz": "周末你去哪儿？",
   "words": "周末 (zhōumò): akhir pekan, 你 (nǐ): kamu, 去 (qù): pergi, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Akhir pekan Anda ke mana?",
+    "Zhōumò nǐ qù nǎr?",
+    "周末你去哪儿？"
+   ],
+   [
+    "Akhir pekan ini Anda ke mana?",
+    "Zhège zhōumò nǐ qù nǎr?",
+    "这个周末你去哪儿？"
+   ],
+   [
+    "Akhir pekan saya mau istirahat di hotel.",
+    "Zhōumò wǒ xiǎng zài jiǔdiàn xiūxī.",
+    "周末我想在酒店休息。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ada tempat wisata yang bagus?",
   "py": "Yǒu shénme hǎowán de dìfang?",
   "hz": "有什么好玩的地方？",
   "words": "有 (yǒu): ada, 什么 (shénme): apa, 好玩 (hǎowán): seru / menarik, 的 (de): partikel penghubung, 地方 (dìfang): tempat",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ada tempat wisata yang bagus?",
+    "Yǒu shénme hǎowán de dìfāng?",
+    "有什么好玩的地方？"
+   ],
+   [
+    "Di kota ini ada tempat wisata yang bagus?",
+    "Zhège chéngshì yǒu shénme hǎowán de dìfāng?",
+    "这个城市有什么好玩的地方？"
+   ],
+   [
+    "Ada tempat wisata yang bagus dan dekat?",
+    "Yǒu shénme jìn yòu hǎowán de dìfāng?",
+    "有什么近又好玩的地方？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya ingin beli oleh-oleh",
   "py": "Wǒ xiǎng mǎi jìniànpǐn",
   "hz": "我想买纪念品",
   "words": "我 (wǒ): saya, 想 (xiǎng): ingin, 买 (mǎi): beli, 纪念品 (jìniànpǐn): oleh-oleh / suvenir",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya ingin beli oleh-oleh.",
+    "Wǒ xiǎng mǎi jìniànpǐn.",
+    "我想买纪念品。"
+   ],
+   [
+    "Saya ingin beli oleh-oleh untuk keluarga.",
+    "Wǒ xiǎng gěi jiārén mǎi jìniànpǐn.",
+    "我想给家人买纪念品。"
+   ],
+   [
+    "Di mana beli oleh-oleh yang bagus?",
+    "Nǎlǐ kěyǐ mǎi dào hǎo de jìniànpǐn?",
+    "哪里可以买到好的纪念品？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya rindu keluarga",
   "py": "Wǒ xiǎngniàn jiārén",
   "hz": "我想念家人",
   "words": "我 (wǒ): saya, 想念 (xiǎngniàn): merindukan, 家人 (jiārén): keluarga",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya rindu keluarga.",
+    "Wǒ xiǎngniàn jiārén.",
+    "我想念家人。"
+   ],
+   [
+    "Saya rindu keluarga di Indonesia.",
+    "Wǒ xiǎngniàn zài Yìnní de jiārén.",
+    "我想念在印尼的家人。"
+   ],
+   [
+    "Saya rindu keluarga, malam ini saya telepon.",
+    "Wǒ xiǎngniàn jiārén, jīnwǎn gěi tāmen dǎdiànhuà.",
+    "我想念家人，今晚给他们打电话。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Selamat ulang tahun",
   "py": "Shēngrì kuàilè",
   "hz": "生日快乐",
   "words": "生日 (shēngrì): ulang tahun, 快乐 (kuàilè): bahagia",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Selamat ulang tahun!",
+    "Shēngrì kuàilè!",
+    "生日快乐！"
+   ],
+   [
+    "Selamat ulang tahun, semoga sehat.",
+    "Shēngrì kuàilè, zhù nǐ jiànkāng.",
+    "生日快乐，祝你健康。"
+   ],
+   [
+    "Selamat ulang tahun, teman saya.",
+    "Zhù wǒ de péngyou shēngrì kuàilè.",
+    "祝我的朋友生日快乐。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Selamat tahun baru",
   "py": "Xīnnián kuàilè",
   "hz": "新年快乐",
   "words": "新年 (xīnnián): tahun baru, 快乐 (kuàilè): bahagia",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Selamat tahun baru!",
+    "Xīnnián kuàilè!",
+    "新年快乐！"
+   ],
+   [
+    "Selamat tahun baru untuk semuanya.",
+    "Zhù dàjiā xīnnián kuàilè.",
+    "祝大家新年快乐。"
+   ],
+   [
+    "Selamat tahun baru, semoga sukses.",
+    "Xīnnián kuàilè, zhù nǐ chénggōng.",
+    "新年快乐，祝你成功。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Semoga sukses",
   "py": "Zhù nǐ chénggōng",
   "hz": "祝你成功",
   "words": "祝 (zhù): mendoakan, 你 (nǐ): kamu, 成功 (chénggōng): sukses",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Semoga sukses.",
+    "Zhù nǐ chénggōng.",
+    "祝你成功。"
+   ],
+   [
+    "Semoga sukses dalam pekerjaan baru.",
+    "Zhù nǐ xīn gōngzuò chénggōng.",
+    "祝你新工作成功。"
+   ],
+   [
+    "Semoga sukses untuk ujian besok.",
+    "Zhù nǐ míngtiān kǎoshì chénggōng.",
+    "祝你明天考试成功。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Terima kasih atas bantuannya",
   "py": "Xièxie nǐ de bāngzhù",
   "hz": "谢谢你的帮助",
   "words": "谢谢 (xièxie): terima kasih, 你 (nǐ): kamu, 的 (de): milik, 帮助 (bāngzhù): bantuan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Terima kasih atas bantuannya.",
+    "Xièxie nǐ de bāngzhù.",
+    "谢谢你的帮助。"
+   ],
+   [
+    "Terima kasih atas bantuannya hari ini.",
+    "Xièxie nǐ jīntiān de bāngzhù.",
+    "谢谢你今天的帮助。"
+   ],
+   [
+    "Terima kasih atas bantuannya, saya sangat terbantu.",
+    "Xièxie nǐ de bāngzhù, bāng le wǒ dàmáng.",
+    "谢谢你的帮助，帮了我大忙。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya senang di sini",
   "py": "Wǒ zài zhèlǐ hěn kāixīn",
   "hz": "我在这里很开心",
   "words": "我 (wǒ): saya, 在 (zài): di, 这里 (zhèlǐ): sini, 很 (hěn): sangat, 开心 (kāixīn): senang",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya senang di sini.",
+    "Wǒ zài zhèlǐ hěn kāixīn.",
+    "我在这里很开心。"
+   ],
+   [
+    "Saya senang di sini, orangnya ramah.",
+    "Wǒ zài zhèlǐ hěn kāixīn, dàjiā dōu hěn yǒuhǎo.",
+    "我在这里很开心，大家都很友好。"
+   ],
+   [
+    "Saya senang di sini dan banyak belajar.",
+    "Wǒ zài zhèlǐ hěn kāixīn, xuédào le hěn duō.",
+    "我在这里很开心，学到了很多。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sampai jumpa lagi",
   "py": "Huítóu jiàn",
   "hz": "回头见",
   "words": "回头 (huítóu): nanti (harfiah: menoleh), 见 (jiàn): bertemu",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Sampai jumpa lagi.",
+    "Huítóujiàn.",
+    "回头见。"
+   ],
+   [
+    "Terima kasih, sampai jumpa lagi.",
+    "Xièxie, huítóujiàn.",
+    "谢谢，回头见。"
+   ],
+   [
+    "Sampai jumpa lagi nanti.",
+    "Yíhuìr huítóujiàn.",
+    "一会儿回头见。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Hati-hati di jalan",
   "py": "Lùshang xiǎoxīn",
   "hz": "路上小心",
   "words": "路上 (lùshang): di jalan, 小心 (xiǎoxīn): hati-hati",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Hati-hati di jalan.",
+    "Lùshàng xiǎoxīn.",
+    "路上小心。"
+   ],
+   [
+    "Hati-hati di jalan, kabari kalau sudah sampai.",
+    "Lùshàng xiǎoxīn, dào le gàosù wǒ.",
+    "路上小心，到了告诉我。"
+   ],
+   [
+    "Hati-hati di jalan, sudah malam.",
+    "Lùshàng xiǎoxīn, tiānhēi le.",
+    "路上小心，天黑了。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tunggu sebentar",
   "py": "Qǐng děng yíxià",
   "hz": "请等一下",
   "words": "请 (qǐng): tolong, 等 (děng): tunggu, 一下 (yíxià): sebentar",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tunggu sebentar.",
+    "Qǐng děngyíxià.",
+    "请等一下。"
+   ],
+   [
+    "Tolong tunggu sebentar, saya cari dulu.",
+    "Qǐng děngyíxià, wǒ xiān zhǎo zhǎo.",
+    "请等一下，我先找找。"
+   ],
+   [
+    "Tunggu sebentar, saya telepon dulu.",
+    "Qǐng děngyíxià, wǒ xiān dǎ ge diànhuà.",
+    "请等一下，我先打个电话。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong bicara pelan-pelan",
   "py": "Qǐng shuō màn yìdiǎnr",
   "hz": "请说慢一点儿",
   "words": "请 (qǐng): tolong, 说 (shuō): bicara, 慢 (màn): lambat, 一点儿 (yìdiǎnr): sedikit",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Tolong bicara pelan-pelan.",
+    "Qǐng shuō màn yìdiǎn.",
+    "请说慢一点。"
+   ],
+   [
+    "Maaf, tolong bicara pelan-pelan.",
+    "Bù hǎoyìsi, qǐng shuō màn yìdiǎn.",
+    "不好意思，请说慢一点。"
+   ],
+   [
+    "Tolong bicara pelan-pelan, saya masih belajar.",
+    "Qǐng shuō màn yìdiǎn, wǒ hái zài xué.",
+    "请说慢一点，我还在学。"
+   ]
+  ],
   "alt": [
    [
     "请说慢一点",
@@ -8364,80 +10968,193 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apa artinya?",
   "py": "Zhè shì shénme yìsi?",
   "hz": "这是什么意思？",
   "words": "这 (zhè): ini, 是 (shì): adalah, 什么 (shénme): apa, 意思 (yìsi): arti",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Apa artinya ini?",
+    "Zhè shì shénme yìsi?",
+    "这是什么意思？"
+   ],
+   [
+    "Apa artinya kata ini?",
+    "Zhège cí shì shénme yìsi?",
+    "这个词是什么意思？"
+   ],
+   [
+    "Apa artinya dalam bahasa Indonesia?",
+    "Yòng yìnníyǔ shì shénme yìsi?",
+    "用印尼语是什么意思？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bagaimana cara mengucapkannya?",
   "py": "Zhège zěnme dú?",
   "hz": "这个怎么读？",
   "words": "这个 (zhège): ini, 怎么 (zěnme): bagaimana, 读 (dú): baca / ucapkan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bagaimana cara mengucapkannya?",
+    "Zhège zěnme dú?",
+    "这个怎么读？"
+   ],
+   [
+    "Kata ini bagaimana cara mengucapkannya?",
+    "Zhège zì zěnme dú?",
+    "这个字怎么读？"
+   ],
+   [
+    "Maaf, bagaimana cara mengucapkannya?",
+    "Qǐngwèn, zhège zěnme dú?",
+    "请问，这个怎么读？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong tuliskan",
   "py": "Qǐng xiě xiàlai",
   "hz": "请写下来",
   "words": "请 (qǐng): tolong, 写 (xiě): tulis, 下来 (xiàlai): penanda hasil (tertulis dan tersimpan)",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong tuliskan.",
+    "Qǐng xiě xiàlái.",
+    "请写下来。"
+   ],
+   [
+    "Tolong tuliskan alamatnya.",
+    "Qǐng bǎ dìzhǐ xiě xiàlái.",
+    "请把地址写下来。"
+   ],
+   [
+    "Tolong tuliskan nomor teleponnya.",
+    "Qǐng bǎ diànhuà hàomǎ xiě xiàlái.",
+    "请把电话号码写下来。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisa tunjukkan di HP?",
   "py": "Kěyǐ zài shǒujī shàng gěi wǒ kàn ma?",
   "hz": "可以在手机上给我看吗？",
   "words": "可以 (kěyǐ): bisa / boleh, 在 (zài): di, 手机 (shǒujī): HP, 上 (shàng): pada, 给 (gěi): untuk, 我 (wǒ): saya, 看 (kàn): lihat, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisa tunjukkan di HP?",
+    "Kěyǐ zài shǒujī shàng gěi wǒ kàn ma?",
+    "可以在手机上给我看吗？"
+   ],
+   [
+    "Bisa tunjukkan alamatnya di HP?",
+    "Kěyǐ zài shǒujī shàng gěi wǒ kàn dìzhǐ ma?",
+    "可以在手机上给我看地址吗？"
+   ],
+   [
+    "Bisa tunjukkan fotonya di HP?",
+    "Kěyǐ zài shǒujī shàng gěi wǒ kàn zhàopiān ma?",
+    "可以在手机上给我看照片吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya pakai aplikasi penerjemah",
   "py": "Wǒ yòng fānyì ruǎnjiàn",
   "hz": "我用翻译软件",
   "words": "我 (wǒ): saya, 用 (yòng): pakai, 翻译 (fānyì): terjemahan, 软件 (ruǎnjiàn): software / aplikasi",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya pakai aplikasi penerjemah.",
+    "Wǒ yòng fānyì ruǎnjiàn.",
+    "我用翻译软件。"
+   ],
+   [
+    "Saya pakai aplikasi penerjemah supaya jelas.",
+    "Wǒ yòng fānyì ruǎnjiàn, zhèyàng bǐjiào qīngchǔ.",
+    "我用翻译软件，这样比较清楚。"
+   ],
+   [
+    "Boleh saya pakai aplikasi penerjemah?",
+    "Wǒ kěyǐ yòng fānyì ruǎnjiàn ma?",
+    "我可以用翻译软件吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ini bahasa Mandarinnya apa?",
   "py": "Zhège yòng Zhōngwén zěnme shuō?",
   "hz": "这个用中文怎么说？",
   "words": "这个 (zhège): ini, 用 (yòng): pakai, 中文 (Zhōngwén): bahasa Mandarin, 怎么 (zěnme): bagaimana, 说 (shuō): berkata",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ini bahasa Mandarinnya apa?",
+    "Zhège yòng Zhōngwén zěnme shuō?",
+    "这个用中文怎么说？"
+   ],
+   [
+    "Mesin ini bahasa Mandarinnya apa?",
+    "Zhè tái jīqì yòng Zhōngwén zěnme shuō?",
+    "这台机器用中文怎么说？"
+   ],
+   [
+    "Ini bahasa Mandarinnya apa, tolong?",
+    "Zhège yòng Zhōngwén zěnme shuō, máfán nǐ?",
+    "这个用中文怎么说，麻烦你？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana toilet?",
   "py": "Cèsuǒ zài nǎr?",
   "hz": "厕所在哪儿？",
   "words": "厕所 (cèsuǒ): toilet, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Di mana toilet?",
+    "Cèsuǒ zài nǎr?",
+    "厕所在哪儿？"
+   ],
+   [
+    "Maaf, di mana toilet?",
+    "Qǐngwèn, cèsuǒ zài nǎr?",
+    "请问，厕所在哪儿？"
+   ],
+   [
+    "Toilet ada di sebelah sana.",
+    "Cèsuǒ zài nàbiān.",
+    "厕所在那边。"
+   ]
+  ],
   "alt": [
    [
     "洗手间在哪儿？",
@@ -8446,47 +11163,112 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana stasiun metro?",
   "py": "Dìtiězhàn zài nǎr?",
   "hz": "地铁站在哪儿？",
   "words": "地铁站 (dìtiězhàn): stasiun metro, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana stasiun metro?",
+    "Dìtiězhàn zài nǎr?",
+    "地铁站在哪儿？"
+   ],
+   [
+    "Maaf, di mana stasiun metro terdekat?",
+    "Qǐngwèn, zuìjìn de dìtiězhàn zài nǎr?",
+    "请问，最近的地铁站在哪儿？"
+   ],
+   [
+    "Stasiun metro ada di depan.",
+    "Dìtiězhàn zài qiánmiàn.",
+    "地铁站在前面。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana stasiun kereta?",
   "py": "Huǒchēzhàn zài nǎr?",
   "hz": "火车站在哪儿？",
   "words": "火车站 (huǒchēzhàn): stasiun kereta, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana stasiun kereta?",
+    "Huǒchēzhàn zài nǎr?",
+    "火车站在哪儿？"
+   ],
+   [
+    "Maaf, di mana stasiun kereta?",
+    "Qǐngwèn, huǒchēzhàn zài nǎr?",
+    "请问，火车站在哪儿？"
+   ],
+   [
+    "Stasiun kereta jauh dari sini?",
+    "Huǒchēzhàn lí zhèlǐ yuǎn ma?",
+    "火车站离这里远吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana pintu keluar?",
   "py": "Chūkǒu zài nǎr?",
   "hz": "出口在哪儿？",
   "words": "出口 (chūkǒu): pintu keluar, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana pintu keluar?",
+    "Chūkǒu zài nǎr?",
+    "出口在哪儿？"
+   ],
+   [
+    "Maaf, di mana pintu keluar?",
+    "Qǐngwèn, chūkǒu zài nǎr?",
+    "请问，出口在哪儿？"
+   ],
+   [
+    "Pintu keluar ada di sebelah kiri.",
+    "Chūkǒu zài zuǒbiān.",
+    "出口在左边。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mau ke alamat ini",
   "py": "Wǒ yào qù zhège dìzhǐ",
   "hz": "我要去这个地址",
   "words": "我 (wǒ): saya, 要 (yào): mau, 去 (qù): pergi, 这个 (zhège): ini, 地址 (dìzhǐ): alamat",
   "note": "Tunjukkan alamat Hanzi di HP",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Saya mau ke alamat ini.",
+    "Wǒ yào qù zhège dìzhǐ.",
+    "我要去这个地址。"
+   ],
+   [
+    "Tolong, saya mau ke alamat ini.",
+    "Shīfu, wǒ yào qù zhège dìzhǐ.",
+    "师傅，我要去这个地址。"
+   ],
+   [
+    "Saya mau ke alamat ini, naik taksi.",
+    "Wǒ yào qù zhège dìzhǐ, dǎchē qù.",
+    "我要去这个地址，打车去。"
+   ]
+  ],
   "alt": [
    [
     "请去这个地址",
@@ -8495,69 +11277,166 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong antar ke hotel ini",
   "py": "Qǐng sòng wǒ dào zhè jiā jiǔdiàn",
   "hz": "请送我到这家酒店",
   "words": "请 (qǐng): tolong, 送 (sòng): antar, 我 (wǒ): saya, 到 (dào): ke, 这 (zhè): ini, 家 (jiā): kata penggolong tempat usaha, 酒店 (jiǔdiàn): hotel",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong antar ke hotel ini.",
+    "Qǐng sòng wǒ dào zhè jiā jiǔdiàn.",
+    "请送我到这家酒店。"
+   ],
+   [
+    "Tolong antar saya ke hotel ini.",
+    "Qǐng sòng wǒ dào zhè jiā jiǔdiàn.",
+    "请送我到这家酒店。"
+   ],
+   [
+    "Tolong antar ke hotel ini, ini alamatnya.",
+    "Qǐng sòng wǒ dào zhè jiā jiǔdiàn, zhè shì dìzhǐ.",
+    "请送我到这家酒店，这是地址。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong pakai argo",
   "py": "Qǐng dǎ biǎo",
   "hz": "请打表",
   "words": "请 (qǐng): tolong, 打表 (dǎ biǎo): menyalakan argo, 打 (dǎ): menyalakan, 表 (biǎo): meter",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong pakai argo.",
+    "Qǐng dǎbiǎo.",
+    "请打表。"
+   ],
+   [
+    "Pak, tolong pakai argo.",
+    "Shīfu, qǐng dǎbiǎo.",
+    "师傅，请打表。"
+   ],
+   [
+    "Tolong pakai argo, saya mau lihat harganya.",
+    "Qǐng dǎbiǎo, wǒ xiǎng kàn jiàgé.",
+    "请打表，我想看价格。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Berapa lama sampai?",
   "py": "Yào duō cháng shíjiān?",
   "hz": "要多长时间？",
   "words": "要 (yào): butuh, 多长 (duō cháng): berapa lama, 时间 (shíjiān): waktu",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Berapa lama sampai?",
+    "Yào duōzhǎng shíjiān?",
+    "要多长时间？"
+   ],
+   [
+    "Berapa lama sampai ke bandara?",
+    "Dào jīchǎng yào duōzhǎng shíjiān?",
+    "到机场要多长时间？"
+   ],
+   [
+    "Berapa lama sampai ke pabrik?",
+    "Dào gōngchǎng yào duōzhǎng shíjiān?",
+    "到工厂要多长时间？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apakah jauh dari sini?",
   "py": "Lí zhèr yuǎn ma?",
   "hz": "离这儿远吗？",
   "words": "离 (lí): berjarak dari, 这儿 (zhèr): sini, 远 (yuǎn): jauh, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Apakah jauh dari sini?",
+    "Lí zhèr yuǎn ma?",
+    "离这儿远吗？"
+   ],
+   [
+    "Pabriknya apakah jauh dari sini?",
+    "Gōngchǎng lí zhèr yuǎn ma?",
+    "工厂离这儿远吗？"
+   ],
+   [
+    "Hotelnya apakah jauh dari sini?",
+    "Jiǔdiàn lí zhèr yuǎn ma?",
+    "酒店离这儿远吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Lurus saja",
   "py": "Yìzhí zǒu",
   "hz": "一直走",
   "words": "一直 (yìzhí): terus lurus, 走 (zǒu): jalan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Lurus saja.",
+    "Yì zhí zǒu.",
+    "一直走。"
+   ],
+   [
+    "Lurus saja sampai lampu merah.",
+    "Yì zhí zǒu dào hónglǜdēng.",
+    "一直走到红绿灯。"
+   ],
+   [
+    "Lurus saja, nanti ada stasiun.",
+    "Yì zhí zǒu, qiánmiàn yǒu chēzhàn.",
+    "一直走，前面有车站。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Belok kiri",
   "py": "Xiàng zuǒ guǎi",
   "hz": "向左拐",
   "words": "向 (xiàng): ke arah, 左 (zuǒ): kiri, 拐 (guǎi): belok",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Belok kiri.",
+    "Xiàng zuǒ guǎi.",
+    "向左拐。"
+   ],
+   [
+    "Belok kiri di lampu merah.",
+    "Zài hónglǜdēng xiàng zuǒ guǎi.",
+    "在红绿灯向左拐。"
+   ],
+   [
+    "Belok kiri, lalu lurus.",
+    "Xiàng zuǒ guǎi, ránhòu yì zhí zǒu.",
+    "向左拐，然后一直走。"
+   ]
+  ],
   "alt": [
    [
     "左转",
@@ -8566,14 +11445,31 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Belok kanan",
   "py": "Xiàng yòu guǎi",
   "hz": "向右拐",
   "words": "向 (xiàng): ke arah, 右 (yòu): kanan, 拐 (guǎi): belok",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Belok kanan.",
+    "Xiàng yòu guǎi.",
+    "向右拐。"
+   ],
+   [
+    "Belok kanan di perempatan.",
+    "Zài shí zìlùkǒu xiàng yòu guǎi.",
+    "在十字路口向右拐。"
+   ],
+   [
+    "Belok kanan, lalu lurus.",
+    "Xiàng yòu guǎi, ránhòu yì zhí zǒu.",
+    "向右拐，然后一直走。"
+   ]
+  ],
   "alt": [
    [
     "右转",
@@ -8582,14 +11478,31 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Berhenti di sini",
   "py": "Zài zhèr tíngchē",
   "hz": "在这儿停车",
   "words": "在 (zài): di, 这儿 (zhèr): sini, 停车 (tíngchē): berhenti (kendaraan), 停 (tíng): berhenti, 车 (chē): kendaraan",
   "note": "",
   "warn": false,
-  "ex": [],
+  "ex": [
+   [
+    "Berhenti di sini.",
+    "Zài zhèr tíngchē.",
+    "在这儿停车。"
+   ],
+   [
+    "Pak, berhenti di sini.",
+    "Shīfu, zài zhèr tíngchē.",
+    "师傅，在这儿停车。"
+   ],
+   [
+    "Berhenti di sini, terima kasih.",
+    "Zài zhèr tíngchē, xièxie.",
+    "在这儿停车，谢谢。"
+   ]
+  ],
   "alt": [
    [
     "停在这里",
@@ -8598,597 +11511,1461 @@
   ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya tersesat",
   "py": "Wǒ mílù le",
   "hz": "我迷路了",
   "words": "我 (wǒ): saya, 迷路 (mílù): tersesat, 迷 (mí): kehilangan arah, 路 (lù): jalan, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya tersesat.",
+    "Wǒ mílù le.",
+    "我迷路了。"
+   ],
+   [
+    "Maaf, saya tersesat.",
+    "Bù hǎoyìsi, wǒ mílù le.",
+    "不好意思，我迷路了。"
+   ],
+   [
+    "Saya tersesat, bisa tolong saya?",
+    "Wǒ mílù le, nǐ néng bāng wǒ ma?",
+    "我迷路了，你能帮我吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Kereta berangkat jam berapa?",
   "py": "Huǒchē jǐ diǎn chūfā?",
   "hz": "火车几点出发？",
   "words": "火车 (huǒchē): kereta, 几 (jǐ): berapa, 点 (diǎn): jam, 出发 (chūfā): berangkat",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Kereta berangkat jam berapa?",
+    "Huǒchē jǐ diǎn chūfā?",
+    "火车几点出发？"
+   ],
+   [
+    "Kereta ke Shenzhen berangkat jam berapa?",
+    "Qù Shēnzhèn de huǒchē jǐ diǎn chūfā?",
+    "去深圳的火车几点出发？"
+   ],
+   [
+    "Kereta berangkat jam berapa dari stasiun ini?",
+    "Huǒchē jǐ diǎn cóng zhège chēzhàn chūfā?",
+    "火车几点从这个车站出发？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Ya, tidak, boleh",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya mau ini",
   "py": "Wǒ yào zhège",
   "hz": "我要这个",
   "words": "我 (wǒ): saya, 要 (yào): mau, 这个 (zhège): ini",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau ini.",
+    "Wǒ yào zhège.",
+    "我要这个。"
+   ],
+   [
+    "Saya mau ini dua.",
+    "Wǒ yào liǎng ge zhège.",
+    "我要两个这个。"
+   ],
+   [
+    "Saya mau ini, bukan itu.",
+    "Wǒ yào zhège, bú yào nàge.",
+    "我要这个，不要那个。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Ya, tidak, boleh",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya tidak mau",
   "py": "Wǒ bú yào",
   "hz": "我不要",
   "words": "我 (wǒ): saya, 不 (bú): tidak, 要 (yào): mau",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya tidak mau.",
+    "Wǒ bú yào.",
+    "我不要。"
+   ],
+   [
+    "Terima kasih, saya tidak mau.",
+    "Xièxie, wǒ bú yào.",
+    "谢谢，我不要。"
+   ],
+   [
+    "Saya tidak mau yang pedas.",
+    "Wǒ bú yào là de.",
+    "我不要辣的。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Ya, tidak, boleh",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Oke / baik",
   "py": "Hǎo de",
   "hz": "好的",
   "words": "好 (hǎo): baik, 的 (de): partikel penegas",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Oke, saya mengerti.",
+    "Hǎo de, wǒ míngbai le.",
+    "好的，我明白了。"
+   ],
+   [
+    "Baik, besok jam delapan.",
+    "Hǎo de, míngtiān bā diǎn.",
+    "好的，明天八点。"
+   ],
+   [
+    "Oke, terima kasih.",
+    "Hǎo de, xièxie.",
+    "好的，谢谢。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Permisi / numpang tanya",
   "py": "Qǐngwèn",
   "hz": "请问",
-  "words": "",
+  "words": "请问 (qǐngwèn): permisi, numpang tanya, 请 (qǐng): silakan/tolong, 问 (wèn): bertanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Permisi, di mana toilet?",
+    "Qǐngwèn, cèsuǒ zài nǎr?",
+    "请问，厕所在哪儿？"
+   ],
+   [
+    "Permisi, jam berapa sekarang?",
+    "Qǐngwèn, xiànzài jǐ diǎn?",
+    "请问，现在几点？"
+   ],
+   [
+    "Permisi, bisa bantu saya?",
+    "Qǐngwèn, nǐ néng bāng wǒ ma?",
+    "请问，你能帮我吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya tidak bisa bahasa Mandarin",
   "py": "Wǒ bú huì shuō Hànyǔ",
   "hz": "我不会说汉语",
-  "words": "",
+  "words": "我 (wǒ): saya, 不 (bù): tidak, 会 (huì): bisa, 说 (shuō): berbicara, 汉语 (Hànyǔ): bahasa Mandarin",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Maaf, saya tidak bisa bahasa Mandarin.",
+    "Bù hǎoyìsi, wǒ bú huì shuō Hànyǔ.",
+    "不好意思，我不会说汉语。"
+   ],
+   [
+    "Saya tidak bisa bahasa Mandarin, bisa bahasa Inggris?",
+    "Wǒ bú huì shuō Hànyǔ, nǐ huì shuō Yīngyǔ ma?",
+    "我不会说汉语，你会说英语吗？"
+   ],
+   [
+    "Saya tidak bisa bahasa Mandarin, tolong bicara pelan.",
+    "Wǒ bú huì shuō Hànyǔ, qǐng shuō màn yìdiǎn.",
+    "我不会说汉语，请说慢一点。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Angka & waktu",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Nol",
   "py": "Líng",
   "hz": "零",
-  "words": "",
+  "words": "零 (líng): nol",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Nomor kamar saya nol delapan nol dua.",
+    "Wǒ de fángjiān hào shì líng bā líng èr.",
+    "我的房间号是零八零二。"
+   ],
+   [
+    "Suhunya nol derajat.",
+    "Wēndù shì líng dù.",
+    "温度是零度。"
+   ],
+   [
+    "Stok mesin ini nol.",
+    "Zhè tái jīqì de kùcún shì líng.",
+    "这台机器的库存是零。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apa?",
   "py": "Shénme?",
   "hz": "什么？",
-  "words": "",
+  "words": "什么 (shénme): apa",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Apa? Tolong ulangi.",
+    "Shénme? Qǐng zài shuō yí biàn.",
+    "什么？请再说一遍。"
+   ],
+   [
+    "Ini apa?",
+    "Zhè shì shénme?",
+    "这是什么？"
+   ],
+   [
+    "Anda bilang apa?",
+    "Nǐ shuō shénme?",
+    "你说什么？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana?",
   "py": "Nǎr?",
   "hz": "哪儿？",
-  "words": "",
+  "words": "哪儿 (nǎr): di mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Toilet di mana?",
+    "Cèsuǒ zài nǎr?",
+    "厕所在哪儿？"
+   ],
+   [
+    "Kantin di mana?",
+    "Shítáng zài nǎr?",
+    "食堂在哪儿？"
+   ],
+   [
+    "Kamu tinggal di mana?",
+    "Nǐ zhù zài nǎr?",
+    "你住在哪儿？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Mengapa?",
   "py": "Wèishénme?",
   "hz": "为什么？",
-  "words": "",
+  "words": "为什么 (wèishénme): mengapa, 为 (wèi): untuk, 什么 (shénme): apa",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Mengapa mesin ini berhenti?",
+    "Wèishénme zhè tái jīqì tíng le?",
+    "为什么这台机器停了？"
+   ],
+   [
+    "Mengapa hari ini libur?",
+    "Wèishénme jīntiān fàngjià?",
+    "为什么今天放假？"
+   ],
+   [
+    "Mengapa Anda tidak datang?",
+    "Nǐ wèishénme méi lái?",
+    "你为什么没来？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Tidak mengerti & minta bantuan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bagaimana cara pakai ini?",
   "py": "Zhège zěnme yòng?",
   "hz": "这个怎么用？",
-  "words": "",
+  "words": "这个 (zhège): ini, 怎么 (zěnme): bagaimana, 用 (yòng): pakai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bagaimana cara pakai ini?",
+    "Zhège zěnme yòng?",
+    "这个怎么用？"
+   ],
+   [
+    "Mesin ini bagaimana cara pakainya?",
+    "Zhè tái jīqì zěnme yòng?",
+    "这台机器怎么用？"
+   ],
+   [
+    "Tolong ajari saya cara pakai ini.",
+    "Qǐng jiào wǒ zhège zěnme yòng.",
+    "请教我这个怎么用。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bandara",
   "py": "Fēijīchǎng",
   "hz": "飞机场",
-  "words": "",
+  "words": "飞机场 (fēijīchǎng): bandara, 飞机 (fēijī): pesawat, 场 (chǎng): tempat/lapangan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau ke bandara.",
+    "Wǒ yào qù fēijīchǎng.",
+    "我要去飞机场。"
+   ],
+   [
+    "Bandara jauh dari sini?",
+    "Fēijīchǎng lí zhèlǐ yuǎn ma?",
+    "飞机场离这里远吗？"
+   ],
+   [
+    "Tolong antar ke bandara.",
+    "Qǐng sòng wǒ qù fēijīchǎng.",
+    "请送我去飞机场。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Stasiun kereta",
   "py": "Huǒchēzhàn",
   "hz": "火车站",
-  "words": "",
+  "words": "火车站 (huǒchēzhàn): stasiun kereta, 火车 (huǒchē): kereta, 站 (zhàn): stasiun",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Stasiun kereta ada di depan.",
+    "Huǒchēzhàn zài qiánmiàn.",
+    "火车站在前面。"
+   ],
+   [
+    "Saya mau ke stasiun kereta.",
+    "Wǒ yào qù huǒchēzhàn.",
+    "我要去火车站。"
+   ],
+   [
+    "Dari hotel ke stasiun kereta jauh?",
+    "Cóng jiǔdiàn dào huǒchēzhàn yuǎn ma?",
+    "从酒店到火车站远吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Hotel",
   "py": "Jiǔdiàn",
   "hz": "酒店",
-  "words": "",
+  "words": "酒店 (jiǔdiàn): hotel",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Hotel saya dekat pabrik.",
+    "Wǒ de jiǔdiàn lí gōngchǎng hěn jìn.",
+    "我的酒店离工厂很近。"
+   ],
+   [
+    "Hotel ini bagus.",
+    "Zhè jiā jiǔdiàn hěn hǎo.",
+    "这家酒店很好。"
+   ],
+   [
+    "Tolong antar saya ke hotel.",
+    "Qǐng sòng wǒ qù jiǔdiàn.",
+    "请送我去酒店。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Toilet",
   "py": "Xǐshǒujiān",
   "hz": "洗手间",
-  "words": "",
+  "words": "洗手间 (xǐshǒujiān): toilet, 洗手 (xǐshǒu): cuci tangan, 间 (jiān): ruang",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Permisi, di mana toilet?",
+    "Qǐngwèn, xǐshǒujiān zài nǎr?",
+    "请问，洗手间在哪儿？"
+   ],
+   [
+    "Toiletnya ada di lantai dua.",
+    "Xǐshǒujiān zài èr lóu.",
+    "洗手间在二楼。"
+   ],
+   [
+    "Toiletnya di sebelah kiri.",
+    "Xǐshǒujiān zài zuǒbiān.",
+    "洗手间在左边。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Pintu keluar",
   "py": "Chūkǒu",
   "hz": "出口",
-  "words": "",
+  "words": "出口 (chūkǒu): pintu keluar, 出 (chū): keluar, 口 (kǒu): pintu/mulut",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Pintu keluar ada di sana.",
+    "Chūkǒu zài nàbiān.",
+    "出口在那边。"
+   ],
+   [
+    "Di mana pintu keluar?",
+    "Chūkǒu zài nǎr?",
+    "出口在哪儿？"
+   ],
+   [
+    "Pintu keluar ada di sebelah kanan.",
+    "Chūkǒu zài yòubiān.",
+    "出口在右边。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Pintu masuk",
   "py": "Rùkǒu",
   "hz": "入口",
-  "words": "",
+  "words": "入口 (rùkǒu): pintu masuk, 入 (rù): masuk, 口 (kǒu): pintu/mulut",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Pintu masuk ada di depan.",
+    "Rùkǒu zài qiánmiàn.",
+    "入口在前面。"
+   ],
+   [
+    "Di mana pintu masuk?",
+    "Rùkǒu zài nǎr?",
+    "入口在哪儿？"
+   ],
+   [
+    "Pintu masuk pabrik ada di sebelah kiri.",
+    "Gōngchǎng rùkǒu zài zuǒbiān.",
+    "工厂入口在左边。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Apakah dekat dari sini?",
   "py": "Lí zhèlǐ jìn ma?",
   "hz": "离这里近吗？",
-  "words": "",
+  "words": "离 (lí): dari/berjarak, 这里 (zhèlǐ): sini, 近 (jìn): dekat, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Apakah dekat dari sini?",
+    "Lí zhèlǐ jìn ma?",
+    "离这里近吗？"
+   ],
+   [
+    "Stasiun apakah dekat dari sini?",
+    "Chēzhàn lí zhèlǐ jìn ma?",
+    "车站离这里近吗？"
+   ],
+   [
+    "Kantin apakah dekat dari sini?",
+    "Shítáng lí zhèlǐ jìn ma?",
+    "食堂离这里近吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Jauh · dekat",
   "py": "Yuǎn · Jìn",
   "hz": "远 · 近",
-  "words": "",
+  "words": "远 (yuǎn): jauh, 近 (jìn): dekat",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Pabrik jauh, hotel dekat.",
+    "Gōngchǎng hěn yuǎn, jiǔdiàn hěn jìn.",
+    "工厂很远，酒店很近。"
+   ],
+   [
+    "Dari sini tidak jauh.",
+    "Cóng zhèlǐ bù yuǎn.",
+    "从这里不远。"
+   ],
+   [
+    "Rumah saya dekat kantor.",
+    "Wǒ jiā lí gōngsī hěn jìn.",
+    "我家离公司很近。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya ingin pergi ke…",
   "py": "Wǒ yào qù…",
   "hz": "我要去……",
-  "words": "",
+  "words": "我 (wǒ): saya, 要 (yào): ingin, 去 (qù): pergi",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya ingin pergi ke stasiun.",
+    "Wǒ yào qù chēzhàn.",
+    "我要去车站。"
+   ],
+   [
+    "Saya ingin pergi ke pabrik.",
+    "Wǒ yào qù gōngchǎng.",
+    "我要去工厂。"
+   ],
+   [
+    "Saya ingin pergi ke hotel.",
+    "Wǒ yào qù jiǔdiàn.",
+    "我要去酒店。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di depan",
   "py": "Qiánmiàn",
   "hz": "前面",
-  "words": "",
+  "words": "前面 (qiánmiàn): depan, 前 (qián): depan, 面 (miàn): sisi",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Toilet ada di depan.",
+    "Xǐshǒujiān zài qiánmiàn.",
+    "洗手间在前面。"
+   ],
+   [
+    "Di depan ada lampu merah.",
+    "Qiánmiàn yǒu hónglǜdēng.",
+    "前面有红绿灯。"
+   ],
+   [
+    "Di depan ada kantin.",
+    "Qiánmiàn yǒu shítáng.",
+    "前面有食堂。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di belakang",
   "py": "Hòumiàn",
   "hz": "后面",
-  "words": "",
+  "words": "后面 (hòumiàn): belakang, 后 (hòu): belakang, 面 (miàn): sisi",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Kantin ada di belakang.",
+    "Shítáng zài hòumiàn.",
+    "食堂在后面。"
+   ],
+   [
+    "Di belakang gedung ada parkir.",
+    "Lóu hòumiàn yǒu tíngchēchǎng.",
+    "楼后面有停车场。"
+   ],
+   [
+    "Gudang ada di belakang pabrik.",
+    "Cāngkù zài gōngchǎng hòumiàn.",
+    "仓库在工厂后面。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tolong tunjukkan peta",
   "py": "Qǐng gěi wǒ kàn dìtú",
   "hz": "请给我看地图",
-  "words": "",
+  "words": "请 (qǐng): tolong, 给 (gěi): memberi, 我 (wǒ): saya, 看 (kàn): melihat, 地图 (dìtú): peta",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong tunjukkan peta.",
+    "Qǐng gěi wǒ kàn dìtú.",
+    "请给我看地图。"
+   ],
+   [
+    "Tolong tunjukkan peta di HP.",
+    "Qǐng zài shǒujī shàng gěi wǒ kàn dìtú.",
+    "请在手机上给我看地图。"
+   ],
+   [
+    "Tolong tunjukkan peta, saya tersesat.",
+    "Qǐng gěi wǒ kàn dìtú, wǒ mílù le.",
+    "请给我看地图，我迷路了。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bisakah Anda antar saya?",
   "py": "Néng dài wǒ qù ma?",
   "hz": "能带我去吗？",
-  "words": "",
+  "words": "能 (néng): bisa, 带 (dài): membawa/mengantar, 我 (wǒ): saya, 去 (qù): pergi, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bisakah Anda antar saya ke stasiun?",
+    "Nǐ néng dài wǒ qù chēzhàn ma?",
+    "你能带我去车站吗？"
+   ],
+   [
+    "Bisakah Anda antar saya ke ruang rapat?",
+    "Nǐ néng dài wǒ qù huìyìshì ma?",
+    "你能带我去会议室吗？"
+   ],
+   [
+    "Bisakah Anda antar saya ke hotel?",
+    "Nǐ néng dài wǒ qù jiǔdiàn ma?",
+    "你能带我去酒店吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Naik bus",
   "py": "Zuò gōngjiāochē",
   "hz": "坐公交车",
-  "words": "",
+  "words": "坐 (zuò): naik, 公交车 (gōngjiāochē): bus",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya naik bus ke pabrik.",
+    "Wǒ zuò gōngjiāochē qù gōngchǎng.",
+    "我坐公交车去工厂。"
+   ],
+   [
+    "Naik bus ke stasiun bisa?",
+    "Zuò gōngjiāochē qù chēzhàn kěyǐ ma?",
+    "坐公交车去车站可以吗？"
+   ],
+   [
+    "Saya naik bus setiap hari.",
+    "Wǒ měitiān zuò gōngjiāochē.",
+    "我每天坐公交车。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Naik MRT",
   "py": "Zuò dìtiě",
   "hz": "坐地铁",
-  "words": "",
+  "words": "坐 (zuò): naik, 地铁 (dìtiě): MRT/metro",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya naik MRT ke kantor.",
+    "Wǒ zuòdìtiě qù gōngsī.",
+    "我坐地铁去公司。"
+   ],
+   [
+    "Naik MRT lebih cepat.",
+    "Zuòdìtiě bǐjiào kuài.",
+    "坐地铁比较快。"
+   ],
+   [
+    "Naik MRT ke bandara bisa?",
+    "Zuòdìtiě qù fēijīchǎng kěyǐ ma?",
+    "坐地铁去飞机场可以吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Beli tiket",
   "py": "Mǎi piào",
   "hz": "买票",
-  "words": "",
+  "words": "买 (mǎi): membeli, 票 (piào): tiket",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau beli tiket.",
+    "Wǒ yào mǎipiào.",
+    "我要买票。"
+   ],
+   [
+    "Di mana beli tiket?",
+    "Zài nǎr mǎipiào?",
+    "在哪儿买票？"
+   ],
+   [
+    "Beli tiket kereta ke Shenzhen.",
+    "Mǎi qù Shēnzhèn de huǒchēpiào.",
+    "买去深圳的火车票。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Jalur berapa?",
   "py": "Jǐ hào xiàn?",
   "hz": "几号线？",
-  "words": "",
+  "words": "几 (jǐ): berapa, 号 (hào): nomor, 线 (xiàn): jalur",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya naik jalur berapa?",
+    "Wǒ zuò jǐ hào xiàn?",
+    "我坐几号线？"
+   ],
+   [
+    "Ke bandara naik jalur berapa?",
+    "Qù fēijīchǎng zuò jǐ hào xiàn?",
+    "去飞机场坐几号线？"
+   ],
+   [
+    "Jalur berapa ke stasiun kereta?",
+    "Qù huǒchēzhàn zuò jǐ hào xiàn?",
+    "去火车站坐几号线？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ada menu bahasa Inggris?",
   "py": "Yǒu Yīngwén càidān ma?",
   "hz": "有英文菜单吗？",
-  "words": "",
+  "words": "有 (yǒu): ada, 英文 (Yīngwén): bahasa Inggris, 菜单 (càidān): menu, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ada menu bahasa Inggris?",
+    "Yǒu Yīngwén càidān ma?",
+    "有英文菜单吗？"
+   ],
+   [
+    "Maaf, ada menu bahasa Inggris?",
+    "Bù hǎoyìsi, yǒu Yīngwén càidān ma?",
+    "不好意思，有英文菜单吗？"
+   ],
+   [
+    "Ada menu bahasa Inggris atau gambar?",
+    "Yǒu Yīngwén càidān huòzhě túpiàn ma?",
+    "有英文菜单或者图片吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Makan di sini",
   "py": "Tángshí",
   "hz": "堂食",
-  "words": "",
+  "words": "堂食 (tángshí): makan di tempat, 堂 (táng): ruang makan, 食 (shí): makan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Makan di sini.",
+    "Zài zhèlǐ chī.",
+    "在这里吃。"
+   ],
+   [
+    "Makan di sini atau dibungkus?",
+    "Zài zhèlǐ chī háishì dǎbāo?",
+    "在这里吃还是打包？"
+   ],
+   [
+    "Kami makan di sini, tiga orang.",
+    "Wǒmen zài zhèlǐ chī, sān ge rén.",
+    "我们在这里吃，三个人。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Air dingin",
   "py": "Bīng shuǐ",
   "hz": "冰水",
-  "words": "",
+  "words": "冰水 (bīngshuǐ): air dingin, 冰 (bīng): es/dingin, 水 (shuǐ): air",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau air dingin.",
+    "Wǒ yào bīngshuǐ.",
+    "我要冰水。"
+   ],
+   [
+    "Tolong satu gelas air dingin.",
+    "Qǐng lái yì bēi bīngshuǐ.",
+    "请来一杯冰水。"
+   ],
+   [
+    "Air dingin saja, terima kasih.",
+    "Bīngshuǐ jiù hǎo, xièxie.",
+    "冰水就好，谢谢。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ayam",
   "py": "Jīròu",
   "hz": "鸡肉",
-  "words": "",
+  "words": "鸡肉 (jīròu): ayam, 鸡 (jī): ayam, 肉 (ròu): daging",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau nasi ayam.",
+    "Wǒ yào jīròufàn.",
+    "我要鸡肉饭。"
+   ],
+   [
+    "Saya tidak makan ayam.",
+    "Wǒ bù chī jīròu.",
+    "我不吃鸡肉。"
+   ],
+   [
+    "Ayam ini enak.",
+    "Zhège jīròu hěn hǎochī.",
+    "这个鸡肉很好吃。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Sapi",
   "py": "Niúròu",
   "hz": "牛肉",
-  "words": "",
+  "words": "牛肉 (niúròu): sapi, 牛 (niú): sapi, 肉 (ròu): daging",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau mi sapi.",
+    "Wǒ yào niúròumiàn.",
+    "我要牛肉面。"
+   ],
+   [
+    "Saya suka daging sapi.",
+    "Wǒ xǐhuan niúròu.",
+    "我喜欢牛肉。"
+   ],
+   [
+    "Sapi atau ayam?",
+    "Niúròu háishì jīròu?",
+    "牛肉还是鸡肉？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Teh",
   "py": "Chá",
   "hz": "茶",
-  "words": "",
+  "words": "茶 (chá): teh",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau minum teh.",
+    "Wǒ xiǎng hēchá.",
+    "我想喝茶。"
+   ],
+   [
+    "Tolong teh panas satu gelas.",
+    "Qǐng lái yì bēi rèchá.",
+    "请来一杯热茶。"
+   ],
+   [
+    "Teh ini enak.",
+    "Zhège chá hěn hǎohē.",
+    "这个茶很好喝。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Makan & minum",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Kopi",
   "py": "Kāfēi",
   "hz": "咖啡",
-  "words": "",
+  "words": "咖啡 (kāfēi): kopi",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau kopi.",
+    "Wǒ yào kāfēi.",
+    "我要咖啡。"
+   ],
+   [
+    "Kopi satu gelas, tanpa gula.",
+    "Yì bēi kāfēi, bù jiātáng.",
+    "一杯咖啡，不加糖。"
+   ],
+   [
+    "Saya minum kopi setiap pagi.",
+    "Wǒ měitiān zǎoshàng hēkāfēi.",
+    "我每天早上喝咖啡。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bayar pakai WeChat",
   "py": "Wēixìn zhīfù",
   "hz": "微信支付",
-  "words": "",
+  "words": "微信 (Wēixìn): WeChat, 支付 (zhīfù): pembayaran/bayar",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bayar pakai WeChat bisa?",
+    "Kěyǐ Wēixìn zhīfù ma?",
+    "可以微信支付吗？"
+   ],
+   [
+    "Saya bayar pakai WeChat.",
+    "Wǒ yòng Wēixìn zhīfù.",
+    "我用微信支付。"
+   ],
+   [
+    "Di sini bisa bayar pakai WeChat?",
+    "Zhèlǐ kěyǐ Wēixìn zhīfù ma?",
+    "这里可以微信支付吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bayar pakai Alipay",
   "py": "Zhīfùbǎo",
   "hz": "支付宝",
-  "words": "",
+  "words": "支付宝 (Zhīfùbǎo): Alipay, 支付 (zhīfù): bayar, 宝 (bǎo): harta",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Bayar pakai Alipay bisa?",
+    "Kěyǐ yòng Zhīfùbǎo ma?",
+    "可以用支付宝吗？"
+   ],
+   [
+    "Saya bayar pakai Alipay.",
+    "Wǒ yòng Zhīfùbǎo fùkuǎn.",
+    "我用支付宝付款。"
+   ],
+   [
+    "Di sini bisa bayar pakai Alipay?",
+    "Zhèlǐ kěyǐ yòng Zhīfùbǎo ma?",
+    "这里可以用支付宝吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Pindai QR Code saya",
   "py": "Sǎo wǒ de mǎ",
   "hz": "扫我的码",
-  "words": "",
+  "words": "扫 (sǎo): memindai, 我 (wǒ): saya, 的 (de): partikel milik, 码 (mǎ): kode",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Silakan pindai QR Code saya.",
+    "Qǐng sǎo wǒ de mǎ.",
+    "请扫我的码。"
+   ],
+   [
+    "Pindai QR Code saya untuk bayar.",
+    "Sǎo wǒ de mǎ fùkuǎn.",
+    "扫我的码付款。"
+   ],
+   [
+    "Anda bisa pindai QR Code saya?",
+    "Nǐ kěyǐ sǎo wǒ de mǎ ma?",
+    "你可以扫我的码吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Ada kantong plastik?",
   "py": "Yǒu sùliào dài ma?",
   "hz": "有塑料袋吗？",
-  "words": "",
+  "words": "有 (yǒu): ada, 塑料袋 (sùliàodài): kantong plastik, 塑料 (sùliào): plastik, 袋 (dài): kantong, 吗 (ma): partikel tanya",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Ada kantong plastik?",
+    "Yǒu sùliàodài ma?",
+    "有塑料袋吗？"
+   ],
+   [
+    "Maaf, ada kantong plastik?",
+    "Bù hǎoyìsi, yǒu sùliàodài ma?",
+    "不好意思，有塑料袋吗？"
+   ],
+   [
+    "Saya perlu kantong plastik.",
+    "Wǒ xūyào sùliàodài.",
+    "我需要塑料袋。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Kuitansi / struk",
   "py": "Fāpiào",
   "hz": "发票",
-  "words": "",
+  "words": "发票 (fāpiào): kuitansi/struk, 发 (fā): menerbitkan, 票 (piào): tiket/bukti",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tolong minta kuitansi.",
+    "Qǐng gěi wǒ fāpiào.",
+    "请给我发票。"
+   ],
+   [
+    "Saya butuh kuitansi.",
+    "Wǒ xūyào fāpiào.",
+    "我需要发票。"
+   ],
+   [
+    "Bisa minta kuitansi?",
+    "Kěyǐ kāifāpiào ma?",
+    "可以开发票吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Belanja & pembayaran",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Air mineral",
   "py": "Kuàngquánshuǐ",
   "hz": "矿泉水",
-  "words": "",
+  "words": "矿泉水 (kuàngquánshuǐ): air mineral, 矿泉 (kuàngquán): mata air mineral, 水 (shuǐ): air",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya mau air mineral.",
+    "Wǒ yào kuàngquánshuǐ.",
+    "我要矿泉水。"
+   ],
+   [
+    "Air mineral satu botol.",
+    "Yì píng kuàngquánshuǐ.",
+    "一瓶矿泉水。"
+   ],
+   [
+    "Air mineral ini berapa harganya?",
+    "Zhè píng kuàngquánshuǐ duōshǎoqián?",
+    "这瓶矿泉水多少钱？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana ruang rapat?",
   "py": "Huìyìshì zài nǎr?",
   "hz": "会议室在哪儿？",
-  "words": "",
+  "words": "会议室 (huìyìshì): ruang rapat, 会议 (huìyì): rapat, 室 (shì): ruang, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana ruang rapat?",
+    "Huìyìshì zài nǎr?",
+    "会议室在哪儿？"
+   ],
+   [
+    "Maaf, di mana ruang rapat?",
+    "Qǐngwèn, huìyìshì zài nǎr?",
+    "请问，会议室在哪儿？"
+   ],
+   [
+    "Ruang rapat ada di lantai tiga.",
+    "Huìyìshì zài sān lóu.",
+    "会议室在三楼。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Hari ini jam berapa selesai kerja?",
   "py": "Jīntiān jǐ diǎn xiàbān?",
   "hz": "今天几点下班？",
-  "words": "",
+  "words": "今天 (jīntiān): hari ini, 几 (jǐ): berapa, 点 (diǎn): jam, 下班 (xiàbān): selesai kerja",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Hari ini jam berapa selesai kerja?",
+    "Jīntiān jǐ diǎn xiàbān?",
+    "今天几点下班？"
+   ],
+   [
+    "Besok jam berapa selesai kerja?",
+    "Míngtiān jǐ diǎn xiàbān?",
+    "明天几点下班？"
+   ],
+   [
+    "Hari ini selesai kerja jam lima.",
+    "Jīntiān wǔ diǎn xiàbān.",
+    "今天五点下班。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Besok kita mulai jam berapa?",
   "py": "Míngtiān jǐ diǎn kāishǐ?",
   "hz": "明天几点开始？",
-  "words": "",
+  "words": "明天 (míngtiān): besok, 几 (jǐ): berapa, 点 (diǎn): jam, 开始 (kāishǐ): mulai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Besok kita mulai jam berapa?",
+    "Míngtiān jǐ diǎn kāishǐ?",
+    "明天几点开始？"
+   ],
+   [
+    "Besok kita mulai jam delapan.",
+    "Míngtiān bā diǎn kāishǐ.",
+    "明天八点开始。"
+   ],
+   [
+    "Rapat besok mulai jam berapa?",
+    "Míngtiān de huìyì jǐ diǎn kāishǐ?",
+    "明天的会议几点开始？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Mari kita pergi bersama",
   "py": "Wǒmen yìqǐ qù ba",
   "hz": "我们一起去吧",
-  "words": "",
+  "words": "我们 (wǒmen): kita, 一起 (yìqǐ): bersama, 去 (qù): pergi, 吧 (ba): partikel ajakan",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Mari kita pergi bersama.",
+    "Wǒmen yìqǐ qù ba.",
+    "我们一起去吧。"
+   ],
+   [
+    "Mari kita pergi bersama ke kantin.",
+    "Wǒmen yìqǐ qù shítáng ba.",
+    "我们一起去食堂吧。"
+   ],
+   [
+    "Mari kita pergi bersama ke pabrik.",
+    "Wǒmen yìqǐ qù gōngchǎng ba.",
+    "我们一起去工厂吧。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Di mana isi ulang air?",
   "py": "Yǐnyòngshuǐ zài nǎr?",
   "hz": "饮用水在哪儿？",
-  "words": "",
+  "words": "饮用水 (yǐnyòngshuǐ): air minum, 饮用 (yǐnyòng): diminum, 水 (shuǐ): air, 在 (zài): di, 哪儿 (nǎr): mana",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Di mana isi ulang air?",
+    "Yǐnyòngshuǐ zài nǎr?",
+    "饮用水在哪儿？"
+   ],
+   [
+    "Maaf, di mana isi ulang air?",
+    "Qǐngwèn, yǐnyòngshuǐ zài nǎr?",
+    "请问，饮用水在哪儿？"
+   ],
+   [
+    "Isi ulang air ada di lantai satu.",
+    "Yǐnyòngshuǐ zài yī lóu.",
+    "饮用水在一楼。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Selamat bekerja / semangat!",
   "py": "Jiāyóu!",
   "hz": "加油！",
-  "words": "",
+  "words": "加油 (jiāyóu): semangat, 加 (jiā): menambah, 油 (yóu): bensin/tenaga",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Semangat, kita pasti bisa!",
+    "Jiāyóu, wǒmen yídìng kěyǐ!",
+    "加油，我们一定可以！"
+   ],
+   [
+    "Selamat bekerja, semangat!",
+    "Gōngzuò jiāyóu!",
+    "工作加油！"
+   ],
+   [
+    "Semangat belajar Mandarin!",
+    "Xué Zhōngwén jiāyóu!",
+    "学中文加油！"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Bagus sekali / mantap",
   "py": "Hěn hǎo! / Bàng!",
   "hz": "很好！/ 棒！",
-  "words": "",
+  "words": "很 (hěn): sangat, 好 (hǎo): baik, 棒 (bàng): hebat/mantap",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Hasilnya bagus sekali!",
+    "Jiéguǒ hěn hǎo!",
+    "结果很好！"
+   ],
+   [
+    "Bagus sekali, terus begitu.",
+    "Hěn hǎo, jìxù bǎochí.",
+    "很好，继续保持。"
+   ],
+   [
+    "Mantap, kerja bagus!",
+    "Bàng! Gàn dé hǎo!",
+    "棒！干得好！"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Tidak masalah / OK",
   "py": "Méi wèntí",
   "hz": "没问题",
-  "words": "",
+  "words": "没 (méi): tidak ada, 问题 (wèntí): masalah",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Tidak masalah.",
+    "Méiwèntí.",
+    "没问题。"
+   ],
+   [
+    "Tidak masalah, saya bisa bantu.",
+    "Méiwèntí, wǒ kěyǐ bāng nǐ.",
+    "没问题，我可以帮你。"
+   ],
+   [
+    "Soal ini tidak masalah.",
+    "Zhège méiwèntí.",
+    "这个没问题。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Sosial & penutup",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Senang bekerja sama dengan Anda",
   "py": "Hěn gāoxìng gēn nǐ hézuò",
   "hz": "很高兴跟你合作",
-  "words": "",
+  "words": "很 (hěn): sangat, 高兴 (gāoxìng): senang, 跟 (gēn): dengan, 你 (nǐ): kamu/Anda, 合作 (hézuò): bekerja sama",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Senang bekerja sama dengan Anda.",
+    "Hěn gāoxìng gēn nǐ hézuò.",
+    "很高兴跟你合作。"
+   ],
+   [
+    "Senang bekerja sama dengan Anda, Pak Wang.",
+    "Wáng xiānsheng, hěn gāoxìng gēn nǐ hézuò.",
+    "王先生，很高兴跟你合作。"
+   ],
+   [
+    "Senang bekerja sama dengan Anda lagi.",
+    "Hěn gāoxìng zàicì gēn nǐ hézuò.",
+    "很高兴再次跟你合作。"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya butuh obat",
   "py": "Wǒ xūyào yào",
   "hz": "我需要药",
-  "words": "",
+  "words": "我 (wǒ): saya, 需要 (xūyào): butuh, 药 (yào): obat",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya butuh obat.",
+    "Wǒ xūyào yào.",
+    "我需要药。"
+   ],
+   [
+    "Saya butuh obat sakit kepala.",
+    "Wǒ xūyào tóuténg yào.",
+    "我需要头疼药。"
+   ],
+   [
+    "Di mana saya bisa beli obat?",
+    "Nǎlǐ kěyǐ mǎi dào yào?",
+    "哪里可以买到药？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Kesehatan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Rumah sakit",
   "py": "Yīyuàn",
   "hz": "医院",
-  "words": "",
+  "words": "医院 (yīyuàn): rumah sakit, 医 (yī): medis, 院 (yuàn): institusi",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Rumah sakit ada di mana?",
+    "Yīyuàn zài nǎr?",
+    "医院在哪儿？"
+   ],
+   [
+    "Tolong antar saya ke rumah sakit.",
+    "Qǐng sòng wǒ qù yīyuàn.",
+    "请送我去医院。"
+   ],
+   [
+    "Rumah sakit dekat dari sini?",
+    "Yīyuàn lí zhèlǐ jìn ma?",
+    "医院离这里近吗？"
+   ]
+  ]
  },
  {
-  "label": "",
+  "cat": "Darurat",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
   "id": "Saya kehilangan dompet / HP",
   "py": "Wǒ de qiánbāo / shǒujī diū le",
   "hz": "我的钱包 / 手机丢了",
-  "words": "",
+  "words": "我 (wǒ): saya, 的 (de): partikel milik, 钱包 (qiánbāo): dompet, 手机 (shǒujī): HP, 丢 (diū): hilang, 了 (le): partikel selesai",
   "note": "",
   "warn": false,
-  "ex": [],
-  "alt": []
+  "ex": [
+   [
+    "Saya kehilangan dompet.",
+    "Wǒ de qiánbāo diū le.",
+    "我的钱包丢了。"
+   ],
+   [
+    "HP saya hilang.",
+    "Wǒ de shǒujī diū le.",
+    "我的手机丢了。"
+   ],
+   [
+    "Tolong bantu, dompet saya hilang.",
+    "Qǐng bāngbāng wǒ, wǒ de qiánbāo diū le.",
+    "请帮帮我，我的钱包丢了。"
+   ]
+  ]
  }
 ]

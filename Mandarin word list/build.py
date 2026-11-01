@@ -38,6 +38,8 @@ COL = {
     "note": "Keterangan",
     "label": "label",
 }
+CAT_COL = "Kategori"  # opsional; isi = salah satu nama Situasi (13 kategori)
+DEFAULT_LABEL = "Umum: sering dipakai native dalam percakapan sehari-hari."
 EX_TEMPLATE = ("Contoh {k} - Indonesia", "Contoh {k} - Pinyin", "Contoh {k} - Hanzi")
 
 # ---------- Deck (sheet "Survival 200") ----------
@@ -83,7 +85,8 @@ def build_kamus(ws):
             e = [clean(row[i_id]), clean(row[i_py]), clean(row[i_hz])]
             if any(e):
                 examples.append(e)
-        entries.append({"label": get("label"), "id": ident, "py": get("py"), "hz": get("hz"),
+        cat = clean(row[headers[CAT_COL]]) if CAT_COL in headers else ""
+        entries.append({"cat": cat, "label": get("label"), "id": ident, "py": get("py"), "hz": get("hz"),
                         "words": get("words"), "note": get("note"), "warn": False, "ex": examples})
     if not entries:
         sys.exit("Sheet Kamus kosong.")
@@ -265,11 +268,13 @@ def merge_into_kamus(entries, groups):
         match = next((by_hz[norm_hz(h)] for h, _ in g["rows"] if norm_hz(h) in by_hz), None)
         if match is None:
             main = g["rows"][0]
-            match = {"label": "", "id": g["id"], "py": main[1], "hz": main[0], "words": g["words"],
+            match = {"cat": g["sit"], "label": "", "id": g["id"], "py": main[1], "hz": main[0], "words": g["words"],
                      "note": g["kets"][0] if g["kets"] else "", "warn": False, "ex": [], "alt": [[main[0], main[1]]][:0]}
             entries.append(match)
             by_hz[norm_hz(main[0])] = match
             added += 1
+        if not match.get("cat"):
+            match["cat"] = g["sit"]
         for h, p in g["rows"]:
             if norm_hz(h) in by_hz and by_hz[norm_hz(h)] is match:
                 continue
@@ -277,6 +282,16 @@ def merge_into_kamus(entries, groups):
             by_hz[norm_hz(h)] = match
             attached += 1
     return added, attached
+
+
+def build_cats(entries):
+    """Daftar kategori kamus (urutan = urutan Situasi, warna = warna tahap) + jumlah entri."""
+    col = {s: c for _, c, sits in TAHAP for s in sits}
+    cnt = collections.Counter(e["cat"] for e in entries)
+    unknown = [c for c in cnt if c and c not in col]
+    if unknown:
+        sys.exit("Kategori tidak dikenal di sheet Kamus: " + ", ".join(unknown) + "\n  Pilihan: " + " | ".join(SIT))
+    return [{"name": s, "col": col[s], "n": cnt[s]} for s in SIT if cnt[s]]
 
 
 def build_pool(groups):
@@ -320,6 +335,8 @@ def main():
     html = TEMPLATE.read_text(encoding="utf-8")
     html = inject(html, "var DATA=[];", entries)
     html = inject(html, "var DECK=[];", pool)
+    cats = build_cats(entries)
+    html = inject(html, "var CATS=[];", cats)
     (OUT_DIR / "index.html").write_text(html, encoding="utf-8")
     (OUT_DIR / "deck-slides.html").write_text(deck_html, encoding="utf-8")
     dt = DECK_TEMPLATE.read_text(encoding="utf-8")
