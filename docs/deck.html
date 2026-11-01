@@ -104,6 +104,10 @@ button.lnk{background:none;border:0;color:var(--link);cursor:pointer;font:inheri
 .opt .oy{color:var(--pyc);font-weight:700;font-size:15px}
 .opt.ok .oh,.opt.ok .oy{color:var(--ok)}.opt.no .oh,.opt.no .oy{color:var(--err)}
 .opt.id .t{font-size:17px}
+.ow{display:flex;gap:8px;align-items:stretch}
+.ow .opt{flex:1;min-width:0}
+button.sp.lg{width:46px;height:auto;border-radius:10px;background:#ffffff}
+button.sp.lg.on{background:var(--blue)}
 .opt .oi{margin-left:auto;text-align:right;font-size:14px;line-height:1.3;color:var(--mute);max-width:42%;word-break:break-word}
 .opt.ok .oi{color:var(--ok)}.opt.no .oi{color:var(--err)}
 .wd{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
@@ -253,7 +257,7 @@ function ask(){
   opts.forEach(function(o,i){
     var b=el("button","opt ap");b.type="button";b.appendChild(el("span","k",String(i+1)));
     var t=el("span","t");t.appendChild(el("span","oh",o.hz));t.appendChild(el("span","oy",o.py));b.appendChild(t);
-    b.onclick=function(){pick(i)};btns.push(b);wrap.appendChild(b);
+    b.onclick=function(){pick(i)};btns.push(b);var ow=el("div","ow");ow.appendChild(b);var ob=spBtn(o.hz,o.au);if(ob){ob.classList.add("lg");ow.appendChild(ob)}wrap.appendChild(ow);
   });
   function pick(i){
     if(done)return;done=true;st.all++;

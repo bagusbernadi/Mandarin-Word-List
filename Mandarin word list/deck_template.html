@@ -142,7 +142,7 @@ function ask(){
   opts.forEach(function(o,i){
     var b=el("button","opt ap");b.type="button";b.appendChild(el("span","k",String(i+1)));
     var t=el("span","t");t.appendChild(el("span","oh",o.hz));t.appendChild(el("span","oy",o.py));b.appendChild(t);
-    b.onclick=function(){pick(i)};btns.push(b);wrap.appendChild(b);
+    b.onclick=function(){pick(i)};btns.push(b);var ow=el("div","ow");ow.appendChild(b);var ob=spBtn(o.hz,o.au);if(ob){ob.classList.add("lg");ow.appendChild(ob)}wrap.appendChild(ow);
   });
   function pick(i){
     if(done)return;done=true;st.all++;
