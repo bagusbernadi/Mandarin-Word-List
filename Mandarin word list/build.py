@@ -324,6 +324,7 @@ def main():
     dt = dt.replace("<!--STYLE-->", style)
     dt = inject(dt, "var DECK=[];", pool)
     dt = inject(dt, "var DAYS=[];", dmeta)
+    dt = inject(dt, "var PG=[];", pg)
     (OUT_DIR / "deck.html").write_text(dt, encoding="utf-8")
     print(f"OK: kamus {len(entries)} entri | deck {len(groups)} kosakata, {ndays} hari | latihan {len(pool)} soal -> {OUT_DIR}")
 
