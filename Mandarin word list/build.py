@@ -312,6 +312,9 @@ def main():
     html = inject(html, "var DECK=[];", pool)
     cats = build_cats(entries)
     html = inject(html, "var CATS=[];", cats)
+    import pinyin_guide
+    pg = [{"t": s["t"], "d": s["d"], "items": [[a, b, c, au_id(b) or ""] for a, b, c in s["items"]]} for s in pinyin_guide.GUIDE]
+    html = inject(html, "var PG=[];", pg)
     (OUT_DIR / "index.html").write_text(html, encoding="utf-8")
     (OUT_DIR / "deck-slides.html").write_text(deck_html, encoding="utf-8")
     dt = DECK_TEMPLATE.read_text(encoding="utf-8")

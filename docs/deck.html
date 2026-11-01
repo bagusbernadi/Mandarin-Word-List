@@ -121,6 +121,11 @@ button.sp.on{background:var(--blue);color:#ffffff}
 .exr{display:flex;gap:8px;align-items:center;justify-content:space-between}
 .rh{display:flex;gap:10px;align-items:center;justify-content:space-between}
 a.tab{text-decoration:none;display:inline-block}
+#t3{margin-left:auto;padding:6px 12px;display:inline-grid;place-items:center}
+.gs{margin-top:16px}.gs h2{font:700 18px var(--font);margin:0 0 4px;color:var(--ink)}.gs .gd{color:var(--mute);font-size:15px;margin:0 0 8px}
+.gi{display:flex;gap:10px;align-items:center;background:var(--card);border-radius:12px;padding:8px 12px;margin-top:6px}
+.gi .gp{font-weight:700;color:var(--pyc);min-width:76px;font-size:17px}.gi .gh{font:700 24px/1.2 var(--hz);min-width:auto}
+.gi .gt{flex:1;font-size:15px;line-height:1.35;color:var(--ink)}
 @media (max-width:400px){.tab{font-size:14px;padding:6px 11px}.tabs{gap:4px}#tc{padding:4px 8px!important;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
 </style>
 <style>
@@ -138,7 +143,7 @@ button.alt2{margin-top:14px;background:var(--card);color:var(--ink);border:0;bor
 <body>
 <header class="hd"><h1>30H Belajar</h1><p class="sub">Latihan per hari: Indonesia → Pinyin &amp; Hanzi. Tiap hari hanya menguji kosakata hari itu.</p></header>
 <div class="wrap">
-<div class="tabs"><a class="tab" href="index.html">Kamus</a><a class="tab" href="index.html#latihan">Latihan</a><a class="tab" aria-selected="true" aria-current="page" href="deck.html">30H Belajar</a></div>
+<div class="tabs"><a class="tab" href="index.html">Kamus</a><a class="tab" href="index.html#latihan">Latihan</a><a class="tab" aria-selected="true" aria-current="page" href="deck.html">30H Belajar</a><a class="tab" id="t3" href="index.html#info" aria-label="Panduan pengucapan pinyin" title="Pengucapan pinyin"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg></a></div>
 <div class="days" id="days" role="group" aria-label="Pilih hari"></div>
 <div class="dinfo" id="dinfo"></div>
 <div class="score"><span id="sc"></span><button class="lnk" id="rs" type="button">Ulangi hari ini</button></div>

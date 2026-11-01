@@ -1,4 +1,4 @@
-"""
+r"""
 Buat file audio MP3 (suara Mandarin) untuk setiap kosakata dan contoh kalimat di Excel.
 Hanya membuat audio yang belum ada, jadi aman dijalankan ulang setelah Excel diubah.
 Hasil: docs/audio/<kode>.mp3, lalu jalankan build.py agar website memakainya.
@@ -21,6 +21,7 @@ import openpyxl
 import sherpa_onnx
 
 import build
+import pinyin_guide
 
 M = Path(os.environ.get("MELO_DIR", "/tmp/tts/vits-melo-tts-zh_en"))
 if not (M / "model.onnx").exists():
@@ -34,6 +35,7 @@ def main():
     for g in groups:
         texts.append(g["rows"][0][0])
         texts += [e[2] for e in g["ex"] if e[2]]
+    texts += pinyin_guide.all_hanzi()
     seen, todo = set(), []
     for hz in texts:
         t = build.tts_text(hz)
