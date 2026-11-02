@@ -12,6 +12,7 @@
 #xmx{border:0;background:rgba(241,243,244,.8);color:var(--mute);width:36px;height:36px;border-radius:999px;font-size:16px;cursor:pointer}
 .xk{display:block;margin:0 0 6px;color:var(--mute);font-size:15px}
 .ge{align-items:center}.ge .gt{display:flex;flex-direction:column;gap:2px}.ge .xz{font:700 22px/1.3 var(--hz);color:var(--ink)}.ge .xp{color:var(--pyc);font-weight:700;font-size:15px}.ge .xi{color:var(--mute);font-size:15px}
+#quiz{touch-action:pan-y}@keyframes slL{from{opacity:.2;transform:translateX(40px)}to{opacity:1;transform:none}}@keyframes slR{from{opacity:.2;transform:translateX(-40px)}to{opacity:1;transform:none}}#quiz.sl{animation:slL .25s ease-out}#quiz.sr{animation:slR .25s ease-out}
 .nv{display:flex;justify-content:space-between;gap:10px;margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}.nv button.alt2{margin-top:0;background:#ffffff;color:var(--blue);padding:7px 16px;font-size:15px}.nv button:disabled{opacity:.35;cursor:default}
 .acts{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}.acts .next,.acts button.alt2{margin-top:0}.acts button.alt2{background:#ffffff;color:var(--blue)}
 .days{display:grid;grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:8px;margin-top:14px}
@@ -124,7 +125,7 @@ function pickOpts(q,pool){
   shuf(pool).forEach(function(d){if(opts.length<4&&d!==q&&ok(d)){opts.push(d);seen.push(d)}});
   return shuf(opts);
 }
-var cur=0,deck=[],rec=[],st={ok:0,all:0},total=0;
+var vi=0,cur=0,deck=[],rec=[],st={ok:0,all:0},total=0;
 function dayPool(n){return DECK.filter(function(o){return o.day===n&&o.id&&o.py&&o.hz})}
 function score(n){$("sc").textContent=(n>total?"Selesai":"Soal "+n+" dari "+total)+" · Benar "+st.ok;$("pgf").style.width=Math.min(st.all,total)/total*100+"%"}
 function start(n){
@@ -146,12 +147,13 @@ function summary(){
 }
 function navRow(idx){
   var w=el("div","nv");
-  var pv=el("button","alt2","‹ Sebelumnya");pv.type="button";pv.disabled=idx<=0;pv.onclick=function(){show(idx-1)};
-  var nx=el("button","alt2","Berikutnya ›");nx.type="button";nx.disabled=idx>=st.all;nx.onclick=function(){show(idx+1)};
+  var pv=el("button","alt2","‹ Sebelumnya");pv.type="button";pv.disabled=idx<=0;pv.onclick=function(){show(idx-1,-1)};
+  var nx=el("button","alt2","Berikutnya ›");nx.type="button";nx.disabled=idx>=st.all;nx.onclick=function(){show(idx+1,1)};
   w.appendChild(pv);w.appendChild(nx);return w;
 }
 function ask(){show(st.all)}
-function show(idx){
+function show(idx,dir){
+  vi=idx;slide(dir);
   if(idx>=total){summary();return}
   score(idx+1);
   var q=deck[idx],pool=dayPool(cur),box=$("quiz");box.textContent="";
@@ -212,6 +214,23 @@ $("pmx").onclick=close;
 m.onclick=function(e){if(e.target===m)close()};
 document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!m.hidden)close()});
 if(location.hash==="#info"){open()}
+})();
+function slide(dir){
+  if(!dir)return;var b=$("quiz");b.classList.remove("sl","sr");void b.offsetWidth;b.classList.add(dir>0?"sl":"sr");
+  setTimeout(function(){b.classList.remove("sl","sr")},300);
+}
+/* geser kiri/kanan pada soal: kiri = berikutnya, kanan = sebelumnya */
+(function(){
+  var q=$("quiz"),x0=0,y0=0,t0=0,sw=0,on=false;
+  q.addEventListener("pointerdown",function(e){if(e.pointerType==="mouse"&&e.button!==0)return;on=true;x0=e.clientX;y0=e.clientY;t0=Date.now()});
+  q.addEventListener("pointercancel",function(){on=false});
+  q.addEventListener("pointerup",function(e){
+    if(!on)return;on=false;var dx=e.clientX-x0,dy=e.clientY-y0;
+    if(Math.abs(dx)<60||Math.abs(dx)<Math.abs(dy)*1.5||Date.now()-t0>900)return;
+    sw=Date.now();
+    if(dx>0){if(vi>0)show(vi-1,-1)}else if(vi<st.all)show(vi+1,1);
+  });
+  q.addEventListener("click",function(e){if(Date.now()-sw<500){e.stopPropagation();e.preventDefault()}},true);
 })();
 document.addEventListener("keydown",function(e){
   if(e.ctrlKey||e.metaKey||e.altKey)return;var n=parseInt(e.key,10);
