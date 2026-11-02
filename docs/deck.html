@@ -299,7 +299,7 @@ function ask(){
     if(q.note)res.appendChild(el("div","meta",q.note));
     var ac=el("div","acts");
     var n=el("button","next",st.all>=total?"Lihat hasil":"Soal berikutnya");n.type="button";n.onclick=ask;
-    if(good&&q.ex&&q.ex.length){var xb=el("button","alt2","Contoh kalimat");xb.type="button";xb.onclick=function(){xOpen(q)};ac.appendChild(n);ac.appendChild(xb)}else ac.appendChild(n);
+    if(q.ex&&q.ex.length){var xb=el("button","alt2","Contoh kalimat");xb.type="button";xb.onclick=function(){xOpen(q)};ac.appendChild(n);ac.appendChild(xb)}else ac.appendChild(n);
     res.appendChild(ac);
     score(st.all);n.focus();
   }
