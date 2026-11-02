@@ -146,6 +146,7 @@ a.tab{text-decoration:none;display:inline-block}
 #xmx{border:0;background:rgba(241,243,244,.8);color:var(--mute);width:36px;height:36px;border-radius:999px;font-size:16px;cursor:pointer}
 .xk{display:block;margin:0 0 6px;color:var(--mute);font-size:15px}
 .ge{align-items:center}.ge .gt{display:flex;flex-direction:column;gap:2px}.ge .xz{font:700 22px/1.3 var(--hz);color:var(--ink)}.ge .xp{color:var(--pyc);font-weight:700;font-size:15px}.ge .xi{color:var(--mute);font-size:15px}
+.nv{display:flex;justify-content:space-between;gap:10px;margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}.nv button.alt2{margin-top:0;background:#ffffff;color:var(--blue);padding:7px 16px;font-size:15px}.nv button:disabled{opacity:.35;cursor:default}
 .acts{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}.acts .next,.acts button.alt2{margin-top:0}.acts button.alt2{background:#ffffff;color:var(--blue)}
 .days{display:grid;grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:8px;margin-top:14px}
 .dy{font:700 16px var(--font);color:#ffffff;border:3px solid transparent;border-radius:12px;padding:8px 0;cursor:pointer}
@@ -257,11 +258,11 @@ function pickOpts(q,pool){
   shuf(pool).forEach(function(d){if(opts.length<4&&d!==q&&ok(d)){opts.push(d);seen.push(d)}});
   return shuf(opts);
 }
-var cur=0,deck=[],st={ok:0,all:0},total=0;
+var cur=0,deck=[],rec=[],st={ok:0,all:0},total=0;
 function dayPool(n){return DECK.filter(function(o){return o.day===n&&o.id&&o.py&&o.hz})}
 function score(n){$("sc").textContent=(n>total?"Selesai":"Soal "+n+" dari "+total)+" · Benar "+st.ok;$("pgf").style.width=Math.min(st.all,total)/total*100+"%"}
 function start(n){
-  cur=n;var pool=dayPool(n);deck=shuf(pool);total=pool.length;st={ok:0,all:0};
+  cur=n;var pool=dayPool(n);deck=shuf(pool);rec=[];total=pool.length;st={ok:0,all:0};
   Array.prototype.forEach.call(document.querySelectorAll(".dy"),function(b){b.setAttribute("aria-pressed",+b.dataset.n===n)});
   var d=DAYS[n-1];
   $("dinfo").textContent="";
@@ -275,35 +276,52 @@ function summary(){
   box.appendChild(el("p","qt id","Benar "+st.ok+" dari "+total+" ("+Math.round(st.ok/total*100)+"%)"));
   var w=el("div","acts"),a=el("button","next","Ulangi hari ini");a.type="button";a.onclick=function(){start(cur)};w.appendChild(a);
   if(cur<DAYS.length){var b=el("button","alt2","Hari "+(cur+1)+" →");b.type="button";b.onclick=function(){start(cur+1);window.scrollTo(0,0)};w.appendChild(b)}
-  box.appendChild(w);a.focus();
+  box.appendChild(w);box.appendChild(navRow(total));a.focus();
 }
-function ask(){
-  if(st.all>=total){summary();return}
-  score(st.all+1);
-  var q=deck[st.all],pool=dayPool(cur),box=$("quiz");box.textContent="";
+function navRow(idx){
+  var w=el("div","nv");
+  var pv=el("button","alt2","‹ Sebelumnya");pv.type="button";pv.disabled=idx<=0;pv.onclick=function(){show(idx-1)};
+  var nx=el("button","alt2","Berikutnya ›");nx.type="button";nx.disabled=idx>=st.all;nx.onclick=function(){show(idx+1)};
+  w.appendChild(pv);w.appendChild(nx);return w;
+}
+function ask(){show(st.all)}
+function show(idx){
+  if(idx>=total){summary();return}
+  score(idx+1);
+  var q=deck[idx],pool=dayPool(cur),box=$("quiz");box.textContent="";
+  var r=rec[idx]||(rec[idx]={opts:pickOpts(q,pool),pick:null}),opts=r.opts;
   box.appendChild(el("div","ask","Pilih Pinyin dan Hanzi yang tepat untuk:"));
   box.appendChild(el("p","qt id",q.id));
-  var opts=pickOpts(q,pool),wrap=el("div","opts"),btns=[],done=false,res=el("div","res");
+  var wrap=el("div","opts"),btns=[],res=el("div","res");
   opts.forEach(function(o,i){
     var b=el("button","opt ap");b.type="button";b.appendChild(el("span","k",String(i+1)));
     var t=el("span","t");t.appendChild(el("span","oh",o.hz));t.appendChild(el("span","oy",o.py));b.appendChild(t);
     b.onclick=function(){pick(i)};btns.push(b);var ow=el("div","ow");ow.appendChild(b);var ob=spBtn(o.hz,o.au);if(ob){ob.classList.add("lg");ow.appendChild(ob)}wrap.appendChild(ow);
   });
-  function pick(i){
-    if(done)return;done=true;st.all++;
-    var good=opts[i]===q;if(good)st.ok++;
-    btns.forEach(function(b,k){b.disabled=true;if(opts[k]===q)b.classList.add("ok");else if(k===i)b.classList.add("no");if(true)b.appendChild(el("span","oi",opts[k].id))});
+  function reveal(i){
+    var good=opts[i]===q;
+    btns.forEach(function(b,k){b.disabled=true;if(opts[k]===q)b.classList.add("ok");else if(k===i)b.classList.add("no");b.appendChild(el("span","oi",opts[k].id))});
     res.appendChild(el("div","v",good?"Benar.":"Belum tepat."));
     var rh=el("div","rh");rh.appendChild(el("div","hz",q.hz));var rb=spBtn(q.hz,q.au);if(rb)rh.appendChild(rb);res.appendChild(rh);res.appendChild(el("div","py",q.py));res.appendChild(el("div","id",q.id));
     if(q.words)res.appendChild(el("div","meta",q.words));
     if(q.note)res.appendChild(el("div","meta",q.note));
-    var ac=el("div","acts");
-    var n=el("button","next",st.all>=total?"Lihat hasil":"Soal berikutnya");n.type="button";n.onclick=ask;
-    if(q.ex&&q.ex.length){var xb=el("button","alt2","Contoh kalimat");xb.type="button";xb.onclick=function(){xOpen(q)};ac.appendChild(n);ac.appendChild(xb)}else ac.appendChild(n);
-    res.appendChild(ac);
-    score(st.all);n.focus();
+    var ac=el("div","acts"),n=null;
+    if(idx===st.all-1){n=el("button","next",st.all>=total?"Lihat hasil":"Soal berikutnya");n.type="button";n.onclick=ask;ac.appendChild(n)}
+    if(q.ex&&q.ex.length){var xb=el("button","alt2","Contoh kalimat");xb.type="button";xb.onclick=function(){xOpen(q)};ac.appendChild(xb)}
+    if(ac.childNodes.length)res.appendChild(ac);
+    return n;
   }
-  box.appendChild(wrap);box.appendChild(res);box._pick=pick;
+  function pick(i){
+    if(r.pick!=null||idx!==st.all)return;
+    r.pick=i;st.all++;if(opts[i]===q)st.ok++;
+    var n=reveal(i);
+    box.replaceChild(navRow(idx),box.querySelector(".nv"));
+    score(idx+1);if(n)n.focus();
+  }
+  box.appendChild(wrap);box.appendChild(res);
+  if(r.pick!=null)reveal(r.pick);
+  box.appendChild(navRow(idx));
+  box._pick=(r.pick==null&&idx===st.all)?pick:null;
 }
 /* pop-up contoh kalimat */
 var xm=$("xm"),xmb=$("xmb");
