@@ -147,7 +147,6 @@ a.tab{text-decoration:none;display:inline-block}
 .xk{display:block;margin:0 0 6px;color:var(--mute);font-size:15px}
 .ge{align-items:center}.ge .gt{display:flex;flex-direction:column;gap:2px}.ge .xz{font:700 22px/1.3 var(--hz);color:var(--ink)}.ge .xp{color:var(--pyc);font-weight:700;font-size:15px}.ge .xi{color:var(--mute);font-size:15px}
 #quiz{touch-action:pan-y}@keyframes slL{from{opacity:.2;transform:translateX(40px)}to{opacity:1;transform:none}}@keyframes slR{from{opacity:.2;transform:translateX(-40px)}to{opacity:1;transform:none}}#quiz.sl{animation:slL .25s ease-out}#quiz.sr{animation:slR .25s ease-out}
-.nv{display:flex;justify-content:space-between;gap:10px;margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}.nv button.alt2{margin-top:0;background:#ffffff;color:var(--blue);padding:7px 16px;font-size:15px}.nv button:disabled{opacity:.35;cursor:default}
 .acts{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}.acts .next,.acts button.alt2{margin-top:0}.acts button.alt2{background:#ffffff;color:var(--blue)}
 .days{display:grid;grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:8px;margin-top:14px}
 .dy{font:700 16px var(--font);color:#ffffff;border:3px solid transparent;border-radius:12px;padding:8px 0;cursor:pointer}
@@ -277,13 +276,7 @@ function summary(){
   box.appendChild(el("p","qt id","Benar "+st.ok+" dari "+total+" ("+Math.round(st.ok/total*100)+"%)"));
   var w=el("div","acts"),a=el("button","next","Ulangi hari ini");a.type="button";a.onclick=function(){start(cur)};w.appendChild(a);
   if(cur<DAYS.length){var b=el("button","alt2","Hari "+(cur+1)+" →");b.type="button";b.onclick=function(){start(cur+1);window.scrollTo(0,0)};w.appendChild(b)}
-  box.appendChild(w);box.appendChild(navRow(total));a.focus();
-}
-function navRow(idx){
-  var w=el("div","nv");
-  var pv=el("button","alt2","‹ Sebelumnya");pv.type="button";pv.disabled=idx<=0;pv.onclick=function(){show(idx-1,-1)};
-  var nx=el("button","alt2","Berikutnya ›");nx.type="button";nx.disabled=idx>=st.all;nx.onclick=function(){show(idx+1,1)};
-  w.appendChild(pv);w.appendChild(nx);return w;
+  box.appendChild(w);a.focus();
 }
 function ask(){show(st.all)}
 function show(idx,dir){
@@ -317,12 +310,10 @@ function show(idx,dir){
     if(r.pick!=null||idx!==st.all)return;
     r.pick=i;st.all++;if(opts[i]===q)st.ok++;
     var n=reveal(i);
-    box.replaceChild(navRow(idx),box.querySelector(".nv"));
     score(idx+1);if(n)n.focus();
   }
   box.appendChild(wrap);box.appendChild(res);
   if(r.pick!=null)reveal(r.pick);
-  box.appendChild(navRow(idx));
   box._pick=(r.pick==null&&idx===st.all)?pick:null;
 }
 /* pop-up contoh kalimat */
