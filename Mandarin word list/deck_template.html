@@ -9,6 +9,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
 <!--STYLE-->
 <style>
+#xmx{border:0;background:rgba(241,243,244,.8);color:var(--mute);width:36px;height:36px;border-radius:999px;font-size:16px;cursor:pointer}
+.xk{display:block;margin:0 0 6px;color:var(--mute);font-size:15px}
+.ge{align-items:center}.ge .gt{display:flex;flex-direction:column;gap:2px}.ge .xz{font:700 22px/1.3 var(--hz);color:var(--ink)}.ge .xp{color:var(--pyc);font-weight:700;font-size:15px}.ge .xi{color:var(--mute);font-size:15px}
+.acts{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}.acts .next,.acts button.alt2{margin-top:0}.acts button.alt2{background:#ffffff;color:var(--blue)}
 .days{display:grid;grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:8px;margin-top:14px}
 .dy{font:700 16px var(--font);color:#ffffff;border:3px solid transparent;border-radius:12px;padding:8px 0;cursor:pointer}
 .dy.b{background:#4285F4}.dy.r{background:#EA4335}.dy.y{background:#FBBC05;color:#202124}.dy.g{background:#34A853}
@@ -32,6 +36,9 @@ button.alt2{margin-top:14px;background:var(--card);color:var(--ink);border:0;bor
 </div>
 <div class="pm" id="pm" role="dialog" aria-modal="true" aria-labelledby="pmt" hidden>
 <div class="pmc"><div class="pmh"><h2 id="pmt">Pengucapan pinyin</h2><button type="button" id="pmx" aria-label="Tutup">✕</button></div><div class="pmb" id="pmb"></div></div>
+</div>
+<div class="pm" id="xm" role="dialog" aria-modal="true" aria-labelledby="xmt" hidden>
+<div class="pmc"><div class="pmh"><h2 id="xmt">Contoh kalimat</h2><button type="button" id="xmx" aria-label="Tutup">✕</button></div><div class="pmb" id="xmb"></div></div>
 </div>
 <script>
 (function(){
@@ -156,11 +163,22 @@ function ask(){
     var rh=el("div","rh");rh.appendChild(el("div","hz",q.hz));var rb=spBtn(q.hz,q.au);if(rb)rh.appendChild(rb);res.appendChild(rh);res.appendChild(el("div","py",q.py));res.appendChild(el("div","id",q.id));
     if(q.words)res.appendChild(el("div","meta",q.words));
     if(q.note)res.appendChild(el("div","meta",q.note));
-    var n=el("button","next",st.all>=total?"Lihat hasil":"Soal berikutnya");n.type="button";n.onclick=ask;res.appendChild(n);
+    var ac=el("div","acts");
+    var n=el("button","next",st.all>=total?"Lihat hasil":"Soal berikutnya");n.type="button";n.onclick=ask;
+    if(good&&q.ex&&q.ex.length){var xb=el("button","alt2","Contoh kalimat");xb.type="button";xb.onclick=function(){xOpen(q)};ac.appendChild(n);ac.appendChild(xb)}else ac.appendChild(n);
+    res.appendChild(ac);
     score(st.all);n.focus();
   }
   box.appendChild(wrap);box.appendChild(res);box._pick=pick;
 }
+/* pop-up contoh kalimat */
+var xm=$("xm"),xmb=$("xmb");
+function xClose(){xm.hidden=true}
+function xOpen(q){xmb.textContent="";var k=el("span","xk",q.hz+" · "+q.py);xmb.appendChild(k);
+  q.ex.forEach(function(e,i){var r=el("div","gi ge b");r.style.setProperty("--c","var(--blue)");var t=el("span","gt");t.appendChild(el("span","xz",e[2]));t.appendChild(el("span","xp",e[1]));t.appendChild(el("span","xi",e[0]));r.appendChild(t);var b=spBtn(e[2],e[3]);if(b)r.appendChild(b);xmb.appendChild(r)});
+  xm.hidden=false;xmb.scrollTop=0;$("xmx").focus()}
+$("xmx").onclick=xClose;xm.onclick=function(e){if(e.target===xm)xClose()};
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!xm.hidden)xClose()});
 DAYS.forEach(function(d){
   var b=el("button","dy "+d.col,String(d.n));b.type="button";b.dataset.n=d.n;b.setAttribute("aria-label","Hari "+d.n);b.setAttribute("aria-pressed","false");
   b.onclick=function(){start(d.n)};$("days").appendChild(b);

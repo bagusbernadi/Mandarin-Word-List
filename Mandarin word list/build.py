@@ -282,7 +282,8 @@ def build_pool(groups):
                     hz == "零" or re.fullmatch("[零一二三四五六七八九十百千万两]+|[一二三四五六七八九十]+月", hz)):
                 val = v if grp != ANGKA_TAGS[4] else num_value(hz[:-1])
         out.append({"label": "", "id": g["id"], "py": g["rows"][0][1], "hz": hz,
-                    "words": g["words"], "note": g["kets"][0] if g["kets"] else "", "warn": False, "ex": [],
+                    "words": g["words"], "note": g["kets"][0] if g["kets"] else "", "warn": False,
+                    "ex": [[e[0], e[1], e[2], au_id(e[2]) or ""] for e in g["ex"] if e[2]],
                     "sit": g["sit"], "au": au_id(hz) or "", "grp": grp, "val": val, "syn": sorted(g["syn"]), "day": g.get("day")})
     return out
 
