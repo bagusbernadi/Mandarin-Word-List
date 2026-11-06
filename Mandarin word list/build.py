@@ -34,7 +34,7 @@ EX_TEMPLATE = ("Contoh {k} - Indonesia", "Contoh {k} - Pinyin", "Contoh {k} - Ha
 VCOL = {"sit": "Situasi", "id": "Indonesia", "py": "Pinyin", "hz": "Hanzi", "words": "Arti per kata", "note": "Keterangan"}
 SIT = ['Salam & sopan santun', 'Perkenalan', 'Tidak mengerti & minta bantuan', 'Ya, tidak, boleh', 'Angka & waktu',
        'Transportasi & arah', 'Hotel', 'Makan & minum', 'Belanja & pembayaran',
-       'Pelatihan & kerja', 'Sosial & penutup', 'Kesehatan', 'Darurat']
+       'Pelatihan & kerja', 'Sosial & penutup', 'Kesehatan', 'Darurat', 'Warna']
 TAHAP = [('Tahap 1 · Dasar', 'b', SIT[:5]), ('Tahap 2 · Perjalanan', 'r', SIT[5:7]),
          ('Tahap 3 · Makanan dan belanja', 'y', SIT[7:9]),
          ('Tahap 4 · Kerja, sosial, kesehatan, darurat', 'g', SIT[9:])]
