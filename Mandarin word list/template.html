@@ -187,13 +187,15 @@ function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=c
 /* suara (Web Speech API, zh-CN) */
 var SYN=window.speechSynthesis,SPV=null;
 function spVoice(){if(!SYN)return null;var v=SYN.getVoices()||[];for(var i=0;i<v.length;i++){if(/^zh[-_]CN|^cmn/i.test(v[i].lang))return v[i]}for(var j=0;j<v.length;j++){if(/^zh/i.test(v[j].lang))return v[j]}return null}
+SPV=spVoice();
 if(SYN&&SYN.addEventListener)SYN.addEventListener("voiceschanged",function(){SPV=spVoice()});
 function toast(m){var t=document.getElementById("toast");if(!t){t=document.createElement("div");t.id="toast";t.setAttribute("role","status");t.style.cssText="position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#202124;color:#fff;padding:10px 16px;border-radius:12px;font:700 14px Calibri,Arial,sans-serif;z-index:9;max-width:90%;text-align:center";document.body.appendChild(t)}t.textContent=m;t.style.display="block";clearTimeout(t._h);t._h=setTimeout(function(){t.style.display="none"},4000)}
 var SPU=null;
 var SPOK="";function pk(p){return p.l+"|"+(p.v?p.v.name:"")}
 function spTry(t,btn,n){
   var vs=[];try{(SYN.getVoices()||[]).forEach(function(v){if(/^(zh|cmn)/i.test(v.lang))vs.push(v)})}catch(x){}
-  var plans=[{l:"zh-CN"},{l:"zh-CN",v:vs[0]},{l:"cmn-Hans-CN"},{l:"zh_CN"},{l:"zh-CN",v:vs[1]},{l:"zh"}].filter(function(p,i){return i===0||p.v||!/zh-CN$/.test(p.l)||i>1});
+  if(!SPV)SPV=spVoice();
+  var plans=[SPV?{l:SPV.lang,v:SPV}:{l:"zh-CN"},{l:"zh-CN"},{l:"zh-CN",v:vs[0]},{l:"cmn-Hans-CN"},{l:"zh_CN"},{l:"zh-CN",v:vs[1]},{l:"zh"}].filter(function(p,i,a){return a.findIndex(function(q){return pk(q)===pk(p)})===i});
   if(SPOK){plans=plans.filter(function(p){return pk(p)===SPOK}).concat(plans.filter(function(p){return pk(p)!==SPOK}))}
   var p=plans[n];if(!p){toast("Suara gagal. Mesin TTS tidak bisa memutar Mandarin di Chrome ini.");return}
   var u=new SpeechSynthesisUtterance(t);SPU=u;u.lang=p.l;u.rate=.9;u.volume=1;if(p.v){u.voice=p.v;u.lang=p.v.lang}
@@ -217,15 +219,16 @@ function playAu(au,btn,fb){
   if(btn)btn.classList.add("on");
   var p=AUD.play();if(p&&p.catch)p.catch(function(){off();fb()});
 }
+var USE_MP3=false;/* MP3 rusak: pakai suara Web Speech (logika Durusul) */
 function speak(text,btn,au){
-  if(au){playAu(au,btn,function(){speak(text,btn)});return}
+  if(au&&USE_MP3){playAu(au,btn,function(){speak(text,btn)});return}
   if(!SYN){toast("Browser ini tidak mendukung suara");return}
   var t=String(text).replace(/…+|\.{2,}/g,"，").replace(/\s*[\/·]\s*/g,"，").replace(/[「」"]/g,"");
   Array.prototype.forEach.call(document.querySelectorAll(".sp.on"),function(x){x.classList.remove("on")});
   if(SYN.speaking||SYN.pending){SYN.cancel();setTimeout(function(){spTry(t,btn,0)},120)}else spTry(t,btn,0);
 }
 function spBtn(text,au){
-  if(!SYN&&!au)return null;
+  if(!SYN)return null;
   var b=el("button","sp");b.type="button";b.setAttribute("aria-label","Dengarkan: "+text);
   b.innerHTML='<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>';
   b.onclick=function(e){e.stopPropagation();speak(text,b,au)};
