@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>06 HSK 2 Kosakata · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="06">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Mengenali dan mengucapkan 200 kata baru HSK 2 beserta artinya.</li><li>Menghafal dengan kartu, daftar tema, dan latihan cepat.</li><li>Membedakan kata yang sering tertukar di soal ujian.</li></ul></div>
+
+<h2>Gambaran kata level ini</h2>
+<p>HSK 2 menambah <b>200 kata baru</b> (total 500). Tema barunya: transportasi, arah, olahraga, sekolah, tubuh, dan kata penghubung. Pelajari juga <b>kata arah</b> seperti 进来 dan 出去, yang sering keluar di soal mendengar.</p>
+<div class="note"><b>Cara menghafal yang bekerja</b><p>Hafalkan 10–15 kata per sesi, ucapkan keras-keras sambil mendengar 🔊, lalu tulis sekali. Ulangi pada hari ke-1, ke-3, dan ke-7. Kata yang salah lagi dikembalikan ke tumpukan “belum hafal”.</p></div>
+
+<div class="sim"><div class="sim-h">Simulasi · kartu hafalan</div>
+<h3>Ketuk kartu, lalu tandai hafal atau belum</h3>
+<div id="fc"></div></div>
+
+<h2>Daftar kata per tema</h2>
+<p class="muted">Pilih tema, lalu ketuk sebuah kata untuk menandainya hafal (hijau). Ketuk 🔊 untuk mendengar.</p>
+<div class="seg" id="th"></div>
+<div id="vl"></div>
+
+<h2>Kata yang sering tertukar</h2>
+<div class="tw"><table><tr><th>Pasangan</th><th>Perbedaan</th></tr><tr><td><b>近 vs 进</b></td><td>Keduanya dibaca jìn. 近 = dekat (sifat). 进 = masuk (verba): 进来, 进去.</td></tr><tr><td><b>还是 vs 就</b></td><td>还是 = atau (pertanyaan pilihan) atau tetap. 就 = segera/lalu: 十分钟就到.</td></tr><tr><td><b>得 / 地 / 的</b></td><td>的 menghubungkan penjelas + benda; 地 menghubungkan keterangan + verba; 得 menghubungkan verba + penilaian.</td></tr><tr><td><b>让 vs 送</b></td><td>让 = membiarkan/menyuruh. 送 = mengantar/memberi (hadiah, orang).</td></tr><tr><td><b>过 (guò) vs 过 (guo)</b></td><td>guò = melewati/menghabiskan waktu (过年). guo = partikel pengalaman: 去过中国.</td></tr><tr><td><b>花 (huā)</b></td><td>花 bisa “bunga” (名词) atau “menghabiskan” uang/waktu (动词). Lihat konteksnya.</td></tr></table></div>
+
+<h2>Kuis kosakata</h2>
+<p class="muted">Soal dibuat acak dari kata level ini. Tekan tombol untuk mendapat soal baru.</p>
+<div id="quiz"></div>
+<p><button class="ghost" id="qn">Soal baru</button></p>
+
+</main>
+<script src="assets/vocab2.js"></script>
+<script src="assets/glossary.js"></script><script src="assets/app.js"></script>
+<script>
+const W = VOC[2], TH = {"Transportasi & bepergian": ["地铁", "公交车", "打车", "车站", "机场", "机票", "站", "旅游", "出国", "酒店", "路", "路上", "门票", "票", "飞"], "Arah & posisi": ["左", "右", "左边", "右边", "前面", "后面", "上面", "下面", "里面", "外面", "旁边", "往", "远", "近", "离"], "Verba arah": ["进来", "进去", "出来", "出去", "回来", "回去", "上来", "上去", "下来", "下去", "过来", "过去", "起来"], "Olahraga & hobi": ["篮球", "足球", "跑步", "游泳", "跳舞", "踢", "打", "运动", "爱好", "画"], "Warna & pakaian": ["白色", "黑色", "红色", "绿色", "颜色", "裤子", "红茶", "绿茶", "奶茶"], "Sekolah & ujian": ["班", "考试", "考", "教室", "教", "题", "词", "本子", "笔", "书包", "开学", "高中"], "Tubuh & kesehatan": ["身体", "头", "手", "眼睛", "药", "药店", "疼", "舒服", "累"], "Kata penghubung": ["因为", "所以", "虽然", "但是", "但", "还是", "就", "已经", "经常", "有时", "一起", "最", "准备"], "Keluarga": ["奶奶", "爷爷", "妻子", "丈夫", "男孩儿", "女孩儿", "小孩儿", "生日", "小时候"]};
+const th = $('#th'); th.innerHTML = '<button class="on" data-t="">Semua (200)</button>' + Object.keys(TH).map(k => `<button data-t="${k}">${k}</button>`).join('');
+function showTheme(t) { const set = t ? new Set(TH[t]) : null; vocabList('#vl', set ? W.filter(w => set.has(w.h)) : W); }
+th.onclick = e => { const b = e.target.closest('button'); if (!b) return; $$('button', th).forEach(x => x.classList.toggle('on', x === b)); showTheme(b.dataset.t); };
+showTheme(''); flashcards('#fc', W);
+const newQ = () => quiz(vocabQuiz(W, 8));
+$('#qn').onclick = newQ; newQ();
+</script>
+</body>
+</html>

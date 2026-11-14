@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>07 HSK 2 Tata Bahasa · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="07">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Membandingkan dengan <i data-k="bi">比</i> dan menyatakan pengalaman dengan <i data-k="guo">过</i>.</li><li>Memakai <i data-k="de3">得</i> untuk menilai cara melakukan sesuatu.</li><li>Menyambung kalimat dengan 因为…所以…, 虽然…但是…, serta memakai <i data-k="arah">kata arah</i> dan 离, 从, 往.</li></ul></div>
+
+<h2>Dari kalimat pendek ke kalimat bersusun</h2>
+<p><mark>HSK 2 menambah alat untuk membandingkan, menceritakan pengalaman, dan menghubungkan dua klausa.</mark> Pola-pola ini muncul di semua bagian ujian, terutama soal melengkapi kalimat dan menyusun kalimat.</p>
+
+<h2>1. Perbandingan dengan 比</h2>
+<div class="case"><b>Pola</b><p><b>A + 比 + B + sifat</b>. Kebalikannya: <b>B + 没有 + A + sifat</b>. Jangan menaruh 很 sebelum sifat pada pola 比, dan jangan memakai 不比 sembarangan.</p></div>
+<div id="e1"></div>
+<div class="sim"><div class="sim-h">Simulasi · penyusun perbandingan</div>
+<h3>Pilih pasangan dan lihat dua cara menyatakan fakta yang sama</h3>
+<div class="ctrl"><label>Pasangan <select id="bp"></select></label></div>
+<div id="bo"></div></div>
+
+<h2>2. Pengalaman dan keadaan: 过, 着, 了</h2>
+<div class="tw"><table><tr><th>Partikel</th><th>Makna</th><th>Contoh</th></tr>
+<tr><td><i data-k="guo">过</i> (guo)</td><td>pernah mengalami</td><td class="hz">我去过中国。</td></tr>
+<tr><td><i data-k="le">了</i></td><td>selesai atau berubah</td><td class="hz">我吃了饭。 天气冷了。</td></tr>
+<tr><td><i data-k="zhe">着</i></td><td>keadaan yang berlangsung</td><td class="hz">门开着。</td></tr></table></div>
+<div id="e2"></div>
+<div class="warn"><b>Penyangkal</b><p><span class="hz">过</span> disangkal dengan <span class="hz">没(有)</span>: <span class="hz">我没去过</span>. Jangan memakai 不 + 过.</p></div>
+
+<h2>3. Penilaian cara dengan 得</h2>
+<p><i data-k="de3">得</i> menghubungkan verba dengan penilaian: <b>verba + 得 + sifat/penilaian</b>. Jika ada objek, ulangi verba: <b>verba + objek + verba + 得 + penilaian</b>.</p>
+<div id="e3"></div>
+
+<h2>4. Menyambung klausa</h2>
+<div class="tw"><table><tr><th>Pola</th><th>Arti</th></tr>
+<tr><td class="hz">因为 … 所以 …</td><td>karena … maka …</td></tr>
+<tr><td class="hz">虽然 … 但是 …</td><td>meskipun … tetapi …</td></tr>
+<tr><td class="hz">A 还是 B？</td><td>A atau B? (pertanyaan pilihan)</td></tr></table></div>
+<div id="e4"></div>
+<div class="note"><b>Tidak boleh dobel</b><p>Di bahasa Indonesia “meskipun … tetapi …” tidak lazim dipakai bersamaan. Di Mandarin justru dua-duanya wajar muncul.</p></div>
+
+<h2>5. Kata arah: 来 dan 去</h2>
+<p><b>来</b> berarti bergerak menuju pembicara, <b>去</b> berarti menjauhi pembicara. Gabungkan dengan 进, 出, 回, 上, 下, 过.</p>
+<div class="grid g3" id="dir"></div>
+<div id="e5"></div>
+
+<h2>6. Jarak dan arah: 离, 从…到…, 往</h2>
+<div id="e6"></div>
+
+<h2>7. 就, 已经, 快要…了</h2>
+<div id="e7"></div>
+<div class="sim"><div class="sim-h">Simulasi · pilih partikel</div><h3>过, 了, atau 着?</h3><div id="quiz2"></div></div>
+
+<h2>Kuis</h2>
+<div id="quiz"></div>
+
+</main>
+<script src="assets/glossary.js"></script><script src="assets/app.js"></script>
+<script>
+const E = (sel, arr) => { $(sel).innerHTML = arr.map(a => ex(...a)).join(''); };
+E('#e1', [['他比我高。', 'Tā bǐ wǒ gāo.', 'Dia lebih tinggi dariku.'], ['今天比昨天冷。', 'Jīntiān bǐ zuótiān lěng.', 'Hari ini lebih dingin dari kemarin.'], ['他比我大两岁。', 'Tā bǐ wǒ dà liǎng suì.', 'Dia dua tahun lebih tua dariku. (selisih diletakkan di akhir)'], ['我没有他高。', 'Wǒ méiyǒu tā gāo.', 'Aku tidak setinggi dia.']]);
+E('#e2', [['我去过中国。', 'Wǒ qùguo Zhōngguó.', 'Saya pernah ke Tiongkok.'], ['你吃过饺子吗？', 'Nǐ chīguo jiǎozi ma?', 'Pernahkah kamu makan pangsit?'], ['我昨天买了一件衣服。', 'Wǒ zuótiān mǎi le yí jiàn yīfu.', 'Kemarin saya membeli sehelai baju.'], ['门开着。', 'Mén kāizhe.', 'Pintunya terbuka.']]);
+E('#e3', [['他说得很好。', 'Tā shuō de hěn hǎo.', 'Dia berbicara dengan baik.'], ['她跳舞跳得很好。', 'Tā tiàowǔ tiào de hěn hǎo.', 'Dia menari dengan sangat baik.'], ['我做得不好。', 'Wǒ zuò de bù hǎo.', 'Saya mengerjakannya kurang baik.']]);
+E('#e4', [['因为下雨，所以我没去。', 'Yīnwèi xià yǔ, suǒyǐ wǒ méi qù.', 'Karena hujan, saya tidak pergi.'], ['虽然很累，但是我很高兴。', 'Suīrán hěn lèi, dànshì wǒ hěn gāoxìng.', 'Meski lelah, saya senang.'], ['你喝茶还是咖啡？', 'Nǐ hē chá háishi kāfēi?', 'Kamu minum teh atau kopi?']]);
+E('#e5', [['他进来了。', 'Tā jìnlái le.', 'Dia sudah masuk (ke sini).'], ['他已经回去了。', 'Tā yǐjīng huíqù le.', 'Dia sudah pulang (ke sana).'], ['你上来吧。', 'Nǐ shànglái ba.', 'Naiklah ke sini.']]);
+E('#e6', [['学校离我家很近。', 'Xuéxiào lí wǒ jiā hěn jìn.', 'Sekolah dekat dari rumahku. (离 = jarak dari)'], ['从我家到学校，走路十分钟。', 'Cóng wǒ jiā dào xuéxiào, zǒulù shí fēnzhōng.', 'Dari rumahku ke sekolah jalan kaki 10 menit.'], ['往左走。', 'Wǎng zuǒ zǒu.', 'Berjalanlah ke kiri.']]);
+E('#e7', [['火车快要到了。', 'Huǒchē kuàiyào dào le.', 'Kereta sebentar lagi tiba.'], ['我已经吃饭了。', 'Wǒ yǐjīng chīfàn le.', 'Saya sudah makan.'], ['十分钟就到。', 'Shí fēnzhōng jiù dào.', 'Cukup 10 menit sudah sampai.']]);
+$('#dir').innerHTML = [['进', 'jìn', 'masuk'], ['出', 'chū', 'keluar'], ['回', 'huí', 'kembali'], ['上', 'shàng', 'naik'], ['下', 'xià', 'turun'], ['过', 'guò', 'menyeberang']].map(d => `<div class="card mini center"><div class="hz big">${d[0]}</div><div class="py">${cpy(d[1])} · ${d[2]}</div><p>${d[0]}来 / ${d[0]}去</p></div>`).join('');
+
+/* penyusun perbandingan */
+const BP = [['哥哥', 'gēge', '哥哥', '我', 'wǒ', '高', 'gāo', 'kakak', 'saya', 'tinggi'], ['这件衣服', 'zhè jiàn yīfu', '这件', '那件', 'nà jiàn', '贵', 'guì', 'baju ini', 'baju itu', 'mahal'], ['今天', 'jīntiān', '今天', '昨天', 'zuótiān', '冷', 'lěng', 'hari ini', 'kemarin', 'dingin'], ['坐地铁', 'zuò dìtiě', '坐地铁', '坐公交车', 'zuò gōngjiāochē', '快', 'kuài', 'naik MRT', 'naik bus', 'cepat']];
+$('#bp').innerHTML = BP.map((b, i) => `<option value="${i}">${b[0]} vs ${b[3]} · ${b[9]}</option>`).join('');
+function bi() {
+  const [A, pa, As, B, pb, J, pj, ma, mb, mj] = BP[+$('#bp').value];
+  const f1 = A + '比' + B + J + '。', f2 = B + '没有' + As + J + '。';
+  $('#bo').innerHTML = `<div class="ex"><div><span class="hz">${f1}</span><span class="pyl">${pa} bǐ ${pb} ${pj}</span><small>${ma} lebih ${mj} dari ${mb}</small></div>${spkBtn(f1)}</div><div class="ex"><div><span class="hz">${f2}</span><span class="pyl">${pb} méiyǒu ${pa.split(' ').pop()} ${pj}</span><small>${mb} tidak se${mj} ${ma} (fakta sama, sudut pandang terbalik)</small></div>${spkBtn(f2)}</div>`;
+}
+$('#bp').onchange = bi; bi();
+
+quiz([
+  { q: '我（　）中国。 (Saya pernah ke Tiongkok.)', o: ['去了', '去着', '去过', '去得'], a: 2, e: 'Verba + 过 menyatakan pengalaman.' },
+  { q: '门开（　）。 (Pintunya sedang terbuka.)', o: ['了', '过', '着', '得'], a: 2, e: '着 menyatakan keadaan yang berlangsung.' },
+  { q: '昨天我买（　）一本书。 (Kemarin saya membeli sebuah buku.)', o: ['了', '着', '过', '地'], a: 0, e: '了 menandai perbuatan selesai.' },
+], '#quiz2');
+quiz([
+  { q: 'Cara menyatakan “Hari ini lebih panas dari kemarin”:', o: ['今天比昨天很热', '今天比昨天热', '今天昨天比热', '今天是比昨天热'], a: 1, e: 'Pola 比 tidak memakai 很: A 比 B + sifat.' },
+  { q: '他说汉语说（　）很好。', o: ['的', '地', '得', '着'], a: 2, e: '得 menghubungkan verba dengan penilaian.' },
+  { q: '（　）下雨，所以我们不去公园。', o: ['因为', '虽然', '如果', '但是'], a: 0, e: '因为 … 所以 … = karena … maka …' },
+  { q: '学校（　）我家很近。', o: ['从', '离', '往', '跟'], a: 1, e: '离 menyatakan jarak antara dua tempat.' },
+  { q: 'Arti 他回去了：', o: ['Dia pulang (menjauh dari pembicara)', 'Dia datang kembali ke sini', 'Dia akan masuk', 'Dia baru berangkat'], a: 0, e: '回去 = kembali ke sana (menjauh); 回来 = kembali ke sini.' },
+  { q: 'Mana yang benar?', o: ['我不去过北京。', '我没去过北京。', '我没有过去北京。', '我去没过北京。'], a: 1, e: 'Pengalaman disangkal dengan 没(有) + verba + 过.' },
+]);
+</script>
+</body>
+</html>

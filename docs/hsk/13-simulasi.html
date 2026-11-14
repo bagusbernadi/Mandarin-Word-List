@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>13 Simulasi Ujian · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="13">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Mengerjakan satu set soal dengan batas waktu seperti ujian.</li><li>Melihat skor per bagian dan status lulus perkiraan (batas 60%).</li><li>Membaca pembahasan semua soal setelah selesai.</li></ul></div>
+
+<h2>Simulasi ujian</h2>
+<p><mark>Kerjakan sekali jalan dengan timer.</mark> Audio hanya bisa diputar 2 kali per soal, seperti ujian sebenarnya. Pastikan suara perangkat menyala dan Anda berada di tempat yang tenang.</p>
+
+<div class="sim"><div class="sim-h">Pilih ujian</div>
+<div class="ctrl"><label>Level <select id="lv"><option value="1">HSK 1</option><option value="2">HSK 2</option><option value="3">HSK 3</option></select></label><button id="go">Mulai simulasi</button></div>
+<div id="fmt"></div>
+<div class="kpis" id="kp"></div></div>
+
+<div class="warn"><b>Perhatikan</b><p>Ini simulasi buatan sendiri untuk latihan: jumlah soal pada HSK 2 dan 3 lebih ringkas daripada ujian resmi, dan skornya hanya perkiraan. Cek jadwal dan format resmi di chinesetest.cn atau pusat ujian terdekat.</p></div>
+
+<div id="box"></div>
+</main>
+<script src="assets/glossary.js"></script><script src="assets/vocab1.js"></script><script src="assets/vocab2.js"></script><script src="assets/vocab3.js"></script><script src="assets/bank.js"></script><script src="assets/app.js"></script><script src="assets/exam.js"></script>
+<script>
+function info() {
+  const lv = +$('#lv').value, f = FMT[lv], items = BANK[lv].filter(x => !x.extra);
+  const c = { L: 0, R: 0, W: 0 }; items.forEach(x => c[x.sk]++);
+  $('#fmt').innerHTML = `<p><b>Format resmi (ringkasan):</b> ${f.real}</p><p><b>Format simulasi ini:</b> ${items.length} soal (Mendengar ${c.L}${c.R ? ', Membaca ' + c.R : ''}${c.W ? ', Menulis ' + c.W : ''}) · ${f.min} menit · skor maks ${f.max}.</p>`;
+  $('#kp').innerHTML = `<div class="kpi"><span>Skor terbaik</span><b>${store.get('best_mock' + lv, '—')}${store.get('best_mock' + lv) != null ? ' / ' + f.max : ''}</b></div><div class="kpi"><span>Waktu</span><b>${f.min} menit</b></div><div class="kpi"><span>Soal</span><b>${items.length}</b></div>`;
+}
+$('#lv').onchange = info; info();
+let nn = 0;
+$('#go').onclick = () => {
+  const lv = +$('#lv').value, f = FMT[lv];
+  const order = { L: 0, R: 1, W: 2 };
+  const items = BANK[lv].filter(x => !x.extra).sort((a, b) => order[a.sk] - order[b.sk]);
+  nn++; const id = 'mk' + nn; $('#box').innerHTML = `<div id="${id}"></div>`;
+  Exam.run('#' + id, { items, minutes: f.min, max: f.max, key: 'mock' + lv });
+  $('#box').scrollIntoView({ behavior: 'smooth' });
+};
+</script>
+</body>
+</html>

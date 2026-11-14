@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kamus HSK 1–3 · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="kamus">
+<main class="wrap">
+<section class="hero"><span class="eyebrow">Referensi</span><h1>Kamus HSK 1–3</h1><p class="lead">1.000 kata resmi HSK 3.0, dengan pinyin, arti dalam bahasa Indonesia, dan suara. Ketuk kata untuk menandainya sebagai hafal.</p></section>
+<div class="ctrl"><label>Level <select id="kl"><option value="0">Semua (1.000 kata)</option><option value="1">HSK 1 (300)</option><option value="2">HSK 2 (200 baru)</option><option value="3">HSK 3 (500 baru)</option></select></label></div>
+<div id="kv"></div>
+</main>
+<script src="assets/glossary.js"></script><script src="assets/vocab1.js"></script><script src="assets/vocab2.js"></script><script src="assets/vocab3.js"></script><script src="assets/app.js"></script>
+<script>
+function draw() {
+  const l = +$('#kl').value, words = l ? VOC[l] : [...VOC[1], ...VOC[2], ...VOC[3]];
+  $('#kv').innerHTML = '<div id="kvi"></div>';
+  vocabList('#kvi', words, 1000);
+}
+$('#kl').onchange = draw; draw();
+</script>
+</body>
+</html>

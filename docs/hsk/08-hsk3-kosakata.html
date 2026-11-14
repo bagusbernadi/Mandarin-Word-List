@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>08 HSK 3 Kosakata · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="08">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Mengenali dan mengucapkan 500 kata baru HSK 3 beserta artinya.</li><li>Menghafal dengan kartu, daftar tema, dan latihan cepat.</li><li>Membedakan kata yang sering tertukar di soal ujian.</li></ul></div>
+
+<h2>Gambaran kata level ini</h2>
+<p>HSK 3 menambah <b>500 kata baru</b> (total 1.000). Lonjakannya besar, jadi bagi menjadi 10–12 pekan. Banyak kata di level ini berupa gabungan dua karakter yang sudah Anda kenal, misalnya 工作日 = 工作 + 日.</p>
+<div class="note"><b>Cara menghafal yang bekerja</b><p>Hafalkan 10–15 kata per sesi, ucapkan keras-keras sambil mendengar 🔊, lalu tulis sekali. Ulangi pada hari ke-1, ke-3, dan ke-7. Kata yang salah lagi dikembalikan ke tumpukan “belum hafal”.</p></div>
+
+<div class="sim"><div class="sim-h">Simulasi · kartu hafalan</div>
+<h3>Ketuk kartu, lalu tandai hafal atau belum</h3>
+<div id="fc"></div></div>
+
+<h2>Daftar kata per tema</h2>
+<p class="muted">Pilih tema, lalu ketuk sebuah kata untuk menandainya hafal (hijau). Ketuk 🔊 untuk mendengar.</p>
+<div class="seg" id="th"></div>
+<div id="vl"></div>
+
+<h2>Kata yang sering tertukar</h2>
+<div class="tw"><table><tr><th>Pasangan</th><th>Perbedaan</th></tr><tr><td><b>以为 vs 觉得 / 认为</b></td><td>以为 = mengira (ternyata keliru): 我以为他不来. 觉得/认为 = berpendapat tanpa nuansa keliru.</td></tr><tr><td><b>得到 / 收到 / 受到</b></td><td>得到 = memperoleh; 收到 = menerima (barang, pesan); 受到 = menerima pengaruh (受到影响).</td></tr><tr><td><b>注意 vs 小心</b></td><td>注意 = memperhatikan; 小心 = berhati-hati agar tidak celaka.</td></tr><tr><td><b>打算 vs 准备</b></td><td>打算 = berencana (niat); 准备 = bersiap (tindakan menyiapkan).</td></tr><tr><td><b>关心 vs 关注</b></td><td>关心 = peduli pada seseorang; 关注 = memperhatikan suatu hal/berita.</td></tr><tr><td><b>常 / 常常 / 经常</b></td><td>Maknanya sama (sering). 常 lebih singkat; 常常 dan 经常 lebih umum dalam kalimat.</td></tr></table></div>
+
+<h2>Kuis kosakata</h2>
+<p class="muted">Soal dibuat acak dari kata level ini. Tekan tombol untuk mendapat soal baru.</p>
+<div id="quiz"></div>
+<p><button class="ghost" id="qn">Soal baru</button></p>
+
+</main>
+<script src="assets/vocab3.js"></script>
+<script src="assets/glossary.js"></script><script src="assets/app.js"></script>
+<script>
+const W = VOC[3], TH = {"Cuaca, musim & alam": ["春天", "夏天", "秋天", "冬天", "季节", "风", "刮", "太阳", "月亮", "山", "海", "河", "草", "树"], "Arah mata angin": ["东", "南", "西", "北", "东北", "东南", "西北", "西南", "北方", "南方", "东方", "西方"], "Kota & tempat": ["城市", "公园", "动物园", "图书馆", "银行", "体育馆", "宾馆", "办公室", "地图", "街", "马路", "红绿灯", "路口", "小区"], "Sekolah & belajar": ["复习", "练习", "作业", "成绩", "课本", "课文", "词典", "字典", "黑板", "学期", "校长", "年级", "留学", "数学"], "Kesehatan": ["感冒", "发烧", "健康", "病人", "检查", "住院", "出院", "担心", "牙", "头发", "脸", "耳朵", "腿"], "Pekerjaan & kantor": ["经理", "同事", "会议", "开会", "办法", "要求", "机会", "努力", "决定", "完成"], "Perasaan & sifat": ["开心", "难过", "生气", "着急", "害怕", "满意", "聪明", "热情", "奇怪", "可爱", "安静"], "Kata penghubung": ["不但", "而且", "如果", "除了", "然后", "或者", "可是", "其实", "终于", "突然", "比如", "关于", "为了", "一边"], "Rumah & makanan": ["冰箱", "洗衣机", "空调", "沙发", "灯", "筷子", "盘子", "碗", "勺子", "冰激凌", "啤酒", "饮料", "方便面", "西瓜", "香蕉", "蛋糕"], "Perjalanan": ["护照", "行李", "高铁", "船", "出发", "起飞", "迟到", "检票", "地点", "一直"]};
+const th = $('#th'); th.innerHTML = '<button class="on" data-t="">Semua (500)</button>' + Object.keys(TH).map(k => `<button data-t="${k}">${k}</button>`).join('');
+function showTheme(t) { const set = t ? new Set(TH[t]) : null; vocabList('#vl', set ? W.filter(w => set.has(w.h)) : W); }
+th.onclick = e => { const b = e.target.closest('button'); if (!b) return; $$('button', th).forEach(x => x.classList.toggle('on', x === b)); showTheme(b.dataset.t); };
+showTheme(''); flashcards('#fc', W);
+const newQ = () => quiz(vocabQuiz(W, 8));
+$('#qn').onclick = newQ; newQ();
+</script>
+</body>
+</html>

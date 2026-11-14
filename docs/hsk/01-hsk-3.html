@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>01 Mengenal HSK 3.0 · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="01">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Menjelaskan struktur <i data-k="hsk30">HSK 3.0</i> dan perbedaan level 1, 2, dan 3.</li><li>Mengetahui bagian ujian, jumlah soal, dan penilaian tiap level.</li><li>Menyusun rencana belajar yang sesuai target dan waktu Anda.</li></ul></div>
+
+<h2>HSK dalam satu kalimat</h2>
+<p><mark><i data-k="hsk">HSK</i> adalah ujian resmi kemahiran bahasa Mandarin bagi penutur non-asli, dan hasilnya dipakai untuk kuliah, beasiswa, dan pekerjaan.</mark> Versi baru (HSK 3.0) membagi kemampuan ke 9 level dalam 3 tahap. Website ini membahas <b>tahap dasar: Level 1–3</b>, yang kira-kira setara <i data-k="cefr">CEFR</i> A1 sampai A2+.</p>
+
+<div class="case"><b>Jadwal penting</b><p>Ujian reguler HSK 3.0 Level 1–6 pertama dijadwalkan <b>13 Desember 2026</b>. Sebelum tanggal itu, jadwal reguler masih memakai format lama (HSK 2.0). Sertifikat lama tetap berlaku. Selalu cek format yang dipakai pusat ujian Anda saat mendaftar.</p></div>
+
+<h2>Level 1–3 dalam angka</h2>
+<div class="tw"><table>
+<tr><th>Level</th><th class="num">Kata baru</th><th class="num">Kata kumulatif</th><th class="num">Karakter dibaca</th><th class="num">Karakter ditulis</th></tr>
+<tr><td><b>HSK 1</b></td><td class="num">300</td><td class="num">300</td><td class="num">246</td><td class="num">0</td></tr>
+<tr><td><b>HSK 2</b></td><td class="num">200</td><td class="num">500</td><td class="num">371</td><td class="num">100</td></tr>
+<tr><td><b>HSK 3</b></td><td class="num">500</td><td class="num">1.000</td><td class="num">655</td><td class="num">250</td></tr>
+</table></div>
+<p class="small muted"><i data-k="kumulatif">Kumulatif</i> berarti semua kata dari level di bawahnya ikut diujikan. Angka karakter menurut ringkasan silabus 2026 dari sumber sekunder; cocokkan dengan dokumen resmi CTI bila perlu.</p>
+
+<h2>Format ujian</h2>
+<div class="tw"><table>
+<tr><th>Level</th><th>Mendengar</th><th>Membaca</th><th>Menulis</th><th>Durasi</th><th>Berbicara</th></tr>
+<tr><td><b>HSK 1</b></td><td>20 soal</td><td>20 soal</td><td>tidak ada</td><td>± 40 menit</td><td>tidak ada</td></tr>
+<tr><td><b>HSK 2</b></td><td>25 soal</td><td>25 soal</td><td>10 soal</td><td>± 60 menit</td><td>tidak ada</td></tr>
+<tr><td><b>HSK 3</b></td><td>30 soal</td><td>30 soal</td><td>10 soal</td><td>± 83 menit</td><td>ujian terpisah, didaftar bersama</td></tr>
+</table></div>
+<ul>
+  <li>HSK 1: 40 soal, skor penuh 200, batas lulus 120 (60%).</li>
+  <li>Ujian berbicara HSK 3 (<i data-k="hskk">berbicara</i>) memuat dengar-ulang, mendeskripsikan gambar, dan menjawab pertanyaan, sekitar 15 menit.</li>
+  <li>Jumlah soal dan durasi bisa berbeda antar sumber karena masa transisi. Contoh soal terbaru ada di situs resmi chinesetest.cn.</li>
+</ul>
+<div class="note"><b>Cara website ini dibuat</b><p>Kosakata dan jumlah level mengikuti silabus HSK 3.0 (2026). Soal latihan disusun sendiri mengikuti jenis soal tiap bagian; ini bukan soal resmi. Simulasi level 2 dan 3 memakai versi ringkas supaya cepat dikerjakan.</p></div>
+
+<div class="sim"><div class="sim-h">Simulasi · rencana belajar</div>
+<h3>Berapa pekan sampai semua kata target dikuasai?</h3>
+<p class="muted small">Geser jumlah kata baru per hari dan hari belajar per pekan. Perhitungan menambah 30% waktu untuk mengulang.</p>
+<div class="ctrl"><label>Target: <select id="tl"><option value="300">HSK 1 (300 kata)</option><option value="500">HSK 2 (500 kata)</option><option value="1000" selected>HSK 3 (1.000 kata)</option></select></label>
+<label>Kata baru / hari: <input type="range" id="wd" min="3" max="30" value="10"> <b id="wdv"></b></label>
+<label>Hari belajar / pekan: <input type="range" id="dw" min="2" max="7" value="5"> <b id="dwv"></b></label></div>
+<div class="kpis"><div class="kpi"><span>Perkiraan lama</span><b id="r1" style="color:#D9480F"></b></div><div class="kpi"><span>Kata / pekan</span><b id="r2"></b></div><div class="kpi"><span>Waktu / hari</span><b id="r3"></b></div></div>
+<div class="out" id="rmsg"></div></div>
+
+<h2>Empat keterampilan, satu strategi</h2>
+<div class="grid g2">
+  <div class="card mini"><h3>Mendengar &amp; membaca</h3><p>Ada di semua level. Latih telinga dengan kata yang sama yang Anda hafal; satu kata baru belum "dimiliki" sebelum Anda mengenalinya dalam suara.</p></div>
+  <div class="card mini"><h3>Menulis</h3><p>Mulai HSK 2: menyusun kalimat dan menulis karakter dari pinyin. Biasakan menulis tangan, bukan hanya mengenali.</p></div>
+  <div class="card mini"><h3>Berbicara</h3><p>Wajib untuk HSK 3 pada format baru. Latih dari awal: ulangi kalimat keras-keras, jangan hanya membaca dalam hati.</p></div>
+  <div class="card mini"><h3>Tata bahasa</h3><p>Tidak diujikan sendiri, tetapi menentukan skor di semua bagian. Hafalkan pola kalimat, bukan aturan panjang.</p></div>
+</div>
+
+<h2>Kuis</h2>
+<div id="quiz"></div>
+
+<h2>Sumber informasi</h2>
+<p class="small muted">Ringkasan silabus dan jadwal dirangkum dari: <a href="https://www.hackchinese.com/old-vs-new-hsk">Hack Chinese</a>, <a href="https://studycli.org/hsk/the-new-hsk/">Chinese Language Institute</a>, <a href="https://www.chinaeducenter.com/en/hsk/newhskband1.php">China Education Center</a>, dan <a href="https://hsklord.com/blog/hsk-3-0-vs-2-0-comparison">HSK Lord</a>. Daftar kata level 1–3 mengikuti urutan silabus yang dimuat di <a href="https://studycli.org/chinese-tools/hsk-1-vocabulary/">studycli.org</a>.</p>
+
+</main>
+<script src="assets/glossary.js"></script><script src="assets/app.js"></script>
+<script>
+function plan() {
+  const t = +$('#tl').value, wd = +$('#wd').value, dw = +$('#dw').value, perWeek = wd * dw, weeks = Math.ceil(t / perWeek * 1.3);
+  $('#wdv').textContent = wd + ' kata'; $('#dwv').textContent = dw + ' hari';
+  $('#r1').textContent = weeks + ' pekan'; $('#r2').textContent = perWeek; $('#r3').textContent = Math.round(wd * 2.5 + 15) + ' menit';
+  $('#rmsg').innerHTML = `Dengan ${wd} kata baru ${dw} hari per pekan, ${t} kata selesai dalam sekitar <b>${weeks} pekan</b> (± ${(weeks / 4.3).toFixed(1).replace('.', ',')} bulan). Waktu harian dihitung ± 2,5 menit per kata baru ditambah 15 menit ulangan.`;
+}
+['tl', 'wd', 'dw'].forEach(i => $('#' + i).oninput = plan); plan();
+quiz([
+  { q: 'Berapa total kata kumulatif yang diujikan pada HSK 3 (HSK 3.0, 2026)?', o: ['600', '1.000', '1.272', '2.245'], a: 1, e: 'HSK 1 = 300, HSK 2 = 500, HSK 3 = 1.000 kata kumulatif. Angka 600 milik HSK 2.0 lama; 2.245 milik rancangan 2021.' },
+  { q: 'Level mana yang pertama kali mewajibkan ujian berbicara pada format baru?', o: ['HSK 1', 'HSK 2', 'HSK 3', 'HSK 4'], a: 2, e: 'Ujian berbicara dimulai dari HSK 3 dan didaftarkan bersama ujian tertulis.' },
+  { q: 'Apakah HSK 1 memiliki bagian menulis?', o: ['Ya, 10 soal', 'Tidak, hanya mendengar dan membaca', 'Ya, 5 soal', 'Hanya menulis angka'], a: 1, e: 'HSK 1 terdiri atas 20 soal mendengar dan 20 soal membaca.' },
+  { q: 'Seorang peserta menguasai 300 kata HSK 1. Berapa kata baru yang perlu ia pelajari untuk mencapai HSK 2?', o: ['150', '200', '300', '500'], a: 1, e: '500 − 300 = 200 kata baru.' },
+]);
+</script>
+</body>
+</html>

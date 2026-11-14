@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glosarium · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="glosarium">
+<main class="wrap">
+<section class="hero"><span class="eyebrow">Referensi</span><h1>Glosarium</h1><p class="lead">Istilah yang muncul di modul, dengan penjelasan sederhana dan tautan ke modul terkait.</p></section>
+<input class="search" type="text" id="gq" placeholder="Cari istilah…" aria-label="Cari istilah">
+<div id="gl"></div>
+</main>
+<script src="assets/glossary.js"></script><script src="assets/app.js"></script>
+<script>
+const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const ent = Object.entries(G).sort((a, b) => a[1][2].localeCompare(b[1][2]) || a[1][0].localeCompare(b[1][0]));
+function draw() {
+  const q = $('#gq').value.trim().toLowerCase();
+  const f = ent.filter(([k, v]) => !q || (v[0] + ' ' + v[1]).toLowerCase().includes(q));
+  $('#gl').innerHTML = f.length ? f.map(([k, v]) => { const m = MODULES.find(x => x.id === v[2]); return `<div class="card" id="${k}" style="margin:12px 0"><h3 style="margin:0 0 4px">${esc(v[0])}</h3><p style="margin:0 0 6px">${esc(v[1])}</p>${m ? `<a class="small" href="${m.file}">Modul ${m.id} · ${m.title} →</a>` : ''}</div>`; }).join('') : '<p class="muted">Tidak ada istilah yang cocok.</p>';
+}
+$('#gq').oninput = draw; draw();
+if (location.hash) setTimeout(() => { const e = document.getElementById(location.hash.slice(1)); if (e) e.scrollIntoView(); }, 50);
+</script>
+</body>
+</html>

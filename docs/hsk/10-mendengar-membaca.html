@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>10 Mendengar & Membaca · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="10">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Mengenali pola soal <i data-k="tingli">听力</i> dan <i data-k="yuedu">阅读</i> di HSK 1–3.</li><li>Memakai strategi “baca pilihan dulu, dengar kata kunci”.</li><li>Menangkap angka, harga, dan jam yang paling sering diuji.</li></ul></div>
+
+<h2>Dua keterampilan yang menyumbang skor terbesar</h2>
+<p><mark>Mendengar dan membaca menentukan sebagian besar nilai HSK 1–3.</mark> Keduanya dinilai lewat pilihan ganda, jadi strategi sama pentingnya dengan kosakata.</p>
+
+<div class="tw"><table><tr><th>Level</th><th>Mendengar</th><th>Membaca</th></tr>
+<tr><td><b>HSK 1</b></td><td>Cocokkan kalimat dengan gambar; benar/salah; pilih jawaban</td><td>Cocokkan kalimat dengan gambar; benar/salah; pilih pasangan kalimat</td></tr>
+<tr><td><b>HSK 2</b></td><td>Benar/salah dengan gambar; dialog pendek, pilih jawaban</td><td>Cocokkan kalimat; lengkapi dengan kata; pilih jawaban</td></tr>
+<tr><td><b>HSK 3</b></td><td>Dialog lebih panjang; pertanyaan tentang tempat, waktu, alasan</td><td>Lengkapi kalimat; pasangkan pertanyaan-jawaban; baca teks pendek</td></tr></table></div>
+<div class="note"><b>Catatan</b><p>Struktur ini ringkasan pola umum. Jumlah soal dan durasi resmi ada di modul 01 dan halaman Simulasi.</p></div>
+
+<h2>Strategi mendengar</h2>
+<div class="grid g3">
+<div class="card mini"><h3>1. Baca dulu</h3><p>Gunakan jeda sebelum audio untuk membaca semua pilihan. Tandai kata yang akan Anda cari.</p></div>
+<div class="card mini"><h3>2. Tangkap kata kunci</h3><p>Angka, tempat, waktu, dan kata tanya hampir selalu menentukan jawaban.</p></div>
+<div class="card mini"><h3>3. Waspadai jebakan</h3><p>Pilihan sering memuat kata yang disebut di audio tetapi bukan jawabannya.</p></div></div>
+
+<h2>Strategi membaca</h2>
+<ul>
+<li><b>Mulai dari pertanyaan</b>, baru baca teks. Anda mencari informasi, bukan menerjemahkan semuanya.</li>
+<li><b>Lewati kata asing</b> yang bukan kata kunci; tebak dari radikal dan konteks.</li>
+<li><b>Lengkapi kalimat</b>: tentukan dulu jenis kata yang hilang (verba, <i data-k="liangci">pengukur</i>, <i data-k="lianci">penghubung</i>), baru pilih.</li>
+<li><b>Atur waktu</b>: jangan terpaku pada satu soal lebih dari 1 menit.</li></ul>
+
+<h2>Latihan menangkap angka</h2>
+<p>Angka paling sering membuat peserta salah. Putar audio, lalu pilih yang Anda dengar. Audio memakai suara perangkat Anda (<i>text-to-speech</i>).</p>
+<div class="sim"><div class="sim-h">Simulasi · dengar angka</div>
+<h3>Pilih jenis angka, putar, lalu jawab</h3>
+<div class="ctrl"><label>Jenis <select id="nm"><option value="num">Angka 1–99</option><option value="big">Angka 100–999</option><option value="price">Harga (块)</option><option value="time">Jam</option><option value="tel">Nomor telepon (4 digit)</option></select></label>
+<label>Kecepatan <select id="nr"><option value=".7">Pelan</option><option value=".9" selected>Normal</option><option value="1.05">Cepat</option></select></label></div>
+<div class="row"><button id="np">🔊 Putar</button><button class="ghost" id="nn">Soal baru</button><span class="muted small" id="ns"></span></div>
+<div class="opt-grid" id="no"></div><p id="nf" class="muted"></p></div>
+
+<h2>Latihan memilih kata untuk melengkapi kalimat</h2>
+<div id="quiz2"></div>
+
+<h2>Kuis</h2>
+<div id="quiz"></div>
+</main>
+<script src="assets/glossary.js"></script><script src="assets/app.js"></script>
+<script>
+const D = '零一二三四五六七八九';
+function cn(n, lead) {
+  if (n < 10) return D[n];
+  if (n < 20) return '十' + (n % 10 ? D[n % 10] : '');
+  if (n < 100) return D[Math.floor(n / 10)] + '十' + (n % 10 ? D[n % 10] : '');
+  const h = Math.floor(n / 100), r = n % 100, s = (h === 2 ? '两' : D[h]) + '百';
+  if (!r) return s; if (r < 10) return s + '零' + D[r]; if (r < 20) return s + '一十' + (r % 10 ? D[r % 10] : '');
+  return s + cn(r);
+}
+const rnd = (a, b) => a + Math.floor(Math.random() * (b - a + 1));
+let cur = null, played = 0, sc = 0, tot = 0;
+function make() {
+  const m = $('#nm').value; let say, ans, dist = new Set();
+  if (m === 'num') { const n = rnd(11, 99); say = cn(n); ans = String(n); while (dist.size < 3) { let d = [n + 1, n - 1, n + 10, n - 10, +String(n).split('').reverse().join(''), rnd(11, 99)][rnd(0, 5)]; if (d > 0 && d < 100 && d !== n) dist.add(String(d)); } }
+  else if (m === 'big') { const n = rnd(101, 999); say = cn(n); ans = String(n); while (dist.size < 3) { let d = n + [1, -1, 10, -10, 100, -100, rnd(-50, 50)][rnd(0, 6)]; if (d > 100 && d < 1000 && d !== n) dist.add(String(d)); } }
+  else if (m === 'price') { const n = rnd(3, 99); say = cn(n) + '块'; ans = n + ' 块'; while (dist.size < 3) { let d = n + [1, -1, 10, -10, 2, -2][rnd(0, 5)]; if (d > 0 && d < 100 && d !== n) dist.add(d + ' 块'); } }
+  else if (m === 'time') { const h = rnd(1, 12), mi = [0, 5, 10, 15, 30, 45, 50][rnd(0, 6)], hh = h === 2 ? '两' : cn(h); say = hh + '点' + (mi === 0 ? '' : mi === 30 ? '半' : mi < 10 ? '零' + D[mi] + '分' : cn(mi) + '分'); const f = (H, M) => `${H}:${String(M).padStart(2, '0')}`; ans = f(h, mi); while (dist.size < 3) { const d = f(rnd(1, 12), [0, 5, 10, 15, 30, 45, 50][rnd(0, 6)]); if (d !== ans) dist.add(d); } }
+  else { const n = String(rnd(1000, 9999)); say = n.split('').map(c => D[+c]).join(''); ans = n; while (dist.size < 3) { let a = n.split(''); const i = rnd(0, 3); a[i] = String(rnd(0, 9)); const d = a.join(''); if (d !== n && d[0] !== '0') dist.add(d); } }
+  const opts = [...dist, ans].sort(() => Math.random() - .5);
+  cur = { say, ans, opts, done: false };
+  $('#no').innerHTML = opts.map(o => `<button data-o="${o}">${o}</button>`).join('');
+  $('#nf').textContent = ''; played = 0;
+  $$('#no button').forEach(b => b.onclick = () => {
+    if (cur.done) return; cur.done = true; tot++;
+    const ok = b.dataset.o === cur.ans; if (ok) sc++;
+    $$('#no button').forEach(x => { if (x.dataset.o === cur.ans) x.classList.add('right'); });
+    if (!ok) b.classList.add('wrong');
+    $('#nf').innerHTML = (ok ? '<b style="color:#2B8A3E">Benar.</b> ' : '<b style="color:#C92A2A">Belum tepat.</b> ') + `Teks: <span class="hz">${cur.say}</span>`;
+    $('#ns').textContent = `Skor ${sc}/${tot}`;
+  });
+}
+$('#np').onclick = () => { if (!cur) make(); speak(cur.say, +$('#nr').value); };
+$('#nn').onclick = () => { make(); speak(cur.say, +$('#nr').value); };
+$('#nm').onchange = make;
+make();
+
+quiz([
+  { q: 'Bagian mendengar: Anda mendengar “三点一刻”. Pukul berapa?', o: ['3:15', '3:45', '1:30', '3:30'], a: 0, e: '一刻 = 15 menit; 三点一刻 = 3:15.' },
+  { q: '“两百五十块” berarti…', o: ['250 yuan', '2.500 yuan', '25 yuan', '520 yuan'], a: 0, e: '两百 = 200, 五十 = 50 → 250.' },
+  { q: 'Strategi terbaik sebelum audio dimulai:', o: ['Membaca semua pilihan jawaban', 'Menutup mata', 'Menerjemahkan semua pilihan ke bahasa Indonesia', 'Menunggu audio selesai'], a: 0, e: 'Membaca pilihan membuat Anda tahu kata kunci apa yang dicari.' },
+  { q: 'Jika menemukan kata asing saat membaca, sebaiknya…', o: ['Menebak dari radikal dan konteks, lalu lanjut', 'Berhenti sampai tahu artinya', 'Melewati seluruh soal', 'Memilih jawaban terpanjang'], a: 0, e: 'Fokus pada informasi yang ditanyakan, bukan semua kata.' },
+]);
+quiz([
+  { q: '我（　）一个哥哥。', o: ['有', '是', '在', '很'], a: 0, e: 'Kepemilikan = 有.' },
+  { q: '这（　）书很有意思。', o: ['个', '本', '件', '只'], a: 1, e: '本 adalah kata pengukur untuk buku.' },
+  { q: '他今天没来，（　）他生病了。', o: ['因为', '所以', '但是', '如果'], a: 0, e: '因为 memperkenalkan alasan: “dia tidak datang, karena sakit”.' },
+], '#quiz2');
+</script>
+</body>
+</html>

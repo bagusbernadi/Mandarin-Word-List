@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>11 Menulis & Berbicara · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="11">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Menjawab soal menulis HSK 2–3: menyusun kata dan mengetik hanzi dari pinyin.</li><li>Berlatih berbicara tingkat HSK 3: menirukan, menjawab pertanyaan, dan menggambarkan situasi.</li><li>Menilai diri sendiri dengan daftar periksa sederhana.</li></ul></div>
+
+<h2>Menulis (书写)</h2>
+<p><mark>Di ujian, menulis dikerjakan dengan mengetik hanzi dari pinyin atau menyusun kata menjadi kalimat.</mark> Anda tidak perlu menulis tangan seindah kaligrafi, tetapi harus mengenali karakter yang benar di antara karakter yang mirip.</p>
+<div class="tw"><table><tr><th>Level</th><th>Tuntutan menulis</th></tr>
+<tr><td><b>HSK 1</b></td><td>Tidak ada bagian menulis resmi di rancangan 3.0. Soal tambahan di sini hanya latihan.</td></tr>
+<tr><td><b>HSK 2</b></td><td>Menyusun kata menjadi kalimat; mengisi hanzi dari pinyin (±100 karakter tulis).</td></tr>
+<tr><td><b>HSK 3</b></td><td>Sama, dengan kalimat lebih panjang dan karakter lebih banyak (±250 karakter tulis).</td></tr></table></div>
+<div class="note"><b>Tips menyusun kalimat</b><p>Urutan dasar: <b>waktu → subjek → tempat → verba → objek</b>. Cari dulu subjek dan verba, lalu pasang keterangan di antaranya. Ingat 把 dan 被 memindahkan objek ke depan verba.</p></div>
+
+<div class="sim"><div class="sim-h">Latihan · menulis</div>
+<h3>Susun kata atau ketik hanzi</h3>
+<div class="ctrl"><label>Level <select id="wl"><option value="2">HSK 2</option><option value="3">HSK 3</option><option value="1">HSK 1 (soal tambahan)</option></select></label><button id="ws">Mulai</button></div>
+<div id="wbox"></div></div>
+
+<h2>Berbicara (口语)</h2>
+<p>Ujian berbicara terpisah dari ujian tertulis dan memakai rekaman. Latihan di bawah tidak menilai suara Anda; Anda mendengar, mengulang dengan keras, lalu menilai diri sendiri.</p>
+
+<h3>A. Dengar dan ulangi</h3>
+<p>Putar dengan kecepatan pelan, ulangi 3 kali, lalu normal. Perhatikan nada dan jeda.</p>
+<div id="rep"></div>
+
+<h3>B. Jawab pertanyaan</h3>
+<p>Putar pertanyaan, jawab dengan kalimat penuh (jangan hanya satu kata), lalu bandingkan dengan contoh.</p>
+<div id="qa"></div>
+
+<h3>C. Gambarkan situasi</h3>
+<p>Gunakan pola: <b>siapa + sedang apa + di mana + bagaimana</b>. Contoh jawaban hanya salah satu kemungkinan.</p>
+<div id="scn"></div>
+
+<div class="sim"><div class="sim-h">Daftar periksa diri</div>
+<h3>Setelah merekam jawaban sendiri</h3>
+<ul id="ck"></ul><p class="muted small" id="ckr"></p></div>
+
+<h2>Kuis</h2>
+<div id="quiz"></div>
+</main>
+<script src="assets/glossary.js"></script><script src="assets/vocab1.js"></script><script src="assets/vocab2.js"></script><script src="assets/vocab3.js"></script><script src="assets/bank.js"></script><script src="assets/app.js"></script><script src="assets/exam.js"></script>
+<script>
+/* menulis */
+let wn = 0;
+function startW() {
+  const lv = +$('#wl').value, items = BANK[lv].filter(x => x.sk === 'W');
+  wn++; const id = 'wr' + wn; $('#wbox').innerHTML = `<div id="${id}"></div>`;
+  Exam.run('#' + id, { items: shuffle(items) });
+}
+$('#ws').onclick = startW; startW();
+
+/* berbicara */
+const REP = [['你好，我叫小明，我是学生。', 'Nǐ hǎo, wǒ jiào Xiǎomíng, wǒ shì xuésheng.', 'Halo, namaku Xiaoming, aku pelajar.'], ['今天天气很好，我们去公园玩吧。', 'Jīntiān tiānqì hěn hǎo, wǒmen qù gōngyuán wán ba.', 'Cuaca hari ini bagus, ayo main ke taman.'], ['我每天早上七点起床。', 'Wǒ měitiān zǎoshang qī diǎn qǐchuáng.', 'Setiap pagi aku bangun jam tujuh.'], ['请问，附近有没有银行？', 'Qǐngwèn, fùjìn yǒu méiyǒu yínháng?', 'Permisi, apakah ada bank di dekat sini?'], ['我把手机忘在家里了。', 'Wǒ bǎ shǒujī wàng zài jiālǐ le.', 'Ponselku tertinggal di rumah.'], ['如果明天不下雨，我们就去爬山。', 'Rúguǒ míngtiān bú xià yǔ, wǒmen jiù qù páshān.', 'Kalau besok tidak hujan, kita naik gunung.']];
+$('#rep').innerHTML = REP.map((r, i) => `<div class="sp-card"><span class="hz">${r[0]}</span><div class="py">${cpy(r[1])}</div><small class="muted">${r[2]}</small><div class="row"><button class="ghost" data-r="${i}" data-s=".65">🐢 Pelan</button><button data-r="${i}" data-s=".9">🔊 Normal</button></div></div>`).join('');
+$('#rep').onclick = e => { const b = e.target.closest('[data-r]'); if (b) speak(REP[+b.dataset.r][0], +b.dataset.s); };
+
+const QA = [['你叫什么名字？你是哪国人？', '我叫阿里，我是印度尼西亚人。', 'Siapa namamu? Dari negara mana?'], ['你每天几点起床？', '我每天六点半起床，然后吃早饭。', 'Jam berapa kamu bangun tiap hari?'], ['你周末喜欢做什么？', '周末我喜欢在家看电影，有时候也去朋友家玩。', 'Apa yang kamu suka lakukan di akhir pekan?'], ['你为什么学习汉语？', '因为我想去中国旅游，也想和中国朋友聊天。', 'Mengapa kamu belajar bahasa Mandarin?'], ['你家有几口人？', '我家有五口人：爸爸、妈妈、哥哥、妹妹和我。', 'Berapa anggota keluargamu?'], ['你昨天做了什么？', '昨天我去商店买了一件衣服，晚上在家做作业。', 'Apa yang kamu lakukan kemarin?']];
+$('#qa').innerHTML = QA.map((q, i) => `<div class="sp-card"><span class="hz">${q[0]}</span><br><small class="muted">${q[2]}</small><div class="row"><button data-q="${i}">🔊 Putar</button><button class="ghost" data-t="${i}">⏱ Mulai 30 dtk</button><span class="cdn" id="cd${i}"></span><button class="ghost" data-a="${i}">Contoh jawaban</button></div><div class="ans" id="an${i}"><span class="hz">${q[1]}</span> ${spkBtn(q[1])}</div></div>`).join('');
+let tmr = null;
+$('#qa').onclick = e => {
+  const q = e.target.closest('[data-q]'), t = e.target.closest('[data-t]'), a = e.target.closest('[data-a]');
+  if (q) speak(QA[+q.dataset.q][0], .85);
+  if (a) $('#an' + a.dataset.a).classList.toggle('on');
+  if (t) { clearInterval(tmr); let s = 30; const el = $('#cd' + t.dataset.t); el.textContent = s + ' dtk'; tmr = setInterval(() => { s--; el.textContent = s > 0 ? s + ' dtk' : 'Selesai'; if (s <= 0) clearInterval(tmr); }, 1000); }
+};
+
+const SC = [['👨‍👩‍👧 🍽 🏠', ['一家人', '吃饭', '在家'], '一家人在家里吃晚饭，他们看起来很高兴。'], ['🚌 🧑‍🎓 🏫', ['公共汽车', '学生', '学校'], '学生们坐公共汽车去学校。'], ['☔ 🧑 🚶', ['下雨', '走路', '雨伞'], '外面下雨了，他打着雨伞在路上走。'], ['🛒 👩 🍎', ['商店', '买', '苹果'], '她在商店里买苹果，苹果很新鲜。']];
+$("#scn").innerHTML = SC.map((s, i) => `<div class="sp-card"><div class="scene">${s[0]}</div><p>Kata bantu: ${s[1].map(w => `<span class="hz">${w}</span>`).join(' · ')}</p><button class="ghost" data-m="${i}">Contoh jawaban</button><div class="ans" id="sm${i}"><span class="hz">${s[2]}</span> ${spkBtn(s[2])}</div></div>`).join('');
+$("#scn").onclick = e => { const b = e.target.closest("[data-m]"); if (b) $('#sm' + b.dataset.m).classList.toggle('on'); };
+
+const CK = ['Nada tiap suku kata jelas (terutama nada 2 dan 3).', 'Saya memakai kalimat lengkap, bukan satu kata.', 'Saya tidak berhenti lama untuk mencari kata.', 'Saya memakai minimal satu penghubung (因为, 所以, 但是, 如果).', 'Angka, waktu, dan pengukur diucapkan benar.'];
+$('#ck').innerHTML = CK.map((c, i) => `<li style="list-style:none"><label><input type="checkbox" data-c="${i}"> ${c}</label></li>`).join('');
+$('#ck').onchange = () => { const n = $$('#ck input:checked').length; $('#ckr').textContent = `${n} dari ${CK.length} terpenuhi`; };
+
+quiz([
+  { q: 'Urutan dasar kalimat Mandarin yang benar:', o: ['Waktu → subjek → tempat → verba → objek', 'Subjek → objek → verba → waktu', 'Verba → subjek → objek', 'Tempat → waktu → objek → subjek'], a: 0, e: 'Waktu dan tempat berada sebelum verba.' },
+  { q: 'Soal menulis HSK menilai…', o: ['Menyusun kalimat dan memilih hanzi yang benar', 'Kaligrafi tangan', 'Hanya pinyin', 'Hanya mendengar'], a: 0, e: 'Fokus pada ketepatan karakter dan tata bahasa.' },
+  { q: 'Saat berbicara, jawaban yang baik adalah…', o: ['Kalimat lengkap dengan alasan singkat', 'Satu kata', 'Menerjemahkan tiap kata ke Indonesia', 'Diam sampai yakin'], a: 0, e: 'Kalimat lengkap menunjukkan penguasaan tata bahasa.' },
+]);
+</script>
+</body>
+</html>

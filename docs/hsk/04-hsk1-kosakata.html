@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>04 HSK 1 Kosakata · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="04">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Mengenali dan mengucapkan 300 kata HSK 1 beserta artinya.</li><li>Menghafal dengan kartu, daftar tema, dan latihan cepat.</li><li>Membedakan kata yang sering tertukar di soal ujian.</li></ul></div>
+
+<h2>Gambaran kata level ini</h2>
+<p>HSK 1 memuat <b>300 kata</b> yang mencakup salam, angka, keluarga, waktu, makanan, tempat, dan kegiatan sehari-hari. Kata-kata ini muncul lagi di HSK 2 dan 3, jadi pondasi ini menentukan seluruh perjalanan Anda.</p>
+<div class="note"><b>Cara menghafal yang bekerja</b><p>Hafalkan 10–15 kata per sesi, ucapkan keras-keras sambil mendengar 🔊, lalu tulis sekali. Ulangi pada hari ke-1, ke-3, dan ke-7. Kata yang salah lagi dikembalikan ke tumpukan “belum hafal”.</p></div>
+
+<div class="sim"><div class="sim-h">Simulasi · kartu hafalan</div>
+<h3>Ketuk kartu, lalu tandai hafal atau belum</h3>
+<div id="fc"></div></div>
+
+<h2>Daftar kata per tema</h2>
+<p class="muted">Pilih tema, lalu ketuk sebuah kata untuk menandainya hafal (hijau). Ketuk 🔊 untuk mendengar.</p>
+<div class="seg" id="th"></div>
+<div id="vl"></div>
+
+<h2>Kata yang sering tertukar</h2>
+<div class="tw"><table><tr><th>Pasangan</th><th>Perbedaan</th></tr><tr><td><b>两 vs 二</b></td><td>二 dipakai untuk menghitung dan nomor (二, 第二, 十二). 两 dipakai sebelum kata bantu bilangan: 两个人, 两本书.</td></tr><tr><td><b>听 vs 听见</b></td><td>听 = mendengarkan (aksi). 听见 = terdengar (hasil): 我听见他说话了.</td></tr><tr><td><b>看 vs 看见</b></td><td>看 = melihat/menonton (aksi). 看见 = tampak terlihat (hasil).</td></tr><tr><td><b>认识 vs 知道</b></td><td>认识 dipakai untuk orang atau tempat yang pernah ditemui; 知道 untuk fakta atau informasi.</td></tr><tr><td><b>会 / 能 / 可以</b></td><td>会 = bisa karena belajar (我会说汉语). 能 = mampu/ada kondisi (我今天能去). 可以 = boleh/izin (这儿可以坐吗).</td></tr><tr><td><b>怎么 vs 怎么样</b></td><td>怎么 = bagaimana/mengapa (cara). 怎么样 = bagaimana keadaannya (penilaian): 今天天气怎么样？</td></tr></table></div>
+
+<h2>Kuis kosakata</h2>
+<p class="muted">Soal dibuat acak dari kata level ini. Tekan tombol untuk mendapat soal baru.</p>
+<div id="quiz"></div>
+<p><button class="ghost" id="qn">Soal baru</button></p>
+
+</main>
+<script src="assets/vocab1.js"></script>
+<script src="assets/glossary.js"></script><script src="assets/app.js"></script>
+<script>
+const W = VOC[1], TH = {"Angka": ["零", "一", "二", "两", "三", "四", "五", "六", "七", "八", "九", "十", "百", "千", "半", "几", "多少", "第"], "Keluarga & orang": ["爸爸", "妈妈", "哥哥", "姐姐", "弟弟", "妹妹", "儿子", "女儿", "家人", "朋友", "同学", "老师", "学生", "医生", "先生", "女士", "孩子", "小朋友"], "Waktu": ["今天", "明天", "昨天", "今年", "明年", "去年", "现在", "时候", "时间", "早上", "上午", "中午", "下午", "晚上", "年", "月", "日", "号", "星期", "点", "分钟", "小时"], "Makanan & minuman": ["饭", "米饭", "面包", "面条儿", "包子", "饺子", "鸡蛋", "菜", "水果", "苹果", "茶", "水", "牛奶", "好吃", "吃", "喝"], "Tempat": ["学校", "医院", "商店", "书店", "超市", "饭店", "公司", "电影院", "家", "中国", "房间", "里", "外", "那里", "这里"], "Kata tanya & penunjuk": ["什么", "谁", "哪", "哪儿", "哪里", "怎么", "怎么样", "几", "多少", "这", "那", "这个", "那个", "这里", "那里"], "Kegiatan harian": ["起床", "上班", "下班", "上课", "下课", "睡觉", "工作", "学习", "写", "读", "听", "说", "看", "买", "卖", "玩", "休息", "做饭", "开车"], "Ungkapan sopan": ["你好", "谢谢", "不客气", "对不起", "没关系", "再见", "请问", "请", "没事", "喂"]};
+const th = $('#th'); th.innerHTML = '<button class="on" data-t="">Semua (300)</button>' + Object.keys(TH).map(k => `<button data-t="${k}">${k}</button>`).join('');
+function showTheme(t) { const set = t ? new Set(TH[t]) : null; vocabList('#vl', set ? W.filter(w => set.has(w.h)) : W); }
+th.onclick = e => { const b = e.target.closest('button'); if (!b) return; $$('button', th).forEach(x => x.classList.toggle('on', x === b)); showTheme(b.dataset.t); };
+showTheme(''); flashcards('#fc', W);
+const newQ = () => quiz(vocabQuiz(W, 8));
+$('#qn').onclick = newQ; newQ();
+</script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>02 Pinyin dan Nada · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="02">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Membaca <i data-k="pinyin">pinyin</i> lengkap dengan konsonan awal, bunyi akhir, dan tanda nada.</li><li>Membedakan empat <i data-k="nada">nada</i> dan <i data-k="netral">nada netral</i> dengan telinga.</li><li>Menerapkan <i data-k="sandhi">perubahan nada</i> pada 不, 一, dan dua nada 3 berurutan.</li></ul></div>
+
+<h2>Tiga bagian satu suku kata</h2>
+<p>Setiap suku kata Mandarin tersusun dari tiga bagian: <b><i data-k="shengmu">konsonan awal</i></b> + <b><i data-k="yunmu">bunyi akhir</i></b> + <b><i data-k="nada">nada</i></b>. Contoh: <span class="hz">好</span> = h + ao + nada 3 → <span class="py">hǎo</span>.</p>
+<div class="note"><b>Mengapa nada penting</b><p>Suku kata yang sama dengan nada berbeda adalah kata berbeda. <span class="hz">妈</span> <span class="py">mā</span> berarti ibu, sedangkan <span class="hz">马</span> <span class="py">mǎ</span> berarti kuda. Salah nada di ujian mendengar sering berarti salah jawaban.</p></div>
+
+<h2>1. Empat nada dan nada netral</h2>
+<div class="grid g4" id="tones"></div>
+<p class="muted small" style="margin-top:8px">Ketuk kartu untuk mendengar. Kualitas suara bergantung pada suara Mandarin yang terpasang di perangkat Anda.</p>
+<table style="margin-top:10px"><tr><th>Nada</th><th>Tanda</th><th>Bentuk suara</th><th>Contoh</th></tr>
+<tr><td>1</td><td>ā</td><td>tinggi dan datar</td><td><span class="hz">书</span> shū</td></tr>
+<tr><td>2</td><td>á</td><td>naik, seperti bertanya “ha?”</td><td><span class="hz">来</span> lái</td></tr>
+<tr><td>3</td><td>ǎ</td><td>turun lalu naik (rendah di tengah)</td><td><span class="hz">好</span> hǎo</td></tr>
+<tr><td>4</td><td>à</td><td>turun tajam, seperti memerintah</td><td><span class="hz">去</span> qù</td></tr>
+<tr><td>netral</td><td>(tanpa tanda)</td><td>ringan dan pendek</td><td><span class="hz">吗</span> ma, <span class="hz">爸爸</span> bàba</td></tr></table>
+
+<div class="sim"><div class="sim-h">Simulasi · dengar dan tebak nada</div>
+<h3>Satu suku kata, empat nada</h3>
+<p class="muted small">Tekan “Putar”, lalu pilih pinyin yang Anda dengar.</p>
+<div class="ctrl"><button id="gp">🔊 Putar</button><span class="muted small" id="gs">Skor: 0 / 0</span></div>
+<div class="seg" id="go"></div>
+<div class="out" id="gm">Tekan “Putar” untuk mulai.</div></div>
+
+<h2>2. Konsonan awal</h2>
+<p>Ada 21 konsonan awal. Bunyi yang paling sering menjebak penutur bahasa Indonesia adalah pasangan <b>b–p</b>, <b>d–t</b>, <b>g–k</b> (tanpa hembusan vs dengan hembusan) dan kelompok <b>j-q-x</b> serta <b>zh-ch-sh-r</b>.</p>
+<div class="tw"><table>
+<tr><th>Kelompok</th><th>Huruf</th><th>Petunjuk untuk penutur Indonesia</th><th>Contoh</th></tr>
+<tr><td>Bibir</td><td>b p m f</td><td>b = “p” tanpa hembusan; p = “p” dengan hembusan udara</td><td><span class="hz">爸</span> bà · <span class="hz">怕</span> pà · <span class="hz">妈</span> mā · <span class="hz">饭</span> fàn</td></tr>
+<tr><td>Ujung lidah</td><td>d t n l</td><td>d = “t” tanpa hembusan; t = “t” dengan hembusan</td><td><span class="hz">大</span> dà · <span class="hz">他</span> tā · <span class="hz">你</span> nǐ · <span class="hz">来</span> lái</td></tr>
+<tr><td>Pangkal lidah</td><td>g k h</td><td>g = “k” tanpa hembusan; k = “k” dengan hembusan; h agak serak</td><td><span class="hz">个</span> gè · <span class="hz">看</span> kàn · <span class="hz">喝</span> hē</td></tr>
+<tr><td>Langit-langit</td><td>j q x</td><td>j ≈ “ci” tanpa hembusan; q ≈ “chi” dengan hembusan; x ≈ “si/sy” lembut</td><td><span class="hz">几</span> jǐ · <span class="hz">去</span> qù · <span class="hz">小</span> xiǎo</td></tr>
+<tr><td>Lidah melengkung</td><td>zh ch sh r</td><td>ujung lidah naik ke langit-langit; zh ≈ “j” tebal, ch dengan hembusan, sh ≈ “sy” tebal, r ≈ “r” lembut</td><td><span class="hz">中</span> zhōng · <span class="hz">吃</span> chī · <span class="hz">是</span> shì · <span class="hz">人</span> rén</td></tr>
+<tr><td>Ujung gigi</td><td>z c s</td><td>z ≈ “dz” tanpa hembusan; c ≈ “ts” dengan hembusan; s = “s”</td><td><span class="hz">在</span> zài · <span class="hz">菜</span> cài · <span class="hz">三</span> sān</td></tr>
+</table></div>
+<div class="grid g3" id="spkrow"></div>
+
+<h2>3. Bunyi akhir</h2>
+<p>Bunyi akhir dasar: <b>a, o, e, i, u, ü</b>. Gabungannya: <b>ai, ei, ao, ou</b> · <b>an, en, ang, eng, ong</b> · <b>ia, ie, iao, iu, ian, in, iang, ing, iong</b> · <b>ua, uo, uai, ui, uan, un, uang</b> · <b>üe, üan, ün</b> dan <b>er</b>.</p>
+<ul>
+  <li><b>ü</b> dibaca seperti “i” dengan bibir membulat (<span class="hz">女</span> nǚ). Setelah j, q, x ditulis <b>u</b> tetapi tetap dibaca ü (<span class="hz">去</span> qù).</li>
+  <li><b>-n</b> vs <b>-ng</b>: bandingkan <span class="hz">三</span> sān dengan <span class="hz">上</span> shàng; di akhir bunyi, -ng ditutup di pangkal lidah.</li>
+  <li><b>i</b> setelah z, c, s, zh, ch, sh, r dibaca “i tebal” tanpa bunyi vokal depan (<span class="hz">是</span> shì, <span class="hz">吃</span> chī).</li>
+  <li>Akhiran <b>儿</b> (er) menempel pada suku kata sebelumnya: <span class="hz">哪儿</span> nǎr, <span class="hz">好玩儿</span> hǎowánr.</li>
+</ul>
+
+<h2>4. Perubahan nada</h2>
+<p>Ini sering diujikan di bagian mendengar karena nada yang <em>diucapkan</em> berbeda dengan yang <em>tertulis</em>.</p>
+<div class="grid g2">
+  <div class="card mini"><h3>Dua nada 3 berurutan</h3><p>Nada 3 pertama dibaca nada 2.</p><div style="margin-top:8px" id="s1"></div></div>
+  <div class="card mini"><h3>不 (bù)</h3><p>Di depan nada 4, 不 dibaca nada 2: bú.</p><div style="margin-top:8px" id="s2"></div></div>
+  <div class="card mini"><h3>一 (yī)</h3><p>Di depan nada 4 → yí. Di depan nada 1, 2, 3 → yì.</p><div style="margin-top:8px" id="s3"></div></div>
+  <div class="card mini"><h3>Nada netral</h3><p>Suku kata kedua pada banyak kata diucapkan ringan.</p><div style="margin-top:8px" id="s4"></div></div>
+</div>
+
+<div class="sim"><div class="sim-h">Simulasi · lihat bentuk nada</div>
+<h3>Geser untuk melihat kurva nada tiap kata</h3>
+<div class="ctrl"><label>Pilih kata <select id="sw"></select></label><button id="sp">🔊 Dengar</button></div>
+<div id="sv"></div></div>
+
+<h2>Kuis</h2>
+<div id="quiz"></div>
+
+</main>
+<script src="assets/glossary.js"></script><script src="assets/app.js"></script>
+<script>
+const CURVE = { 1: '10,14 90,14', 2: '10,46 90,14', 3: '10,26 34,50 56,50 90,10', 4: '10,10 90,50', 5: '10,40 40,40' };
+const curve = (t, big) => `<svg viewBox="0 0 100 60" width="${big ? 200 : 100}" height="${big ? 120 : 60}" aria-hidden="true"><line x1="6" y1="10" x2="6" y2="52" stroke="#E6DFD0"/><polyline points="${CURVE[t]}" fill="none" stroke="var(--t${t > 4 ? 1 : t})" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const SETS = [
+  [['妈', 'mā'], ['麻', 'má'], ['马', 'mǎ'], ['骂', 'mà']],
+  [['书', 'shū'], ['熟', 'shú'], ['鼠', 'shǔ'], ['树', 'shù']],
+  [['汤', 'tāng'], ['糖', 'táng'], ['躺', 'tǎng'], ['烫', 'tàng']],
+  [['花', 'huā'], ['滑', 'huá'], ['画', 'huà'], ['话', 'huà']],
+];
+$('#tones').innerHTML = SETS[0].map((s, i) => `<div class="card mini center"><div class="hz big t${i + 1}">${s[0]}</div><div class="py">${cpy(s[1])}</div>${curve(i + 1)}<div style="margin-top:4px">${spkBtn(s[0])}</div><p class="small">nada ${i + 1}</p></div>`).join('');
+const ROWS = [['爸', 'bà'], ['怕', 'pà'], ['几', 'jǐ'], ['去', 'qù'], ['小', 'xiǎo'], ['中', 'zhōng'], ['吃', 'chī'], ['是', 'shì'], ['人', 'rén'], ['在', 'zài'], ['菜', 'cài'], ['三', 'sān']];
+$('#spkrow').innerHTML = ROWS.map(r => `<div class="vi"><span class="hz">${r[0]}</span><span class="m"><small>${cpy(r[1])}</small></span>${spkBtn(r[0])}</div>`).join('');
+
+
+$('#s1').innerHTML = ex('你好', 'nǐ hǎo → ní hǎo', 'halo') + ex('水果', 'shuǐguǒ → shuíguǒ', 'buah') + ex('可以', 'kěyǐ → kéyǐ', 'boleh');
+$('#s2').innerHTML = ex('不是', 'bú shì', 'bukan') + ex('不去', 'bú qù', 'tidak pergi') + ex('不好', 'bù hǎo', 'tidak baik (tidak berubah)');
+$('#s3').innerHTML = ex('一个', 'yí gè', 'satu buah') + ex('一天', 'yì tiān', 'satu hari') + ex('一起', 'yìqǐ', 'bersama');
+$('#s4').innerHTML = ex('爸爸', 'bàba', 'ayah') + ex('谢谢', 'xièxie', 'terima kasih') + ex('喜欢', 'xǐhuan', 'suka');
+
+/* permainan dengar nada */
+let cur = null, sc = 0, tot = 0, answered = true;
+function newRound() { const set = SETS[Math.floor(Math.random() * 3)], i = Math.floor(Math.random() * 4); cur = { set, i }; answered = false; $('#go').innerHTML = set.map((s, k) => `<button data-k2="${k}">${s[1]}</button>`).join(''); speak(set[i][0]); }
+$('#gp').onclick = () => { if (!cur || answered) { if (cur && answered) { newRound(); return; } newRound(); } else speak(cur.set[cur.i][0]); };
+$('#go').onclick = e => {
+  const b = e.target.closest('button'); if (!b || answered || !cur) return; answered = true; tot++;
+  const ok = +b.dataset.k2 === cur.i; if (ok) sc++;
+  $$('#go button').forEach((x, k) => { x.disabled = true; if (k === cur.i) x.classList.add('on'); });
+  $('#gs').textContent = `Skor: ${sc} / ${tot}`;
+  $('#gm').innerHTML = (ok ? '<b style="color:#2B8A3E">Benar.</b> ' : '<b style="color:#C92A2A">Belum tepat.</b> ') + `Yang diputar: <span class="hz">${cur.set[cur.i][0]}</span> <span class="py">${cpy(cur.set[cur.i][1])}</span>. Tekan “Putar” untuk soal berikutnya.`;
+};
+
+/* kurva nada per kata */
+const CW = [['你好', 'nǐ hǎo', [3, 3], 'dibaca ní hǎo'], ['谢谢', 'xièxie', [4, 5], 'nada 4 lalu netral'], ['不是', 'bú shì', [2, 4], '不 menjadi bú'], ['一个', 'yí gè', [2, 4], '一 menjadi yí'], ['再见', 'zàijiàn', [4, 4], 'dua nada 4'], ['你们', 'nǐmen', [3, 5], 'nada 3 lalu netral'], ['朋友', 'péngyou', [2, 5], 'nada 2 lalu netral']];
+$('#sw').innerHTML = CW.map((c, i) => `<option value="${i}">${c[0]} · ${c[1]}</option>`).join('');
+function drawW() { const c = CW[+$('#sw').value]; $('#sv').innerHTML = `<div class="grid g2" style="align-items:center"><div class="center"><div class="hz big">${c[0]}</div><div class="py">${cpy(c[1])}</div></div><div class="center">${c[2].map(t => curve(t, true)).join('')}<p class="small muted">${c[3]}</p></div></div>`; }
+$('#sw').onchange = drawW; $('#sp').onclick = () => speak(CW[+$('#sw').value][0]); drawW();
+
+quiz([
+  { q: 'Pinyin <b class="py">mǎ</b> memakai nada ke…', o: ['1', '2', '3', '4'], a: 2, e: 'Tanda ˇ adalah nada 3 (turun lalu naik). Karakter 马 berarti kuda.' },
+  { q: 'Cara membaca <b class="hz">你好</b> (nǐ hǎo) yang benar?', o: ['nǐ hǎo (3-3)', 'ní hǎo (2-3)', 'nī hǎo (1-3)', 'nì hǎo (4-3)'], a: 1, e: 'Jika dua nada 3 berurutan, yang pertama dibaca nada 2.' },
+  { q: '<b class="hz">不是</b> dibaca…', o: ['bù shì', 'bú shì', 'bū shì', 'bǔ shì'], a: 1, e: '不 di depan nada 4 menjadi nada 2 (bú).' },
+  { q: 'Mana yang termasuk konsonan awal dengan hembusan udara?', o: ['b', 'd', 'g', 'k'], a: 3, e: 'k dengan hembusan, sedangkan b, d, g tanpa hembusan.' },
+  { q: '<b class="hz">一个</b> (satu buah) dibaca…', o: ['yī gè', 'yí gè', 'yì gè', 'yǐ gè'], a: 1, e: '一 di depan nada 4 (个 gè) dibaca yí.' },
+]);
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>12 Latihan Soal · Belajar Mandarin HSK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="12">
+<main class="wrap">
+
+<div class="goals"><b>Setelah modul ini, Anda bisa:</b>
+<ul><li>Berlatih soal per keterampilan (mendengar, membaca, menulis) dengan jawaban yang langsung diperiksa.</li><li>Menguji kosakata dalam empat cara: dengar, baca, balik arah, dan ketik hanzi.</li><li>Mengulang sampai pola soalnya terasa otomatis.</li></ul></div>
+
+<h2>Latihan soal</h2>
+<p><mark>Pilih level dan jenis latihan, lalu tekan Mulai.</mark> Setiap jawaban langsung diperiksa beserta pembahasannya. Untuk ujian utuh dengan waktu dan skor, pakai halaman Simulasi.</p>
+
+<div class="sim"><div class="sim-h">Pengaturan latihan</div>
+<div class="ctrl">
+<label>Level <select id="lv"><option value="1">HSK 1</option><option value="2">HSK 2</option><option value="3">HSK 3</option></select></label>
+<label>Jenis <select id="md">
+<optgroup label="Bank soal">
+<option value="bL">Mendengar</option><option value="bR">Membaca</option><option value="bW">Menulis</option><option value="bA">Campuran</option></optgroup>
+<optgroup label="Dari daftar kosakata">
+<option value="vl">Dengar kata → arti</option><option value="vr">Hanzi → arti</option><option value="vv">Arti → hanzi</option><option value="vt">Pinyin → ketik hanzi</option></optgroup></select></label>
+<label>Jumlah <select id="cn"><option value="10">10</option><option value="20" selected>20</option><option value="40">40</option><option value="0">Semua</option></select></label>
+<label id="lw"><input type="checkbox" id="lo"> Termasuk level di bawahnya</label>
+<button id="go">Mulai</button></div>
+<p class="muted small" id="info"></p></div>
+
+<div id="box"></div>
+</main>
+<script src="assets/glossary.js"></script><script src="assets/vocab1.js"></script><script src="assets/vocab2.js"></script><script src="assets/vocab3.js"></script><script src="assets/bank.js"></script><script src="assets/app.js"></script><script src="assets/exam.js"></script>
+<script>
+const pick = (pool, w, n, key) => {
+  const same = shuffle(pool.filter(x => x !== w && x[key] !== w[key] && x.pos === w.pos)), rest = shuffle(pool.filter(x => x !== w && x[key] !== w[key] && x.pos !== w.pos));
+  const d = []; const seen = new Set([w[key]]);
+  for (const x of [...same, ...rest]) { if (!seen.has(x[key])) { seen.add(x[key]); d.push(x); } if (d.length >= n) break; }
+  return d;
+};
+const build = (w, pool, key, q, say, e, sk) => {
+  const opts = shuffle([w, ...pick(pool, w, 3, key)]);
+  return { sk, t: 'mc', q, say, o: opts.map(x => key === 'm' ? x.m : x.h), a: opts.indexOf(w), e };
+};
+function vocabItems(mode, pool, n) {
+  const ws = shuffle(mode === 'vt' ? pool.filter(w => w.h.length <= 3 && w.pos !== 'pre' && w.pos !== 'suf') : pool).slice(0, n || pool.length);
+  return ws.map(w => {
+    const e = `<span class="hz">${w.h}</span> (${w.p}) = ${w.m}`;
+    if (mode === 'vl') return build(w, pool, 'm', 'Apa arti kata yang Anda dengar?', w.h, e, 'L');
+    if (mode === 'vr') return build(w, pool, 'm', `Apa arti <span class="hz" style="font-size:1.4rem">${w.h}</span> ?`, null, e, 'R');
+    if (mode === 'vv') return build(w, pool, 'h', `Pilih hanzi untuk: <b>${w.m}</b> (${w.p})`, null, e, 'R');
+    return { sk: 'W', t: 'typ', q: `Tulis dengan hanzi: <b class="py">${w.p}</b> (${w.m})`, a: w.h, e };
+  });
+}
+let nn = 0;
+function start() {
+  const lv = +$('#lv').value, md = $('#md').value, cn = +$('#cn').value; let items;
+  if (md[0] === 'b') {
+    let b = BANK[lv].filter(x => md === 'bA' || x.sk === md[1]);
+    items = shuffle(b); if (cn) items = items.slice(0, cn);
+    if (md === 'bA') { const o = { L: 0, R: 1, W: 2 }; items.sort((x, y) => o[x.sk] - o[y.sk]); }
+  } else {
+    const pool = []; for (let l = 1; l <= lv; l++) if (l === lv || $('#lo').checked) pool.push(...VOC[l]);
+    items = vocabItems(md, pool, cn);
+  }
+  nn++; const id = 'ex' + nn; $('#box').innerHTML = `<div id="${id}"></div>`;
+  $('#info').textContent = `${items.length} soal.`;
+  Exam.run('#' + id, { items });
+  $('#box').scrollIntoView({ behavior: 'smooth' });
+}
+const sync = () => { const v = $('#md').value[0] === 'v'; $('#lw').style.display = v ? '' : 'none'; $('#cn').querySelector('option[value="0"]').textContent = v ? 'Semua kata' : 'Semua'; };
+$('#md').onchange = sync; sync();
+$('#go').onclick = start;
+</script>
+</body>
+</html>
