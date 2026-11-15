@@ -15734,5 +15734,293 @@
   ],
   "au": "9e7d945570a7",
   "alt": []
+ },
+ {
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Selamat malam (saat mau tidur / berpisah)",
+  "py": "Wǎn'ān",
+  "hz": "晚安",
+  "words": "晚 (wǎn): malam, 安 (ān): tenang / damai",
+  "note": "Diucapkan saat berpamitan malam hari atau sebelum tidur. Beda dengan 晚上好 (wǎnshang hǎo), sapaan saat bertemu di malam hari.",
+  "warn": false,
+  "ex": [
+   [
+    "Selamat malam, sampai besok.",
+    "Wǎn'ān, míngtiān jiàn.",
+    "晚安，明天见。",
+    ""
+   ],
+   [
+    "Saya tidur dulu, selamat malam.",
+    "Wǒ xiān shuì le, wǎn'ān.",
+    "我先睡了，晚安。",
+    ""
+   ],
+   [
+    "Selamat malam, Pak Li.",
+    "Lǐ xiānsheng, wǎn'ān.",
+    "李先生，晚安。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Saya baik",
+  "py": "Wǒ hěn hǎo",
+  "hz": "我很好",
+  "words": "我 (wǒ): saya, 很 (hěn): sangat, 好 (hǎo): baik",
+  "note": "很 di sini pelengkap pola kata sifat, tidak selalu berarti \"sangat\". Tambahkan 谢谢 untuk jawaban sopan: 我很好，谢谢。",
+  "warn": false,
+  "ex": [
+   [
+    "Saya baik, kamu bagaimana?",
+    "Wǒ hěn hǎo, nǐ ne?",
+    "我很好，你呢？",
+    ""
+   ],
+   [
+    "Hari ini saya baik-baik saja.",
+    "Jīntiān wǒ hěn hǎo.",
+    "今天我很好。",
+    ""
+   ],
+   [
+    "Saya baik, keluarga saya juga baik.",
+    "Wǒ hěn hǎo, wǒ de jiārén yě hěn hǎo.",
+    "我很好，我的家人也很好。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Saya tidak terlalu baik",
+  "py": "Wǒ bú tài hǎo",
+  "hz": "我不太好",
+  "words": "我 (wǒ): saya, 不太 (bú tài): tidak terlalu / kurang, 好 (hǎo): baik",
+  "note": "不 berubah menjadi bú sebelum nada 4 (太 tài). Jawaban yang lebih halus daripada 我不好.",
+  "warn": false,
+  "ex": [
+   [
+    "Hari ini suasana hati saya kurang baik.",
+    "Jīntiān wǒ xīnqíng bú tài hǎo.",
+    "今天我心情不太好。",
+    ""
+   ],
+   [
+    "Kualitas produk ini kurang baik.",
+    "Zhè ge chǎnpǐn de zhìliàng bú tài hǎo.",
+    "这个产品的质量不太好。",
+    ""
+   ],
+   [
+    "Apa kabar? Saya kurang baik.",
+    "Nǐ hǎo ma? Wǒ bú tài hǎo.",
+    "你好吗？我不太好。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Saya tidak baik",
+  "py": "Wǒ bù hǎo",
+  "hz": "我不好",
+  "words": "我 (wǒ): saya, 不 (bù): tidak, 好 (hǎo): baik",
+  "note": "Lebih tegas daripada 我不太好.",
+  "warn": false,
+  "ex": [
+   [
+    "Apa kabar? Saya tidak baik.",
+    "Nǐ hǎo ma? Wǒ bù hǎo.",
+    "你好吗？我不好。",
+    ""
+   ],
+   [
+    "Saya tidak baik, saya sangat lelah.",
+    "Wǒ bù hǎo, wǒ hěn lèi.",
+    "我不好，我很累。",
+    ""
+   ],
+   [
+    "Saya mengerjakannya kurang baik.",
+    "Wǒ zuò de bù hǎo.",
+    "我做得不好。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Buku ini",
+  "py": "Zhè běn shū",
+  "hz": "这本书",
+  "words": "这 (zhè): ini, 本 (běn): kata penggolong buku, 书 (shū): buku",
+  "note": "本 adalah kata penggolong untuk buku, majalah, dan buku catatan.",
+  "warn": false,
+  "ex": [
+   [
+    "Buku ini bagus.",
+    "Zhè běn shū hěn hǎo.",
+    "这本书很好。",
+    ""
+   ],
+   [
+    "Saya mau membeli buku ini.",
+    "Wǒ xiǎng mǎi zhè běn shū.",
+    "我想买这本书。",
+    ""
+   ],
+   [
+    "Buku ini berapa harganya?",
+    "Zhè běn shū duōshao qián?",
+    "这本书多少钱？",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Itu ibu saya",
+  "py": "Nà shì wǒ de mǔqin",
+  "hz": "那是我的母亲",
+  "words": "那 (nà): itu, 是 (shì): adalah, 我 (wǒ): saya, 的 (de): partikel kepemilikan, 母亲 (mǔqin): ibu",
+  "note": "母亲 lebih formal. Sehari-hari orang memakai 妈妈 (māma).",
+  "warn": false,
+  "ex": [
+   [
+    "Itu ibu saya, dia seorang guru.",
+    "Nà shì wǒ de mǔqin, tā shì lǎoshī.",
+    "那是我的母亲，她是老师。",
+    ""
+   ],
+   [
+    "Apakah itu ibumu?",
+    "Nà shì nǐ de mǔqin ma?",
+    "那是你的母亲吗？",
+    ""
+   ],
+   [
+    "Ibu saya sudah pulang.",
+    "Wǒ de mǔqin yǐjīng huí jiā le.",
+    "我的母亲已经回家了。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Marganya Li",
+  "py": "Tā xìng Lǐ",
+  "hz": "他姓李",
+  "words": "他 (tā): dia (laki-laki), 姓 (xìng): bermarga, 李 (Lǐ): Li (marga)",
+  "note": "Pola \"姓 + marga\". Di Tiongkok marga disebut sebelum nama pribadi. Ganti 李 dengan marga lain.",
+  "warn": false,
+  "ex": [
+   [
+    "Dia bermarga Li, saya bermarga Chen.",
+    "Tā xìng Lǐ, wǒ xìng Chén.",
+    "他姓李，我姓陈。",
+    ""
+   ],
+   [
+    "Kamu bermarga apa?",
+    "Nǐ xìng shénme?",
+    "你姓什么？",
+    ""
+   ],
+   [
+    "Dia bermarga Li, namanya Li Ming.",
+    "Tā xìng Lǐ, jiào Lǐ Míng.",
+    "他姓李，叫李明。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Pak Li",
+  "py": "Lǐ xiānsheng",
+  "hz": "李先生",
+  "words": "李 (Lǐ): Li (marga), 先生 (xiānsheng): Tuan / Bapak",
+  "note": "Marga + 先生 untuk menyapa laki-laki dengan sopan. Ganti 李 dengan marga lain.",
+  "warn": false,
+  "ex": [
+   [
+    "Selamat pagi, Pak Li.",
+    "Lǐ xiānsheng, zǎoshang hǎo.",
+    "李先生，早上好。",
+    ""
+   ],
+   [
+    "Pak Li sedang rapat.",
+    "Lǐ xiānsheng zài kāihuì.",
+    "李先生在开会。",
+    ""
+   ],
+   [
+    "Ini Pak Li.",
+    "Zhè shì Lǐ xiānsheng.",
+    "这是李先生。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Bu Chen",
+  "py": "Chén nǚshì",
+  "hz": "陈女士",
+  "words": "陈 (Chén): Chen (marga), 女士 (nǚshì): Nyonya / Ibu",
+  "note": "Marga + 女士 untuk menyapa perempuan dengan hormat, terutama di situasi resmi. Ganti 陈 dengan marga lain.",
+  "warn": false,
+  "ex": [
+   [
+    "Selamat siang, Bu Chen.",
+    "Chén nǚshì, zhōngwǔ hǎo.",
+    "陈女士，中午好。",
+    ""
+   ],
+   [
+    "Ini Bu Chen, manajer kami.",
+    "Zhè shì Chén nǚshì, wǒmen de jīnglǐ.",
+    "这是陈女士，我们的经理。",
+    ""
+   ],
+   [
+    "Bu Chen sudah datang.",
+    "Chén nǚshì yǐjīng lái le.",
+    "陈女士已经来了。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
  }
 ]
