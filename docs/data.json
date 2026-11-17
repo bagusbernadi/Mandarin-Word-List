@@ -16278,5 +16278,101 @@
   ],
   "au": "",
   "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Senang berkenalan dengan Anda",
+  "py": "Rènshi nǐ hěn gāoxìng",
+  "hz": "认识你很高兴",
+  "words": "认识 (rènshi): kenal / berkenalan, 你 (nǐ): kamu, 很 (hěn): sangat, 高兴 (gāoxìng): senang",
+  "note": "Artinya sama dengan 很高兴认识你; urutan katanya dibalik (mengenal kamu, senang).",
+  "warn": false,
+  "ex": [
+   [
+    "Senang berkenalan denganmu, Li Ming.",
+    "Rènshi nǐ hěn gāoxìng, Lǐ Míng.",
+    "认识你很高兴，李明。",
+    ""
+   ],
+   [
+    "Saya Bagus, senang berkenalan denganmu.",
+    "Wǒ jiào Bagus, rènshi nǐ hěn gāoxìng.",
+    "我叫Bagus，认识你很高兴。",
+    ""
+   ],
+   [
+    "Senang berkenalan dengan kalian semua.",
+    "Rènshi nǐmen hěn gāoxìng.",
+    "认识你们很高兴。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Senang berjumpa (sangat sopan)",
+  "py": "Xìnghuì",
+  "hz": "幸会",
+  "words": "幸 (xìng): beruntung, 会 (huì): bertemu",
+  "note": "Sangat sopan dan agak resmi, untuk pertemuan pertama (acara resmi atau bisnis). Sering diulang: 幸会幸会 (xìnghuì xìnghuì), dan dijawab dengan kata yang sama.",
+  "warn": false,
+  "ex": [
+   [
+    "Senang berjumpa dengan Anda.",
+    "Xìnghuì, xìnghuì.",
+    "幸会，幸会。",
+    ""
+   ],
+   [
+    "Pak Li, senang berjumpa.",
+    "Lǐ xiānsheng, xìnghuì.",
+    "李先生，幸会。",
+    ""
+   ],
+   [
+    "Senang berjumpa, mohon bimbingannya.",
+    "Xìnghuì, qǐng duō guānzhào.",
+    "幸会，请多关照。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Senang bertemu Anda (hormat)",
+  "py": "Hěn gāoxìng jiàn dào nín",
+  "hz": "很高兴见到您",
+  "words": "很 (hěn): sangat, 高兴 (gāoxìng): senang, 见到 (jiàndào): bertemu / berjumpa, 您 (nín): Anda (hormat)",
+  "note": "您 (nín) adalah \"Anda\" yang hormat, untuk atasan, orang yang lebih tua, atau tamu. 见到 menekankan bertemu langsung; 认识 pada 很高兴认识你 menekankan berkenalan.",
+  "warn": false,
+  "ex": [
+   [
+    "Pak Li, senang bertemu Anda.",
+    "Lǐ xiānsheng, hěn gāoxìng jiàndào nín.",
+    "李先生，很高兴见到您。",
+    ""
+   ],
+   [
+    "Senang bertemu Anda hari ini.",
+    "Jīntiān hěn gāoxìng jiàn dào nín.",
+    "今天很高兴见到您。",
+    ""
+   ],
+   [
+    "Senang bertemu Anda di sini.",
+    "Hěn gāoxìng zài zhèlǐ jiàndào nín.",
+    "很高兴在这里见到您。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
  }
 ]
