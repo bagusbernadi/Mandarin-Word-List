@@ -9014,7 +9014,7 @@
   "py": "Qǐng duō guānzhào",
   "hz": "请多关照",
   "words": "请 (qǐng): tolong, 多 (duō): banyak, 关照 (guānzhào): perhatian / bimbingan",
-  "note": "",
+  "note": "Padanan paling dekat dari \"잘 부탁드립니다\" / \"mohon kerja samanya\". Dipakai saat perkenalan atau awal bekerja dengan orang baru.",
   "warn": false,
   "ex": [
    [
@@ -16113,6 +16113,166 @@
     "Kamu mau air?",
     "Nǐ yào shuǐ ma?",
     "你要水吗？",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Mohon bimbingannya (lebih rendah hati)",
+  "py": "Qǐng duōduō zhǐjiào",
+  "hz": "请多多指教",
+  "words": "请 (qǐng): mohon, 多多 (duōduō): banyak-banyak, 指教 (zhǐjiào): memberi petunjuk / bimbingan",
+  "note": "Lebih rendah hati daripada 请多关照. Dipakai kepada atasan, senior, atau guru, biasanya sesudah memperkenalkan diri.",
+  "warn": false,
+  "ex": [
+   [
+    "Saya Bagus, mohon bimbingannya.",
+    "Wǒ shì Bagus, qǐng duōduō zhǐjiào.",
+    "我是Bagus，请多多指教。",
+    ""
+   ],
+   [
+    "Saya baru di sini, mohon bimbingannya.",
+    "Wǒ gāng lái zhèlǐ, qǐng duōduō zhǐjiào.",
+    "我刚来这里，请多多指教。",
+    ""
+   ],
+   [
+    "Pak Li, mohon bimbingannya.",
+    "Lǐ xiānsheng, qǐng duōduō zhǐjiào.",
+    "李先生，请多多指教。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Kami menantikan kerja sama dengan Anda",
+  "py": "Qīdài yǔ nín hézuò",
+  "hz": "期待与您合作",
+  "words": "期待 (qīdài): menantikan, 与 (yǔ): dengan, 您 (nín): Anda (hormat), 合作 (hézuò): bekerja sama",
+  "note": "Resmi. Cocok untuk email, surat, atau penutup pertemuan bisnis. Untuk rekan sebaya bisa memakai 你.",
+  "warn": false,
+  "ex": [
+   [
+    "Kami menantikan kerja sama dengan Anda.",
+    "Wǒmen qīdài yǔ nín hézuò.",
+    "我们期待与您合作。",
+    ""
+   ],
+   [
+    "Senang berkenalan, kami menantikan kerja sama dengan Anda.",
+    "Hěn gāoxìng rènshi nín, qīdài yǔ nín hézuò.",
+    "很高兴认识您，期待与您合作。",
+    ""
+   ],
+   [
+    "Saya menantikan kerja sama dengan Anda dalam proyek ini.",
+    "Wǒ qīdài zài zhè ge xiàngmù zhōng yǔ nín hézuò.",
+    "我期待在这个项目中与您合作。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Maaf merepotkan / tolong ya",
+  "py": "Máfan nǐ le",
+  "hz": "麻烦你了",
+  "words": "麻烦 (máfan): merepotkan, 你 (nǐ): kamu, 了 (le): partikel penegas",
+  "note": "Dipakai saat meminta tolong atau menitip sesuatu, sekaligus berterima kasih atas jerih payah orang itu. Jawaban: 不麻烦 (bù máfan, \"tidak merepotkan\"). Untuk yang dihormati: 麻烦您了.",
+  "warn": false,
+  "ex": [
+   [
+    "Tolong kirim file ini kepada saya, maaf merepotkan.",
+    "Qǐng bǎ zhè ge wénjiàn fā gěi wǒ, máfan nǐ le.",
+    "请把这个文件发给我，麻烦你了。",
+    ""
+   ],
+   [
+    "Maaf merepotkan, tolong bantu saya sebentar.",
+    "Máfan nǐ le, qǐng bāng wǒ yíxià.",
+    "麻烦你了，请帮我一下。",
+    ""
+   ],
+   [
+    "Maaf merepotkan. Tidak merepotkan.",
+    "Máfan nǐ le. Bù máfan.",
+    "麻烦你了。不麻烦。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Salam & sopan santun",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Saya mohon / saya titipkan padamu",
+  "py": "Bàituō le",
+  "hz": "拜托了",
+  "words": "拜托 (bàituō): memohon / menitipkan, 了 (le): partikel penegas",
+  "note": "Lebih bersungguh-sungguh daripada 麻烦你了. Bisa juga 拜托你了 (bàituō nǐ le). Dipakai saat benar-benar berharap pada orang itu.",
+  "warn": false,
+  "ex": [
+   [
+    "Mohon, tolong bantu saya.",
+    "Bàituō le, qǐng bāngbang wǒ.",
+    "拜托了，请帮帮我。",
+    ""
+   ],
+   [
+    "Mohon, tolong diperiksa sekali lagi.",
+    "Bàituō le, qǐng zài jiǎnchá yí biàn.",
+    "拜托了，请再检查一遍。",
+    ""
+   ],
+   [
+    "Yang ini saya titipkan padamu, mohon ya.",
+    "Zhè ge jiù bàituō nǐ le.",
+    "这个就拜托你了。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Mohon kerja samanya (ikuti arahan)",
+  "py": "Qǐng pèihé yíxià",
+  "hz": "请配合一下",
+  "words": "请 (qǐng): mohon, 配合 (pèihé): bekerja sama / menyesuaikan, 一下 (yíxià): sebentar / sedikit",
+  "note": "Dipakai untuk meminta orang lain mengikuti instruksi atau prosedur, misalnya di lini produksi, saat pemeriksaan, atau di antrean. Beda dengan 请多关照 yang dipakai saat perkenalan.",
+  "warn": false,
+  "ex": [
+   [
+    "Mohon kerja samanya, ikuti prosedur kerja.",
+    "Qǐng pèihé yíxià, ànzhào cāozuò guīchéng zuò.",
+    "请配合一下，按照操作规程做。",
+    ""
+   ],
+   [
+    "Mohon kerja samanya, kami akan memeriksa.",
+    "Qǐng pèihé yíxià, wǒmen yào jiǎnchá.",
+    "请配合一下，我们要检查。",
+    ""
+   ],
+   [
+    "Mohon kerja samanya, tolong antre.",
+    "Qǐng pèihé yíxià, qǐng páiduì.",
+    "请配合一下，请排队。",
     ""
    ]
   ],
