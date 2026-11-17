@@ -16374,5 +16374,613 @@
   ],
   "au": "",
   "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Kalian",
+  "py": "Nǐmen",
+  "hz": "你们",
+  "words": "你 (nǐ): kamu, 们 (men): penanda jamak",
+  "note": "Bentuk jamak dari 你. Akhiran 们 juga ada pada 我们 dan 他们.",
+  "warn": false,
+  "ex": [
+   [
+    "Kalian sudah makan?",
+    "Nǐmen chī fàn le ma?",
+    "你们吃饭了吗？",
+    ""
+   ],
+   [
+    "Apa kabar, kalian semua?",
+    "Nǐmen hǎo ma?",
+    "你们好吗？",
+    ""
+   ],
+   [
+    "Kalian tunggu sebentar.",
+    "Nǐmen děng yíxià.",
+    "你们等一下。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Anda (hormat)",
+  "py": "Nín",
+  "hz": "您",
+  "words": "您 (nín): Anda (bentuk hormat dari 你)",
+  "note": "Dipakai kepada atasan, orang yang lebih tua, atau tamu. Untuk banyak orang biasanya dipakai 各位 (gèwèi).",
+  "warn": false,
+  "ex": [
+   [
+    "Anda minum apa?",
+    "Nín hē shénme?",
+    "您喝什么？",
+    ""
+   ],
+   [
+    "Silakan duduk, Pak.",
+    "Nín qǐng zuò.",
+    "您请坐。",
+    ""
+   ],
+   [
+    "Terima kasih, Pak.",
+    "Xièxie nín.",
+    "谢谢您。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Bernama / dipanggil",
+  "py": "Jiào",
+  "hz": "叫",
+  "words": "叫 (jiào): bernama / dipanggil / memanggil",
+  "note": "Juga berarti \"memanggil\": 请叫救护车 (Panggil ambulans). Pola perkenalan: 我叫 + nama.",
+  "warn": false,
+  "ex": [
+   [
+    "Saya bernama Bagus.",
+    "Wǒ jiào Bagus.",
+    "我叫Bagus。",
+    ""
+   ],
+   [
+    "Dia bernama Li Ming.",
+    "Tā jiào Lǐ Míng.",
+    "他叫李明。",
+    ""
+   ],
+   [
+    "Teman saya bernama Andi.",
+    "Wǒ de péngyou jiào Āndí.",
+    "我的朋友叫安迪。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Nama",
+  "py": "Míngzi",
+  "hz": "名字",
+  "words": "名 (míng): nama, 字 (zi): karakter / nama (nada netral)",
+  "note": "Pola: 我的名字是 + nama. Pertanyaan: 你叫什么名字？ Suku kata kedua (字) diucapkan ringan.",
+  "warn": false,
+  "ex": [
+   [
+    "Nama saya Bagus.",
+    "Wǒ de míngzi shì Bagus.",
+    "我的名字是Bagus。",
+    ""
+   ],
+   [
+    "Namanya enak didengar.",
+    "Tā de míngzi hěn hǎotīng.",
+    "他的名字很好听。",
+    ""
+   ],
+   [
+    "Tolong tulis namamu di sini.",
+    "Qǐng bǎ nǐ de míngzi xiě zài zhèlǐ.",
+    "请把你的名字写在这里。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Senang / gembira",
+  "py": "Gāoxìng",
+  "hz": "高兴",
+  "words": "高 (gāo): tinggi, 兴 (xìng): semangat, 高兴 (gāoxìng): senang",
+  "note": "Kata sifat. Muncul di ucapan perkenalan: 很高兴认识你.",
+  "warn": false,
+  "ex": [
+   [
+    "Hari ini saya senang.",
+    "Jīntiān wǒ hěn gāoxìng.",
+    "今天我很高兴。",
+    ""
+   ],
+   [
+    "Kami semua senang.",
+    "Wǒmen dōu hěn gāoxìng.",
+    "我们都很高兴。",
+    ""
+   ],
+   [
+    "Mengapa kamu senang sekali?",
+    "Nǐ wèishénme zhème gāoxìng?",
+    "你为什么这么高兴？",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Di / berada di / sedang",
+  "py": "Zài",
+  "hz": "在",
+  "words": "在 (zài): di / berada di / sedang",
+  "note": "Sebagai kata depan: 在 + tempat (di …). Sebelum kata kerja: menyatakan sedang berlangsung, misalnya 我在工作 (saya sedang bekerja).",
+  "warn": false,
+  "ex": [
+   [
+    "Saya di rumah.",
+    "Wǒ zài jiā.",
+    "我在家。",
+    ""
+   ],
+   [
+    "Dia ada di kantor.",
+    "Tā zài bàngōngshì.",
+    "他在办公室。",
+    ""
+   ],
+   [
+    "Saya sedang bekerja.",
+    "Wǒ zài gōngzuò.",
+    "我在工作。",
+    ""
+   ]
+  ],
+  "au": "686b703f41f3",
+  "alt": []
+ },
+ {
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Mana / di mana",
+  "py": "Nǎr / Nǎlǐ",
+  "hz": "哪儿 / 哪里",
+  "words": "哪 (nǎ): mana, 儿 (r): akhiran lisan, 里 (lǐ): dalam / tempat",
+  "note": "Kata tanya tempat. 哪儿 lebih lisan (gaya Beijing), 哪里 lebih netral. Artinya sama.",
+  "warn": false,
+  "ex": [
+   [
+    "Kamu mau ke mana?",
+    "Nǐ yào qù nǎr?",
+    "你要去哪儿？",
+    "7164e45dca6b"
+   ],
+   [
+    "Kamu tinggal di mana?",
+    "Nǐ zhù zài nǎlǐ?",
+    "你住在哪里？",
+    ""
+   ],
+   [
+    "Kamu dari mana?",
+    "Nǐ cóng nǎr lái?",
+    "你从哪儿来？",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Di mana",
+  "py": "Zài nǎr",
+  "hz": "在哪儿",
+  "words": "在 (zài): di, 哪儿 (nǎr): mana",
+  "note": "Pola: benda / orang + 在哪儿？ Contoh: 医院在哪儿？",
+  "warn": false,
+  "ex": [
+   [
+    "Kamu di mana?",
+    "Nǐ zài nǎr?",
+    "你在哪儿？",
+    ""
+   ],
+   [
+    "Di mana kantornya?",
+    "Bàngōngshì zài nǎr?",
+    "办公室在哪儿？",
+    ""
+   ],
+   [
+    "Di mana Pak Li?",
+    "Lǐ xiānsheng zài nǎr?",
+    "李先生在哪儿？",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Bekerja / pekerjaan",
+  "py": "Gōngzuò",
+  "hz": "工作",
+  "words": "工 (gōng): kerja, 作 (zuò): mengerjakan",
+  "note": "Bisa kata kerja (bekerja) atau kata benda (pekerjaan).",
+  "warn": false,
+  "ex": [
+   [
+    "Saya bekerja di sini.",
+    "Wǒ zài zhèlǐ gōngzuò.",
+    "我在这里工作。",
+    ""
+   ],
+   [
+    "Pekerjaan saya banyak.",
+    "Wǒ de gōngzuò hěn duō.",
+    "我的工作很多。",
+    ""
+   ],
+   [
+    "Dia bekerja di bagian produksi.",
+    "Tā zài shēngchǎn bù gōngzuò.",
+    "他在生产部工作。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Saya di pabrik serat optik",
+  "py": "Wǒ zài guāngxiān chǎng",
+  "hz": "我在光纤厂",
+  "words": "我 (wǒ): saya, 在 (zài): di, 光纤 (guāngxiān): serat optik, 厂 (chǎng): pabrik",
+  "note": "Jawaban untuk 你在哪儿工作？ Ganti 光纤厂 dengan tempat lain, misalnya 工厂 (gōngchǎng, pabrik).",
+  "warn": false,
+  "ex": [
+   [
+    "Saya bekerja di pabrik serat optik.",
+    "Wǒ zài guāngxiān chǎng gōngzuò.",
+    "我在光纤厂工作。",
+    ""
+   ],
+   [
+    "Dia juga di pabrik serat optik.",
+    "Tā yě zài guāngxiān chǎng.",
+    "他也在光纤厂。",
+    ""
+   ],
+   [
+    "Pabrik serat optik ada di dekat sini.",
+    "Guāngxiān chǎng zài zhè fùjìn.",
+    "光纤厂在这附近。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Anda bekerja di mana?",
+  "py": "Nǐ zài nǎr gōngzuò?",
+  "hz": "你在哪儿工作？",
+  "words": "你 (nǐ): kamu, 在 (zài): di, 哪儿 (nǎr): mana, 工作 (gōngzuò): bekerja",
+  "note": "Untuk orang yang dihormati: 您在哪儿工作？ Jawab dengan 我在……工作.",
+  "warn": false,
+  "ex": [
+   [
+    "Kamu bekerja di mana? Saya bekerja di pabrik.",
+    "Nǐ zài nǎr gōngzuò? Wǒ zài gōngchǎng gōngzuò.",
+    "你在哪儿工作？我在工厂工作。",
+    ""
+   ],
+   [
+    "Pak Li, Anda bekerja di mana?",
+    "Lǐ xiānsheng, nín zài nǎr gōngzuò?",
+    "李先生，您在哪儿工作？",
+    ""
+   ],
+   [
+    "Dia bekerja di mana?",
+    "Tā zài nǎr gōngzuò?",
+    "他在哪儿工作？",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Perkenalan",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Saya juga orang Indonesia",
+  "py": "Wǒ yě shì Yìnní rén",
+  "hz": "我也是印尼人",
+  "words": "我 (wǒ): saya, 也 (yě): juga, 是 (shì): adalah, 印尼人 (Yìnní rén): orang Indonesia",
+  "note": "也 (juga) diletakkan sebelum 是 atau kata kerja.",
+  "warn": false,
+  "ex": [
+   [
+    "Kamu orang Indonesia? Saya juga orang Indonesia.",
+    "Nǐ shì Yìnní rén ma? Wǒ yě shì Yìnní rén.",
+    "你是印尼人吗？我也是印尼人。",
+    ""
+   ],
+   [
+    "Dia juga orang Indonesia.",
+    "Tā yě shì Yìnní rén.",
+    "他也是印尼人。",
+    ""
+   ],
+   [
+    "Kami juga orang Indonesia.",
+    "Wǒmen yě shì Yìnní rén.",
+    "我们也是印尼人。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Transportasi & arah",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Mana / yang mana",
+  "py": "Nǎ",
+  "hz": "哪",
+  "words": "哪 (nǎ): mana / yang mana",
+  "note": "Dipakai bersama kata penggolong: 哪个 (yang mana), 哪本书 (buku yang mana), 哪国人 (orang negara mana). Beda dengan 那 (nà, \"itu\").",
+  "warn": false,
+  "ex": [
+   [
+    "Yang mana milikmu?",
+    "Nǎ ge shì nǐ de?",
+    "哪个是你的？",
+    ""
+   ],
+   [
+    "Kamu orang negara mana?",
+    "Nǐ shì nǎ guó rén?",
+    "你是哪国人？",
+    ""
+   ],
+   [
+    "Buku yang mana?",
+    "Nǎ běn shū?",
+    "哪本书？",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Ya, tidak, boleh",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Setuju",
+  "py": "Tóngyì",
+  "hz": "同意",
+  "words": "同 (tóng): sama, 意 (yì): maksud / pendapat, 同意 (tóngyì): setuju",
+  "note": "Contoh: 我同意 (saya setuju). Lawan katanya 不同意.",
+  "warn": false,
+  "ex": [
+   [
+    "Saya setuju.",
+    "Wǒ tóngyì.",
+    "我同意。",
+    ""
+   ],
+   [
+    "Kami semua setuju.",
+    "Wǒmen dōu tóngyì.",
+    "我们都同意。",
+    ""
+   ],
+   [
+    "Pak Li setuju dengan rencana ini.",
+    "Lǐ xiānsheng tóngyì zhè ge jìhuà.",
+    "李先生同意这个计划。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Ya, tidak, boleh",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Tidak setuju",
+  "py": "Bù tóngyì",
+  "hz": "不同意",
+  "words": "不 (bù): tidak, 同意 (tóngyì): setuju",
+  "note": "Lawan dari 同意.",
+  "warn": false,
+  "ex": [
+   [
+    "Saya tidak setuju.",
+    "Wǒ bù tóngyì.",
+    "我不同意。",
+    ""
+   ],
+   [
+    "Saya tidak setuju dengan rencana ini.",
+    "Wǒ bù tóngyì zhè ge jìhuà.",
+    "我不同意这个计划。",
+    ""
+   ],
+   [
+    "Dia tidak setuju.",
+    "Tā bù tóngyì.",
+    "他不同意。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Ya, tidak, boleh",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Baik, saya ke sana",
+  "py": "Hǎo de, wǒ guòqù",
+  "hz": "好的，我过去",
+  "words": "好的 (hǎo de): baik / oke, 我 (wǒ): saya, 过去 (guòqù): pergi ke sana (menghampiri)",
+  "note": "过去 dipakai saat menghampiri tempat lawan bicara. Tambah 马上 (mǎshàng, segera): 好的，我马上过去.",
+  "warn": false,
+  "ex": [
+   [
+    "Baik, saya ke sana.",
+    "Hǎo de, wǒ guòqù.",
+    "好的，我过去。",
+    ""
+   ],
+   [
+    "Baik, saya segera ke sana.",
+    "Hǎo de, wǒ mǎshàng guòqù.",
+    "好的，我马上过去。",
+    ""
+   ],
+   [
+    "Pak Li memanggil saya, saya ke sana dulu.",
+    "Lǐ xiānsheng jiào wǒ, wǒ xiān guòqù.",
+    "李先生叫我，我先过去。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Ya, tidak, boleh",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Perlu / butuh",
+  "py": "Xūyào",
+  "hz": "需要",
+  "words": "需 (xū): perlu, 要 (yào): ingin / perlu",
+  "note": "Bisa diikuti benda (需要帮助) atau kata kerja (需要休息).",
+  "warn": false,
+  "ex": [
+   [
+    "Saya perlu bantuan.",
+    "Wǒ xūyào bāngzhù.",
+    "我需要帮助。",
+    ""
+   ],
+   [
+    "Apakah perlu tanda tangan?",
+    "Xūyào qiānzì ma?",
+    "需要签字吗？",
+    ""
+   ],
+   [
+    "Kita perlu waktu lebih banyak.",
+    "Wǒmen xūyào gèng duō shíjiān.",
+    "我们需要更多时间。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Ya, tidak, boleh",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Tidak perlu",
+  "py": "Bù xūyào",
+  "hz": "不需要",
+  "words": "不 (bù): tidak, 需要 (xūyào): perlu",
+  "note": "Sehari-hari sering juga dipakai 不用 (búyòng, \"tidak usah\").",
+  "warn": false,
+  "ex": [
+   [
+    "Tidak perlu, terima kasih.",
+    "Bù xūyào, xièxie.",
+    "不需要，谢谢。",
+    ""
+   ],
+   [
+    "Tidak perlu memakai masker.",
+    "Bù xūyào dài kǒuzhào.",
+    "不需要戴口罩。",
+    ""
+   ],
+   [
+    "Saya tidak perlu bantuan.",
+    "Wǒ bù xūyào bāngzhù.",
+    "我不需要帮助。",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
+ },
+ {
+  "cat": "Pelatihan & kerja",
+  "label": "Umum: sering dipakai native dalam percakapan sehari-hari.",
+  "id": "Kata Andi / Andi mengatakan \"…\"",
+  "py": "Āndí shuō: “……”",
+  "hz": "安迪说：“……”",
+  "words": "安迪 (Āndí): Andi, 说 (shuō): mengatakan / berkata",
+  "note": "Pola kutipan langsung: nama + 说：“kutipan”. Ganti 安迪 dengan nama lain dan …… dengan kalimatnya. \"Kata Andi\" dan \"Andi mengatakan\" sama-sama 安迪说.",
+  "warn": false,
+  "ex": [
+   [
+    "Andi mengatakan, \"Saya mengerti.\"",
+    "Āndí shuō: “Wǒ dǒng le.”",
+    "安迪说：“我懂了。”",
+    ""
+   ],
+   [
+    "Kata Andi, \"Besok rapat jam tiga.\"",
+    "Āndí shuō: “Míngtiān sān diǎn kāihuì.”",
+    "安迪说：“明天三点开会。”",
+    ""
+   ],
+   [
+    "Pak Li mengatakan, \"Tolong periksa sekali lagi.\"",
+    "Lǐ xiānsheng shuō: “Qǐng zài jiǎnchá yí biàn.”",
+    "李先生说：“请再检查一遍。”",
+    ""
+   ]
+  ],
+  "au": "",
+  "alt": []
  }
 ]
