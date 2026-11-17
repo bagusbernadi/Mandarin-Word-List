@@ -17,7 +17,7 @@ Kamus Mandarin pribadi (Indonesia – pinyin – hanzi) untuk bekerja di pabrik 
 
 ## Isi
 
-- **Kamus** (`docs/index.html`): pencarian kamus untuk semua baris sheet `Kosakata` (497 entri: arti per kata, label, 3 contoh kalimat, kategori). Tombol kategori (13 Situasi) menyaring daftar dan bisa digabung dengan pencarian. Variasi ALT tampil di entri utamanya sebagai baris "Alternatif" dan tetap bisa dicari. Pencarian hanya mencocokkan kolom Indonesia, pinyin, dan hanzi.
+- **Kamus** (`docs/index.html`): pencarian kamus untuk semua baris sheet `Kosakata` (500 entri: arti per kata, label, 3 contoh kalimat, kategori). Tombol kategori (13 Situasi) menyaring daftar dan bisa digabung dengan pencarian. Variasi ALT tampil di entri utamanya sebagai baris "Alternatif" dan tetap bisa dicari. Pencarian hanya mencocokkan kolom Indonesia, pinyin, dan hanzi.
 - **Latihan** (tab di halaman Kamus): kuis 10 soal yang diacak dari seluruh kosakata. Ada 3 jenis:
   - **A:** pertanyaan Indonesia, jawaban Pinyin + Hanzi.
   - **B:** pertanyaan Hanzi per kata + Pinyin, jawaban Indonesia (hanya kosakata yang kolom `Arti per kata`-nya terisi).

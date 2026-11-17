@@ -6154,7 +6154,7 @@
   "grp": "",
   "val": null,
   "syn": [],
-  "day": 18
+  "day": 17
  },
  {
   "label": "",
@@ -7070,7 +7070,7 @@
   "grp": "",
   "val": null,
   "syn": [],
-  "day": 22
+  "day": 21
  },
  {
   "label": "",
@@ -8206,7 +8206,7 @@
   "syn": [
    "S13"
   ],
-  "day": 23
+  "day": 22
  },
  {
   "label": "",
@@ -8276,7 +8276,7 @@
   "grp": "",
   "val": null,
   "syn": [],
-  "day": 23
+  "day": 22
  },
  {
   "label": "",
@@ -8451,7 +8451,7 @@
   "grp": "",
   "val": null,
   "syn": [],
-  "day": 25
+  "day": 24
  },
  {
   "label": "",
@@ -8521,7 +8521,7 @@
   "grp": "",
   "val": null,
   "syn": [],
-  "day": 25
+  "day": 24
  },
  {
   "label": "",
@@ -8556,7 +8556,7 @@
   "grp": "",
   "val": null,
   "syn": [],
-  "day": 25
+  "day": 24
  },
  {
   "label": "",
@@ -16173,7 +16173,7 @@
   "grp": "",
   "val": null,
   "syn": [],
-  "day": 24
+  "day": 23
  },
  {
   "label": "",
@@ -16208,7 +16208,7 @@
   "grp": "",
   "val": null,
   "syn": [],
-  "day": 24
+  "day": 23
  },
  {
   "label": "",
@@ -16243,7 +16243,7 @@
   "grp": "",
   "val": null,
   "syn": [],
-  "day": 24
+  "day": 23
  },
  {
   "label": "",
@@ -17543,5 +17543,110 @@
   "val": null,
   "syn": [],
   "day": 3
+ },
+ {
+  "label": "",
+  "id": "Rapat",
+  "py": "Huìyì",
+  "hz": "会议",
+  "words": "会 (huì): pertemuan, 议 (yì): membahas / berunding",
+  "note": "Kata benda. Kata kerja \"mengadakan / mengikuti rapat\" adalah 开会 (kāihuì).",
+  "warn": false,
+  "ex": [
+   [
+    "Rapat dimulai jam tiga.",
+    "Huìyì sān diǎn kāishǐ.",
+    "会议三点开始。",
+    ""
+   ],
+   [
+    "Rapat hari ini sudah selesai.",
+    "Jīntiān de huìyì yǐjīng jiéshù le.",
+    "今天的会议已经结束了。",
+    ""
+   ],
+   [
+    "Besok saya akan mengikuti rapat.",
+    "Wǒ míngtiān yào cānjiā huìyì.",
+    "我明天要参加会议。",
+    ""
+   ]
+  ],
+  "sit": "Pelatihan & kerja",
+  "au": "",
+  "grp": "",
+  "val": null,
+  "syn": [],
+  "day": 24
+ },
+ {
+  "label": "",
+  "id": "Air",
+  "py": "Shuǐ",
+  "hz": "水",
+  "words": "水 (shuǐ): air",
+  "note": "Bisa digabung dengan kata sifat: 热水 (air panas), 冰水 (air dingin).",
+  "warn": false,
+  "ex": [
+   [
+    "Saya minum air.",
+    "Wǒ hē shuǐ.",
+    "我喝水。",
+    ""
+   ],
+   [
+    "Air ini panas.",
+    "Zhè shuǐ hěn rè.",
+    "这水很热。",
+    ""
+   ],
+   [
+    "Di mana ada air?",
+    "Nǎlǐ yǒu shuǐ?",
+    "哪里有水？",
+    ""
+   ]
+  ],
+  "sit": "Makan & minum",
+  "au": "",
+  "grp": "",
+  "val": null,
+  "syn": [],
+  "day": 18
+ },
+ {
+  "label": "",
+  "id": "Saya mau air",
+  "py": "Wǒ yào shuǐ",
+  "hz": "我要水",
+  "words": "我 (wǒ): saya, 要 (yào): mau / minta, 水 (shuǐ): air",
+  "note": "Pola \"我要 + benda\" untuk meminta sesuatu. Lebih sopan: 请给我水 (qǐng gěi wǒ shuǐ).",
+  "warn": false,
+  "ex": [
+   [
+    "Saya mau air, terima kasih.",
+    "Wǒ yào shuǐ, xièxie.",
+    "我要水，谢谢。",
+    ""
+   ],
+   [
+    "Saya mau air dan satu gelas.",
+    "Wǒ yào shuǐ hé yí ge bēizi.",
+    "我要水和一个杯子。",
+    ""
+   ],
+   [
+    "Kamu mau air?",
+    "Nǐ yào shuǐ ma?",
+    "你要水吗？",
+    ""
+   ]
+  ],
+  "sit": "Makan & minum",
+  "au": "",
+  "grp": "",
+  "val": null,
+  "syn": [],
+  "day": 18
  }
 ]
